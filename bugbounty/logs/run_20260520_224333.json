@@ -1,0 +1,28 @@
+{
+  "started_at": "2026-05-20T22:37:06.312098",
+  "targets": [
+    {
+      "handle": "coindesk-data---data-api-",
+      "platform": "bugcrowd",
+      "started_at": "2026-05-20T22:37:07.217560",
+      "recon": {
+        "domain": "coindesk-data---data-api-",
+        "subdomains": 1,
+        "live_hosts": 0,
+        "nuclei_findings": 0
+      },
+      "findings": [],
+      "reports": [],
+      "ai_analysis": {
+        "priority_targets": [],
+        "attack_vectors": [],
+        "tech_risks": []
+      },
+      "finished_at": "2026-05-20T22:43:33.085086"
+    }
+  ],
+  "findings": [],
+  "reports": [],
+  "dry_run": true,
+  "finished_at": "2026-05-20T22:43:33.085128"
+}

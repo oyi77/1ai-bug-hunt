@@ -1,0 +1,88 @@
+{
+  "target": "acorns.com",
+  "scan_date": "2026-05-20",
+  "tests": {
+    "s3_bucket_listing": {
+      "description": "Test common S3 bucket names for listing/misconfig",
+      "buckets_found_existing": [
+        "acorns",
+        "acorns-assets",
+        "acorns-dev",
+        "acorns-staging",
+        "acorns-prod"
+      ],
+      "buckets_not_found": [
+        "acorns-app",
+        "acorns-static",
+        "acorns-backup",
+        "acorns-logs",
+        "acorns-cdn"
+      ],
+      "result": "AccessDenied on all existing buckets - listing is blocked. No publicly listable buckets found.",
+      "severity": "info",
+      "detail": "5 of 10 tested bucket names exist (returned AccessDenied vs NoSuchBucket). Bucket listing is properly disabled on all. Bucket existence confirmed for: acorns, acorns-assets, acorns-dev, acorns-staging, acorns-prod."
+    },
+    "s3_keys_from_recon": {
+      "description": "Extract S3 bucket names from live_hosts.txt",
+      "result": "No S3 bucket references found in live_hosts.txt",
+      "severity": "none"
+    },
+    "exposed_files": {
+      "description": "Check for exposed sensitive files on www.acorns.com",
+      "results": {
+        "/.env": "403",
+        "/.env.local": "403",
+        "/.env.production": "403",
+        "/config.json": "404",
+        "/wp-config.php": "403",
+        "/backup.sql": "403",
+        "/dump.sql": "403",
+        "/.git/config": "403",
+        "/.git/HEAD": "403",
+        "/debug": "404",
+        "/actuator": "404",
+        "/actuator/env": "404"
+      },
+      "result": "No exposed files. All return 403 (blocked by WAF/server) or 404 (not found).",
+      "severity": "none",
+      "note": "403 responses on /.env, /.git, /wp-config.php etc suggest a WAF or server rule is actively blocking these paths rather than serving real 404s. This is good security practice."
+    },
+    "custom_headers_leak": {
+      "description": "Check response headers for internal deployment info",
+      "leaked_headers": {
+        "z-branch": "live",
+        "z-engine": "WebEngine",
+        "z-zuid": "8-4bf69f2-156d5j",
+        "z-cdn": "FASTLY"
+      },
+      "additional_headers": {
+        "access-control-allow-headers": "Origin, X-Requested-With, Content-Type, Accept, Authorization",
+        "via": "1.1 google, 1.1 varnish, 1.1 varnish",
+        "x-cache": "HIT, HIT"
+      },
+      "result": "Custom Z- headers leak internal deployment metadata: branch name (live), engine type (WebEngine), a unique deployment ID (z-zuid), and CDN provider (Fastly).",
+      "severity": "low",
+      "detail": "z-branch reveals deployment branch. z-engine reveals internal engine name. z-zuid appears to be a deployment/build identifier. z-cdn confirms Fastly CDN. While not directly exploitable, this aids reconnaissance by confirming deployment pipeline details."
+    },
+    "sentry_dsn_leak": {
+      "description": "Check JS files for Sentry DSN configuration",
+      "result": "No Sentry DSN found in page source",
+      "severity": "none"
+    }
+  },
+  "summary": {
+    "total_findings": 2,
+    "findings": [
+      {
+        "title": "S3 bucket existence enumeration",
+        "severity": "info",
+        "description": "5 of 10 tested S3 bucket names confirmed to exist (AccessDenied vs NoSuchBucket). Listing is blocked on all. Bucket names: acorns, acorns-assets, acorns-dev, acorns-staging, acorns-prod."
+      },
+      {
+        "title": "Internal deployment headers exposed",
+        "severity": "low",
+        "description": "Custom z-branch, z-engine, z-zuid, z-cdn headers leak deployment metadata. z-branch=live, z-engine=WebEngine, z-zuid=8-4bf69f2-156d5j, z-cdn=FASTLY."
+      }
+    ]
+  }
+}

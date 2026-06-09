@@ -1,0 +1,925 @@
+WhatWeb report for https://daos.walletbot.me
+Status    : 200 OK
+Title     : Welcome to nginx!
+IP        : 94.242.222.84
+Country   : LUXEMBOURG, LU
+
+Summary   : HTML5, HTTPServer[nginx], nginx
+
+Detected Plugins:
+[ HTML5 ]
+	HTML version 5, detected by the doctype declaration 
+
+
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	String       : nginx (from server string)
+
+[ nginx ]
+	Nginx (Engine-X) is a free, open-source, high-performance 
+	HTTP server and reverse proxy, as well as an IMAP/POP3 
+	proxy server. 
+
+	Website     : http://nginx.net/
+
+HTTP Headers:
+	HTTP/1.1 200 OK
+	Server: nginx
+	Date: Sun, 07 Jun 2026 19:20:46 GMT
+	Content-Type: text/html
+	Content-Length: 896
+	Last-Modified: Mon, 25 May 2026 08:03:22 GMT
+	Connection: close
+	ETag: "6a14024a-380"
+	Accept-Ranges: bytes
+	
+WhatWeb report for https://events-gateway.walletbot.me/
+Status    : 404 Not Found
+Title     : <None>
+IP        : <Unknown>
+Country   : <Unknown>
+
+Summary   : Cookies[__cf_bm,__cflb], HTTPServer[cloudflare], HttpOnly[__cf_bm,__cflb], UncommonHeaders[x-content-type-options,x-envoy-upstream-service-time,cf-cache-status,cf-ray,alt-svc]
+
+Detected Plugins:
+[ Cookies ]
+	Display the names of cookies in the HTTP headers. The 
+	values are not returned to save on space. 
+
+	String       : __cf_bm
+	String       : __cflb
+
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	String       : cloudflare (from server string)
+
+[ HttpOnly ]
+	If the HttpOnly flag is included in the HTTP set-cookie 
+	response header and the browser supports it then the cookie 
+	cannot be accessed through client side script - More Info: 
+	http://en.wikipedia.org/wiki/HTTP_cookie 
+
+	String       : __cf_bm,__cflb
+
+[ UncommonHeaders ]
+	Uncommon HTTP server headers. The blacklist includes all 
+	the standard headers and many non standard but common ones. 
+	Interesting but fairly common headers should have their own 
+	plugins, eg. x-powered-by, server and x-aspnet-version. 
+	Info about headers can be found at www.http-stats.com 
+
+	String       : x-content-type-options,x-envoy-upstream-service-time,cf-cache-status,cf-ray,alt-svc (from headers)
+
+HTTP Headers:
+	HTTP/1.1 404 Not Found
+	Date: Sun, 07 Jun 2026 19:20:47 GMT
+	Content-Type: text/plain; charset=utf-8
+	Content-Length: 19
+	Connection: close
+	x-content-type-options: nosniff
+	x-envoy-upstream-service-time: 0
+	Server: cloudflare
+	cf-cache-status: DYNAMIC
+	set-cookie: __cf_bm=jbt89vHhP7W1EhgE0wzNfHLhvFJTUaEneI7UR7cVPYY-1780860046.989765-1.0.1.1-sO4TIfeA.c6JLTuRWmVP4WN_h2pT4MHg5iukAg5ExWvxlZKYbC1HR7uaPn15ba.GG.shzCGR6YC_tDpqe1tdX3NSOwGChDqSaE9lPlkslk.FIZ24VKfqKSkZv9Za4shD; HttpOnly; SameSite=None; Secure; Path=/; Domain=walletbot.me; Expires=Sun, 07 Jun 2026 19:50:47 GMT
+	set-cookie: __cflb=0H28v5FLGgV4nN729C7BvMkbBmZTEBMfgNUyLYAn4bw; HttpOnly; SameSite=None; Secure; Path=/; Expires=Sun, 07 Jun 2026 19:50:47 GMT
+	CF-RAY: a082041dacacb29b-CGK
+	alt-svc: h3=":443"; ma=86400
+	
+WhatWeb report for https://support-bot-wp.wallettg.net/
+Status    : 404 Not Found
+Title     : <None>
+IP        : <Unknown>
+Country   : <Unknown>
+
+Summary   : Cookies[__cf_bm,__cflb], HTTPServer[cloudflare], HttpOnly[__cf_bm,__cflb], UncommonHeaders[x-envoy-upstream-service-time,cf-cache-status,cf-ray]
+
+Detected Plugins:
+[ Cookies ]
+	Display the names of cookies in the HTTP headers. The 
+	values are not returned to save on space. 
+
+	String       : __cf_bm
+	String       : __cflb
+
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	String       : cloudflare (from server string)
+
+[ HttpOnly ]
+	If the HttpOnly flag is included in the HTTP set-cookie 
+	response header and the browser supports it then the cookie 
+	cannot be accessed through client side script - More Info: 
+	http://en.wikipedia.org/wiki/HTTP_cookie 
+
+	String       : __cf_bm,__cflb
+
+[ UncommonHeaders ]
+	Uncommon HTTP server headers. The blacklist includes all 
+	the standard headers and many non standard but common ones. 
+	Interesting but fairly common headers should have their own 
+	plugins, eg. x-powered-by, server and x-aspnet-version. 
+	Info about headers can be found at www.http-stats.com 
+
+	String       : x-envoy-upstream-service-time,cf-cache-status,cf-ray (from headers)
+
+HTTP Headers:
+	HTTP/1.1 404 Not Found
+	Date: Sun, 07 Jun 2026 19:20:47 GMT
+	Content-Type: application/json
+	Content-Length: 22
+	Connection: close
+	Server: cloudflare
+	x-envoy-upstream-service-time: 4
+	cf-cache-status: DYNAMIC
+	set-cookie: __cf_bm=huvxiVJ_jrbxreSqhNs8xR2k5IPw7x14lx6trhm1bUM-1780860046.9915743-1.0.1.1-znx.O6MhV6KTLD78.bin_mYJkgjEkmxSsn7AuhwqOXD2bgVS7fDkX4DiH35nQGO3HS7cohvO6Or0J25_jFVz_gbbxoE65ib34q.IgiCJIlS1ajNvUeHNBsLwQmtMi_Pr; HttpOnly; SameSite=None; Secure; Path=/; Domain=wallettg.net; Expires=Sun, 07 Jun 2026 19:50:47 GMT
+	set-cookie: __cflb=0H28vJGkj7AQjYdFUMBbNMNosBoqZZSd9kbbvnZwf4y; HttpOnly; SameSite=Lax; Path=/; Expires=Sun, 07 Jun 2026 19:50:47 GMT
+	CF-RAY: a082041dbfd4a3d9-CGK
+	
+WhatWeb report for https://support-bot-wp.walletbot.me/
+Status    : 404 Not Found
+Title     : <None>
+IP        : <Unknown>
+Country   : <Unknown>
+
+Summary   : Cookies[__cf_bm,__cflb], HTTPServer[cloudflare], HttpOnly[__cf_bm,__cflb], UncommonHeaders[x-envoy-upstream-service-time,cf-cache-status,cf-ray,alt-svc]
+
+Detected Plugins:
+[ Cookies ]
+	Display the names of cookies in the HTTP headers. The 
+	values are not returned to save on space. 
+
+	String       : __cf_bm
+	String       : __cflb
+
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	String       : cloudflare (from server string)
+
+[ HttpOnly ]
+	If the HttpOnly flag is included in the HTTP set-cookie 
+	response header and the browser supports it then the cookie 
+	cannot be accessed through client side script - More Info: 
+	http://en.wikipedia.org/wiki/HTTP_cookie 
+
+	String       : __cf_bm,__cflb
+
+[ UncommonHeaders ]
+	Uncommon HTTP server headers. The blacklist includes all 
+	the standard headers and many non standard but common ones. 
+	Interesting but fairly common headers should have their own 
+	plugins, eg. x-powered-by, server and x-aspnet-version. 
+	Info about headers can be found at www.http-stats.com 
+
+	String       : x-envoy-upstream-service-time,cf-cache-status,cf-ray,alt-svc (from headers)
+
+HTTP Headers:
+	HTTP/1.1 404 Not Found
+	Date: Sun, 07 Jun 2026 19:20:47 GMT
+	Content-Type: application/json
+	Content-Length: 22
+	Connection: close
+	Server: cloudflare
+	x-envoy-upstream-service-time: 3
+	cf-cache-status: DYNAMIC
+	set-cookie: __cf_bm=CEO_GPR8V5IQSnOlFEIH0Q2qp_xGWppOJ1uauV5EEtM-1780860047.0000367-1.0.1.1-WXBZuLoWGryGNxgGTMKJYuLWO.7yspdAejU0bRTtcmjO2JBpoQ_jX1wuYMFq5zh5E0891T_wuAsik83N.H8eQBfhL2xInhVdfKBIgPhLj8ESmtUeKysjNJFvGLpxGo64; HttpOnly; SameSite=None; Secure; Path=/; Domain=walletbot.me; Expires=Sun, 07 Jun 2026 19:50:47 GMT
+	set-cookie: __cflb=0H28vgMjmN5oW9R3Ktua7V7kcpmLixVmy9WXWreHDHF; HttpOnly; SameSite=None; Secure; Path=/; Expires=Sun, 07 Jun 2026 19:50:47 GMT
+	CF-RAY: a082041db822e783-CGK
+	alt-svc: h3=":443"; ma=86400
+	
+WhatWeb report for https://daos.wallettg.net
+Status    : 200 OK
+Title     : Welcome to nginx!
+IP        : 94.242.222.84
+Country   : LUXEMBOURG, LU
+
+Summary   : HTML5, HTTPServer[nginx], nginx
+
+Detected Plugins:
+[ HTML5 ]
+	HTML version 5, detected by the doctype declaration 
+
+
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	String       : nginx (from server string)
+
+[ nginx ]
+	Nginx (Engine-X) is a free, open-source, high-performance 
+	HTTP server and reverse proxy, as well as an IMAP/POP3 
+	proxy server. 
+
+	Website     : http://nginx.net/
+
+HTTP Headers:
+	HTTP/1.1 200 OK
+	Server: nginx
+	Date: Sun, 07 Jun 2026 19:20:47 GMT
+	Content-Type: text/html
+	Content-Length: 896
+	Last-Modified: Mon, 25 May 2026 08:03:22 GMT
+	Connection: close
+	ETag: "6a14024a-380"
+	Accept-Ranges: bytes
+	
+WhatWeb report for https://support-bot.walletbot.me/
+Status    : 404 Not Found
+Title     : <None>
+IP        : <Unknown>
+Country   : <Unknown>
+
+Summary   : Cookies[__cf_bm,__cflb], HTTPServer[cloudflare], HttpOnly[__cf_bm,__cflb], UncommonHeaders[x-envoy-upstream-service-time,cf-cache-status,cf-ray,alt-svc]
+
+Detected Plugins:
+[ Cookies ]
+	Display the names of cookies in the HTTP headers. The 
+	values are not returned to save on space. 
+
+	String       : __cf_bm
+	String       : __cflb
+
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	String       : cloudflare (from server string)
+
+[ HttpOnly ]
+	If the HttpOnly flag is included in the HTTP set-cookie 
+	response header and the browser supports it then the cookie 
+	cannot be accessed through client side script - More Info: 
+	http://en.wikipedia.org/wiki/HTTP_cookie 
+
+	String       : __cf_bm,__cflb
+
+[ UncommonHeaders ]
+	Uncommon HTTP server headers. The blacklist includes all 
+	the standard headers and many non standard but common ones. 
+	Interesting but fairly common headers should have their own 
+	plugins, eg. x-powered-by, server and x-aspnet-version. 
+	Info about headers can be found at www.http-stats.com 
+
+	String       : x-envoy-upstream-service-time,cf-cache-status,cf-ray,alt-svc (from headers)
+
+HTTP Headers:
+	HTTP/1.1 404 Not Found
+	Date: Sun, 07 Jun 2026 19:20:47 GMT
+	Content-Type: application/json
+	Content-Length: 22
+	Connection: close
+	Server: cloudflare
+	x-envoy-upstream-service-time: 3
+	cf-cache-status: DYNAMIC
+	set-cookie: __cf_bm=.aDv6HS6GsKcJ_7ySlhnmKZWKu55FrwsHXvSBLcT0gY-1780860047.1321251-1.0.1.1-ue19XvsfINcAhl9skHxfgOoermOP8RxEuJFR0du96j8RespXrD5_ZtOV50422b_g4h95QVFmOQa6lOHnjqettYgOan2F6H8LBHz.JLCdVXsjd.VOl9aBrCY9VZLWCyJj; HttpOnly; SameSite=None; Secure; Path=/; Domain=walletbot.me; Expires=Sun, 07 Jun 2026 19:50:47 GMT
+	set-cookie: __cflb=0H28vmJFzkfLcxXoJuMkvj4FMy2E4Ke92iGARqQiCrH; HttpOnly; SameSite=None; Secure; Path=/; Expires=Sun, 07 Jun 2026 19:50:47 GMT
+	CF-RAY: a082041e9c49ea85-CGK
+	alt-svc: h3=":443"; ma=86400
+	
+WhatWeb report for https://wbapi.walletbot.me
+Status    : 403 Forbidden
+Title     : <None>
+IP        : <Unknown>
+Country   : <Unknown>
+
+Summary   : Cookies[__cf_bm,__cflb], HTTPServer[cloudflare], HttpOnly[__cf_bm,__cflb], UncommonHeaders[cf-cache-status,cf-ray,alt-svc]
+
+Detected Plugins:
+[ Cookies ]
+	Display the names of cookies in the HTTP headers. The 
+	values are not returned to save on space. 
+
+	String       : __cf_bm
+	String       : __cflb
+
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	String       : cloudflare (from server string)
+
+[ HttpOnly ]
+	If the HttpOnly flag is included in the HTTP set-cookie 
+	response header and the browser supports it then the cookie 
+	cannot be accessed through client side script - More Info: 
+	http://en.wikipedia.org/wiki/HTTP_cookie 
+
+	String       : __cf_bm,__cflb
+
+[ UncommonHeaders ]
+	Uncommon HTTP server headers. The blacklist includes all 
+	the standard headers and many non standard but common ones. 
+	Interesting but fairly common headers should have their own 
+	plugins, eg. x-powered-by, server and x-aspnet-version. 
+	Info about headers can be found at www.http-stats.com 
+
+	String       : cf-cache-status,cf-ray,alt-svc (from headers)
+
+HTTP Headers:
+	HTTP/1.1 403 Forbidden
+	Date: Sun, 07 Jun 2026 19:20:47 GMT
+	Content-Type: text/plain
+	Content-Length: 19
+	Connection: close
+	Server: cloudflare
+	cf-cache-status: DYNAMIC
+	set-cookie: __cf_bm=2wVJ8U7hdyGrbqg.XjAMLbpsYNbVdvUML0nuJigPWyM-1780860047.2459834-1.0.1.1-JDblh_JGnXBd7yNVOuPbFjEGCGKiv4iq8NVR9VDhVUL2xv5GgvKvfoworOBPyywvBJ8tQ_H_fRZelmh7SJ2tLT4ttuszHrdRfKGvKVWlLgWp98fM9c37NizYsqZ8pn.m; HttpOnly; SameSite=None; Secure; Path=/; Domain=walletbot.me; Expires=Sun, 07 Jun 2026 19:50:47 GMT
+	set-cookie: __cflb=0H28vbfRQ7WHKFXbG55HBgixwxdoMwbp3iou9C7eQkD; HttpOnly; SameSite=None; Secure; Path=/; Expires=Sun, 07 Jun 2026 19:50:47 GMT
+	CF-RAY: a082041f4cd2b5d0-CGK
+	alt-svc: h3=":443"; ma=86400
+	
+WhatWeb report for https://wallettg.com
+Status    : 200 OK
+Title     : Wallet
+IP        : 3.170.229.123
+Country   : UNITED STATES, US
+
+Summary   : Email[544a92e441a24f17aa6b08e34e728ed2@sentry.walletbot.me], HTML5, HTTPServer[istio-envoy], Script[module], Strict-Transport-Security[max-age=31536000; includeSubDomains], UncommonHeaders[x-content-type-options,cloudflare-cdn-cache-control,cache-tag,content-security-policy,content-security-policy-report-only,reporting-endpoints,report-to,link,x-envoy-upstream-service-time,x-amz-cf-pop,alt-svc,x-amz-cf-id], Via-Proxy[1.1 5f58421bd7096476e73e023136797750.cloudfront.net (CloudFront)]
+
+Detected Plugins:
+[ Email ]
+	Extract email addresses. Find valid email address and 
+	syntactically invalid email addresses from mailto: link 
+	tags. We match syntactically invalid links containing 
+	mailto: to catch anti-spam email addresses, eg. bob at 
+	gmail.com. This uses the simplified email regular 
+	expression from 
+	http://www.regular-expressions.info/email.html for valid 
+	email address matching. 
+
+	String       : 544a92e441a24f17aa6b08e34e728ed2@sentry.walletbot.me
+
+[ HTML5 ]
+	HTML version 5, detected by the doctype declaration 
+
+
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	String       : istio-envoy (from server string)
+
+[ Script ]
+	This plugin detects instances of script HTML elements and 
+	returns the script language/type. 
+
+	String       : module
+
+[ Strict-Transport-Security ]
+	Strict-Transport-Security is an HTTP header that restricts 
+	a web browser from accessing a website without the security 
+	of the HTTPS protocol. 
+
+	String       : max-age=31536000; includeSubDomains
+
+[ UncommonHeaders ]
+	Uncommon HTTP server headers. The blacklist includes all 
+	the standard headers and many non standard but common ones. 
+	Interesting but fairly common headers should have their own 
+	plugins, eg. x-powered-by, server and x-aspnet-version. 
+	Info about headers can be found at www.http-stats.com 
+
+	String       : x-content-type-options,cloudflare-cdn-cache-control,cache-tag,content-security-policy,content-security-policy-report-only,reporting-endpoints,report-to,link,x-envoy-upstream-service-time,x-amz-cf-pop,alt-svc,x-amz-cf-id (from headers)
+
+[ Via-Proxy ]
+	This plugin extracts the proxy server details from the Via 
+	param of the HTTP header. 
+
+	String       : 1.1 5f58421bd7096476e73e023136797750.cloudfront.net (CloudFront)
+
+HTTP Headers:
+	HTTP/1.1 200 OK
+	Content-Type: text/html
+	Transfer-Encoding: chunked
+	Connection: close
+	Vary: Accept-Encoding
+	server: istio-envoy
+	date: Sun, 07 Jun 2026 19:20:47 GMT
+	last-modified: Fri, 05 Jun 2026 14:52:28 GMT
+	etag: W/"6a22e2ac-dd3"
+	x-content-type-options: nosniff
+	cache-control: public, max-age=60, no-transform
+	cloudflare-cdn-cache-control: public, max-age=31536000
+	cache-tag: unversioned
+	content-security-policy: default-src 'self'; connect-src 'self' https: wss://omni-ws.ston.fi wss://omni-ws-sandbox.ston.fi; script-src 'self' 'unsafe-inline' https://fpnpmcdn.net https://widget.mercuryo.io https://static.moonpay.com https://static.cloudflareinsights.com https://telegram.org; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; media-src 'self' https://*.getgems.io; font-src 'self'; worker-src 'self' blob:; child-src 'self' blob:; frame-src 'self' https:; form-action 'none'; frame-ancestors 'self' https://web.telegram.org; base-uri 'none'; block-all-mixed-content; upgrade-insecure-requests; report-uri 'https://sentry.walletbot.me/api/38/security/?sentry_key=544a92e441a24f17aa6b08e34e728ed2&sentry_environment=production'; report-to csp-endpoint;
+	content-security-policy-report-only: frame-src 'self' https://widget.mercuryo.io https://*.sumsub.com https://gwa.pgalta.com https://*.meshconnect.com; report-uri 'https://sentry.walletbot.me/api/38/security/?sentry_key=544a92e441a24f17aa6b08e34e728ed2&sentry_environment=production'; report-to csp-endpoint;
+	reporting-endpoints: csp-endpoint="https://sentry.walletbot.me/api/38/security/?sentry_key=544a92e441a24f17aa6b08e34e728ed2&sentry_environment=production"
+	report-to: {"group":"csp-endpoint","max_age":10886400,"endpoints":[{"url":"https://sentry.walletbot.me/api/38/security/?sentry_key=544a92e441a24f17aa6b08e34e728ed2&sentry_environment=production"}],"include_subdomains":true}
+	link: <https://alectryon.wallettg.com>; rel="preconnect", <https://p2p.wallettg.com>; rel="preconnect", <https://sentry.walletbot.me>; rel="dns-prefetch", <https://events-gateway.walletbot.me>; rel="dns-prefetch", </manifest-0.txt>; rel="prefetch", </manifest-1.txt>; rel="prefetch", </manifest-2.txt>; rel="prefetch", </manifest-3.txt>; rel="prefetch", </manifest-4.txt>; rel="prefetch", </manifest-5.txt>; rel="prefetch", </manifest-6.txt>; rel="prefetch", </manifest-7.txt>; rel="prefetch", </manifest-8.txt>; rel="prefetch", </manifest-9.txt>; rel="prefetch", </manifest-10.txt>; rel="prefetch", </manifest-11.txt>; rel="prefetch", </manifest-12.txt>; rel="prefetch", </manifest-13.txt>; rel="prefetch", </manifest-14.txt>; rel="prefetch", </manifest-15.txt>; rel="prefetch"
+	strict-transport-security: max-age=31536000; includeSubDomains
+	x-envoy-upstream-service-time: 15
+	Content-Encoding: gzip
+	X-Cache: Miss from cloudfront
+	Via: 1.1 5f58421bd7096476e73e023136797750.cloudfront.net (CloudFront)
+	X-Amz-Cf-Pop: SIN2-P10
+	Alt-Svc: h3=":443"; ma=86400
+	X-Amz-Cf-Id: sWHcxoIwvDM4uMbZ8Ng9_UswAn0mPMHEI7ts5c6yF3eQxI-kX9euhg==
+	
+WhatWeb report for https://help.wallet.tg
+Status    : 200 OK
+Title     : Wallet EN
+IP        : 52.201.90.218
+Country   : UNITED STATES, US
+
+Summary   : Cookies[PLAY_SESSION], HTML5, HTTPServer[Caddy, istio-envoy], HttpOnly[PLAY_SESSION], Meta-Author[wallet], Script[application/ld+json], Strict-Transport-Security[max-age=31536000; includeSubDomains; preload], UncommonHeaders[alt-svc,x-envoy-upstream-service-time]
+
+Detected Plugins:
+[ Cookies ]
+	Display the names of cookies in the HTTP headers. The 
+	values are not returned to save on space. 
+
+	String       : PLAY_SESSION
+
+[ HTML5 ]
+	HTML version 5, detected by the doctype declaration 
+
+
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	String       : Caddy, istio-envoy (from server string)
+
+[ HttpOnly ]
+	If the HttpOnly flag is included in the HTTP set-cookie 
+	response header and the browser supports it then the cookie 
+	cannot be accessed through client side script - More Info: 
+	http://en.wikipedia.org/wiki/HTTP_cookie 
+
+	String       : PLAY_SESSION
+
+[ Meta-Author ]
+	This plugin retrieves the author name from the meta name 
+	tag - info: 
+	http://www.webmarketingnow.com/tips/meta-tags-uncovered.html
+	#author
+
+	String       : wallet
+
+[ Script ]
+	This plugin detects instances of script HTML elements and 
+	returns the script language/type. 
+
+	String       : application/ld+json
+
+[ Strict-Transport-Security ]
+	Strict-Transport-Security is an HTTP header that restricts 
+	a web browser from accessing a website without the security 
+	of the HTTPS protocol. 
+
+	String       : max-age=31536000; includeSubDomains; preload
+
+[ UncommonHeaders ]
+	Uncommon HTTP server headers. The blacklist includes all 
+	the standard headers and many non standard but common ones. 
+	Interesting but fairly common headers should have their own 
+	plugins, eg. x-powered-by, server and x-aspnet-version. 
+	Info about headers can be found at www.http-stats.com 
+
+	String       : alt-svc,x-envoy-upstream-service-time (from headers)
+
+HTTP Headers:
+	HTTP/1.1 200 OK
+	Alt-Svc: h3=":443"; ma=2592000
+	Content-Encoding: gzip
+	Content-Type: text/html; charset=utf-8
+	Date: Sun, 07 Jun 2026 19:20:46 GMT
+	Server: Caddy
+	Server: istio-envoy
+	Set-Cookie: PLAY_SESSION="ce6ad6f0d38ae63cc3eed1428c150dcf4f9c846a-siteId=64c41d0666ae8a2d26528ebf&hs.session.id=GlrgHyi9lKeVlzJq6qcF8ElghDMMyA4VoGzCo29sBsEFIhRs0wYhvIrnCyFY9hUh&hs.session.exp=1780946447128"; Expires=Mon, 07 Jun 2027 19:20:47 GMT; Path=/; Secure; HTTPOnly
+	Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+	Vary: Accept-Encoding
+	X-Envoy-Upstream-Service-Time: 11
+	Connection: close
+	Transfer-Encoding: chunked
+	
+WhatWeb report for https://help.uz.ru.wallet.tg
+Status    : 200 OK
+Title     : Wallet UZ-RU
+IP        : 18.210.189.28
+Country   : UNITED STATES, US
+
+Summary   : Cookies[PLAY_SESSION], HTML5, HTTPServer[Caddy, istio-envoy], HttpOnly[PLAY_SESSION], Meta-Author[wallet], Script[application/ld+json], Strict-Transport-Security[max-age=31536000; includeSubDomains; preload], UncommonHeaders[alt-svc,x-envoy-upstream-service-time]
+
+Detected Plugins:
+[ Cookies ]
+	Display the names of cookies in the HTTP headers. The 
+	values are not returned to save on space. 
+
+	String       : PLAY_SESSION
+
+[ HTML5 ]
+	HTML version 5, detected by the doctype declaration 
+
+
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	String       : Caddy, istio-envoy (from server string)
+
+[ HttpOnly ]
+	If the HttpOnly flag is included in the HTTP set-cookie 
+	response header and the browser supports it then the cookie 
+	cannot be accessed through client side script - More Info: 
+	http://en.wikipedia.org/wiki/HTTP_cookie 
+
+	String       : PLAY_SESSION
+
+[ Meta-Author ]
+	This plugin retrieves the author name from the meta name 
+	tag - info: 
+	http://www.webmarketingnow.com/tips/meta-tags-uncovered.html
+	#author
+
+	String       : wallet
+
+[ Script ]
+	This plugin detects instances of script HTML elements and 
+	returns the script language/type. 
+
+	String       : application/ld+json
+
+[ Strict-Transport-Security ]
+	Strict-Transport-Security is an HTTP header that restricts 
+	a web browser from accessing a website without the security 
+	of the HTTPS protocol. 
+
+	String       : max-age=31536000; includeSubDomains; preload
+
+[ UncommonHeaders ]
+	Uncommon HTTP server headers. The blacklist includes all 
+	the standard headers and many non standard but common ones. 
+	Interesting but fairly common headers should have their own 
+	plugins, eg. x-powered-by, server and x-aspnet-version. 
+	Info about headers can be found at www.http-stats.com 
+
+	String       : alt-svc,x-envoy-upstream-service-time (from headers)
+
+HTTP Headers:
+	HTTP/1.1 200 OK
+	Alt-Svc: h3=":443"; ma=2592000
+	Content-Encoding: gzip
+	Content-Type: text/html; charset=utf-8
+	Date: Sun, 07 Jun 2026 19:20:46 GMT
+	Server: Caddy
+	Server: istio-envoy
+	Set-Cookie: PLAY_SESSION="9c2f8c8fe6a7a0e03ff569e84fe1c8a579f6b083-siteId=669796878045147820734e44&hs.session.id=dZYjP7QFzwHbGgUxMdIzzdG5VMmfWGsgyMVkkeEg8eKGNJXqxXrOwy623Y08Z06C&hs.session.exp=1780946447367"; Expires=Mon, 07 Jun 2027 19:20:47 GMT; Path=/; Secure; HTTPOnly
+	Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+	Vary: Accept-Encoding
+	X-Envoy-Upstream-Service-Time: 9
+	Connection: close
+	Transfer-Encoding: chunked
+	
+WhatWeb report for https://learn.walletbot.me
+Status    : 307 Temporary Redirect
+Title     : <None>
+IP        : <Unknown>
+Country   : <Unknown>
+
+Summary   : Cookies[__cf_bm,__cflb], HTTPServer[cloudflare], HttpOnly[__cf_bm,__cflb], RedirectLocation[/en/], UncommonHeaders[x-content-type-options,content-security-policy,x-envoy-upstream-service-time,cf-cache-status,cf-ray,alt-svc], X-XSS-Protection[1; mode=block]
+
+Detected Plugins:
+[ Cookies ]
+	Display the names of cookies in the HTTP headers. The 
+	values are not returned to save on space. 
+
+	String       : __cf_bm
+	String       : __cflb
+
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	String       : cloudflare (from server string)
+
+[ HttpOnly ]
+	If the HttpOnly flag is included in the HTTP set-cookie 
+	response header and the browser supports it then the cookie 
+	cannot be accessed through client side script - More Info: 
+	http://en.wikipedia.org/wiki/HTTP_cookie 
+
+	String       : __cf_bm,__cflb
+
+[ RedirectLocation ]
+	HTTP Server string location. used with http-status 301 and 
+	302 
+
+	String       : /en/ (from location)
+
+[ UncommonHeaders ]
+	Uncommon HTTP server headers. The blacklist includes all 
+	the standard headers and many non standard but common ones. 
+	Interesting but fairly common headers should have their own 
+	plugins, eg. x-powered-by, server and x-aspnet-version. 
+	Info about headers can be found at www.http-stats.com 
+
+	String       : x-content-type-options,content-security-policy,x-envoy-upstream-service-time,cf-cache-status,cf-ray,alt-svc (from headers)
+
+[ X-XSS-Protection ]
+	This plugin retrieves the X-XSS-Protection value from the 
+	HTTP header. - More Info: 
+	http://msdn.microsoft.com/en-us/library/cc288472%28VS.85%29.
+	aspx
+
+	String       : 1; mode=block
+
+HTTP Headers:
+	HTTP/1.1 307 Temporary Redirect
+	Date: Sun, 07 Jun 2026 19:20:47 GMT
+	Transfer-Encoding: chunked
+	Connection: close
+	x-xss-protection: 1; mode=block
+	x-content-type-options: nosniff
+	content-security-policy: frame-ancestors 'self' https://web.telegram.org
+	location: /en/
+	x-envoy-upstream-service-time: 4
+	Server: cloudflare
+	cf-cache-status: DYNAMIC
+	set-cookie: __cf_bm=EXSl.YVgJ5uqdAf_lSQ35Qatpfny6ls5qUyd2yoijns-1780860046.8847816-1.0.1.1-z9pigR0Qt38Ek4NwkWBDZscwupGJPXRj_KGhy0jZhfOVc68CLLpLHReapQU.viPaylBn_76_ZS5z1w.oUZWa.UfFgtCgBEWvytkMSK8pC24yctLKss6o8v4L_8VVtCJS; HttpOnly; SameSite=None; Secure; Path=/; Domain=walletbot.me; Expires=Sun, 07 Jun 2026 19:50:47 GMT
+	set-cookie: __cflb=0H28vfj5fZ4vEgyZzsg57rsnbBNnFs8jZKW3NZeU8i1; HttpOnly; SameSite=None; Secure; Path=/; Expires=Sun, 07 Jun 2026 19:50:47 GMT
+	CF-RAY: a082041d0b8cd572-CGK
+	alt-svc: h3=":443"; ma=86400
+	
+WhatWeb report for https://p2p.wallettg.net
+Status    : 404 Not Found
+Title     : <None>
+IP        : <Unknown>
+Country   : <Unknown>
+
+Summary   : Cookies[__cf_bm,__cflb], HTTPServer[cloudflare], HttpOnly[__cf_bm,__cflb], UncommonHeaders[cf-cache-status,cf-ray]
+
+Detected Plugins:
+[ Cookies ]
+	Display the names of cookies in the HTTP headers. The 
+	values are not returned to save on space. 
+
+	String       : __cf_bm
+	String       : __cflb
+
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	String       : cloudflare (from server string)
+
+[ HttpOnly ]
+	If the HttpOnly flag is included in the HTTP set-cookie 
+	response header and the browser supports it then the cookie 
+	cannot be accessed through client side script - More Info: 
+	http://en.wikipedia.org/wiki/HTTP_cookie 
+
+	String       : __cf_bm,__cflb
+
+[ UncommonHeaders ]
+	Uncommon HTTP server headers. The blacklist includes all 
+	the standard headers and many non standard but common ones. 
+	Interesting but fairly common headers should have their own 
+	plugins, eg. x-powered-by, server and x-aspnet-version. 
+	Info about headers can be found at www.http-stats.com 
+
+	String       : cf-cache-status,cf-ray (from headers)
+
+HTTP Headers:
+	HTTP/1.1 404 Not Found
+	Date: Sun, 07 Jun 2026 19:20:47 GMT
+	Transfer-Encoding: chunked
+	Connection: close
+	Server: cloudflare
+	cf-cache-status: DYNAMIC
+	set-cookie: __cf_bm=xehlmPU3ZQWPfJ2_VPycSltumzWslKWnJqxvxYBSX.8-1780860046.9940248-1.0.1.1-o0vhrQaEnVr9M3Zu2RY2MRpcZ9UrhOLuCpWo.vIdYm9s5GiYKLeghuqPN2uJ00YhF45FIwEM8SdYh8MBA.Qn4E9Fy0rec2k5d2X_0xK1j8n0bu0EQVvAmkasaPVEDA_E; HttpOnly; SameSite=None; Secure; Path=/; Domain=wallettg.net; Expires=Sun, 07 Jun 2026 19:50:47 GMT
+	set-cookie: __cflb=0H28vtNysrcatozR2ynGQuurzh6JeocmQ1KMr3nbQYm; HttpOnly; SameSite=Lax; Path=/; Expires=Sun, 07 Jun 2026 19:50:47 GMT
+	CF-RAY: a082041dbb05ba2f-CGK
+	
+WhatWeb report for https://events-gateway.wallettg.net/
+Status    : 404 Not Found
+Title     : <None>
+IP        : <Unknown>
+Country   : <Unknown>
+
+Summary   : Cookies[__cf_bm,__cflb], HTTPServer[cloudflare], HttpOnly[__cf_bm,__cflb], UncommonHeaders[x-content-type-options,x-envoy-upstream-service-time,cf-cache-status,cf-ray]
+
+Detected Plugins:
+[ Cookies ]
+	Display the names of cookies in the HTTP headers. The 
+	values are not returned to save on space. 
+
+	String       : __cf_bm
+	String       : __cflb
+
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	String       : cloudflare (from server string)
+
+[ HttpOnly ]
+	If the HttpOnly flag is included in the HTTP set-cookie 
+	response header and the browser supports it then the cookie 
+	cannot be accessed through client side script - More Info: 
+	http://en.wikipedia.org/wiki/HTTP_cookie 
+
+	String       : __cf_bm,__cflb
+
+[ UncommonHeaders ]
+	Uncommon HTTP server headers. The blacklist includes all 
+	the standard headers and many non standard but common ones. 
+	Interesting but fairly common headers should have their own 
+	plugins, eg. x-powered-by, server and x-aspnet-version. 
+	Info about headers can be found at www.http-stats.com 
+
+	String       : x-content-type-options,x-envoy-upstream-service-time,cf-cache-status,cf-ray (from headers)
+
+HTTP Headers:
+	HTTP/1.1 404 Not Found
+	Date: Sun, 07 Jun 2026 19:20:47 GMT
+	Content-Type: text/plain; charset=utf-8
+	Content-Length: 19
+	Connection: close
+	x-content-type-options: nosniff
+	x-envoy-upstream-service-time: 0
+	Server: cloudflare
+	cf-cache-status: DYNAMIC
+	set-cookie: __cf_bm=6o8Q_bbQsTTKanOulpzwNaGKNNjO06ch_kwbYwCmIqc-1780860046.8923628-1.0.1.1-L4wBnaTyyMsIh7l.6AGCTC_3HvvzoiRY7wNAoeXksfsw3ew7KeFHonZ46MJBmAzCxqwKbOhXikaVXAZe7PVwJo60rxVg0KylyALZwVvYbkgyWqrj0w1SKtbJB3v.81ny; HttpOnly; SameSite=None; Secure; Path=/; Domain=wallettg.net; Expires=Sun, 07 Jun 2026 19:50:47 GMT
+	set-cookie: __cflb=0H28vCr7tD4MkQZCJtY6syinB6Ahw3gntTwNgPZj4mT; HttpOnly; SameSite=Lax; Path=/; Expires=Sun, 07 Jun 2026 19:50:47 GMT
+	CF-RAY: a082041d1b62e791-CGK
+	
+WhatWeb report for https://support-bot.wallettg.net/
+Status    : 404 Not Found
+Title     : <None>
+IP        : <Unknown>
+Country   : <Unknown>
+
+Summary   : Cookies[__cf_bm,__cflb], HTTPServer[cloudflare], HttpOnly[__cf_bm,__cflb], UncommonHeaders[x-envoy-upstream-service-time,cf-cache-status,cf-ray]
+
+Detected Plugins:
+[ Cookies ]
+	Display the names of cookies in the HTTP headers. The 
+	values are not returned to save on space. 
+
+	String       : __cf_bm
+	String       : __cflb
+
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	String       : cloudflare (from server string)
+
+[ HttpOnly ]
+	If the HttpOnly flag is included in the HTTP set-cookie 
+	response header and the browser supports it then the cookie 
+	cannot be accessed through client side script - More Info: 
+	http://en.wikipedia.org/wiki/HTTP_cookie 
+
+	String       : __cf_bm,__cflb
+
+[ UncommonHeaders ]
+	Uncommon HTTP server headers. The blacklist includes all 
+	the standard headers and many non standard but common ones. 
+	Interesting but fairly common headers should have their own 
+	plugins, eg. x-powered-by, server and x-aspnet-version. 
+	Info about headers can be found at www.http-stats.com 
+
+	String       : x-envoy-upstream-service-time,cf-cache-status,cf-ray (from headers)
+
+HTTP Headers:
+	HTTP/1.1 404 Not Found
+	Date: Sun, 07 Jun 2026 19:20:47 GMT
+	Content-Type: application/json
+	Content-Length: 22
+	Connection: close
+	Server: cloudflare
+	x-envoy-upstream-service-time: 4
+	cf-cache-status: DYNAMIC
+	set-cookie: __cf_bm=47OVG911tcZISgvM5WFsMFsfnd1vwd81uD301IvFQcA-1780860047.1245878-1.0.1.1-xexsASashaa8_b.718FWVyFzwBYUltZ8UM9qw5fV_3uJurBPGYZiUIeBz73N9hZIX.7gTAAnKvwHePwDzDNgt9tikLDXCLpxU5GYWnNmOp3MQLtKyzXulrFdhPWNFJfI; HttpOnly; SameSite=None; Secure; Path=/; Domain=wallettg.net; Expires=Sun, 07 Jun 2026 19:50:47 GMT
+	set-cookie: __cflb=0H28vsj26npHoTx6GJd2v8R3BWsjWhyfWKf1mMC6ufj; HttpOnly; SameSite=Lax; Path=/; Expires=Sun, 07 Jun 2026 19:50:47 GMT
+	CF-RAY: a082041e8c7bba3d-CGK
+	
+WhatWeb report for https://learn.walletbot.me/en/
+Status    : 308 Permanent Redirect
+Title     : <None>
+IP        : <Unknown>
+Country   : <Unknown>
+
+Summary   : HTTPServer[cloudflare], RedirectLocation[/en], UncommonHeaders[x-envoy-upstream-service-time,cf-cache-status,cf-ray,alt-svc]
+
+Detected Plugins:
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	String       : cloudflare (from server string)
+
+[ RedirectLocation ]
+	HTTP Server string location. used with http-status 301 and 
+	302 
+
+	String       : /en (from location)
+
+[ UncommonHeaders ]
+	Uncommon HTTP server headers. The blacklist includes all 
+	the standard headers and many non standard but common ones. 
+	Interesting but fairly common headers should have their own 
+	plugins, eg. x-powered-by, server and x-aspnet-version. 
+	Info about headers can be found at www.http-stats.com 
+
+	String       : x-envoy-upstream-service-time,cf-cache-status,cf-ray,alt-svc (from headers)
+
+HTTP Headers:
+	HTTP/1.1 308 Permanent Redirect
+	Date: Sun, 07 Jun 2026 19:21:11 GMT
+	Transfer-Encoding: chunked
+	Connection: close
+	location: /en
+	refresh: 0;url=/en
+	x-envoy-upstream-service-time: 1
+	Server: cloudflare
+	cf-cache-status: DYNAMIC
+	CF-RAY: a08204b34fb9ea7d-CGK
+	alt-svc: h3=":443"; ma=86400
+	
+WhatWeb report for https://pay.wallet.tg
+Status    : 200 OK
+Title     : Wallet Merchant
+IP        : <Unknown>
+Country   : <Unknown>
+
+Summary   : Cookies[__cf_bm,__cflb], HTML5, HTTPServer[cloudflare], HttpOnly[__cf_bm,__cflb], Script, Strict-Transport-Security[max-age=2592000; includeSubDomains; preload], UncommonHeaders[report-to,nel,x-envoy-upstream-service-time,cf-cache-status,x-content-type-options,cf-ray]
+
+Detected Plugins:
+[ Cookies ]
+	Display the names of cookies in the HTTP headers. The 
+	values are not returned to save on space. 
+
+	String       : __cf_bm
+	String       : __cflb
+
+[ HTML5 ]
+	HTML version 5, detected by the doctype declaration 
+
+
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	String       : cloudflare (from server string)
+
+[ HttpOnly ]
+	If the HttpOnly flag is included in the HTTP set-cookie 
+	response header and the browser supports it then the cookie 
+	cannot be accessed through client side script - More Info: 
+	http://en.wikipedia.org/wiki/HTTP_cookie 
+
+	String       : __cf_bm,__cflb
+
+[ Script ]
+	This plugin detects instances of script HTML elements and 
+	returns the script language/type. 
+
+
+[ Strict-Transport-Security ]
+	Strict-Transport-Security is an HTTP header that restricts 
+	a web browser from accessing a website without the security 
+	of the HTTPS protocol. 
+
+	String       : max-age=2592000; includeSubDomains; preload
+
+[ UncommonHeaders ]
+	Uncommon HTTP server headers. The blacklist includes all 
+	the standard headers and many non standard but common ones. 
+	Interesting but fairly common headers should have their own 
+	plugins, eg. x-powered-by, server and x-aspnet-version. 
+	Info about headers can be found at www.http-stats.com 
+
+	String       : report-to,nel,x-envoy-upstream-service-time,cf-cache-status,x-content-type-options,cf-ray (from headers)
+
+HTTP Headers:
+	HTTP/1.1 200 OK
+	Date: Sun, 07 Jun 2026 19:20:47 GMT
+	Content-Type: text/html
+	Transfer-Encoding: chunked
+	Connection: close
+	Server: cloudflare
+	last-modified: Wed, 13 May 2026 11:38:36 GMT
+	Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=HQL9lSzpjs33udDjpVEf17Uv0b9%2BcRhye17cgV8Vpyr%2Bb70uraz2iNhjt9yJ75PGpfEjECjxQBGposqC5oLExFosfghgt8hI02rJcBosntMIlVkx1G96cJIUXhgGpnI%3D"}]}
+	expires: Sun, 07 Jun 2026 19:20:47 GMT
+	Cache-Control: max-age=0,no-cache, no-store, must-revalidate
+	Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+	x-envoy-upstream-service-time: 14
+	cf-cache-status: DYNAMIC
+	set-cookie: __cf_bm=6lwQbv4Wkj7QnUer_jAKmRJh3l_yfdHIeeeqDGnAHKk-1780860047.1257308-1.0.1.1-nlOx5L4Vae4m2UmppEHvzrgeOgXZ9EzLM7N43kvyuW3_tpnA4AyKNabb2pOMMcbi9hXiy9dSsujHV6r61n9KPLUKFH.ithcGBS.XWsllBmIbRg7Pm7hVmZ5eIq0ODBS5; HttpOnly; SameSite=None; Secure; Path=/; Domain=wallet.tg; Expires=Sun, 07 Jun 2026 19:50:47 GMT
+	set-cookie: __cflb=02DiuD2aA4zwA5gD5HrpYF2KPvaHbV8GoMTYWkMFu4heC; HttpOnly; SameSite=None; Secure; Path=/; Expires=Mon, 08 Jun 2026 18:20:47 GMT
+	Strict-Transport-Security: max-age=2592000; includeSubDomains; preload
+	X-Content-Type-Options: nosniff
+	Content-Encoding: gzip
+	CF-RAY: a082041e8e3bd572-CGK
+	

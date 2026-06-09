@@ -1,0 +1,75 @@
+To: Bug Bounty Switzerland Security Team
+Subject: Security Finding: WordPress REST API User Enumeration on bugbounty.ch
+
+Dear Bug Bounty Switzerland Team,
+
+I am writing to responsibly disclose a security vulnerability identified on your website at www.bugbounty.ch.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+VULNERABILITY DISCLOSURE REPORT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+REPORT ID:    VDR-20260609-BBS01
+DATE:         2026-06-09
+TARGET:       www.bugbounty.ch (WordPress)
+TYPE:         Information Disclosure — User Enumeration via REST API
+SEVERITY:     Medium (CVSS 5.3)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FINDING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+The WordPress REST API at www.bugbounty.ch exposes the /wp-json/wp/v2/users endpoint publicly without authentication, allowing enumeration of all registered users.
+
+Vulnerable endpoint:
+  GET /wp-json/wp/v2/users
+
+Disclosed information per user:
+  - Numeric user ID
+  - Display name
+  - Username (slug)
+  - Gravatar email hash
+  - Author archive link
+
+Enumerated users (11 total):
+  1.  K-Solutions
+  4.  timkoeck
+  5.  sandro
+  6.  lisa
+  7.  lukas
+  8.  florian
+  9.  oliver
+  15. Marijana Gavric
+  18. Isaak Mtizwa
+  19. Christian Folini
+  21. Giulia Libranti
+
+Proof of Concept:
+  curl -s https://www.bugbounty.ch/wp-json/wp/v2/users | python3 -m json.tool
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+IMPACT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+- Username enumeration enables brute-force attacks against wp-login.php
+- User IDs and slugs can be used for targeted phishing
+- Author archives reveal content authorship patterns
+- Gravatar hashes can be used for cross-site tracking
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+RECOMMENDED REMEDIATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Restrict /wp-json/wp/v2/users to authenticated users only
+2. Install a plugin like "Disable REST API" or "WP REST API Controller"
+3. Add server-level rule to block unauthenticated WP REST API access
+4. Alternatively, set "show_in_rest" to false for the "author" taxonomy
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CONTACT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Please direct any questions to this email address. I am available to provide additional details or clarification as needed.
+
+Respectfully,
+Security Researcher

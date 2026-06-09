@@ -1,0 +1,9 @@
+api.asana.com/ -> 307
+api.asana.com/api -> 307
+api.asana.com/api/v1 -> 307
+api.asana.com/api/1.0 -> 307
+api.asana.com/graphql -> 307
+api.asana.com/.well-known/openid-configuration -> 307
+api.asana.com/oauth -> 307
+api.asana.com/oauth/authorize -> 307
+api.asana.com/oauth/token -> 307

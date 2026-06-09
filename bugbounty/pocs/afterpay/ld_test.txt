@@ -1,0 +1,6 @@
+=== LaunchDarkly Test ===
+Eval: 404 page not found
+
+App eval: 404 page not found
+
+Goals: [{"key":"d21fe3a5-9a7a-4e02-b0b2-4c3370551b9e","kind":"click","selector":"button[data-testid=\"summary-button\"]","urls":[{"kind":"exact","url":"https://portal.afterpay.com/v2/checkout/en-US/summary"}]}]

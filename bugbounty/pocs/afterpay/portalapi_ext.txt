@@ -1,0 +1,6 @@
+=== portalapi.afterpay.com Extended ===
+Seon JS size: 136975 bytes
+
+/ping -> 200: pong 
+/.env -> 403: <!DOCTYPE html> <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]--> <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US
+/.git/HEAD -> 403: <!DOCTYPE html> <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]--> <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US

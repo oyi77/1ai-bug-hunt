@@ -1,0 +1,7 @@
+support-bot.wallettg.net
+events-gateway.wallettg.net
+daos.wallettg.net
+p2p.wallettg.net
+toncenter.wallettg.net
+alectryon.wallettg.net
+support-bot-wp.wallettg.net

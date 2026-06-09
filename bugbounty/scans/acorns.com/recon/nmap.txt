@@ -1,0 +1,93 @@
+# Nmap 7.98 scan initiated Wed May 20 22:41:26 2026 as: /usr/lib/nmap/nmap --privileged -sV -sC -T4 --top-ports 100 -oN /home/openclaw/.openclaw/workspace/bugbounty/scans/acorns.com/recon/nmap.txt acorns.com
+Nmap scan report for acorns.com (151.101.130.49)
+Host is up (0.027s latency).
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE    VERSION
+80/tcp  open  http-proxy Varnish
+|_http-title: Did not follow redirect to https://acorns.com/
+443/tcp open  ssl/https
+|_ssl-date: 2026-05-20T15:41:52+00:00; 0s from scanner time.
+| ssl-cert: Subject: commonName=acorns.com
+| Subject Alternative Name: DNS:acorns.com
+| Not valid before: 2026-02-04T22:00:16
+|_Not valid after:  2027-03-08T22:00:15
+|_http-title: Did not follow redirect to https://www.acorns.com/
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.1 421 Misdirected Request
+|     Connection: close
+|     Content-Length: 291
+|     content-type: text/plain; charset=utf-8
+|     x-served-by: cache-sin-wsat1880051
+|     Requested host does not match any Subject Alternative Names (SANs) on TLS certificate [7f935573910f0055f2c085ff9eda9c0ec8e9bef5bd808f4fea59bf19773e0950] in use with this connection.
+|     Visit https://www.fastly.com/documentation/guides/concepts/errors/#routing-errors for more information.
+|   GetRequest: 
+|     HTTP/1.1 421 Misdirected Request
+|     Connection: close
+|     Content-Length: 291
+|     content-type: text/plain; charset=utf-8
+|     x-served-by: cache-sin-wsap440093
+|     Requested host does not match any Subject Alternative Names (SANs) on TLS certificate [7f935573910f0055f2c085ff9eda9c0ec8e9bef5bd808f4fea59bf19773e0950] in use with this connection.
+|     Visit https://www.fastly.com/documentation/guides/concepts/errors/#routing-errors for more information.
+|   HTTPOptions: 
+|     HTTP/1.1 421 Misdirected Request
+|     Connection: close
+|     Content-Length: 291
+|     content-type: text/plain; charset=utf-8
+|     x-served-by: cache-sin-wsap440022
+|     Requested host does not match any Subject Alternative Names (SANs) on TLS certificate [7f935573910f0055f2c085ff9eda9c0ec8e9bef5bd808f4fea59bf19773e0950] in use with this connection.
+|     Visit https://www.fastly.com/documentation/guides/concepts/errors/#routing-errors for more information.
+|   RTSPRequest: 
+|     HTTP/1.1 400 Bad Request
+|     Connection: close
+|     Content-Length: 11
+|     content-type: text/plain; charset=utf-8
+|     x-served-by: cache-sin-wsat1880044
+|     Request
+|   tor-versions: 
+|     HTTP/1.1 400 Bad Request
+|     Connection: close
+|     Content-Length: 11
+|     content-type: text/plain; charset=utf-8
+|     x-served-by: cache-sin-wsap440045
+|_    Request
+| tls-alpn: 
+|   h2
+|   http/1.1
+|_  http/1.0
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port443-TCP:V=7.98%T=SSL%I=7%D=5/20%Time=6A0DD637%P=x86_64-pc-linux-gnu
+SF:%r(GetRequest,1BB,"HTTP/1\.1\x20421\x20Misdirected\x20Request\r\nConnec
+SF:tion:\x20close\r\nContent-Length:\x20291\r\ncontent-type:\x20text/plain
+SF:;\x20charset=utf-8\r\nx-served-by:\x20cache-sin-wsap440093\r\n\r\nReque
+SF:sted\x20host\x20does\x20not\x20match\x20any\x20Subject\x20Alternative\x
+SF:20Names\x20\(SANs\)\x20on\x20TLS\x20certificate\x20\[7f935573910f0055f2
+SF:c085ff9eda9c0ec8e9bef5bd808f4fea59bf19773e0950\]\x20in\x20use\x20with\x
+SF:20this\x20connection\.\r\n\r\nVisit\x20https://www\.fastly\.com/documen
+SF:tation/guides/concepts/errors/#routing-errors\x20for\x20more\x20informa
+SF:tion\.\r\n\r")%r(HTTPOptions,1BB,"HTTP/1\.1\x20421\x20Misdirected\x20Re
+SF:quest\r\nConnection:\x20close\r\nContent-Length:\x20291\r\ncontent-type
+SF::\x20text/plain;\x20charset=utf-8\r\nx-served-by:\x20cache-sin-wsap4400
+SF:22\r\n\r\nRequested\x20host\x20does\x20not\x20match\x20any\x20Subject\x
+SF:20Alternative\x20Names\x20\(SANs\)\x20on\x20TLS\x20certificate\x20\[7f9
+SF:35573910f0055f2c085ff9eda9c0ec8e9bef5bd808f4fea59bf19773e0950\]\x20in\x
+SF:20use\x20with\x20this\x20connection\.\r\n\r\nVisit\x20https://www\.fast
+SF:ly\.com/documentation/guides/concepts/errors/#routing-errors\x20for\x20
+SF:more\x20information\.\r\n\r")%r(FourOhFourRequest,1BC,"HTTP/1\.1\x20421
+SF:\x20Misdirected\x20Request\r\nConnection:\x20close\r\nContent-Length:\x
+SF:20291\r\ncontent-type:\x20text/plain;\x20charset=utf-8\r\nx-served-by:\
+SF:x20cache-sin-wsat1880051\r\n\r\nRequested\x20host\x20does\x20not\x20mat
+SF:ch\x20any\x20Subject\x20Alternative\x20Names\x20\(SANs\)\x20on\x20TLS\x
+SF:20certificate\x20\[7f935573910f0055f2c085ff9eda9c0ec8e9bef5bd808f4fea59
+SF:bf19773e0950\]\x20in\x20use\x20with\x20this\x20connection\.\r\n\r\nVisi
+SF:t\x20https://www\.fastly\.com/documentation/guides/concepts/errors/#rou
+SF:ting-errors\x20for\x20more\x20information\.\r\n\r")%r(tor-versions,9A,"
+SF:HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\nContent-L
+SF:ength:\x2011\r\ncontent-type:\x20text/plain;\x20charset=utf-8\r\nx-serv
+SF:ed-by:\x20cache-sin-wsap440045\r\n\r\nBad\x20Request")%r(RTSPRequest,9B
+SF:,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\nContent
+SF:-Length:\x2011\r\ncontent-type:\x20text/plain;\x20charset=utf-8\r\nx-se
+SF:rved-by:\x20cache-sin-wsat1880044\r\n\r\nBad\x20Request");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed May 20 22:41:52 2026 -- 1 IP address (1 host up) scanned in 25.66 seconds

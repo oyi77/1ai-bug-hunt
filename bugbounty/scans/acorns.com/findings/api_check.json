@@ -1,0 +1,163 @@
+{
+  "target": "acorns.com",
+  "scan_date": "2026-05-20T15:47:00Z",
+  "scope": ["api.acorns.com", "api-app.acorns.com", "api-mobile.acorns.com"],
+
+  "technology": {
+    "framework": "Ruby on Rails",
+    "evidence": [
+      "x-runtime header present",
+      "x-request-id header present",
+      "Standard Rails 404 page (public/404.html)",
+      "CSRF token via authenticity_token meta tag",
+      "_session_id cookie",
+      "Asset fingerprinting (/assets/application-HASH.css)",
+      "Devise authentication on admin panel"
+    ],
+    "stack": ["Ruby on Rails", "Devise", "Sidekiq + Redis", "AWS S3", "Google Analytics", "Google OAuth"],
+    "admin_panel": "https://admin.acorns.com/sign_in",
+    "primary_domain": "acorns.io"
+  },
+
+  "findings": [
+    {
+      "id": "ACORNS-001",
+      "title": "Admin Panel Exposed on All API Subdomains",
+      "severity": "info",
+      "category": "information_disclosure",
+      "endpoints": ["api.acorns.com/sign_in", "api-app.acorns.com/sign_in", "api-mobile.acorns.com/sign_in"],
+      "details": "All three API subdomains serve the same Acorns Administration login panel at /sign_in. Devise-based email/password auth. No rate limiting observed. Title: 'Acorns Admin'. Panel heading: 'Acorns Administration'.",
+      "recommendation": "Restrict admin panel access via IP allowlist or VPN. Add brute-force protection."
+    },
+    {
+      "id": "ACORNS-002",
+      "title": "Runtime/Request-ID Header Disclosure",
+      "severity": "low",
+      "category": "information_disclosure",
+      "endpoints": ["api.acorns.com", "api-app.acorns.com", "api-mobile.acorns.com"],
+      "details": "x-runtime and x-request-id headers exposed. x-runtime leaks processing time (timing attacks). x-request-id leaks UUID for log correlation.",
+      "evidence": {
+        "x-request-id": "60a5069c-5459-4cf7-b6c9-2e17b3917532",
+        "x-runtime": "0.003153"
+      },
+      "recommendation": "Remove x-runtime and x-request-id from production responses."
+    },
+    {
+      "id": "ACORNS-003",
+      "title": "CORS Vary:Origin Active - No Wildcard Reflection",
+      "severity": "info",
+      "category": "cors",
+      "endpoints": ["api.acorns.com", "api-mobile.acorns.com"],
+      "details": "Vary: Origin header present on all endpoints when Origin header sent. evil.com was NOT reflected in Access-Control-Allow-Origin (good). Dynamic CORS handling confirmed - test further with authenticated sessions and acorns.io origins.",
+      "evidence": {
+        "request": "Origin: https://evil.com",
+        "response": "vary: Origin (no ACAO header returned)"
+      },
+      "recommendation": "Test with authenticated sessions. Verify no wildcard or overly permissive CORS with credentials."
+    },
+    {
+      "id": "ACORNS-004",
+      "title": "Health Endpoint Exposed",
+      "severity": "info",
+      "category": "information_disclosure",
+      "endpoints": ["api.acorns.com/health", "api-app.acorns.com/health", "api-mobile.acorns.com/health"],
+      "details": "/health returns 200 with server timestamp. Reveals timezone (PDT -0700). All three subdomains share identical backend.",
+      "evidence": "Health Check Passed @ Wed, 20 May 2026 08:47:19 -0700"
+    },
+    {
+      "id": "ACORNS-005",
+      "title": "Sidekiq Admin Redirects to admin.acorns.com",
+      "severity": "low",
+      "category": "information_disclosure",
+      "endpoints": ["api.acorns.com/sidekiq"],
+      "details": "/sidekiq returns 302 to admin.acorns.com/sign_in. Confirms Sidekiq (Redis) as background job processor.",
+      "evidence": { "status": 302, "location": "https://admin.acorns.com:443/sign_in?locale=en" }
+    },
+    {
+      "id": "ACORNS-006",
+      "title": "Session Cookie SameSite=None",
+      "severity": "info",
+      "category": "session_management",
+      "endpoints": ["api.acorns.com", "api-app.acorns.com", "api-mobile.acorns.com"],
+      "details": "_session_id cookie uses Secure + HttpOnly + SameSite=None. SameSite=None allows cross-site cookie sending which could enable CSRF if CORS is misconfigured.",
+      "evidence": "_session_id=...; path=/; secure; HttpOnly; SameSite=None"
+    },
+    {
+      "id": "ACORNS-007",
+      "title": "CSP Allows unsafe-inline and unsafe-eval",
+      "severity": "low",
+      "category": "security_headers",
+      "endpoints": ["api.acorns.com"],
+      "details": "Content-Security-Policy allows 'unsafe-inline' and 'unsafe-eval' in script-src, weakening XSS protection. Also loads from Google Analytics and Google APIs.",
+      "evidence": "script-src 'self' 'unsafe-inline' 'unsafe-eval' apis.google.com www.google-analytics.com"
+    },
+    {
+      "id": "ACORNS-008",
+      "title": "Expired Origin-Trial Token Leaks acorns.io Domain",
+      "severity": "info",
+      "category": "information_disclosure",
+      "endpoints": ["api.acorns.com/sign_in"],
+      "details": "origin-trial meta tag contains base64 payload revealing acorns.io:443 as primary domain with Chrome feature DisableDifferentOriginSubframeDialogSuppression. Expired (2021-12-15).",
+      "evidence": { "origin": "https://acorns.io:443", "expiry": 1639526399 }
+    }
+  ],
+
+  "test_results": {
+    "auth_bypass": {
+      "status": "no_direct_api_exposure",
+      "details": {
+        "api.acorns.com/": "302 -> admin.acorns.com/sign_in",
+        "api.acorns.com/api/v1/users": "404",
+        "api.acorns.com/api/v1/accounts": "404",
+        "api-mobile.acorns.com/": "302 -> admin.acorns.com/sign_in"
+      },
+      "conclusion": "No API endpoints accessible without auth. /api/v1/* paths return 404. API likely requires token-based auth with different route structure or different subdomain."
+    },
+    "cors": {
+      "status": "no_reflection",
+      "details": "Vary: Origin present but evil.com not reflected in ACAO header.",
+      "conclusion": "CORS processing active but not exploitable without auth. Needs authenticated testing."
+    },
+    "version_disclosure": {
+      "status": "disclosed",
+      "headers": ["x-request-id", "x-runtime"],
+      "server_header": "not present",
+      "x_powered_by": "not present"
+    },
+    "mass_assignment": {
+      "status": "untestable",
+      "details": "POST /api/v1/users with {user:{email,role,admin}} returns 404. Endpoint not found.",
+      "conclusion": "Cannot test mass assignment without discovering valid API endpoints."
+    },
+    "idor": {
+      "status": "no_endpoints_found",
+      "tested": ["/api/v1/users/{1,2,100,999}", "/api/v1/accounts/{1,2,100,999}"],
+      "result": "All 404",
+      "conclusion": "Standard REST IDOR not testable. API likely uses UUIDs or different routing."
+    },
+    "rails_paths": {
+      "accessible": {
+        "/health": "200",
+        "/sign_in": "200",
+        "/robots.txt": "200",
+        "/sidekiq": "302 (redirect to admin)"
+      },
+      "not_found": ["/users", "/accounts", "/transactions", "/portfolios", "/settings", "/admin", "/rails/info", "/rails/mailers", "/api/v1/me", "/api/v1/profile", "/graphql"]
+    },
+    "security_headers": {
+      "present": ["strict-transport-security (max-age=31536000; includeSubdomains; preload)", "x-frame-options (sameorigin)", "x-content-type-options (nosniff)", "x-xss-protection (1; mode=block)", "content-security-policy"],
+      "weaknesses": ["CSP allows unsafe-inline in script-src", "CSP allows unsafe-eval in script-src"]
+    }
+  },
+
+  "next_steps": [
+    "Discover actual mobile/app API endpoint structure (likely different from /api/v1/*)",
+    "Test CORS with authenticated session and acorns.io origin",
+    "Attempt login brute-force on admin panel (with rate-limit testing)",
+    "Discover API documentation or mobile app SDK to find real endpoints",
+    "Test for JWT/token-based auth bypass on mobile API",
+    "Check for ActionCable WebSocket endpoints",
+    "Enumerate S3 buckets from CSP (img-src *.amazonaws.com)",
+    "Test /sign_in for default credentials or password reset abuse"
+  ]
+}

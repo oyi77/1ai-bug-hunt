@@ -1,0 +1,9 @@
+sql.clickhouse.com/ -> 200
+sql.clickhouse.com/query -> 404
+sql.clickhouse.com/api -> 404
+sql.clickhouse.com/v1 -> 404
+sql.clickhouse.com/health -> 404
+sql.clickhouse.com/status -> 404
+sql.clickhouse.com/ready -> 404
+sql.clickhouse.com/metrics -> 404
+sql.clickhouse.com/play -> 200

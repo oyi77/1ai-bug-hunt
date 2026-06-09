@@ -1,0 +1,314 @@
+{
+  "generated_at": "2026-06-09T05:05:07.800119",
+  "total_companies": 41,
+  "email_delivery": [
+    {
+      "company": "Google (Alphabet)",
+      "to": "security@google.com",
+      "cc": null,
+      "report_id": "VDR-20260609-8243",
+      "domain": "google.com",
+      "status": "sent",
+      "error": null
+    },
+    {
+      "company": "OpenAI (ChatGPT)",
+      "to": "disclosure@openai.com",
+      "cc": null,
+      "report_id": "VDR-20260609-0293",
+      "domain": "chatgpt.com",
+      "status": "sent",
+      "error": null
+    },
+    {
+      "company": "Yahoo (Yahoo Inc.)",
+      "to": "security@yahooinc.com",
+      "cc": null,
+      "report_id": "VDR-20260609-1771",
+      "domain": "yahoo.com",
+      "status": "sent",
+      "error": null
+    },
+    {
+      "company": "Wikimedia (Wikipedia)",
+      "to": "security@wikimedia.org",
+      "cc": null,
+      "report_id": "VDR-20260609-8704",
+      "domain": "wikipedia.org",
+      "status": "sent",
+      "error": null
+    },
+    {
+      "company": "Reddit",
+      "to": "whitehats@reddit.com",
+      "cc": null,
+      "report_id": "VDR-20260609-9074",
+      "domain": "reddit.com",
+      "status": "sent",
+      "error": null
+    },
+    {
+      "company": "Shopify",
+      "to": "security@shopify.com",
+      "cc": null,
+      "report_id": "VDR-20260609-1840",
+      "domain": "shopify.com",
+      "status": "sent",
+      "error": null
+    },
+    {
+      "company": "Discord",
+      "to": "bugbounty@discordapp.com",
+      "cc": "security@discord.com",
+      "report_id": "VDR-20260609-2068",
+      "domain": "discord.com",
+      "status": "sent",
+      "error": null
+    },
+    {
+      "company": "Zoom",
+      "to": "security-reports@zoom.us",
+      "cc": null,
+      "report_id": "VDR-20260609-4918",
+      "domain": "zoom.us",
+      "status": "sent",
+      "error": null
+    },
+    {
+      "company": "Cisco",
+      "to": "psirt@cisco.com",
+      "cc": null,
+      "report_id": "VDR-20260609-1236",
+      "domain": "cisco.com",
+      "status": "sent",
+      "error": null
+    },
+    {
+      "company": "IBM",
+      "to": "psirt@us.ibm.com",
+      "cc": null,
+      "report_id": "VDR-20260609-0139",
+      "domain": "ibm.com",
+      "status": "sent",
+      "error": null
+    },
+    {
+      "company": "Intel",
+      "to": "secure@intel.com",
+      "cc": "external.security.research@intel.com",
+      "report_id": "VDR-20260609-2132",
+      "domain": "intel.com",
+      "status": "sent",
+      "error": null
+    },
+    {
+      "company": "Spotify",
+      "to": "security@spotify.com",
+      "cc": null,
+      "report_id": "VDR-20260609-1182",
+      "domain": "spotify.com",
+      "status": "sent",
+      "error": null
+    },
+    {
+      "company": "Atlassian (Jira, Confluence, etc.)",
+      "to": "security@atlassian.com",
+      "cc": null,
+      "report_id": "VDR-20260609-2291",
+      "domain": "atlassian.com",
+      "status": "sent",
+      "error": null
+    },
+    {
+      "company": "Signal",
+      "to": "security@signal.org",
+      "cc": null,
+      "report_id": "VDR-20260609-2856",
+      "domain": "signal.org",
+      "status": "sent",
+      "error": null
+    },
+    {
+      "company": "Proton (ProtonMail, ProtonVPN, etc.)",
+      "to": "security@proton.me",
+      "cc": null,
+      "report_id": "VDR-20260609-8586",
+      "domain": "proton.me",
+      "status": "sent",
+      "error": null
+    },
+    {
+      "company": "Vercel",
+      "to": "responsible.disclosure@vercel.com",
+      "cc": null,
+      "report_id": "VDR-20260609-3155",
+      "domain": "vercel.com",
+      "status": "sent",
+      "error": null
+    },
+    {
+      "company": "Adobe",
+      "to": "psirt@adobe.com",
+      "cc": null,
+      "report_id": "VDR-20260609-3613",
+      "domain": "adobe.com",
+      "status": "sent",
+      "error": null
+    },
+    {
+      "company": "Bloomberg",
+      "to": "reportvuln@bloomberg.net",
+      "cc": null,
+      "report_id": "VDR-20260609-5863",
+      "domain": "bloomberg.com",
+      "status": "sent",
+      "error": null
+    },
+    {
+      "company": "A16z (Andreessen Horowitz)",
+      "to": "cirt@a16z.com",
+      "cc": null,
+      "report_id": "VDR-20260609-3380",
+      "domain": "a16z.com",
+      "status": "sent",
+      "error": null
+    },
+    {
+      "company": "Aalberts",
+      "to": "security@aalberts.com",
+      "cc": null,
+      "report_id": "VDR-20260609-1943",
+      "domain": "aalberts.com",
+      "status": "sent",
+      "error": null
+    }
+  ],
+  "platform_outputs": [
+    {
+      "company": "Apple",
+      "domain": "apple.com",
+      "file": "/home/openclaw/projects/auto-bug-bounty/reports/report_platform_Apple_apple.com.txt",
+      "status": "written"
+    },
+    {
+      "company": "Microsoft",
+      "domain": "microsoft.com",
+      "file": "/home/openclaw/projects/auto-bug-bounty/reports/report_platform_Microsoft_microsoft.com.txt",
+      "status": "written"
+    },
+    {
+      "company": "Meta (Facebook/Instagram/WhatsApp)",
+      "domain": "facebook.com",
+      "file": "/home/openclaw/projects/auto-bug-bounty/reports/report_platform_Meta_Facebook_Instagram_WhatsApp_facebook.com.txt",
+      "status": "written"
+    },
+    {
+      "company": "Amazon",
+      "domain": "amazon.com",
+      "file": "/home/openclaw/projects/auto-bug-bounty/reports/report_platform_Amazon_amazon.com.txt",
+      "status": "written"
+    },
+    {
+      "company": "Walmart",
+      "domain": "walmart.com",
+      "file": "/home/openclaw/projects/auto-bug-bounty/reports/report_platform_Walmart_walmart.com.txt",
+      "status": "written"
+    },
+    {
+      "company": "GitHub",
+      "domain": "github.com",
+      "file": "/home/openclaw/projects/auto-bug-bounty/reports/report_platform_GitHub_github.com.txt",
+      "status": "written"
+    },
+    {
+      "company": "Cloudflare",
+      "domain": "cloudflare.com",
+      "file": "/home/openclaw/projects/auto-bug-bounty/reports/report_platform_Cloudflare_cloudflare.com.txt",
+      "status": "written"
+    },
+    {
+      "company": "LinkedIn (Microsoft)",
+      "domain": "linkedin.com",
+      "file": "/home/openclaw/projects/auto-bug-bounty/reports/report_platform_LinkedIn_Microsoft_linkedin.com.txt",
+      "status": "written"
+    },
+    {
+      "company": "PayPal",
+      "domain": "paypal.com",
+      "file": "/home/openclaw/projects/auto-bug-bounty/reports/report_platform_PayPal_paypal.com.txt",
+      "status": "written"
+    },
+    {
+      "company": "Netflix",
+      "domain": "netflix.com",
+      "file": "/home/openclaw/projects/auto-bug-bounty/reports/report_platform_Netflix_netflix.com.txt",
+      "status": "written"
+    },
+    {
+      "company": "Stripe",
+      "domain": "stripe.com",
+      "file": "/home/openclaw/projects/auto-bug-bounty/reports/report_platform_Stripe_stripe.com.txt",
+      "status": "written"
+    },
+    {
+      "company": "Slack (Salesforce)",
+      "domain": "slack.com",
+      "file": "/home/openclaw/projects/auto-bug-bounty/reports/report_platform_Slack_Salesforce_slack.com.txt",
+      "status": "written"
+    },
+    {
+      "company": "X (formerly Twitter)",
+      "domain": "x.com",
+      "file": "/home/openclaw/projects/auto-bug-bounty/reports/report_platform_X_formerly_Twitter_x.com.txt",
+      "status": "written"
+    },
+    {
+      "company": "Canva",
+      "domain": "canva.com",
+      "file": "/home/openclaw/projects/auto-bug-bounty/reports/report_platform_Canva_canva.com.txt",
+      "status": "written"
+    },
+    {
+      "company": "New York Times",
+      "domain": "nytimes.com",
+      "file": "/home/openclaw/projects/auto-bug-bounty/reports/report_platform_New_York_Times_nytimes.com.txt",
+      "status": "written"
+    },
+    {
+      "company": "TikTok (ByteDance)",
+      "domain": "tiktok.com",
+      "file": "/home/openclaw/projects/auto-bug-bounty/reports/report_platform_TikTok_ByteDance_tiktok.com.txt",
+      "status": "written"
+    },
+    {
+      "company": "23andMe",
+      "domain": "23andme.com",
+      "file": "/home/openclaw/projects/auto-bug-bounty/reports/report_platform_23andMe_23andme.com.txt",
+      "status": "written"
+    },
+    {
+      "company": "NVIDIA",
+      "domain": "nvidia.com",
+      "file": "/home/openclaw/projects/auto-bug-bounty/reports/report_platform_NVIDIA_nvidia.com.txt",
+      "status": "written"
+    },
+    {
+      "company": "Tesla",
+      "domain": "tesla.com",
+      "file": "/home/openclaw/projects/auto-bug-bounty/reports/report_platform_Tesla_tesla.com.txt",
+      "status": "written"
+    },
+    {
+      "company": "Oracle",
+      "domain": "oracle.com",
+      "file": "/home/openclaw/projects/auto-bug-bounty/reports/report_platform_Oracle_oracle.com.txt",
+      "status": "written"
+    },
+    {
+      "company": "Samsung",
+      "domain": "samsung.com",
+      "file": "/home/openclaw/projects/auto-bug-bounty/reports/report_platform_Samsung_samsung.com.txt",
+      "status": "written"
+    }
+  ]
+}

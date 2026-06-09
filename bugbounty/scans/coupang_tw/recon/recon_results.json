@@ -1,0 +1,14 @@
+{
+  "target": "coupang_tw",
+  "started_at": "2026-05-20T22:17:18.165796",
+  "subdomains": [
+    "coupang_tw"
+  ],
+  "live_hosts": [],
+  "tech_stack": [],
+  "ports": [],
+  "directories": [],
+  "nuclei_findings": [],
+  "interesting_urls": [],
+  "finished_at": "2026-05-20T22:17:26.555658"
+}

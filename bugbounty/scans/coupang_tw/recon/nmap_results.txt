@@ -1,0 +1,4 @@
+# Nmap 7.98 scan initiated Wed May 20 22:17:22 2026 as: /usr/lib/nmap/nmap --privileged -sV -sC -T4 --top-ports 100 -oN /home/openclaw/.openclaw/workspace/bugbounty/scans/coupang_tw/recon/nmap_results.txt coupang_tw
+Failed to resolve "coupang_tw".
+WARNING: No targets were specified, so 0 hosts scanned.
+# Nmap done at Wed May 20 22:17:22 2026 -- 0 IP addresses (0 hosts up) scanned in 0.79 seconds

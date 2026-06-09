@@ -1,0 +1,15 @@
+=== mobileapi.clearpay.com ===
+=== api.clearpay.com ===
+  / -> 530
+  /api -> 530
+  /v1 -> 530
+  /v2 -> 530
+  /health -> 530
+  /ping -> 530
+  /version -> 530
+  /swagger.json -> 530
+  /openapi.json -> 530
+  /graphql -> 530
+  /v1/users -> 530
+  /v1/orders -> 530
+  /v1/merchants -> 530

@@ -1,0 +1,206 @@
+=== JS Bundle Analysis ===
+--- hub.sandbox main bundle ---
+(()=>{"use strict";var e,r,t,n,o,a,i={50229:(e,r,t)=>{var n=t(93752),o=document.querySelector('meta[property="csp-nonce"]');t.nc=o&&o.getAttribute("content")||void 0,(0,n.Z)().then((function(){return Promise.all([t.e(161),t.e(983),t.e(130),t.e(641),t.e(163),t.e(646)]).then(t.bind(t,80646))}))},93752:(e,r,t)=>{t.d(r,{A:()=>a,Z:()=>o});var n={};function o(){return fetch("/config.json").then((function(e){return e.json()})).then((function(e){for(var r in n)delete n[r];for(var r in e)n[r]=e[r];return n})).then((function(e){for(var r in e)e.hasOwnProperty(r)&&(window[r]=e[r])})).catch((function(e){console.error("Error loading runtime config. ",e)}))}const a=n},42917:(e,r,t)=>{var n=new Error;e.exports=new Promise(((e,r)=>{if("undefined"!=typeof webAppShell)return e();t.l(window.WEB_APP_SHELL+"/remoteEntry.js",(t=>{if("undefined"!=typeof webAppShell)return e();var o=t&&("load"===t.type?"missing":t.type),a=t&&t.target&&t.target.src;n.message="Loading script failed.\n("+o+": "+a+")",n.name="ScriptExternalLoadError",n.type=o,n.request=a,r(n)}),"webAppShell")})).then((()=>webAppShell))}},l={};function f(e){var r=l[e];if(void 0!==r)return r.exports;var t=l[e]={id:e,loaded:!1,exports:{}};return i[e].call(t.exports,t,t.exports,f),t.loaded=!0,t.exports}f.m=i,f.c=l,f.n=e=>{var r=e&&e.__esModule?()=>e.default:()=>e;return f.d(r,{a:r}),r},r=Object.getPrototypeOf?e=>Object.getPrototypeOf(e):e=>e.__proto__,f.t=function(t,n){if(1&n&&(t=this(t)),8&n)return t;if("object"==typeof t&&t){if(4&n&&t.__esModule)return t;if(16&n&&"function"==typeof t.then)return t}var o=Object.create(null);f.r(o);var a={};e=e||[null,r({}),r([]),r(r)];for(var i=2&n&&t;"object"==typeof i&&!~e.indexOf(i);i=r(i))Object.getOwnPropertyNames(i).forEach((e=>a[e]=()=>t[e]));return a.default=()=>t,f.d(o,a),o},f.d=(e,r)=>{for(var t in r)f.o(r,t)&&!f.o(e,t)&&Object.defineProperty(e,t,{enumerable:!0,get:r[t]})},f.f={},f.e=e=>Promise.all(Object.keys(f.f).reduce(((r,t)=>(f.f[t](e,r),r)),[])),f.u=e=>e+"."+{41:"ffc035a66de22b5ff88a",117:"d3053fb8ac2e6e29ad0f",130:"67b020a4e26e2aeece3b",144:"f9e146d0c2de2db80b7c",161:"9ed2c63abdddd3ea57de",185:"6189e3122fb7f4a48bea",337:"3795f9a82f5323d80ae0",498:"d3053fb8ac2e6e29ad0f",566:"6189e3122fb7f4a48bea",623:"1c2219213cb4f359c48d",646:"1a88e896071dbd0a47fc",695:"eea93f3ab3084d5a2e4b",802:"b027d9d4941532efe2a0",861:"c7b1dc517265cf23bca7",882:"faee090acea8b2942028",892:"8fdc168726e79417d210",921:"744f3811dcd9de90f08d",983:"eaddd9c9c00f5c6008a5"}[e]+".bundle.js",f.miniCssF=e=>e+"."+{339:"30445ad5813f5b4ea3e8",720:"30445ad5813f5b4ea3e8"}[e]+".css",f.g=function(){if("object"==typeof globalThis)return globalThis;try{return this||new Function("return this")()}catch(e){if("object"==typeof window)return window}}(),f.hmd=e=>((e=Object.create(e)).children||(e.children=[]),Object.defineProperty(e,"exports",{enumerable:!0,set:()=>{throw new Error("ES Modules may not assign module.exports or exports.*, Use ESM export syntax, instead: "+e.id)}}),e),f.o=(e,r)=>Object.prototype.hasOwnProperty.call(e,r),t={},n="web-root:",f.l=(e,r,o,a)=>{if(t[e])t[e].push(r);else{var i,l;if(void 0!==o)for(var d=document.getElementsByTagName("script"),s=0;s<d.length;s++){var u=d[s];if(u.getAttribute("src")==e||u.getAttribute("data-webpack")==n+o){i=u;break}}i||(l=!0,(i=document.createElement("script")).charset="utf-8",i.timeout=120,f.nc&&i.setAttribute("nonce",f.nc),i.setAttribute("data-webpack",n+o),i.src=e),t[e]=[r];var c=(r,n)=>{i.onerror=i.onload=null,clearTimeout(p);var o=t[e];if(delete t[e],i.parentNode&&i.parentNode.removeChild(i),o&&o.forEach((e=>e(n))),r)return r(n)},p=setTimeout(c.bind(null,void 0,{type:"timeout",target:i}),12e4);i.onerror=c.bind(null,i.onerror),i.onload=c.bind(null,i.onload),l&&document.head.appendChild(i)}},f.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},f.nmd=e=>(e.paths=[],e.children||(e.children=[]),e),o={222:[99222]},a={99222:["default","./App",42917]},f.f.remotes=(e,r)=>{f.o(o,e)&&o[e].forEach((e=>{var t=f.R;t||(t=[]);var n=a[e];if(!(t.indexOf(n)>=0)){if(t.push(n),n.p)return r.push(n.p);var o=r=>{r||(r=new Error("Container missing")),"string"==typeof r.message&&(r.message+='\nwhile loading "'+n[1]+'" from '+n[2]),f.m[e]=()=>{throw r},n.p=0},i=(e,t,a,i,l,f)=>{try{var d=e(t,a);if(!d||!d.then)return l(d,i,f);var s=d.then((e=>l(e,i)),o);if(!f)return s;r.push(n.p=s)}catch(e){o(e)}},l=(e,r,o)=>i(r.get,n[1],t,0,d,o),d=r=>{n.p=1,f.m[e]=e=>{e.exports=r()}};i(f,n[2],0,0,((e,r,t)=>e?i(f.I,n[0],0,e,l,t):o()),1)}}))},(()=>{f.S={};var e={},r={};f.I=(t,n)=>{n||(n=[]);var o=r[t];if(o||(o=r[t]={}),!(n.indexOf(o)>=0)){if(n.push(o),e[t])return e[t];f.o(f.S,t)||(f.S[t]={});var a=f.S[t],i="web-root",l=(e,r,t,n)=>{var o=a[e]=a[e]||{},l=o[r];(!l||!l.loaded&&(!n!=!l.eager?n:i>l.from))&&(o[r]={get:t,from:i,eager:!!n})},d=[];return"default"===t&&(l("@cash-design-system/react","3.7.1-prerelease.4a9c626.0",(()=>Promise.all([f.e(623),f.e(695),f.e(641),f.e(921)]).then((()=>()=>f(64695))))),l("@common/components","1.0.0",(()=>Promise.all([f.e(623),f.e(161),f.e(882),f.e(983),f.e(641),f.e(985),f.e(835),f.e(892),f.e(163),f.e(339)]).then((()=>()=>f(62892))))),l("@common/contexts","1.0.0",(()=>Promise.all([f.e(641),f.e(985),f.e(989),f.e(566)]).then((()=>()=>f(23566))))),l("@common/utils","1.0.0",(()=>Promise.all([f.e(161),f.e(337),f.e(835),f.e(117)]).then((()=>()=>f(51117))))),l("axios","1.15.2",(()=>f.e(861).then((()=>()=>f(8861))))),l("react-dom","18.2.0",(()=>Promise.all([f.e(144),f.e(641)]).then((()=>()=>f(43144))))),l("react","18.2.0",(()=>f.e(41).then((()=>()=>f(14041))))),(e=>{var r=e=>{return r="Initialization of sharing external failed: "+e,void("undefined"!=typeof console&&console.warn&&console.warn(r));var r};try{var o=f(42917);if(!o)return;var a=e=>e&&e.init&&e.init(f.S[t],n);if(o.then)return d.push(o.then(a,r));var i=a(o);if(i&&i.then)return d.push(i.catch(r))}catch(e){r(e)}})()),d.length?e[t]=Promise.all(d).then((()=>e[t]=1)):e[t]=1}}})(),f.p="/",(()=>{var e=e=>{var r=e=>e.split(".").map((e=>+e==e?+e:e)),t=/^([^-+]+)?(?:-([^+]+))?(?:\+(.+))?$/.exec(e),n=t[1]?r(t[1]):[];return t[2]&&(n.length++,n.push.apply(n,r(t[2]))),t[3]&&(n.push([]),n.push.apply(n,r(t[3]))),n},r=e=>{var t=e[0],n="";if(1===e.length)return"*";if(t+.5){n+=0==t?">=":-1==t?"<":1==t?"^":2==t?"~":t>0?"=":"!=";for(var o=1,a=1;a<e.length;a++)o--,n+="u"==(typeof(l=e[a]))[0]?"-":(o>0?".":"")+(o=2,l);return n}var i=[];for(a=1;a<e.length;a++){var l=e[a];i.push(0===l?"not("+f()+")":1===l?"("+f()+" || "+f()+")":2===l?i.pop()+" "+i.pop():r(l))}return f();function f(){return i.pop().replace(/^\((.+)\)$/,"$1")}},t=(r,n)=>{if(0 in r){n=e(n);var o=r[0],a=o<0;a&&(o=-o-1);for(var i=0,l=1,f=!0;;l++,i++){var d,s,u=l<r.length?(typeof r[l])[0]:"";if(i>=n.length||"o"==(s=(typeof(d=n[i]))[0]))return!f||("u"==u?l>o&&!a:""==u!=a);if("u"==s){if(!f||"u"!=u)return!1}else if(f)if(u==s)if(l<=o){if(d!=r[l])return!1}else{if(a?d>r[l]:d<r[l])return!1;d!=r[l]&&(f=!1)}else if("s"!=u&&"n"!=u){if(a||l<=o)return!1;f=!1,l--}else{if(l<=o||s<u!=a)return!1;f=!1}else"s"!=u&&"n"!=u&&(f=!1,l--)}}var c=[],p=c.pop.bind(c);for(i=1;i<r.length;i++){var h=r[i];c.push(1==h?p()|p():2==h?p()&p():h?t(h,n):!p())}return!!p()},n=(r,t,n)=>{var o=n?(e=>Object.keys(e).reduce(((r,t)=>(e[t].eager&&(r[t]=e[t]),r)),{}))(r[t]):r[t];return Object.keys(o).reduce(((r,t)=>!r||!o[r].loaded&&((r,t)=>{r=e(r),t=e(t);for(var n=0;;){if(n>=r.length)return n<t.length&&"u"!=(typeof t[n])[0];var o=r[n],a=(typeof o)[0];if(n>=t.length)return"u"==a;var i=t[n],l=(typeof i)[0];if(a!=l)return"o"==a&&"n"==l||"s"==l||"u"==a;if("o"!=a&&"u"!=a&&o!=i)return o<i;n++}})(r,t)?t:r),0)},o=(e,r,t)=>t?t():((e,r)=>(e=>{throw new Error(e)})("Shared module "+r+" doesn't exist in shared scope "+e))(e,r),a=(e=>function(r,t,n,o,a){var i=f.I(r);return i&&i.then&&!n?i.then(e.bind(e,r,f.S[r],t,!1,o,a)):e(r,f.S[r],t,n,o,a)})(((e,a,i,l,d,s)=>{if(!((e,r)=>e&&f.o(e,r))(a,i))return o(e,i,s);var u,c,p=n(a,i,l);return t(d,p)||(c=((e,t,n,o)=>"Unsatisfied version "+n+" from "+(n&&e[t][n].from)+" of shared singleton module "+t+" (required "+r(o)+")")(a,i,p,d),"undefined"!=typeof console&&console.warn&&console.warn(c)),(u=a[i][p]).loaded=1,u.get()})),i={},l={75641:()=>a("default","react",!1,[1,18,2,0],(()=>f.e(41).then((()=>()=>f(14041))))),59163:()=>a("default","react-dom",!1,[1,18,2,0],(()=>f.e(144).then((()=>()=>f(43144))))),19727:()=>a("default","@common/components",!1,[4,1,0,0],(()=>Promise.all([f.e(623),f.e(882),f.e(985),f.e(835),f.e(892),f.e(720)]).then((()=>()=>f(62892))))),27799:()=>a("default","@common/contexts",!1,[4,1,0,0],(()=>Promise.all([f.e(985),f.e(989),f.e(185)]).then((()=>()=>f(23566))))),7985:()=>a("default","@cash-design-system/react",!1,[8,3,7,1,,"prerelease","4a9c626",0],(()=>Promise.all([f.e(623),f.e(695)]).then((()=>()=>f(64695))))),29835:()=>a("default","@common/utils",!1,[4,1,0,0],(()=>Promise.all([f.e(337),f.e(498)]).then((()=>()=>f(51117))))),34989:()=>a("default","axios",!1,[1,1,15,2],(()=>f.e(861).then((()=>()=>f(8861)))))},d={163:[59163],641:[75641],646:[19727,27799],835:[29835],985:[7985],989:[34989]},s={};f.f.consumes=(e,r)=>{f.o(d,e)&&d[e].forEach((e=>{if(f.o(i,e))return r.push(i[e]);if(!s[e]){var t=r=>{i[e]=0,f.m[e]=t=>{delete f.c[e],t.exports=r()}};s[e]=!0;var n=r=>{delete i[e],f.m[e]=t=>{throw delete f.c[e],r}};try{var o=l[e]();o.then?r.push(i[e]=o.then(t).catch(n)):t(o)}catch(e){n(e)}}}))}})(),(()=>{if("undefined"!=typeof document){var e={792:0};f.f.miniCss=(r,t)=>{e[r]?t.push(e[r]):0!==e[r]&&{339:1,720:1}[r]&&t.push(e[r]=(e=>new Promise(((r,t)=>{var n=f.miniCssF(e),o=f.p+n;if(((e,r)=>{for(var t=document.getElementsByTagName("link"),n=0;n<t.length;n++){var o=(i=t[n]).getAttribute("data-href")||i.getAttribute("href");if("stylesheet"===i.rel&&(o===e||o===r))return i}var a=document.getElementsByTagName("style");for(n=0;n<a.length;n++){var i;if((o=(i=a[n]).getAttribute("data-href"))===e||o===r)return i}})(n,o))return r();((e,r,t,n,o)=>{var a=document.createElement("link");a.rel="stylesheet",a.type="text/css",f.nc&&(a.nonce=f.nc),a.onerror=a.onload=t=>{if(a.onerror=a.onload=null,"load"===t.type)n();else{var i=t&&t.type,l=t&&t.target&&t.target.href||r,f=new Error("Loading CSS chunk "+e+" failed.\n("+i+": "+l+")");f.name="ChunkLoadError",f.code="CSS_CHUNK_LOAD_FAILED",f.type=i,f.request=l,a.parentNode&&a.parentNode.removeChild(a),o(f)}},a.href=r,document.head.appendChild(a)})(e,o,0,r,t)})))(r).then((()=>{e[r]=0}),(t=>{throw delete e[r],t})))}}})(),(()=>{var e={792:0};f.f.j=(r,t)=>{var n=f.o(e,r)?e[r]:void 0;if(0!==n)if(n)t.push(n[2]);else if(/^(98[59]|163|222|339|641|720|835)$/.test(r))e[r]=0;else{var o=new Promise(((t,o)=>n=e[r]=[t,o]));t.push(n[2]=o);var a=f.p+f.u(r),i=new Error;f.l(a,(t=>{if(f.o(e,r)&&(0!==(n=e[r])&&(e[r]=void 0),n)){var o=t&&("load"===t.type?"missing":t.type),a=t&&t.target&&t.target.src;i.message="Loading chunk "+r+" failed.\n("+o+": "+a+")",i.name="ChunkLoadError",i.type=o,i.request=a,n[1](i)}}),"chunk-"+r,r)}};var r=(r,t)=>{var n,o,[a,i,l]=t,d=0;if(a.some((r=>0!==e[r]))){for(n in i)f.o(i,n)&&(f.m[n]=i[n]);l&&l(f)}for(r&&r(t);d<a.length;d++)o=a[d],f.o(e,o)&&e[o]&&e[o][0](),e[o]=0},t=self.webpackChunkweb_root=self.webpackChunkweb_root||[];t.forEach(r.bind(null,0)),t.push=r.bind(null,t.push.bind(t))})(),f.nc=void 0,f(50229)})();
+--- ir-external main bundle ---
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+/******/ (() => { // webpackBootstrap
+/******/ 	var __webpack_modules__ = ({
+
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/***/ (() => {
+
+eval("//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvaW5kZXguanMiLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9pci1leHRlcm5hbC8uL3NyYy9pbmRleC5qcz9iNjM1Il0sInNvdXJjZXNDb250ZW50IjpbIiJdLCJtYXBwaW5ncyI6IiIsImlnbm9yZUxpc3QiOltdfQ==\n//# sourceURL=webpack-internal:///./src/index.js\n");
+
+/***/ })
+
+/******/ 	});
+/************************************************************************/
+/******/ 	// The module cache
+/******/ 	var __webpack_module_cache__ = {};
+/******/ 	
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/ 		// Check if module is in cache
+/******/ 		var cachedModule = __webpack_module_cache__[moduleId];
+/******/ 		if (cachedModule !== undefined) {
+/******/ 			return cachedModule.exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = __webpack_module_cache__[moduleId] = {
+/******/ 			// no module.id needed
+/******/ 			// no module.loaded needed
+/******/ 			exports: {}
+/******/ 		};
+/******/ 	
+/******/ 		// Execute the module function
+/******/ 		__webpack_modules__[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/ 	
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/ 	
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = __webpack_modules__;
+/******/ 	
+/******/ 	// expose the module cache
+/******/ 	__webpack_require__.c = __webpack_module_cache__;
+/******/ 	
+/************************************************************************/
+/******/ 	/* webpack/runtime/amd options */
+/******/ 	(() => {
+/******/ 		__webpack_require__.amdO = {};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/compat get default export */
+/******/ 	(() => {
+/******/ 		// getDefaultExport function for compatibility with non-harmony modules
+/******/ 		__webpack_require__.n = (module) => {
+/******/ 			var getter = module && module.__esModule ?
+/******/ 				() => (module['default']) :
+/******/ 				() => (module);
+/******/ 			__webpack_require__.d(getter, { a: getter });
+/******/ 			return getter;
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/create fake namespace object */
+/******/ 	(() => {
+/******/ 		var getProto = Object.getPrototypeOf ? (obj) => (Object.getPrototypeOf(obj)) : (obj) => (obj.__proto__);
+/******/ 		var leafPrototypes;
+/******/ 		// create a fake namespace object
+/******/ 		// mode & 1: value is a module id, require it
+/******/ 		// mode & 2: merge all properties of value into the ns
+/******/ 		// mode & 4: return value when already ns object
+/******/ 		// mode & 16: return value when it's Promise-like
+/******/ 		// mode & 8|1: behave like require
+/******/ 		__webpack_require__.t = function(value, mode) {
+/******/ 			if(mode & 1) value = this(value);
+/******/ 			if(mode & 8) return value;
+/******/ 			if(typeof value === 'object' && value) {
+/******/ 				if((mode & 4) && value.__esModule) return value;
+/******/ 				if((mode & 16) && typeof value.then === 'function') return value;
+/******/ 			}
+/******/ 			var ns = Object.create(null);
+/******/ 			__webpack_require__.r(ns);
+/******/ 			var def = {};
+/******/ 			leafPrototypes = leafPrototypes || [null, getProto({}), getProto([]), getProto(getProto)];
+/******/ 			for(var current = mode & 2 && value; typeof current == 'object' && !~leafPrototypes.indexOf(current); current = getProto(current)) {
+/******/ 				Object.getOwnPropertyNames(current).forEach((key) => (def[key] = () => (value[key])));
+/******/ 			}
+/******/ 			def['default'] = () => (value);
+/******/ 			__webpack_require__.d(ns, def);
+/******/ 			return ns;
+/******/ 		};
+/******/ 	})();
+
+--- remoteEntry.js ---
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+var irExternal;
+/******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
+/******/ 	var __webpack_modules__ = ({
+
+/***/ "webpack/container/entry/irExternal":
+/*!***********************!*\
+  !*** container entry ***!
+  \***********************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+var moduleMap = {
+	"./Disputes": () => {
+		return Promise.all([__webpack_require__.e("vendors-node_modules_classnames_index_js-node_modules_css-loader_dist_runtime_api_js-node_mod-b1208c"), __webpack_require__.e("vendors-node_modules_axios_index_js-node_modules_recoil_es_index_js"), __webpack_require__.e("webpack_sharing_consume_default_react_react"), __webpack_require__.e("webpack_sharing_consume_default_react-dom_react-dom"), __webpack_require__.e("packages_common_utils_index_ts"), __webpack_require__.e("src_Disputes_DisputesContainer_tsx")]).then(() => (() => ((__webpack_require__(/*! ./src/Disputes/DisputesContainer */ "./src/Disputes/DisputesContainer.tsx")))));
+	},
+	"./DisputesFAQ": () => {
+		return Promise.all([__webpack_require__.e("vendors-node_modules_classnames_index_js-node_modules_css-loader_dist_runtime_api_js-node_mod-b1208c"), __webpack_require__.e("webpack_sharing_consume_default_react_react"), __webpack_require__.e("packages_common_utils_index_ts"), __webpack_require__.e("src_Disputes_DisputesFAQ_tsx")]).then(() => (() => ((__webpack_require__(/*! ./src/Disputes/DisputesFAQ */ "./src/Disputes/DisputesFAQ.tsx")))));
+	}
+};
+var get = (module, getScope) => {
+	__webpack_require__.R = getScope;
+	getScope = (
+		__webpack_require__.o(moduleMap, module)
+			? moduleMap[module]()
+			: Promise.resolve().then(() => {
+				throw new Error('Module "' + module + '" does not exist in container.');
+			})
+	);
+	__webpack_require__.R = undefined;
+	return getScope;
+};
+var init = (shareScope, initScope) => {
+	if (!__webpack_require__.S) return;
+	var name = "default"
+	var oldScope = __webpack_require__.S[name];
+	if(oldScope && oldScope !== shareScope) throw new Error("Container initialization failed as it has already been initialized with a different share scope");
+	__webpack_require__.S[name] = shareScope;
+	return __webpack_require__.I(name, initScope);
+};
+
+// This exports getters to disallow modifications
+__webpack_require__.d(exports, {
+	get: () => (get),
+	init: () => (init)
+});
+
+/***/ }),
+
+/***/ "webpack/container/reference/webAppShell":
+/*!********************************************************************!*\
+  !*** external "webAppShell@[window.WEB_APP_SHELL]/remoteEntry.js" ***!
+  \********************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var __webpack_error__ = new Error();
+module.exports = new Promise((resolve, reject) => {
+	if(typeof webAppShell !== "undefined") return resolve();
+	__webpack_require__.l(window.WEB_APP_SHELL + "/remoteEntry.js", (event) => {
+		if(typeof webAppShell !== "undefined") return resolve();
+		var errorType = event && (event.type === 'load' ? 'missing' : event.type);
+		var realSrc = event && event.target && event.target.src;
+		__webpack_error__.message = 'Loading script failed.\n(' + errorType + ': ' + realSrc + ')';
+		__webpack_error__.name = 'ScriptExternalLoadError';
+		__webpack_error__.type = errorType;
+		__webpack_error__.request = realSrc;
+		reject(__webpack_error__);
+	}, "webAppShell");
+}).then(() => (webAppShell));
+
+/***/ }),
+
+/***/ "webpack/container/reference/webMerchant":
+/*!*******************************************************************!*\
+  !*** external "webMerchant@[window.WEB_MERCHANT]/remoteEntry.js" ***!
+  \*******************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var __webpack_error__ = new Error();
+module.exports = new Promise((resolve, reject) => {
+	if(typeof webMerchant !== "undefined") return resolve();
+	__webpack_require__.l(window.WEB_MERCHANT + "/remoteEntry.js", (event) => {
+		if(typeof webMerchant !== "undefined") return resolve();
+		var errorType = event && (event.type === 'load' ? 'missing' : event.type);
+		var realSrc = event && event.target && event.target.src;
+		__webpack_error__.message = 'Loading script failed.\n(' + errorType + ': ' + realSrc + ')';
+		__webpack_error__.name = 'ScriptExternalLoadError';
+		__webpack_error__.type = errorType;
+		__webpack_error__.request = realSrc;
+		reject(__webpack_error__);
+	}, "webMerchant");
+}).then(() => (webMerchant));
+

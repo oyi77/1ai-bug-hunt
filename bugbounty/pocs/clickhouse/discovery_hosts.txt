@@ -1,0 +1,8 @@
+=== clickhouse.com ===
+Status: 200
+=== play.clickhouse.com ===
+Status: 302
+=== api.clickhouse.com ===
+Status: 000
+=== cloud.clickhouse.com ===
+Status: 301

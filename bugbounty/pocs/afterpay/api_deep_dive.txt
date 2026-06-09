@@ -1,0 +1,21 @@
+=== Deep Dive: hub.sandbox API endpoints ===
+--- /api ---
+<html><head><meta property="csp-nonce" content="BFk9zCCn5qOKcmejg2BpsA"/><script defer="defer" src="/main.5ab1e0b59dac54568460.bundle.js"></script></head><body><div id="root"></div></body></html>
+--- /api/v1 ---
+<html><head><meta property="csp-nonce" content="Ee26Wsn7yZML+ilEvNL/6w"/><script defer="defer" src="/main.5ab1e0b59dac54568460.bundle.js"></script></head><body><div id="root"></div></body></html>
+--- /graphql ---
+<html><head><meta property="csp-nonce" content="SFGycIjF3eiBNtNRGdUPeQ"/><script defer="defer" src="/main.5ab1e0b59dac54568460.bundle.js"></script></head><body><div id="root"></div></body></html>
+--- /swagger.json ---
+<html><head><meta property="csp-nonce" content="ze1fqRhvqiAkZ/RYjmXBEw"/><script defer="defer" src="/main.5ab1e0b59dac54568460.bundle.js"></script></head><body><div id="root"></div></body></html>
+--- /openapi.json ---
+<html><head><meta property="csp-nonce" content="yrKYyg8My5HWq1O0gMYXnQ"/><script defer="defer" src="/main.5ab1e0b59dac54568460.bundle.js"></script></head><body><div id="root"></div></body></html>
+--- /health ---
+<html><head><meta property="csp-nonce" content="0GlgkOoKdJkdq2rHah18mQ"/><script defer="defer" src="/main.5ab1e0b59dac54568460.bundle.js"></script></head><body><div id="root"></div></body></html>
+--- /debug ---
+<html><head><meta property="csp-nonce" content="fd3otJunCsO5pU+MKNA9cw"/><script defer="defer" src="/main.5ab1e0b59dac54568460.bundle.js"></script></head><body><div id="root"></div></body></html>
+--- /admin ---
+<html><head><meta property="csp-nonce" content="5nCl15M2Oaq/3lkjJhg7qw"/><script defer="defer" src="/main.5ab1e0b59dac54568460.bundle.js"></script></head><body><div id="root"></div></body></html>
+--- /login ---
+
+--- /config ---
+

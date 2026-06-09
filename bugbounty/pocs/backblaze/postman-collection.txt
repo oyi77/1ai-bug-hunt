@@ -1,0 +1,50 @@
+{
+    "activeVersionTag": "latest",
+    "latestAvailableVersionTag": "latest",
+    "collection": {
+        "info": {
+            "_postman_id": "2bd51552-2df9-443f-95f1-014a26894b00",
+            "name": "Backblaze B2 Cloud Storage S3 Compatible API",
+            "description": "The Backblaze B2 Cloud Storage S3 Compatible API implements the most commonly used actions from the AWS S3 API, and easily integrates with your existing applications, data management tools, and S3 gateways. Backblaze [B2 Cloud Storage is \u00bc the price of AWS S3](https://www.backblaze.com/b2/cloud-storage-pricing.html) so you can quickly integrate B2 and see dramatic savings on your cloud storage bill.\n\nIf you aren\u2019t already a Backblaze B2 user you can [signup for an account today](https://www.backblaze.com/b2/sign-up.html?referrer=nopref) and get your first 10GB of storage free.\n\nMost applications and scripts use one of the [AWS SDKs](https://aws.amazon.com/getting-started/tools-sdks/) or the [S3 commands in the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-services-s3.html) to access B2. All of the SDKs, and the CLI, allow you to override the default Amazon S3 endpoint in favor of Backblaze B2. Sometimes, though, you might want to interact directly with B2 via the S3 Compatibility API, perhaps in debugging an issue, or just to better understand how the service works. This documentation is the definitive reference for accessing Backblaze B2 directly via the S3 Compatibility API.\n\n## Prerequisites\n\n- [Signup for a Backblaze account](https://www.backblaze.com/b2/sign-up.html?referrer=nopref), if you have not already done so.\n    \n- Ensure that [B2 is enabled](https://help.backblaze.com/hc/en-us/articles/115001183034-Enable-B2-and-Verify-Mobile-Number-on-an-Existing-Backblaze-Account-) on your account.\n    \n- [Create an application key](https://help.backblaze.com/hc/en-us/articles/360052129034-Creating-and-Managing-Application-Keys), if you have not already done so. Ensure that you save the application key now as you will not be able to access it later. Note that you cannot use your master application key with the S3 Compatible API.\n    \n- [Create a bucket](https://help.backblaze.com/hc/en-us/articles/1260803542610-Creating-a-B2-Bucket-using-the-Web-UI), if you have not already done so. Note the bucket's **Endpoint** URL. It will have the form `s3..backblazeb2.com`, where is similar to `us-west-004`. Make a note of the region. Note that at present, unlike Amazon S3, a B2 account is associated with a single region. It is not currently possible to create buckets outside an account's region.\n    \n\nOnce you have your application key and region, navigate to the API's collection variables (Click on **Backblaze B2 Cloud Storage S3 Compatible API** in the tree on the left then click the **Variables** tab). Copy your application key, application key id and region into the current values of the three variables:\n\n<img src=\"https://metadaddy-public.s3.us-west-004.backblazeb2.com/Postman+Collection+Variables.png\">\n\n## Test your settings\n\n- Go to [S3 Get Bucket Location](https://www.postman.com/backblaze/workspace/backblaze/request/9169647-faadebfb-3b1d-4a55-9762-282fbd098036).\n    \n- Enter the name of a bucket to which your application key has access.\n    \n- Click **Send**.\n    \n\nYou should see an XML response with the location of the bucket:\n\n<img src=\"https://metadaddy-public.s3.us-west-004.backblazeb2.com/bucket-location.png\">\n\n## Troubleshooting\n\nIf you don't see an XML response with the bucket location, check that:\n\n- The application key has access to the bucket that you specified.\n    \n- You didn't inadvertently swap the application key and application key ID.\n    \n- You saved the collection variables.\n    \n\n## Authentication\n\nThe API supports [AWS Signature Version 4 (SigV4)](https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html) for authentication and does not support V2 signatures at this time. This collection uses Postman's built-in implementation of AWS SigV4.\n\n## Requests\n\nCommunicate with the API by sending HTTP requests to resource endpoints. The HTTP method determines the action taken.\n\n| Method | Usage |\n| --- | --- |\n| DELETE | Use the DELETE method to destroy a resource such as a bucket, object or bucket setting. If it is not found, the operation will return a 4xx error and an appropriate message. |\n| GET | To retrieve object data or configuration, use the GET method. Object data is returned in the format it was written; configuration is returned as XML. GET methods are read-only and do not modify any resources. |\n| PUT | Use the PUT method to write object data or configuration. Configuration must be formatted as XML according to the schema defined by the Amazon S3 API. |\n| POST | Use the POST method with the S3 Delete Object, S3 Complete Multipart Upload, and S3 Create Multipart Upload operations. |\n\n## Response Codes\n\nThe API uses standard HTTP response codes to show the outcome of requests. Response codes in the 2xx range indicate success, while codes in the 4xx range indicate a client-side error, such as an authorization failure or a malformed request. 4xx errors return an XML response object explaining the problem. For example:\n\n``` xml\n\n<Error>\n    <Code>NoSuchBucket</Code>\n    <Message>The specified bucket does not exist: NonExistentBucket</Message>\n    <Resource>NonExistentBucket</Resource>\n</Error>\n\n ```\n\nCodes in the 5xx range indicate a server-side problem preventing B2 from fulfilling your request, and include JSON diagnostics:\n\n``` json\n{\n    \"code\": \"internal_error\",\n    \"message\": \"incident id 2f0e432cc922-9c2c28e96a16711b\",\n    \"status\": 500\n}\n\n ```\n\n| Response | Description |\n| --- | --- |\n| 200 OK | The response contains your requested information. |\n| 201 Created | Your request was accepted. The resource was created. |\n| 202 Accepted | Your request was accepted. The resource was created or updated. |\n| 204 No Content | Your request succeeded, there is no additional information returned. |\n| 400 Bad Request | Your request was malformed. |\n| 401 Unauthorized | You did not supply valid authentication credentials. |\n| 403 Forbidden | You are not allowed to perform that action. |\n| 404 Not Found | No results were found for your request. |\n| 429 Too Many Requests | Your request exceeded the API rate limit. |\n| 500 Internal Server Error | We were unable to perform the request due to server-side problems. |\n\n## Differences from Amazon S3\n\nFor the most part, the Backblaze B2 Cloud Storage S3 Compatible API operates identically to Amazon S3. There are, however, some important differences that you should bear in mind with designing applications and solutions.\n\n- Backblaze B2 endpoints are located at `backblazeb2.com` rather than `amazonaws.com`. Most S3-compatible applications and tools allow you to customize the S3 endpoint to work with S3-compatible APIs outside Amazon.\n    \n- ACLs are set at the bucket level, and only the canned ACL values \"private\" and \u201cpublic-read\u201d are supported. You cannot set complex ACLs via XML. Objects inherit their bucket's ACL. Attempting to set an object's ACL to a different value from its parent will result in a `403 Forbidden` error.\n    \n- Backblaze B2 features slightly different restrictions on file and bucket names than Amazon S3.\n    \n- Buckets in Backblaze B2 are versioned by default. Because Buckets are versioned, when a file is deleted by referencing the name only the most recent version of that file will be deleted and older versions of the file will continue to exist in the Bucket.\n    \n- The API endpoints only accept connections over HTTPS. Non-secure connections will be rejected.\n    \n- Backblaze B2 supports server-side encryption of data using either Backblaze-managed keys (SSE-B2) or using customer-managed keys (SSE-C). SSE-KMS encryption is not currently supported.\n    \n- IAM roles, Object Tagging, Bucket Logging, Website configuration, and Lifecycle Rules are not currently supported.\n    \n\nFor a more detailed explanation of the differences between the Backblaze B2 Cloud Storage S3 Compatible API and Amazon S3 see the [Backblaze B2 S3 Compatible API documentation](https://www.backblaze.com/b2/docs/s3_compatible_api.html).",
+            "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+            "isPublicCollection": true,
+            "owner": "9169647",
+            "collectionId": "2bd51552-2df9-443f-95f1-014a26894b00",
+            "publishedId": "UVeMGhwV",
+            "public": true,
+            "publicUrl": "https://postman.backblaze.com",
+            "privateUrl": "https://go.postman.co/documentation/9169647-2bd51552-2df9-443f-95f1-014a26894b00",
+            "customColor": {
+                "top-bar": "FFFFFF",
+                "right-sidebar": "303030",
+                "highlight": "E20626"
+            },
+            "documentationLayout": "classic-single-column",
+            "customisation": null,
+            "version": "8.10.1",
+            "publishDate": "2022-10-04T23:16:49.000Z",
+            "activeVersionTag": "latest",
+            "documentationTheme": "light",
+            "metaTags": {},
+            "logos": {}
+        },
+        "statusCode": 200
+    },
+    "environments": [],
+    "user": {
+        "authenticated": false,
+        "permissions": {
+            "publish": false
+        }
+    },
+    "run": {
+        "button": {
+            "js": "https://run.pstmn.io/button.js",
+            "css": "https://run.pstmn.io/button.css"
+        }
+    },
+    "web": "https://www.getpostman.com/",
+    "team": {
+        "logo": "https://res.cloudinary.com/postman/image/upload/t_team_logo_pubdoc/v1/team/77025e7570bd58851af9c32679dae23be6417351d52e896a3bba89431ccebc76",
+        "favicon": "https://res.cloudinary.com/postman/image/upload/v1643689303/team/nqw5gg7visfuwnopwntd.ico"
+    },

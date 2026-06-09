@@ -1,0 +1,3 @@
+backblaze.com -> 301
+api.backblaze.com -> 301
+portal.backblaze.com -> 000

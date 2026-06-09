@@ -1,0 +1,21 @@
+{
+  "hunted": {
+    "coupang_tw": {
+      "first_hunt": "2026-05-20T22:19:06.556531",
+      "findings": 0,
+      "platform": "manual",
+      "last_hunt": "2026-05-20T22:19:06.556537"
+    },
+    "acorns.com": {
+      "first_hunt": "2026-05-20T22:48:04.584497",
+      "findings": 0,
+      "platform": "manual",
+      "last_hunt": "2026-05-20T22:48:04.584504"
+    }
+  },
+  "blacklisted": [],
+  "stats": {
+    "total_runs": 2,
+    "total_findings": 0
+  }
+}

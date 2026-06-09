@@ -1,0 +1,25 @@
+=== 403 Bypass Tests ===
+/.env -> : 
+/.env.bak -> : 
+/.env.old -> : 
+/.env.local -> : 
+/.env.production -> : 
+/.env.development -> : 
+/.env.staging -> : 
+/.env.json -> : 
+/.env.yml -> : 
+/.git/HEAD -> : 
+/.git/config -> : 
+/.gitignore -> : 
+/.git/logs/HEAD -> : 
+/.svn/entries -> : 
+/.DS_Store -> : 
+/web.config -> : 
+/app.js -> : 
+/env.js -> : 
+/env.json -> : 
+/config.js -> : 
+/config.json -> : 
+/robots.txt -> : 
+/sitemap.xml -> : 
+/favicon.ico -> : 

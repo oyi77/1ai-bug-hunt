@@ -1,0 +1,17 @@
+=== CORS Tests ===
+--- Origin: https://evil.com ---
+vary: Origin
+
+--- Origin: https://attacker.com ---
+vary: Origin
+
+--- Origin: null ---
+vary: Origin
+
+--- Origin: https://portal.health.afterpay.com.evil.com ---
+vary: Origin
+
+--- hub.sandbox Origin: https://evil.com ---
+
+--- hub.sandbox Origin: null ---
+

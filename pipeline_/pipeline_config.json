@@ -1,0 +1,107 @@
+{
+  "pipeline_name": "auto-bug-bounty",
+  "version": "2.0",
+  "created": "2026-06-09",
+  "phases": [
+    {
+      "id": "discover",
+      "name": "Program Discovery",
+      "description": "Find all bug bounty programs across platforms",
+      "delegation": "parallel",
+      "tasks": [
+        {"name": "hackerone", "type": "api", "target": "H1 API"},
+        {"name": "bugcrowd", "type": "web_scrape", "target": "Bugcrowd programs"},
+        {"name": "intigriti", "type": "web_scrape", "target": "Intigriti programs"},
+        {"name": "yeswehack", "type": "web_scrape", "target": "YesWeHack programs"},
+        {"name": "immunefi", "type": "web_scrape", "target": "Immunefi programs"},
+        {"name": "patchstack", "type": "web_scrape", "target": "Patchstack programs"},
+        {"name": "bugrap", "type": "web_scrape", "target": "BugRap programs"},
+        {"name": "direct_email", "type": "parse", "target": "security.txt files"}
+      ],
+      "cron": "0 */6 * * *",
+      "output": "targets/phase1_programs.json"
+    },
+    {
+      "id": "recon",
+      "name": "Reconnaissance",
+      "description": "Subdomain enumeration + tech stack detection on scope URLs",
+      "delegation": "batch_sequential",
+      "tasks_per_batch": 3,
+      "batches": [
+        ["crt.sh subdomains", "certspotter subdomains", "dns brute force"],
+        ["tech stack detection", "WAF detection", "server detection"]
+      ],
+      "cron": "0 2 * * *",
+      "output": "targets/phase2_recon.json"
+    },
+    {
+      "id": "scan",
+      "name": "Vulnerability Scanning",
+      "description": "Check common vulnerabilities on discovered targets",
+      "delegation": "batch_parallel",
+      "tasks_per_batch": 5,
+      "vuln_checks": [
+        "WP user enum",
+        ".git/config exposure",
+        ".env exposure",
+        "debug.log exposure",
+        "CORS misconfig",
+        "S3 bucket open",
+        "directory listing",
+        "admin panel exposure",
+        "open redirect",
+        "API key in JS"
+      ],
+      "cron": "0 4 * * *",
+      "output": "scans/phase3_findings.json"
+    },
+    {
+      "id": "poc",
+      "name": "Proof of Concept",
+      "description": "Create working PoC exploits for confirmed findings",
+      "delegation": "single",
+      "trigger": "scan.findings.length > 0",
+      "output": "reports/pocs/"
+    },
+    {
+      "id": "verify",
+      "name": "Verification",
+      "description": "Confirm findings are real, check for duplicates",
+      "delegation": "single",
+      "trigger": "poc.confirmed.length > 0",
+      "output": "reports/verified/"
+    },
+    {
+      "id": "review",
+      "name": "Quality Review",
+      "description": "Review report quality, severity, CVSS scoring",
+      "delegation": "single",
+      "trigger": "verify.verified.length > 0",
+      "output": "reports/reviewed/"
+    },
+    {
+      "id": "submit",
+      "name": "Submission",
+      "description": "Submit findings via email or platform API",
+      "delegation": "parallel",
+      "trigger": "review.approved.length > 0",
+      "email_config": {
+        "host": "mail.berkahkarya.org",
+        "port": 587,
+        "user": "marketing",
+        "pass": "BerkahKarya2026!",
+        "from": "marketing@berkahkarya.org"
+      },
+      "platform_auth": {
+        "hackerone": "oyi77:O3S0bXWsyauUePl5hZRlECmXc3AXzk7EbNCXCOqdt1s="
+      },
+      "output": "reports/submissions/"
+    }
+  ],
+  "state_file": "pipeline/state.json",
+  "active_crons": [
+    {"id": "bb-discover-programs", "phase": "discover", "schedule": "0 */6 * * *"},
+    {"id": "bb-recon-daily", "phase": "recon", "schedule": "0 2 * * *"},
+    {"id": "bb-scan-batch", "phase": "scan", "schedule": "0 4 * * *"}
+  ]
+}

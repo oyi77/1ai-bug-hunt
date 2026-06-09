@@ -1,0 +1,51 @@
+=== AFTERPAY HEALTH PORTAL - BUG BOUNTY EVIDENCE ===
+Date: 2026-05-20
+Target: portal.health.afterpay.com (Bugcrowd)
+
+=== 1. ENV.JS EXPOSURE ===
+URL: https://portal.health.afterpay.com/env.js
+Content:
+  window.ENV = {
+    MERCHANT_API_URL: "https://api.portal.health.afterpay.com",
+  };
+Finding: Client-side config file exposes internal API hostname. No authentication required to access.
+
+=== 2. INTERNAL API (api.portal.health.afterpay.com) ===
+All endpoints return 401 {"message":"Unauthorized"}
+Endpoints tested: /, /api, /api/v1, /health, /swagger.json
+Headers show: Cloudflare, proper security headers (HSTS, X-Frame-Options: DENY, etc.)
+
+=== 3. PORTAL ENDPOINT SCAN ===
+All SPA routes return 200 (Next.js SSR fallback):
+  /api -> 200
+  /api/v1 -> 200
+  /graphql -> 200
+  /swagger.json -> 200
+  /openapi.json -> 200
+  /health -> 200
+  /debug -> 200
+  /admin -> 200
+  /login -> 200
+  /register -> 200
+  /robots.txt -> 200
+  /sitemap.xml -> 200
+  /manifest.json -> 200
+  /_next -> 200
+  /static -> 200
+  /.env -> 403 (Blocked but exists!)
+
+=== 4. RESPONSE HEADERS ===
+Infrastructure:
+  - Cloudflare CDN
+  - AWS CloudFront origin (x-amz-cf-pop: SIN3-P4)
+  - S3 bucket hosting (x-amz-server-side-encryption: AES256)
+  - x-amz-version-id: 0EP4DD1a3bhJpR6niZbpurGCCpmVmMqd
+Security:
+  - strict-transport-security: max-age=3600; preload
+  - x-content-type-options: nosniff
+  - x-frame-options: DENY (on API)
+  - Cache-Control: no-cache (on API)
+
+=== 5. CORS ===
+No Access-Control-Allow-Origin header returned for Origin: https://evil.com
+CORS is not misconfigured on the portal frontend.

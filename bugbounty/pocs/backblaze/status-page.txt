@@ -1,0 +1,6 @@
+status.backblaze.com/api -> 200
+status.backblaze.com/api/v2 -> 200
+status.backblaze.com/api/v2/summary.json -> 200
+status.backblaze.com/api/v2/status.json -> 200
+status.backblaze.com/api/v2/incidents.json -> 200
+status.backblaze.com/api/v2/components.json -> 200

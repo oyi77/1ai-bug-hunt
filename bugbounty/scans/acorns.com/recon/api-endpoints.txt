@@ -1,0 +1,10 @@
+/api -> 301
+/api/v1 -> 301
+/graphql -> 301
+/swagger.json -> 301
+/openapi.json -> 301
+/.env -> 403
+/robots.txt -> 301
+/sitemap.xml -> 301
+/security.txt -> 301
+/.well-known/security.txt -> 301

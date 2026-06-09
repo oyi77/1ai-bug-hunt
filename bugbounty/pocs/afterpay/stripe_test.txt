@@ -1,0 +1,14 @@
+=== Stripe Key Test ===
+Payment methods: {
+  "error": {
+    "code": "parameter_missing",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-missing",
+    "message": "Missing required param: card.",
+    "param": "card",
+    "request_log_url": "https://dashboard.stripe.com/acct_1DjGXnH35CUlpaF0/workbench/logs?object=req_lGj0dd1FsG
+
+Account: {
+  "error": {
+    "code": "secret_key_required",
+    "doc_url": "https://stripe.com/docs/error-codes/secret-key-required",
+    "message": "This API call cannot be made with a publishable API key. Please use a secret API key. You can find a list of your API keys at https://dashboard.stripe.com/accou

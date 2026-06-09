@@ -1,0 +1,5 @@
+FOUND: cloud.clickhouse.com/.env -> 301
+FOUND: cloud.clickhouse.com/config.json -> 301
+FOUND: cloud.clickhouse.com/config.js -> 301
+FOUND: cloud.clickhouse.com/appsettings.json -> 301
+FOUND: cloud.clickhouse.com/settings.json -> 301

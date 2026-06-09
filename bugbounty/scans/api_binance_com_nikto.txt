@@ -1,0 +1,7 @@
+- Nikto v2.5.0/
++ Target Host: api.binance.com
++ Target Port: 443
++ GET /: Retrieved via header: 1.1 33226affc74d202f177601de1b2576aa.cloudfront.net (CloudFront).
++ GET /: Retrieved access-control-allow-origin header: *.
++ GET : Server banner changed from 'nginx' to 'CloudFront'.
++ GET /robots.txt: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type. See: https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/: 

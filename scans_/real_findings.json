@@ -1,0 +1,42 @@
+{
+  "scan_time": "2026-06-09T12:32:41Z",
+  "count": 4,
+  "findings": [
+    {
+      "name": "SCIP",
+      "url": "https://scip.ch",
+      "wp": false,
+      "git": false,
+      "env": true,
+      "dbg": true,
+      "xml": false
+    },
+    {
+      "name": "Swisscom",
+      "url": "https://swisscom.com",
+      "wp": false,
+      "git": false,
+      "env": false,
+      "dbg": true,
+      "xml": false
+    },
+    {
+      "name": "Swiss Post",
+      "url": "https://post.ch",
+      "wp": false,
+      "git": false,
+      "env": true,
+      "dbg": false,
+      "xml": false
+    },
+    {
+      "name": "BugBounty CH",
+      "url": "https://www.bugbounty.ch",
+      "wp": true,
+      "git": false,
+      "env": false,
+      "dbg": false,
+      "xml": false
+    }
+  ]
+}

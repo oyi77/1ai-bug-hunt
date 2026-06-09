@@ -1,0 +1,17 @@
+GRANT addressToSymbol, demangle ON *.* TO play
+GRANT SELECT ON aoc.* TO play
+GRANT SELECT ON blogs.* TO play
+GRANT dictGet ON blogs.country_iso_codes TO play
+GRANT dictGet ON blogs.country_polygons TO play
+GRANT dictGet ON blogs.stations_dict TO play
+GRANT dictGet ON blogs.stations_dict_by_id TO play
+GRANT SELECT ON coverage_ci.coverage_data TO play
+GRANT SELECT ON default.* TO play
+GRANT SELECT ON git_clickhouse.* TO play
+GRANT SHOW COLUMNS, SELECT, dictGet ON keeper_stress_tests.* TO play
+GRANT SELECT ON mgbench.* TO play
+GRANT SELECT ON system.asynchronous_metric_log TO play
+GRANT SELECT ON system.dashboards TO play
+GRANT SELECT ON system.events TO play
+GRANT SELECT ON system.metric_log TO play
+GRANT SELECT ON system.metrics TO play

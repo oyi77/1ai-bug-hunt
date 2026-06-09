@@ -1,0 +1,95 @@
+=== EVIDENCE LOG ===
+Date: Wed May 20 08:59:53 PM UTC 2026
+
+=== 1. mobileapi.afterpay.com headers ===
+HTTP/2 404 
+date: Wed, 20 May 2026 20:59:54 GMT
+content-length: 118
+set-cookie: __cf_bm=Q9uqeIfHpW6Bq.23yZ0fzgQJ3NFdY28O3SS.V7GfLfc-1779310793.9419875-1.0.1.1-_tIPtIhug3dDVoDu_j8U3xKQkP.GxUwpKIT9pRLh31fy0gCLYYu8b4QBqIhhapCuM7lD60c9D4bh6jclJVVotHd5WhN6kp1fAlWjMs1pucgMlhb5Wi6WsQUnN_ebBK_r_9Y_2p6e07xAGt7V8cAAnA; HttpOnly; SameSite=None; Secure; Path=/; Domain=afterpay.com; Expires=Wed, 20 May 2026 21:29:54 GMT
+set-cookie: _cfuvid=mqhzO66Tr3LyZ.2h5DMqIC52eKuJNSEZt5psOlWAmS0-1779310793.9419875-1.0.1.1-65fTI26ck7SRRxsZh4MhGj1woDPgxypCqj43eXQZtZI; HttpOnly; SameSite=None; Secure; Path=/; Domain=afterpay.com
+cf-ray: 9fee448e2e1fe5ce-CGK
+cf-cache-status: DYNAMIC
+server: cloudflare
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-envoy-upstream-service-time: 2
+
+
+=== 2. /ping ===
+pong
+
+=== 3. /v1/consumers ===
+{
+  "errorCode" : "unauthorized",
+  "errorId" : "4708f6f2c3efc873",
+  "message" : "Credentials are required to access this resource.",
+  "httpStatusCode" : 401
+}
+=== 4. OPTIONS /v1/consumers/profile ===
+HTTP/2 200 
+date: Wed, 20 May 2026 20:59:55 GMT
+content-type: text/plain
+content-length: 18
+set-cookie: __cf_bm=yBK6O0e9pMRUHjN.Zo.5xD0cMj6inp6GXD.KECCycU0-1779310795.3379772-1.0.1.1-A6QKBEZvxVr0Es9Cn_C4Ce4EpL7nGH_EMpAzez2KSxRly252gKeJllz1s..UgbUUdIzwABRhuB.dPAApsQT4BBA_1mrbP2EEEEb9lk.Ui2.uzW_m8JAE4NYPJTzmqWe4G78ejRGiTSeQKC8Iydk1Lw; HttpOnly; SameSite=None; Secure; Path=/; Domain=afterpay.com; Expires=Wed, 20 May 2026 21:29:55 GMT
+set-cookie: _cfuvid=zC1lIyt0PkbCq9K_hTo3frlDw9gNiQbMz4L6EznYoNo-1779310795.3379772-1.0.1.1-xhdIMADE_zkjf.HSA716kuvXr2EaOYi1XQgyVDV6z_A; HttpOnly; SameSite=None; Secure; Path=/; Domain=afterpay.com
+cf-ray: 9fee4496d9c78194-CGK
+cf-cache-status: DYNAMIC
+allow: POST,OPTIONS,PUT
+server: cloudflare
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+http_correlation_id: nrze4fktt6gqp3t7mbplta2lcm
+x-envoy-upstream-service-time: 9
+
+
+=== 5. OPTIONS /v1/consumers ===
+HTTP/2 200 
+date: Wed, 20 May 2026 20:59:55 GMT
+content-type: text/plain
+content-length: 18
+set-cookie: __cf_bm=yyR_umpYwSJwU.5aleH5syNUoyv0Qq.x2NxFy5nTA48-1779310795.579167-1.0.1.1-C8ggvIH1EPEWmaIDObfZPIfcJi_rPuE2hNc._g6.peiWNWNdbRHvZqVW1bFkwCwkznZzsCo_b8UP1_Uou0IJzeJWX.s7B9PaWOWg03zuiUIesV4MUwMDqffGH7dDQCDjm0lkCD4oBjrPbuq4F90rsA; HttpOnly; SameSite=None; Secure; Path=/; Domain=afterpay.com; Expires=Wed, 20 May 2026 21:29:55 GMT
+set-cookie: _cfuvid=I7mVCBmhoqPYSnPqPMeVBGadrSdVGctHZ1hO4o2OIrg-1779310795.579167-1.0.1.1-N1adc2p08041LWEohmTXOfliltW9giFCse0kg3tjW.Q; HttpOnly; SameSite=None; Secure; Path=/; Domain=afterpay.com
+cf-ray: 9fee449858091bdd-CGK
+cf-cache-status: DYNAMIC
+allow: HEAD,GET,OPTIONS
+server: cloudflare
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+http_correlation_id: bgtlzrxfffjhtzjbmocj3hvo4e
+x-envoy-upstream-service-time: 3
+
+
+=== 6. All discovered endpoints status ===
+/ping -> 200
+/v1/consumers -> 401
+/v1/consumers/profile -> 405
+/v1/consumers/orders -> 401
+/v1/consumers/cards -> 401
+/v1/consumers/limit -> 401
+/v1/consumers/bank-accounts -> 401
+/v1/consumers/statements -> 401
+
+=== 7. portalapi /ping ===
+pong
+
+=== 8. portalapi headers ===
+HTTP/2 200 
+date: Wed, 20 May 2026 20:59:59 GMT
+content-type: text/plain;charset=iso-8859-1
+content-length: 5
+set-cookie: __cf_bm=CpYAfeJlzyaMagCv5IFJwExd4nX.50u4BXPSuTiKo94-1779310799.052936-1.0.1.1-OO9pxm0gtRbaycVtWT7XPMmM_5MYBk124tpnls6uSQQ6Hfp.uewN_pa8K73E32o0sluHUVJGhs7xvbbloYJAJK6to4TKopWh2kTlXbctg7Qh2KMOBRXkfFGJQhgaBdaJJu7Xe3.kUfJgz_ZECISNQA; HttpOnly; SameSite=None; Secure; Path=/; Domain=afterpay.com; Expires=Wed, 20 May 2026 21:29:59 GMT
+set-cookie: _cfuvid=GE_hv6QheBCrHZNJw64uaIoMSQf7x699bjn.sVpO2Y8-1779310799.052936-1.0.1.1-RDu6yWDpu_PjLVpmP6Kee70kfbEMDv6vyf6Jkq4k528; HttpOnly; SameSite=None; Secure; Path=/; Domain=afterpay.com
+cf-ray: 9fee44ae1d488194-CGK
+cf-cache-status: DYNAMIC
+cache-control: must-revalidate,no-cache,no-store
+server: cloudflare
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+vary: Origin
+x-content-type-options: nosniff
+x-envoy-upstream-service-time: 2
+x-frame-options: DENY
+x-xss-protection: 0
+
+
+=== 9. .env blocked (Cloudflare WAF) ===
+403
+=== 10. .git/HEAD blocked (Cloudflare WAF) ===
+403
+=== END EVIDENCE ===

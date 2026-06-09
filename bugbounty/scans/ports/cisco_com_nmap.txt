@@ -1,0 +1,3 @@
+# Nmap 7.98 scan initiated Wed May 20 04:12:23 2026 as: /usr/lib/nmap/nmap --privileged -sV -sC --top-ports 1000 -T4 --open -oN ports/cisco_com_nmap.txt cisco.com
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed May 20 04:30:45 2026 -- 1 IP address (1 host up) scanned in 1102.06 seconds

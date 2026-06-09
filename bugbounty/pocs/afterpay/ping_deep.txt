@@ -1,0 +1,51 @@
+=== /ping endpoint deep test ===
+GET: pong
+HTTP 200
+POST: {
+  "code" : "",
+  "message" : "HTTP 405 Method Not Allowed",
+  "httpStatus" : 405,
+  "type" : "Method Not Allowed"
+}
+HTTP 405
+PUT: {
+  "code" : "",
+  "message" : "HTTP 405 Method Not Allowed",
+  "httpStatus" : 405,
+  "type" : "Method Not Allowed"
+}
+HTTP 405
+DELETE: {
+  "code" : "",
+  "message" : "HTTP 405 Method Not Allowed",
+  "httpStatus" : 405,
+  "type" : "Method Not Allowed"
+}
+HTTP 405
+PATCH: {
+  "code" : "",
+  "message" : "HTTP 405 Method Not Allowed",
+  "httpStatus" : 405,
+  "type" : "Method Not Allowed"
+}
+HTTP 405
+OPTIONS: HEAD, GET, OPTIONS
+HTTP 200
+HEAD: 
+HTTP 200
+--- POST with JSON ---
+{
+  "code" : "",
+  "message" : "HTTP 405 Method Not Allowed",
+  "httpStatus" : 405,
+  "type" : "Method Not Allowed"
+}
+HTTP 405
+--- POST with form ---
+{
+  "code" : "",
+  "message" : "HTTP 405 Method Not Allowed",
+  "httpStatus" : 405,
+  "type" : "Method Not Allowed"
+}
+HTTP 405

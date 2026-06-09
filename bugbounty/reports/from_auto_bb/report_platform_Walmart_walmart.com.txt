@@ -1,0 +1,72 @@
+═══════════════════════════════════════════════════════════
+VULNERABILITY DISCLOSURE REPORT — PLATFORM SUBMISSION
+═══════════════════════════════════════════════════════════
+
+Company:      Walmart
+Domain:       walmart.com
+Program:      Walmart VDP
+Program URL:  https://corporate.walmart.com/article/responsible-disclosure-policy
+Submission:   https://corporate.walmart.com/article/responsible-disclosure-policy (web form)
+Report ID:    VDR-20260609-P1115
+Date:         2026-06-09 05:05 UTC
+
+─── EXECUTIVE SUMMARY ──────────────────────────────────────────────────
+
+This report summarises findings from an automated security assessment of
+Walmart's web infrastructure at walmart.com and its subdomains. The assessment
+used non-destructive testing methods aligned with OWASP Testing Guide v4.
+
+─── SCOPE TESTED ───────────────────────────────────────────────────────
+
+Target domain(s): walmart.com (+ subdomains via CT log enumeration)
+
+Checks performed:
+  • WordPress user enumeration via /wp-json/wp/v2/users
+  • Git repository exposure (.git/config, .git/HEAD)
+  • Environment file exposure (.env, debug.log)
+  • Directory listing on common paths
+  • S3 bucket misconfiguration checks
+  • Admin panel exposure
+  • REST API info disclosure
+
+─── FINDINGS ───────────────────────────────────────────────────────────
+
+  Finding                           Status
+  ─────────────────────────────────────────────────────────────────────
+  WordPress User Enumeration        No vulnerability detected
+  Git Config Exposure               No vulnerability detected
+  Environment File Exposure         No vulnerability detected
+  Directory Listing                 No vulnerability detected
+  S3 Bucket Misconfiguration        No vulnerability detected
+  Admin Panel Exposure              No vulnerability detected
+  Sensitive Info Disclosure         No vulnerability detected
+
+  Overall Risk: LOW
+
+─── METHODOLOGY ────────────────────────────────────────────────────────
+
+  1. Subdomain enumeration via crt.sh and CertSpotter CT logs
+  2. HTTP/s reachability probing (200/301/302/403 detection)
+  3. WordPress detection (wp-admin, wp-json, xmlrpc.php, wp-content)
+  4. Targeted path probing for sensitive files/directories
+  5. S3 bucket name pattern testing
+
+─── RECOMMENDATIONS ───────────────────────────────────────────────────
+
+  • Maintain WAF/CDN rules blocking /.git, /.env, /wp-json/wp/v2/users
+  • Continue monitoring CT logs for unauthorised certificate issuance
+  • Periodically review web server response headers for information leakage
+  • Ensure debug/error logging is not exposed through web-accessible paths
+
+─── NOTES ──────────────────────────────────────────────────────────────
+
+This report is submitted in accordance with Walmart's disclosed
+vulnerability disclosure policy. No customer data was accessed, modified,
+or exfiltrated during testing.
+
+Please acknowledge receipt of this report. For follow-up, please contact
+marketing@berkahkarya.org.
+
+───────────────
+Security Research Team
+marketing@berkahkarya.org

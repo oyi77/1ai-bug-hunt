@@ -1,0 +1,11 @@
+developers.afterpay.com -> 307
+docs.afterpay.com -> 301
+api.afterpay.com -> 404
+portal.afterpay.com -> 302
+adminportal.health.afterpay.com -> 403
+portal.health.afterpay.com -> 200
+nexus.corp.afterpay.com -> 403
+status.afterpay.com -> 200
+developers-beta.afterpay.com -> 307
+help.afterpay.com -> 302
+help.business.afterpay.com -> 302

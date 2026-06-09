@@ -1,0 +1,25 @@
+/b2api/v1/b2_authorize_account -> 401: {
+  "code": "bad_auth_token",
+  "message": "",
+  "status": 401
+}
+/b2api/v1/b2_create_bucket -> 400: {
+  "code": "bad_request",
+  "message": "required field accountId is missing",
+  "status": 400
+}
+/b2api/v1/b2_list_buckets -> 400: {
+  "code": "bad_request",
+  "message": "required field accountId is missing",
+  "status": 400
+}
+/b2api/v1/b2_list_file_names -> 400: {
+  "code": "bad_request",
+  "message": "required field bucketId is missing",
+  "status": 400
+}
+/b2api/v2/b2_authorize_account -> 401: {
+  "code": "bad_auth_token",
+  "message": "",
+  "status": 401
+}

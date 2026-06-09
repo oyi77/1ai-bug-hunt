@@ -1,0 +1,12 @@
+www.backblaze.com -> 200
+help.backblaze.com -> 302
+docs.backblaze.com -> 301
+blog.backblaze.com -> 301
+status.backblaze.com -> 200
+s3.us-west-002.backblazeb2.com -> 403
+s3.us-east-005.backblazeb2.com -> 403
+s3.eu-central-003.backblazeb2.com -> 403
+f000.backblazeb2.com -> 301
+f001.backblazeb2.com -> 301
+f002.backblazeb2.com -> 301
+api.backblazeb2.com -> 301

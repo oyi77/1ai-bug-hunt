@@ -1,0 +1,23 @@
+{
+  "started_at": "2026-05-20T22:24:54.679633",
+  "targets": [
+    {
+      "handle": "acorns.com",
+      "platform": "manual",
+      "started_at": "2026-05-20T22:24:54.684384",
+      "recon": {
+        "domain": "acorns.com",
+        "subdomains": 681,
+        "live_hosts": 0,
+        "nuclei_findings": 0
+      },
+      "findings": [],
+      "reports": [],
+      "finished_at": "2026-05-20T22:48:04.584472"
+    }
+  ],
+  "findings": [],
+  "reports": [],
+  "dry_run": true,
+  "finished_at": "2026-05-20T22:48:04.584513"
+}

@@ -1,0 +1,2 @@
+   https://acorns.com   https://acorns.com/?cmyubgpk=%3Cscript%3Ealert%28%22XSS%22%29%3B%3C%2Fscript%3E&sjkqznsd=UNION+SELECT+ALL+FROM+information_schema+AND+%22+or+SLEEP%285%29+or+%22&wktvkvvs=..%2F..%2Fetc%2Fpasswd (Google Cloud App Armor)   Google Cloud App Armor
+   https://acorns.com                                                                                                                                   https://acorns.com/?znmyllnj=%3Cscript%3Ealert%28%22XSS%22%29%3B%3C%2Fscript%3E (Generic)                  Generic

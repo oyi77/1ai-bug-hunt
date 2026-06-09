@@ -1,0 +1,1956 @@
+{
+  "metadata": {
+    "generated": "2026-06-09",
+    "source_platforms": [
+      "Bugcrowd",
+      "Intigriti",
+      "YesWeHack"
+    ],
+    "description": "Bug bounty programs with open submissions across three platforms. Focus on paid bounties, open scope, and no strict Signal requirements.",
+    "last_check": "2026-06-09 via bbradar.io + direct scraping"
+  },
+  "bugcrowd": {
+    "platform": "Bugcrowd",
+    "url": "https://bugcrowd.com/programs",
+    "note": "Programs listed as 'Bug Bounty' (public) on bugcrowd.com/engagements. Many more programs available \u2014 this is a representative sample of open programs.",
+    "programs": [
+      {
+        "name": "T-Mobile",
+        "url": "https://bugcrowd.com/engagements/t-mobile",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api",
+          "mobile"
+        ],
+        "scope_summary": "Core: account.t-mobile.com, t-mobile.com, *.api.t-mobile.com, sprint.com, metrobyt-mobile.com. Mobile: T-Mobile iOS/Android, SyncUP DRIVE/KIDS/TRACKER, DIGITS. API endpoints across multiple services.",
+        "bounty_range": "Up to $133,700 (special targets) | P1 Core: $55,000 | P2 Core: $35,000 | Static rewards: $1,500 for subdomain takeover",
+        "avg_payout": "$17,374.70 (last 3 months)",
+        "safe_harbor": "Full",
+        "submission_method": "Bugcrowd platform with custom X-Bug-Bounty header",
+        "notes": "Uses T-Mobile Severity Rating Flowchart (not CVSS/VRT). Loyalty program for repeat researchers. Subdomain takeovers $1,500 static."
+      },
+      {
+        "name": "Tesla",
+        "url": "https://bugcrowd.com/engagements/tesla",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api",
+          "mobile",
+          "hardware"
+        ],
+        "scope_summary": "Web: *.tesla.com, *.teslamotors.com, *.solarcity.com, *.tesla.services, *.tesla.cn. Mobile: Tesla iOS/Android apps. Vehicle hardware you own.",
+        "bounty_range": "Web: P1 $3,000-$10,000 | Vehicle: P1 $50,000-$100,000 | P2 $20,000-$50,000 | P3 $10,000-$20,000",
+        "avg_payout": "$1,531.22 (last 3 months)",
+        "safe_harbor": "Full",
+        "submission_method": "Bugcrowd platform + vulnerabilityreporting@tesla.com for vehicle/energy hardware",
+        "notes": "Vehicle targets pay significantly more. Must register owned hardware before research. Avg payout lower due to many web submissions."
+      },
+      {
+        "name": "Pinterest",
+        "url": "https://bugcrowd.com/engagements/pinterest",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api",
+          "mobile"
+        ],
+        "scope_summary": "Web: *.pinterest.com, api.pinterest.com. Mobile: Pinterest iOS/Android/Lite. Browser extensions (Chrome, Edge, Firefox, Safari). Shuffles app. Open source at github.com/pinterest/.",
+        "bounty_range": "P1: $10,000-$25,000 | P2: $5,000-$8,000 | P3: $1,000-$3,000 | P4: $200-$500",
+        "safe_harbor": "Full",
+        "submission_method": "Bugcrowd platform, requires @bugcrowdninja.com email for API developer enrollment",
+        "notes": "Strict & Non-Negotiable Rewards Caps. Uses Bugcrowd VRT. Requires business account + developer enrollment for API testing."
+      },
+      {
+        "name": "Atlassian",
+        "url": "https://bugcrowd.com/engagements/atlassian",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api",
+          "mobile"
+        ],
+        "scope_summary": "Cloud: Jira, Confluence, Bitbucket, Compass, Rovo, Atlas. Data Center: Jira, Confluence, Bitbucket, Crowd, Bamboo. Mobile: Jira Cloud/DC, Confluence Cloud/DC. Loom (recently acquired).",
+        "bounty_range": "Up to $12,000 per vulnerability (varies by product)",
+        "safe_harbor": "Full",
+        "submission_method": "Bugcrowd platform, requires @bugcrowdninja.com email",
+        "notes": "Focus areas: Cross Instance Data Leakage, RCE, SSRF, XSS, CSRF, SQLi, XXE, IDOR. Must use own test instances named bugbounty-test-<username>.atlassian.net."
+      },
+      {
+        "name": "Zendesk",
+        "url": "https://bugcrowd.com/engagements/zendesk",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api"
+        ],
+        "scope_summary": "Zendesk SaaS products and services",
+        "bounty_range": "$100 - $50,000",
+        "safe_harbor": "Full",
+        "submission_method": "Bugcrowd platform"
+      },
+      {
+        "name": "Okta",
+        "url": "https://bugcrowd.com/engagements/okta",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api"
+        ],
+        "scope_summary": "Cloud Identity and Mobility Management Service",
+        "bounty_range": "$100 - $75,000",
+        "safe_harbor": "Full",
+        "submission_method": "Bugcrowd platform"
+      },
+      {
+        "name": "Chime",
+        "url": "https://bugcrowd.com/engagements/chime",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api",
+          "mobile"
+        ],
+        "scope_summary": "Chime financial platform (web + mobile)",
+        "bounty_range": "$50 - $20,000",
+        "safe_harbor": "Full",
+        "submission_method": "Bugcrowd platform"
+      },
+      {
+        "name": "Blockchain.com",
+        "url": "https://bugcrowd.com/engagements/blockchain-dot-com",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api",
+          "mobile"
+        ],
+        "scope_summary": "Crypto finance platform (web, mobile, API)",
+        "bounty_range": "$100 - $10,000",
+        "safe_harbor": "Full",
+        "submission_method": "Bugcrowd platform"
+      },
+      {
+        "name": "eToro",
+        "url": "https://bugcrowd.com/engagements/etoro",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api",
+          "mobile"
+        ],
+        "scope_summary": "Social investment network",
+        "bounty_range": "$100 - $15,000",
+        "safe_harbor": "Full",
+        "submission_method": "Bugcrowd platform"
+      },
+      {
+        "name": "Fireblocks",
+        "url": "https://bugcrowd.com/engagements/fireblocks-web",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api"
+        ],
+        "scope_summary": "Blockchain-based products platform",
+        "bounty_range": "$20 - $12,000",
+        "safe_harbor": "Full",
+        "submission_method": "Bugcrowd platform"
+      },
+      {
+        "name": "Opera",
+        "url": "https://bugcrowd.com/engagements/opera",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api",
+          "mobile",
+          "desktop"
+        ],
+        "scope_summary": "Web: auth.opera.com, www.opera.com, accounts.opera.com, flow.opera.com, download.opera.com. Desktop: Opera, Opera GX, Opera Neon, Opera Air browsers. Mobile: Opera Mini, Opera for Android/iOS, Opera GX mobile. APIs and GameMaker.",
+        "bounty_range": "P1: $3,000-$10,000 (web) | P1: $1,000-$5,000 (mobile) | Max $10,000 for auth.opera.com",
+        "avg_payout": "$994.44 (last 3 months)",
+        "safe_harbor": "Full",
+        "submission_method": "Bugcrowd platform",
+        "notes": "336 vulnerabilities rewarded. Validation in ~12 days. High-impact: leak of end-user personal data from production servers ($5,000-$10,000)."
+      },
+      {
+        "name": "SEEK",
+        "url": "https://bugcrowd.com/engagements/seek",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api",
+          "mobile"
+        ],
+        "scope_summary": "Web: *.seek.com, *.employer.seek.com, *.jobsdb.com, *.jobstreet.com, *.seekpass.co. API: graphql.seek.com, auth.seek.com, *.jobapi.net. Mobile: SEEK iOS/Android, SEEK Pass iOS/Android.",
+        "bounty_range": "P1: $5,000-$10,000 | P2: $700-$5,000 | P3: $200-$700 | P4: $50-$200",
+        "avg_payout": "$2,712.50 (last 3 months)",
+        "safe_harbor": "Full",
+        "submission_method": "Bugcrowd platform, requires @bugcrowdninja.com email",
+        "notes": "403 vulnerabilities rewarded. No automated tools. No AI-generated reports. Test job posts must use specific template."
+      },
+      {
+        "name": "LaunchDarkly",
+        "url": "https://bugcrowd.com/engagements/launchdarkly",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api"
+        ],
+        "scope_summary": "Feature management platform",
+        "bounty_range": "$150 - $7,500",
+        "safe_harbor": "Full",
+        "submission_method": "Bugcrowd platform"
+      },
+      {
+        "name": "Rapyd",
+        "url": "https://bugcrowd.com/engagements/rapyd",
+        "open_submissions": true,
+        "scope_types": [
+          "api",
+          "url"
+        ],
+        "scope_summary": "Payment APIs and fintech infrastructure",
+        "bounty_range": "$100 - $7,500",
+        "safe_harbor": "Full",
+        "submission_method": "Bugcrowd platform"
+      },
+      {
+        "name": "Safety Bug Bounty (OpenAI)",
+        "url": "https://bugcrowd.com/engagements/openai-safety",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api"
+        ],
+        "scope_summary": "OpenAI products - safety and abuse issues (complements security bug bounty)",
+        "bounty_range": "$250 - $7,500",
+        "safe_harbor": "Full",
+        "submission_method": "Bugcrowd platform",
+        "notes": "Focus on safety & abuse risks to OpenAI users"
+      },
+      {
+        "name": "Moovit",
+        "url": "https://bugcrowd.com/engagements/moovit",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api",
+          "mobile"
+        ],
+        "scope_summary": "Urban mobility app (MaaS)",
+        "bounty_range": "$100 - $7,000",
+        "safe_harbor": "Full",
+        "submission_method": "Bugcrowd platform"
+      },
+      {
+        "name": "Optus",
+        "url": "https://bugcrowd.com/engagements/optus",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api",
+          "mobile"
+        ],
+        "scope_summary": "Australian telecommunications company",
+        "bounty_range": "$150 - $5,000",
+        "safe_harbor": "Full",
+        "submission_method": "Bugcrowd platform"
+      },
+      {
+        "name": "iRobot",
+        "url": "https://bugcrowd.com/engagements/irobot",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api",
+          "mobile",
+          "hardware"
+        ],
+        "scope_summary": "Web: irobot.com properties. API: aspen-ecommerce-prod.iot.irobotapi.com. Mobile: Roomba Home iOS/Android. Hardware: Roomba robots. Cloud APIs.",
+        "bounty_range": "P1: $3,500-$4,500 (device) | P1: $2,500-$3,000 (app) | P1: $1,000-$1,500 (cloud) | P1: $750-$1,000 (web)",
+        "avg_payout": "$627.77 (last 3 months)",
+        "safe_harbor": "Full",
+        "submission_method": "Bugcrowd platform",
+        "notes": "Manual testing strongly encouraged - no automated scanners. Focus on cross-user vulnerabilities (affecting other customers' robots)."
+      },
+      {
+        "name": "Cloudinary",
+        "url": "https://bugcrowd.com/engagements/cloudinary",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api"
+        ],
+        "scope_summary": "Web: cloudinary.com/console. API: api.cloudinary.com, res.cloudinary.com. Tier II: mediaflows.cloudinary.com, dimensions.cloudinary.com.",
+        "bounty_range": "P1: $7,000 (Tier I) | P2: $2,000-$4,000 | P3: $500-$2,000 | P4: $0-$500 | Tier II: P1 $500-$1,000",
+        "safe_harbor": "Full",
+        "submission_method": "Bugcrowd platform, requires @bugcrowdninja email",
+        "notes": "Extraordinary submissions for RCE, business logic bypasses, major operational failures. No automated scanners."
+      },
+      {
+        "name": "Luno",
+        "url": "https://bugcrowd.com/engagements/luno",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api",
+          "mobile"
+        ],
+        "scope_summary": "Cryptocurrency platform",
+        "bounty_range": "$100 - $7,500",
+        "safe_harbor": "Full",
+        "submission_method": "Bugcrowd platform"
+      },
+      {
+        "name": "Web.com",
+        "url": "https://bugcrowd.com/engagements/web-com",
+        "open_submissions": true,
+        "scope_types": [
+          "url"
+        ],
+        "scope_summary": "Website building platform",
+        "bounty_range": "Points - $3,000 (up to $5,000)",
+        "safe_harbor": "Full",
+        "submission_method": "Bugcrowd platform"
+      },
+      {
+        "name": "Magic Labs",
+        "url": "https://bugcrowd.com/engagements/magic-labs",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api"
+        ],
+        "scope_summary": "Web3 wallet infrastructure",
+        "bounty_range": "$250 - $3,000",
+        "safe_harbor": "Full",
+        "submission_method": "Bugcrowd platform"
+      },
+      {
+        "name": "HostGator LATAM",
+        "url": "https://bugcrowd.com/engagements/hostgator-latam",
+        "open_submissions": true,
+        "scope_types": [
+          "url"
+        ],
+        "scope_summary": "Web hosting provider (Latin America)",
+        "bounty_range": "Points - $2,500",
+        "safe_harbor": "Full",
+        "submission_method": "Bugcrowd platform"
+      },
+      {
+        "name": "Aiven",
+        "url": "https://bugcrowd.com/engagements/aiven-mbb-og",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api"
+        ],
+        "scope_summary": "Cloud data infrastructure (Kafka, PostgreSQL, MySQL, OpenSearch, etc.)",
+        "bounty_range": "Up to $25,000",
+        "safe_harbor": "Full",
+        "submission_method": "Bugcrowd platform"
+      },
+      {
+        "name": "Afterpay",
+        "url": "https://bugcrowd.com/engagements/afterpay",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api",
+          "mobile"
+        ],
+        "scope_summary": "Web: afterpay.com, portal.afterpay.com, clearpay.co.uk. API: mobileapi.afterpay.com, portalapi.*.afterpay.com. Mobile: Afterpay iOS/Android, Clearpay iOS/Android.",
+        "bounty_range": "Up to $5,000",
+        "safe_harbor": "Full",
+        "submission_method": "Bugcrowd platform",
+        "notes": "Also covers Clearpay (UK) brand. Includes developer portals."
+      },
+      {
+        "name": "Acorns",
+        "url": "https://bugcrowd.com/engagements/acorns",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api",
+          "mobile"
+        ],
+        "scope_summary": "Web: acorns.com, gohenry.com, pixpay.fr. API: graphql.acorns.com. Mobile: Acorns iOS/Android.",
+        "bounty_range": "Up to $4,000",
+        "safe_harbor": "Full",
+        "submission_method": "Bugcrowd platform"
+      },
+      {
+        "name": "Arlo",
+        "url": "https://bugcrowd.com/engagements/arlo",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api",
+          "mobile",
+          "iot"
+        ],
+        "scope_summary": "Web: *.arlo.com, my.arlo.com. API: myapi.arlo.com, mcs.arlo.com, partnerapi.arlo.com. Mobile: Arlo Secure iOS/Android, Arlo Safe iOS/Android. IoT devices.",
+        "bounty_range": "Up to $4,500",
+        "safe_harbor": "Partial",
+        "submission_method": "Bugcrowd platform"
+      },
+      {
+        "name": "Asana",
+        "url": "https://bugcrowd.com/engagements/asana",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api",
+          "mobile"
+        ],
+        "scope_summary": "Web: app.asana.com, asana.com, form.asana.com, *.asana.biz. Mobile: Asana iOS/Android. Desktop app.",
+        "bounty_range": "Up to $6,500",
+        "safe_harbor": "Partial",
+        "submission_method": "Bugcrowd platform"
+      },
+      {
+        "name": "Recorded Future",
+        "url": "https://bugcrowd.com/engagements/recorded-future-mbb-og",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api",
+          "mobile"
+        ],
+        "scope_summary": "Recorded Future threat intelligence platform - web, API, mobile",
+        "bounty_range": "$250 - $5,000",
+        "safe_harbor": "Full",
+        "submission_method": "Bugcrowd platform",
+        "notes": "NEW (Mar 2026) - Managed Bug Bounty Engagement. Threat intelligence company."
+      },
+      {
+        "name": "OSL",
+        "url": "https://bugcrowd.com/engagements/osl-mbb-og1",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "mobile"
+        ],
+        "scope_summary": "OSL digital asset platform - web and mobile",
+        "bounty_range": "$0 - $1,500",
+        "safe_harbor": "Full",
+        "submission_method": "Bugcrowd platform",
+        "notes": "NEW (Mar 2026) - Managed Bug Bounty Engagement. Crypto/digital assets platform."
+      },
+      {
+        "name": "Ultra Mobile",
+        "url": "https://bugcrowd.com/engagements/ultramobile-ecomm",
+        "open_submissions": true,
+        "scope_types": [
+          "url"
+        ],
+        "scope_summary": "Ultra Mobile e-commerce platform",
+        "bounty_range": "$175 - $4,500",
+        "safe_harbor": "Full",
+        "submission_method": "Bugcrowd platform",
+        "notes": "NEW (Feb 2025) - ECOMM 2025 Bug Bounty Engagement. MVNO telecom."
+      },
+      {
+        "name": "Bitso",
+        "url": "https://bugcrowd.com/engagements/bitso-mbb-og",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "mobile"
+        ],
+        "scope_summary": "Bitso cryptocurrency exchange - web and mobile",
+        "bounty_range": "$50 - $7,500",
+        "safe_harbor": "Full",
+        "submission_method": "Bugcrowd platform",
+        "notes": "NEW (Jan 2025) - Managed Bug Bounty Engagement. Mexican crypto exchange."
+      },
+      {
+        "name": "SimpliSafe",
+        "url": "https://bugcrowd.com/engagements/simplisafe",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api",
+          "mobile"
+        ],
+        "scope_summary": "SimpliSafe home security platform - web, API, mobile",
+        "bounty_range": "$175 - $6,000",
+        "safe_harbor": "Full",
+        "submission_method": "Bugcrowd platform",
+        "notes": "NEW (Dec 2024) - Managed Bug Bounty Engagement. Smart home security."
+      },
+      {
+        "name": "REA Group",
+        "url": "https://bugcrowd.com/engagements/rea-mbb-og",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api",
+          "mobile"
+        ],
+        "scope_summary": "REA Group - realestate.com.au, realcommercial.com.au, property.com.au",
+        "bounty_range": "$50 - $4,500",
+        "safe_harbor": "Full",
+        "submission_method": "Bugcrowd platform",
+        "notes": "NEW (Dec 2024) - Managed Bug Bounty Engagement. Australian property portal."
+      },
+      {
+        "name": "Northwestern Mutual",
+        "url": "https://bugcrowd.com/engagements/northwestern-mutual-mbb-og",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "mobile"
+        ],
+        "scope_summary": "Northwestern Mutual financial services - web and mobile",
+        "bounty_range": "$200 - $6,000",
+        "safe_harbor": "Full",
+        "submission_method": "Bugcrowd platform",
+        "notes": "NEW (Nov 2024) - Managed Bug Bounty Engagement. US insurance/finance."
+      },
+      {
+        "name": "Entain",
+        "url": "https://bugcrowd.com/engagements/entain-public-mbb-og",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "mobile"
+        ],
+        "scope_summary": "Entain (sports betting/gaming) - web and mobile",
+        "bounty_range": "$100 - $5,000",
+        "safe_harbor": "Full",
+        "submission_method": "Bugcrowd platform",
+        "notes": "NEW (Nov 2024) - Managed Bug Bounty Engagement. Global sports betting group."
+      },
+      {
+        "name": "City of Vienna",
+        "url": "https://bugcrowd.com/engagements/city-of-vienna-mbb-og",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "mobile"
+        ],
+        "scope_summary": "City of Vienna government digital services",
+        "bounty_range": "$0 - $3,500",
+        "safe_harbor": "Full",
+        "submission_method": "Bugcrowd platform",
+        "notes": "NEW (Jan 2025) - Government bug bounty program. Managed Bug Bounty Engagement."
+      },
+      {
+        "name": "Internet Brands",
+        "url": "https://bugcrowd.com/engagements/internetbrands-public",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api"
+        ],
+        "scope_summary": "Internet Brands media/automotive/health web properties",
+        "bounty_range": "$0 - $2,000",
+        "safe_harbor": "Full",
+        "submission_method": "Bugcrowd platform",
+        "notes": "Added Mar 2024. Media and web properties conglomerate."
+      }
+    ]
+  },
+  "intigriti": {
+    "platform": "Intigriti",
+    "url": "https://www.intigriti.com/researchers/bug-bounty-programs",
+    "note": "Full list spans 7 pages. Programs listed below include both Bug Bounty (paid) and VDP (unpaid) programs. Focus on Bug Bounty programs with clear payout ranges.",
+    "programs": [
+      {
+        "name": "Coveo Public Bug Bounty",
+        "url": "https://app.intigriti.com/programs/coveo/coveopublicbugbounty",
+        "open_submissions": true,
+        "type": "Bug Bounty",
+        "scope_types": [
+          "url",
+          "api"
+        ],
+        "scope_summary": "AI-powered search & recommendations platform. Python execution & GenAI attack surface.",
+        "bounty_range": "$100 - $5,500",
+        "submission_method": "Intigriti platform (requires 2FA)",
+        "notes": "Interesting attack surface including Python execution and GenAI features"
+      },
+      {
+        "name": "ICI PARIS XL",
+        "url": "https://app.intigriti.com/programs/aswatson/iciparisxl-bbp/detail",
+        "open_submissions": true,
+        "type": "Bug Bounty",
+        "scope_types": [
+          "url"
+        ],
+        "scope_summary": "Retail (AS Watson group) - Hybris/SAP CMS. NL, BE, LU markets.",
+        "bounty_range": "\u20ac10 - \u20ac8,500",
+        "submission_method": "Intigriti platform",
+        "notes": "Part of AS Watson group. Same codebase across multiple programs - duplicate issues treated as single finding across programs."
+      },
+      {
+        "name": "The Perfume Shop",
+        "url": "https://app.intigriti.com/programs/aswatson/theperfumeshop-bbp/detail",
+        "open_submissions": true,
+        "type": "Bug Bounty",
+        "scope_types": [
+          "url"
+        ],
+        "scope_summary": "Retail (AS Watson group) - UK operations",
+        "bounty_range": "\u00a310 - \u00a38,500",
+        "submission_method": "Intigriti platform",
+        "notes": "AS Watson group. Same codebase caveat applies."
+      },
+      {
+        "name": "Marionnaud",
+        "url": "https://app.intigriti.com/programs/aswatson/marionnaud-bbp/detail",
+        "open_submissions": true,
+        "type": "Bug Bounty",
+        "scope_types": [
+          "url"
+        ],
+        "scope_summary": "Retail (AS Watson group) - 8 European countries",
+        "bounty_range": "\u20ac10 - \u20ac8,500",
+        "submission_method": "Intigriti platform",
+        "notes": "AS Watson group."
+      },
+      {
+        "name": "Superdrug",
+        "url": "https://app.intigriti.com/programs/aswatson/superdrug-bbp/detail",
+        "open_submissions": true,
+        "type": "Bug Bounty",
+        "scope_types": [
+          "url"
+        ],
+        "scope_summary": "Retail (AS Watson group) - UK (Superdrug & Savers)",
+        "bounty_range": "\u00a310 - \u00a38,500",
+        "submission_method": "Intigriti platform",
+        "notes": "AS Watson group."
+      },
+      {
+        "name": "Kruidvat",
+        "url": "https://app.intigriti.com/programs/aswatson/kruidvat-bbp/detail",
+        "open_submissions": true,
+        "type": "Bug Bounty",
+        "scope_types": [
+          "url"
+        ],
+        "scope_summary": "Retail (AS Watson group) - NL & BE (Kruidvat & Trekpleister)",
+        "bounty_range": "\u20ac10 - \u20ac8,500",
+        "submission_method": "Intigriti platform"
+      },
+      {
+        "name": "Watsons",
+        "url": "https://app.intigriti.com/programs/aswatson/watsons-bbp/detail",
+        "open_submissions": true,
+        "type": "Bug Bounty",
+        "scope_types": [
+          "url"
+        ],
+        "scope_summary": "Retail (AS Watson group) - Asia & Europe online/offline. Includes PNS Hong Kong, Fortress, LookAtMe Philippines, Drogas, Moneyback loyalty program.",
+        "bounty_range": "$10 - $8,500",
+        "submission_method": "Intigriti platform"
+      },
+      {
+        "name": "Nutaku Bug Bounty Program",
+        "url": "https://app.intigriti.com/programs/aylo/nutaku-bbp",
+        "open_submissions": true,
+        "type": "Bug Bounty",
+        "scope_types": [
+          "url",
+          "api"
+        ],
+        "scope_summary": "Adult content platform (Aylo group)",
+        "bounty_range": "$50 - $4,000",
+        "submission_method": "Intigriti platform (requires T&C acceptance)"
+      },
+      {
+        "name": "Brazzers Bug Bounty Program",
+        "url": "https://app.intigriti.com/programs/aylo/brazzers-bbp",
+        "open_submissions": true,
+        "type": "Bug Bounty",
+        "scope_types": [
+          "url",
+          "api"
+        ],
+        "scope_summary": "Adult content platform (Aylo group)",
+        "bounty_range": "$50 - $5,000",
+        "submission_method": "Intigriti platform (requires T&C acceptance)"
+      },
+      {
+        "name": "Pornhub Bug Bounty Program",
+        "url": "https://app.intigriti.com/programs/aylo/pornhub-bbp",
+        "open_submissions": true,
+        "type": "Bug Bounty",
+        "scope_types": [
+          "url",
+          "api"
+        ],
+        "scope_summary": "Adult content platform (Aylo group)",
+        "bounty_range": "$25 - $5,000",
+        "submission_method": "Intigriti platform (requires T&C acceptance)"
+      },
+      {
+        "name": "MyDirtyHobby Bug Bounty Program",
+        "url": "https://app.intigriti.com/programs/aylo/mydirtyhobby-bbp",
+        "open_submissions": true,
+        "type": "Bug Bounty",
+        "scope_types": [
+          "url",
+          "api"
+        ],
+        "scope_summary": "Adult content platform (Aylo group)",
+        "bounty_range": "$50 - $4,000",
+        "submission_method": "Intigriti platform (requires T&C acceptance)"
+      },
+      {
+        "name": "TrafficJunky Bug Bounty Program",
+        "url": "https://app.intigriti.com/programs/aylo/trafficjunky-bbp",
+        "open_submissions": true,
+        "type": "Bug Bounty",
+        "scope_types": [
+          "url",
+          "api"
+        ],
+        "scope_summary": "Advertising platform (Aylo group)",
+        "bounty_range": "$50 - $4,000",
+        "submission_method": "Intigriti platform (requires T&C acceptance)"
+      },
+      {
+        "name": "Probiller Bug Bounty Program",
+        "url": "https://app.intigriti.com/programs/aylo/probiller-bbp",
+        "open_submissions": true,
+        "type": "Bug Bounty",
+        "scope_types": [
+          "url",
+          "api"
+        ],
+        "scope_summary": "Billing platform (Aylo group)",
+        "bounty_range": "$50 - $4,000",
+        "submission_method": "Intigriti platform (requires T&C acceptance)"
+      },
+      {
+        "name": "Trusted Firmware (Arm)",
+        "url": "https://app.intigriti.com/programs/arm/trustedfirmware",
+        "open_submissions": true,
+        "type": "Bug Bounty",
+        "scope_types": [
+          "other"
+        ],
+        "scope_summary": "Arm secure software reference implementations: TF-A, TF-M, OP-TEE, Mbed TLS",
+        "bounty_range": "$1,000 - $20,000",
+        "submission_method": "Intigriti platform",
+        "notes": "Highest reward range on Intigriti. Related to Arm's own bug bounty program."
+      },
+      {
+        "name": "Altera",
+        "url": "https://app.intigriti.com/programs/altera/altera/detail",
+        "open_submissions": true,
+        "type": "Bug Bounty",
+        "scope_types": [
+          "other"
+        ],
+        "scope_summary": "AI software development platform",
+        "bounty_range": "$500 - $30,000",
+        "submission_method": "Intigriti platform",
+        "notes": "NEW (Nov 2024). High max payout of $30,000. AI/software company."
+      },
+      {
+        "name": "Rivian Bug Bounty",
+        "url": "https://app.intigriti.com/programs/rivian/rivianbugbounty/detail",
+        "open_submissions": true,
+        "type": "Bug Bounty",
+        "scope_types": [
+          "url",
+          "api",
+          "mobile"
+        ],
+        "scope_summary": "Rivian electric vehicle web & mobile platform",
+        "bounty_range": "$100 - $5,000",
+        "submission_method": "Intigriti platform",
+        "notes": "Added Jul 2023. Electric vehicle manufacturer."
+      },
+      {
+        "name": "Intel",
+        "url": "https://app.intigriti.com/programs/intel/intel/detail",
+        "open_submissions": true,
+        "type": "Bug Bounty",
+        "scope_types": [
+          "url",
+          "other"
+        ],
+        "scope_summary": "Intel hardware and software products",
+        "bounty_range": "$250 - $100,000",
+        "submission_method": "Intigriti platform",
+        "notes": "Added Dec 2021. Very high max payout of $100,000. Major semiconductor company."
+      },
+      {
+        "name": "Nexuzhealth",
+        "url": "https://app.intigriti.com/programs/nexuzhealth/nexuzhealth/detail",
+        "open_submissions": true,
+        "type": "Bug Bounty",
+        "scope_types": [
+          "url",
+          "mobile"
+        ],
+        "scope_summary": "Healthcare platform (Belgium)",
+        "bounty_range": "$50 - $2,500",
+        "submission_method": "Intigriti platform",
+        "notes": "Added Apr 2025. Belgian healthcare IT."
+      },
+      {
+        "name": "Arm",
+        "url": "https://app.intigriti.com/programs/arm/arm/detail",
+        "open_submissions": true,
+        "type": "Bug Bounty",
+        "scope_types": [
+          "other"
+        ],
+        "scope_summary": "Arm chip designs and related software",
+        "bounty_range": "$0 - $20,000",
+        "submission_method": "Intigriti platform",
+        "notes": "Added Mar 2025. Separate from Trusted Firmware program. Chip architecture company."
+      },
+      {
+        "name": "Dstny",
+        "url": "https://app.intigriti.com/programs/dstny/dstnybugbounty/detail",
+        "open_submissions": true,
+        "type": "Bug Bounty",
+        "scope_types": [
+          "url",
+          "api"
+        ],
+        "scope_summary": "Business communications platform",
+        "bounty_range": "$0 - $2,425",
+        "submission_method": "Intigriti platform",
+        "notes": "Added Aug 2023. European business communications provider."
+      },
+      {
+        "name": "Fing",
+        "url": "https://app.intigriti.com/programs/fing/fing/detail",
+        "open_submissions": true,
+        "type": "Bug Bounty",
+        "scope_types": [
+          "url"
+        ],
+        "scope_summary": "Network scanning and device recognition tools",
+        "bounty_range": "$50 - $3,500",
+        "submission_method": "Intigriti platform",
+        "notes": "Added Nov 2021. Network tools company."
+      },
+      {
+        "name": "Personio",
+        "url": "https://app.intigriti.com/programs/personio/personio/detail",
+        "open_submissions": true,
+        "type": "Bug Bounty",
+        "scope_types": [
+          "url"
+        ],
+        "scope_summary": "HR management software platform",
+        "bounty_range": "$0 - $10,000",
+        "submission_method": "Intigriti platform",
+        "notes": "Added Oct 2021. European HR SaaS company."
+      },
+      {
+        "name": "Het Laatste Nieuws",
+        "url": "https://app.intigriti.com/programs/dpgm/hetlaatstenieuws/detail",
+        "open_submissions": true,
+        "type": "Bug Bounty",
+        "scope_types": [
+          "url"
+        ],
+        "scope_summary": "Belgian news website",
+        "bounty_range": "$0 - $2,200",
+        "submission_method": "Intigriti platform",
+        "notes": "Added Jan 2021. Belgian news publisher (DPG Media)."
+      },
+      {
+        "name": "Uphold",
+        "url": "https://app.intigriti.com/programs/uphold/upholdcom/detail",
+        "open_submissions": true,
+        "type": "Bug Bounty",
+        "scope_types": [
+          "url",
+          "mobile"
+        ],
+        "scope_summary": "Multi-asset digital trading platform",
+        "bounty_range": "$0 - $6,000",
+        "submission_method": "Intigriti platform",
+        "notes": "Added May 2020. Digital finance platform."
+      },
+      {
+        "name": "Algemeen Dagblad",
+        "url": "https://app.intigriti.com/programs/dpgm/algemeendagblad/detail",
+        "open_submissions": true,
+        "type": "Bug Bounty",
+        "scope_types": [
+          "url"
+        ],
+        "scope_summary": "Dutch newspaper",
+        "bounty_range": "$0 - $2,200",
+        "submission_method": "Intigriti platform",
+        "notes": "Added Sep 2020. Dutch news publisher (DPG Media)."
+      },
+      {
+        "name": "VTM GO",
+        "url": "https://app.intigriti.com/programs/dpgm/vtmgo/detail",
+        "open_submissions": true,
+        "type": "Bug Bounty",
+        "scope_types": [
+          "url"
+        ],
+        "scope_summary": "Belgian streaming platform",
+        "bounty_range": "$0 - $2,200",
+        "submission_method": "Intigriti platform",
+        "notes": "Added Jul 2020. Belgian video streaming (DPG Media)."
+      },
+      {
+        "name": "De Morgen",
+        "url": "https://app.intigriti.com/programs/dpgm/demorgen/detail",
+        "open_submissions": true,
+        "type": "Bug Bounty",
+        "scope_types": [
+          "url"
+        ],
+        "scope_summary": "Belgian newspaper",
+        "bounty_range": "$0 - $2,200",
+        "submission_method": "Intigriti platform",
+        "notes": "Added Feb 2020. Belgian news publisher (DPG Media)."
+      },
+      {
+        "name": "Vinted Bug Bounty Program",
+        "url": "https://app.intigriti.com/programs/vinted/vinted-bugbounty/detail",
+        "open_submissions": true,
+        "type": "Bug Bounty",
+        "scope_types": [
+          "url"
+        ],
+        "scope_summary": "Second-hand fashion marketplace",
+        "bounty_range": "Not specified",
+        "submission_method": "Intigriti platform",
+        "notes": "Added Jul 2023. Lithuanian-founded second-hand fashion marketplace."
+      }
+    ],
+    "vdp_programs": [
+      {
+        "name": "Grafana Labs VDP",
+        "type": "VDP (unpaid)",
+        "scope_summary": "Grafana, Loki, Mimir, Tempo open-source tools"
+      },
+      {
+        "name": "OURA VDP",
+        "type": "VDP (unpaid)",
+        "scope_summary": "Oura Ring health tech (requires 2FA)"
+      },
+      {
+        "name": "W\u00e4rtsil\u00e4 VDP",
+        "type": "VDP (unpaid)",
+        "scope_summary": "Smart marine & energy technologies"
+      },
+      {
+        "name": "University of Basel VDP",
+        "type": "VDP (unpaid)",
+        "scope_summary": "Swiss university"
+      },
+      {
+        "name": "Atolls VDP",
+        "type": "VDP (unpaid)",
+        "scope_summary": "Shopping engagement platform (iGraal, Shoop, hotukdeals)"
+      },
+      {
+        "name": "Storebrand Responsible Disclosure",
+        "type": "VDP (unpaid)",
+        "scope_summary": "Norwegian financial group"
+      },
+      {
+        "name": "Anaconda VDP",
+        "type": "VDP (unpaid)",
+        "scope_summary": "Enterprise AI platform (Python package management)"
+      },
+      {
+        "name": "DIGI Responsible Disclosure",
+        "type": "VDP (unpaid)",
+        "scope_summary": "European telecom (Romania, Spain, Italy, Portugal, Belgium)"
+      },
+      {
+        "name": "Voi VDP",
+        "type": "VDP (unpaid)",
+        "scope_summary": "E-scooter company"
+      },
+      {
+        "name": "Toast VDP",
+        "type": "VDP (unpaid)",
+        "scope_summary": "Restaurant platform (POS, KDS, Online Ordering)"
+      }
+    ]
+  },
+  "yeswehack": {
+    "platform": "YesWeHack",
+    "url": "https://yeswehack.com/programs",
+    "total_programs": 64,
+    "note": "European-focused bug bounty platform. All programs listed are public and accept submissions from registered hunters. Programs sorted by activity.",
+    "programs": [
+      {
+        "name": "Swiss Post - E-Voting",
+        "url": "https://yeswehack.com/programs/swiss-post-evoting",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api"
+        ],
+        "scopes_count": 4,
+        "country": "Switzerland",
+        "bounty_range": "\u20ac100 - \u20ac230,000",
+        "first_response": "< 1 DAY",
+        "reports_submitted": 1318,
+        "submission_method": "YesWeHack platform",
+        "notes": "Highest max bounty on the platform. Government e-voting system."
+      },
+      {
+        "name": "Pine Labs",
+        "url": "https://yeswehack.com/programs/pine-labs-bug-bounty-program",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api",
+          "mobile"
+        ],
+        "scopes_count": 22,
+        "country": "India",
+        "bounty_range": "$0 - $1,000",
+        "first_response": "< 1 DAY",
+        "reports_submitted": 601,
+        "submission_method": "YesWeHack platform"
+      },
+      {
+        "name": "GOJEK",
+        "url": "https://yeswehack.com/programs/gojek-bug-bounty-program",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api",
+          "mobile"
+        ],
+        "scopes_count": 12,
+        "country": "Indonesia",
+        "bounty_range": "$5 - $5,000",
+        "first_response": "< 1 DAY",
+        "reports_submitted": 700,
+        "submission_method": "YesWeHack platform"
+      },
+      {
+        "name": "GoTo Financial",
+        "url": "https://yeswehack.com/programs/goto-financial-public-bounty-program",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api",
+          "mobile"
+        ],
+        "scopes_count": 14,
+        "country": "Indonesia",
+        "bounty_range": "$5 - $7,000",
+        "first_response": "< 1 DAY",
+        "reports_submitted": 581,
+        "submission_method": "YesWeHack platform"
+      },
+      {
+        "name": "Gouvernement du Qu\u00e9bec",
+        "url": "https://yeswehack.com/programs/programmes-de-primes-aux-bogues-du-gouvernement-du-quebec-cgcd",
+        "open_submissions": true,
+        "scope_types": [
+          "url"
+        ],
+        "scopes_count": 2,
+        "country": "Canada",
+        "bounty_range": "$50 - $3,000",
+        "first_response": "< 3 DAYS",
+        "reports_submitted": 562,
+        "submission_method": "YesWeHack platform",
+        "notes": "Government bug bounty program"
+      },
+      {
+        "name": "Infomaniak",
+        "url": "https://yeswehack.com/programs/infomaniak-bug-bounty-program",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api",
+          "mobile"
+        ],
+        "scopes_count": 43,
+        "country": "Switzerland",
+        "bounty_range": "\u20ac100 - \u20ac7,000",
+        "first_response": "< 1 DAY",
+        "reports_submitted": 2124,
+        "submission_method": "YesWeHack platform",
+        "notes": "High report volume, large scope (43 scopes)"
+      },
+      {
+        "name": "OTTO.DE",
+        "url": "https://yeswehack.com/programs/otto-de-bug-bounty",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api"
+        ],
+        "scopes_count": 10,
+        "country": "Germany",
+        "bounty_range": "\u20ac50 - \u20ac2,500",
+        "first_response": "< 1 DAY",
+        "reports_submitted": 755,
+        "submission_method": "YesWeHack platform",
+        "notes": "German retail giant"
+      },
+      {
+        "name": "Ant Group Security Response Center",
+        "url": "https://yeswehack.com/programs/ant-group-security-response-center-bug-bounty-program",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api",
+          "mobile"
+        ],
+        "scopes_count": 8,
+        "country": "China",
+        "bounty_range": "$10 - $2,500",
+        "first_response": "N/A (new program)",
+        "reports_submitted": 0,
+        "submission_method": "YesWeHack platform",
+        "notes": "New program, no reports yet - good opportunity for early submissions"
+      },
+      {
+        "name": "Moneybox",
+        "url": "https://yeswehack.com/programs/moneybox-bug-bounty",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api",
+          "mobile"
+        ],
+        "scopes_count": 6,
+        "country": "United Kingdom",
+        "bounty_range": "\u20ac50 - \u20ac2,000",
+        "first_response": "< 1 DAY",
+        "reports_submitted": 121,
+        "submission_method": "YesWeHack platform"
+      },
+      {
+        "name": "DataDome Bot Bounty",
+        "url": "https://yeswehack.com/programs/datadome-bot-bounty",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api"
+        ],
+        "scopes_count": 6,
+        "country": "France",
+        "bounty_range": "\u20ac200 - \u20ac1,000",
+        "first_response": "< 3 DAYS",
+        "reports_submitted": 102,
+        "submission_method": "YesWeHack platform",
+        "notes": "Cybersecurity company - bot detection bypass focus"
+      },
+      {
+        "name": "HARMAN International",
+        "url": "https://yeswehack.com/programs/harman-international-web-applications",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api"
+        ],
+        "scopes_count": 27,
+        "country": "United States",
+        "bounty_range": "$100 - $4,000",
+        "first_response": "< 1 DAY",
+        "reports_submitted": 1963,
+        "submission_method": "YesWeHack platform",
+        "notes": "Large scope (27 targets)"
+      },
+      {
+        "name": "Doctolib",
+        "url": "https://yeswehack.com/programs/doctolib-public-bug-bounty-program",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api",
+          "mobile"
+        ],
+        "scopes_count": 9,
+        "country": "France",
+        "bounty_range": "\u20ac0 - \u20ac50,000",
+        "first_response": "< 1 DAY",
+        "reports_submitted": 1593,
+        "submission_method": "YesWeHack platform",
+        "notes": "HealthTech - high max bounty. French healthcare platform."
+      },
+      {
+        "name": "BookBeat",
+        "url": "https://yeswehack.com/programs/bookbeat",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api",
+          "mobile"
+        ],
+        "scopes_count": 6,
+        "country": "Sweden",
+        "bounty_range": "\u20ac50 - \u20ac2,000",
+        "first_response": "< 1 DAY",
+        "reports_submitted": 530,
+        "submission_method": "YesWeHack platform",
+        "notes": "Media & Entertainment (audiobooks)"
+      },
+      {
+        "name": "SNCF Connect",
+        "url": "https://yeswehack.com/programs/bug-bounty-sncf-connect-1",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api",
+          "mobile"
+        ],
+        "scopes_count": 4,
+        "country": "France",
+        "bounty_range": "\u20ac0 - \u20ac10,000",
+        "first_response": "< 1 DAY",
+        "reports_submitted": 404,
+        "submission_method": "YesWeHack platform",
+        "notes": "French national railway ticketing"
+      },
+      {
+        "name": "Contentsquare",
+        "url": "https://yeswehack.com/programs/contentsquare-bug-bounty-program",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api"
+        ],
+        "scopes_count": 5,
+        "country": "France",
+        "bounty_range": "\u20ac0 - \u20ac2,500",
+        "first_response": "< 1 DAY",
+        "reports_submitted": 677,
+        "submission_method": "YesWeHack platform",
+        "notes": "Cybersecurity / analytics"
+      },
+      {
+        "name": "Telenor Sweden",
+        "url": "https://yeswehack.com/programs/telenor-sweden-public-bug-bounty-program",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api",
+          "mobile"
+        ],
+        "scopes_count": 9,
+        "country": "Sweden",
+        "bounty_range": "\u20ac50 - \u20ac5,000",
+        "first_response": "< 1 DAY",
+        "reports_submitted": 1476,
+        "submission_method": "YesWeHack platform",
+        "notes": "Telecom"
+      },
+      {
+        "name": "TeamViewer",
+        "url": "https://yeswehack.com/programs/teamviewer-bounty-program",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api",
+          "desktop"
+        ],
+        "scopes_count": 9,
+        "country": "Germany",
+        "bounty_range": "\u20ac100 - \u20ac10,000",
+        "first_response": "< 1 DAY",
+        "reports_submitted": 765,
+        "submission_method": "YesWeHack platform",
+        "notes": "Remote desktop software"
+      },
+      {
+        "name": "Mon Espace Sant\u00e9 (MES)",
+        "url": "https://yeswehack.com/programs/mon-espace-sante-mes",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api"
+        ],
+        "scopes_count": 43,
+        "country": "France",
+        "bounty_range": "\u20ac50 - \u20ac8,000",
+        "first_response": "< 1 DAY",
+        "reports_submitted": 321,
+        "submission_method": "YesWeHack platform",
+        "notes": "French government health platform - large scope (43 targets)"
+      },
+      {
+        "name": "Dossier Medical Partag\u00e9",
+        "url": "https://yeswehack.com/programs/dossier-medical-partage-program",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api"
+        ],
+        "scopes_count": 10,
+        "country": "France",
+        "bounty_range": "\u20ac50 - \u20ac2,000",
+        "first_response": "< 1 DAY",
+        "reports_submitted": 103,
+        "submission_method": "YesWeHack platform",
+        "notes": "French healthcare records"
+      },
+      {
+        "name": "KOMOJU",
+        "url": "https://yeswehack.com/programs/komoju-public-bug-bounty-program",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api"
+        ],
+        "scopes_count": 2,
+        "country": "Japan",
+        "bounty_range": "$50 - $7,000",
+        "first_response": "< 1 DAY",
+        "reports_submitted": 449,
+        "submission_method": "YesWeHack platform",
+        "notes": "Japanese payment platform"
+      },
+      {
+        "name": "DECATHLON",
+        "url": "https://yeswehack.com/programs/decathlon",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api",
+          "mobile"
+        ],
+        "scopes_count": 5,
+        "country": "France",
+        "bounty_range": "\u20ac50 - \u20ac2,500",
+        "first_response": "< 1 DAY",
+        "reports_submitted": 687,
+        "submission_method": "YesWeHack platform",
+        "notes": "Major sports retailer"
+      },
+      {
+        "name": "VFS Global",
+        "url": "https://yeswehack.com/programs/vfs-global-bug-bounty-program",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api"
+        ],
+        "scopes_count": 42,
+        "country": "India",
+        "bounty_range": "$5 - $1,500",
+        "first_response": "< 1 DAY",
+        "reports_submitted": 2280,
+        "submission_method": "YesWeHack platform",
+        "notes": "Visa processing services - very large scope (42 targets), high report volume"
+      },
+      {
+        "name": "CoinDCX",
+        "url": "https://yeswehack.com/programs/coindcx-bug-bounty-program",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api",
+          "mobile"
+        ],
+        "country": "India",
+        "bounty_range": "$10 - $5,000",
+        "first_response": "< 1 DAY",
+        "reports_submitted": "Active",
+        "submission_method": "YesWeHack platform",
+        "notes": "Indian cryptocurrency exchange"
+      },
+      {
+        "name": "Ezviz",
+        "url": "https://yeswehack.com/programs/ezviz-bug-bounty-program",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api",
+          "mobile",
+          "iot"
+        ],
+        "scopes_count": 13,
+        "country": "China",
+        "bounty_range": "$0 - $5,000",
+        "first_response": "< 5 DAYS",
+        "reports_submitted": 666,
+        "submission_method": "YesWeHack platform",
+        "notes": "Smart home / IoT cameras"
+      },
+      {
+        "name": "MediaMarktSaturn",
+        "url": "https://yeswehack.com/programs/mediamarktsaturn-bug-bounty-program",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api",
+          "mobile"
+        ],
+        "scopes_count": 31,
+        "country": "Germany",
+        "bounty_range": "\u20ac100 - \u20ac4,000",
+        "first_response": "< 1 DAY",
+        "reports_submitted": 464,
+        "submission_method": "YesWeHack platform",
+        "notes": "European electronics retailer - large scope"
+      },
+      {
+        "name": "Swapcard",
+        "url": "https://yeswehack.com/programs/swapcard",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api",
+          "mobile"
+        ],
+        "scopes_count": 12,
+        "country": "France",
+        "bounty_range": "\u20ac50 - \u20ac2,000",
+        "first_response": "< 10 DAYS (slow)",
+        "reports_submitted": 961,
+        "submission_method": "YesWeHack platform",
+        "notes": "Event platform - slow response time"
+      },
+      {
+        "name": "Paddle.com",
+        "url": "https://yeswehack.com/programs/paddle-com-public-bug-bounty-program",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api"
+        ],
+        "scopes_count": 12,
+        "country": "United Kingdom",
+        "bounty_range": "$50 - $5,000",
+        "first_response": "< 1 DAY",
+        "reports_submitted": 814,
+        "submission_method": "YesWeHack platform",
+        "notes": "Payment infrastructure"
+      },
+      {
+        "name": "OVHcloud",
+        "url": "https://yeswehack.com/programs/ovh",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api"
+        ],
+        "scopes_count": 3,
+        "country": "France",
+        "bounty_range": "\u20ac50 - \u20ac12,500",
+        "first_response": "< 3 DAYS",
+        "reports_submitted": 1698,
+        "submission_method": "YesWeHack platform",
+        "notes": "Major European cloud provider - high max payout"
+      },
+      {
+        "name": "Private Internet Access (PIA)",
+        "url": "https://yeswehack.com/programs/private-internet-access-bug-bounty-program",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api",
+          "desktop",
+          "mobile"
+        ],
+        "scopes_count": 12,
+        "country": "Isle of Man",
+        "bounty_range": "$50 - $1,250",
+        "first_response": "< 1 DAY",
+        "reports_submitted": 127,
+        "submission_method": "YesWeHack platform",
+        "notes": "VPN provider"
+      },
+      {
+        "name": "CyberGhost",
+        "url": "https://yeswehack.com/programs/cyberghost-bug-bounty-program",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api",
+          "desktop",
+          "mobile"
+        ],
+        "scopes_count": 12,
+        "country": "Isle of Man",
+        "bounty_range": "$50 - $1,250",
+        "first_response": "< 1 DAY",
+        "reports_submitted": 158,
+        "submission_method": "YesWeHack platform",
+        "notes": "VPN provider (Kape Technologies)"
+      },
+      {
+        "name": "YesWeHack (own program)",
+        "url": "https://yeswehack.com/programs/yes-we-hack",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api"
+        ],
+        "scopes_count": 4,
+        "country": "France",
+        "bounty_range": "\u20ac50 - \u20ac15,000",
+        "first_response": "< 1 DAY",
+        "reports_submitted": 780,
+        "submission_method": "YesWeHack platform",
+        "notes": "Platform's own bug bounty program"
+      },
+      {
+        "name": "Qwant",
+        "url": "https://yeswehack.com/programs/qwant",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api"
+        ],
+        "scopes_count": 6,
+        "country": "France",
+        "bounty_range": "\u20ac100 - \u20ac5,000",
+        "first_response": "< 5 DAYS",
+        "reports_submitted": 725,
+        "submission_method": "YesWeHack platform",
+        "notes": "Privacy-focused search engine"
+      },
+      {
+        "name": "Withings",
+        "url": "https://yeswehack.com/programs/withings-public-program",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api",
+          "mobile",
+          "iot"
+        ],
+        "scopes_count": 12,
+        "country": "France",
+        "bounty_range": "\u20ac0 - \u20ac3,000",
+        "first_response": "< 3 DAYS",
+        "reports_submitted": 391,
+        "submission_method": "YesWeHack platform",
+        "notes": "Health tech / IoT devices"
+      },
+      {
+        "name": "Tencent",
+        "url": "https://yeswehack.com/programs/tencent-bug-bounty-program",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api"
+        ],
+        "scopes_count": 1,
+        "country": "China",
+        "bounty_range": "$8 - $6,425",
+        "first_response": "N/A",
+        "reports_submitted": 15,
+        "submission_method": "YesWeHack platform",
+        "notes": "Limited scope (1 target). Low report volume indicates potential opportunity."
+      },
+      {
+        "name": "Maya",
+        "url": "https://yeswehack.com/programs/maya-public-bug-bounty-program",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api",
+          "mobile"
+        ],
+        "scopes_count": 9,
+        "country": "Philippines",
+        "bounty_range": "$50 - $5,000",
+        "first_response": "< 1 DAY",
+        "reports_submitted": 128,
+        "submission_method": "YesWeHack platform",
+        "notes": "Philippine fintech"
+      },
+      {
+        "name": "DANA",
+        "url": "https://yeswehack.com/programs/dana-bug-bounty-program",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api",
+          "mobile"
+        ],
+        "scopes_count": 1,
+        "country": "Indonesia",
+        "bounty_range": "$0 - $3,000",
+        "first_response": "< 10 DAYS (slow)",
+        "reports_submitted": 207,
+        "submission_method": "YesWeHack platform",
+        "notes": "Indonesian digital wallet - single scope, slow triage"
+      },
+      {
+        "name": "Ooredoo QPSC",
+        "url": "https://yeswehack.com/programs/ooredoo-qpsc-bug-bounty-program",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api",
+          "mobile"
+        ],
+        "scopes_count": 5,
+        "country": "Qatar",
+        "bounty_range": "$50 - $1,500",
+        "first_response": "< 1 DAY",
+        "reports_submitted": 695,
+        "submission_method": "YesWeHack platform",
+        "notes": "Telecom"
+      },
+      {
+        "name": "3DS OUTSCALE",
+        "url": "https://yeswehack.com/programs/outscale",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api"
+        ],
+        "scopes_count": 8,
+        "country": "France",
+        "bounty_range": "\u20ac50 - \u20ac5,000",
+        "first_response": "< 1 DAY",
+        "reports_submitted": 248,
+        "submission_method": "YesWeHack platform",
+        "notes": "Cloud provider (Dassault Syst\u00e8mes)"
+      },
+      {
+        "name": "OneDoc",
+        "url": "https://yeswehack.com/programs/onedoc-sa-bug-bounty-program",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api"
+        ],
+        "scopes_count": 4,
+        "country": "Switzerland",
+        "bounty_range": "\u20ac50 - \u20ac5,000",
+        "first_response": "< 1 DAY",
+        "reports_submitted": 203,
+        "submission_method": "YesWeHack platform",
+        "notes": "HealthTech"
+      },
+      {
+        "name": "IMOU",
+        "url": "https://yeswehack.com/programs/imou-public-bug-bounty-program",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api",
+          "mobile",
+          "iot"
+        ],
+        "scopes_count": 6,
+        "country": "China",
+        "bounty_range": "$10 - $1,200",
+        "first_response": "< 1 DAY",
+        "reports_submitted": 138,
+        "submission_method": "YesWeHack platform",
+        "notes": "Smart home / IoT cameras (Hangzhou Huacheng)"
+      },
+      {
+        "name": "ZECIBLE",
+        "url": "https://yeswehack.com/programs/zecible-public-bug-bounty-program",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api"
+        ],
+        "scopes_count": 17,
+        "country": "France",
+        "bounty_range": "\u20ac100 - \u20ac2,000",
+        "first_response": "< 3 DAYS",
+        "reports_submitted": 133,
+        "submission_method": "YesWeHack platform",
+        "notes": "Marketing tech"
+      },
+      {
+        "name": "ATG",
+        "url": "https://yeswehack.com/programs/atg-public-bug-bounty-program",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api"
+        ],
+        "scopes_count": 7,
+        "country": "Sweden",
+        "bounty_range": "\u20ac0 - \u20ac4,000",
+        "first_response": "< 1 DAY",
+        "reports_submitted": 360,
+        "submission_method": "YesWeHack platform",
+        "notes": "Swedish horse racing / betting"
+      },
+      {
+        "name": "Salt Mobile SA",
+        "url": "https://yeswehack.com/programs/salt-mobile-sa-bug-bounty-program",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api",
+          "mobile"
+        ],
+        "scopes_count": 3,
+        "country": "Switzerland",
+        "bounty_range": "\u20ac50 - \u20ac2,000",
+        "first_response": "< 1 DAY",
+        "reports_submitted": 138,
+        "submission_method": "YesWeHack platform",
+        "notes": "Swiss telecom"
+      },
+      {
+        "name": "Sogexia",
+        "url": "https://yeswehack.com/programs/sogexia",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api"
+        ],
+        "scopes_count": 3,
+        "country": "France",
+        "bounty_range": "\u20ac100 - \u20ac2,000",
+        "first_response": "< 1 DAY",
+        "reports_submitted": 248,
+        "submission_method": "YesWeHack platform",
+        "notes": "Finance / payment"
+      },
+      {
+        "name": "Alasco GmbH",
+        "url": "https://yeswehack.com/programs/alasco-gmbh-bug-bounty-program",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api"
+        ],
+        "scopes_count": 4,
+        "country": "Germany",
+        "bounty_range": "\u20ac50 - \u20ac1,000",
+        "first_response": "< 3 DAYS",
+        "reports_submitted": 127,
+        "submission_method": "YesWeHack platform"
+      },
+      {
+        "name": "Xelians - Blackbox program",
+        "url": "https://yeswehack.com/programs/xelians-blackbox-program",
+        "open_submissions": true,
+        "scope_types": [
+          "url"
+        ],
+        "scopes_count": "N/A",
+        "country": "France",
+        "bounty_range": "$50 - $1,500",
+        "first_response": "N/A",
+        "reports_submitted": "New",
+        "submission_method": "YesWeHack platform",
+        "notes": "NEW (Feb 2026) - Blackbox pentesting program. French IT services company."
+      },
+      {
+        "name": "FDJ United (Online Betting)",
+        "url": "https://yeswehack.com/programs/fdj-united-betting-bug-bounty",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api"
+        ],
+        "scopes_count": 33,
+        "country": "France",
+        "bounty_range": "\u20ac50 - \u20ac15,000",
+        "first_response": "< 1 DAY",
+        "reports_submitted": 553,
+        "submission_method": "YesWeHack platform",
+        "notes": "Large scope (33 targets). French national lottery/sports betting operator."
+      },
+      {
+        "name": "Swiss Post (Main Program)",
+        "url": "https://yeswehack.com/programs/swiss-post-main",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api"
+        ],
+        "scopes_count": 11,
+        "country": "Switzerland",
+        "bounty_range": "\u20ac50 - \u20ac10,000",
+        "first_response": "< 1 DAY",
+        "reports_submitted": 2308,
+        "submission_method": "YesWeHack platform",
+        "notes": "Separate from E-Voting program. Main Swiss Post infrastructure. High report volume."
+      },
+      {
+        "name": "Sant\u00e9 Publique France",
+        "url": "https://yeswehack.com/programs/sante-publique-france-bug-bounty-program",
+        "open_submissions": true,
+        "scope_types": [
+          "url"
+        ],
+        "scopes_count": 8,
+        "country": "France",
+        "bounty_range": "\u20ac50 - \u20ac1,500",
+        "first_response": "< 1 DAY",
+        "reports_submitted": 241,
+        "submission_method": "YesWeHack platform",
+        "notes": "French public health agency."
+      },
+      {
+        "name": "Cybermalveillance.gouv.fr",
+        "url": "https://yeswehack.com/programs/cybermalveillance-gouv-fr-sensibilization-prevention-and-support-in-terms-of-cybersecurity",
+        "open_submissions": true,
+        "scope_types": [
+          "url"
+        ],
+        "scopes_count": 1,
+        "country": "France",
+        "bounty_range": "\u20ac50 - \u20ac2,000",
+        "first_response": "< 1 DAY",
+        "reports_submitted": 220,
+        "submission_method": "YesWeHack platform",
+        "notes": "French government cybersecurity awareness platform."
+      },
+      {
+        "name": "ExpressVPN",
+        "url": "https://yeswehack.com/programs/expressvpn-bug-bounty-program",
+        "open_submissions": true,
+        "scope_types": [
+          "url",
+          "api",
+          "desktop",
+          "mobile"
+        ],
+        "scopes_count": 30,
+        "country": "Isle of Man",
+        "bounty_range": "$50 - $2,500",
+        "first_response": "< 1 DAY",
+        "reports_submitted": 548,
+        "submission_method": "YesWeHack platform",
+        "notes": "Large scope (30 targets). Major VPN provider (Kape Technologies)."
+      },
+      {
+        "name": "VINCI SA",
+        "url": "https://yeswehack.com/programs/vincisa-public-program",
+        "open_submissions": true,
+        "scope_types": [
+          "url"
+        ],
+        "scopes_count": "N/A",
+        "country": "France",
+        "bounty_range": "\u20ac50 - \u20ac3,000",
+        "first_response": "N/A",
+        "reports_submitted": "N/A",
+        "submission_method": "YesWeHack platform",
+        "notes": "French construction and infrastructure conglomerate."
+      },
+      {
+        "name": "Th\u00fcringer Aufbaubank",
+        "url": "https://yeswehack.com/programs/thuringer-aufbaubank-bug-bounty-program",
+        "open_submissions": true,
+        "scope_types": [
+          "url"
+        ],
+        "scopes_count": 2,
+        "country": "Germany",
+        "bounty_range": "\u20ac50 - \u20ac7,000",
+        "first_response": "< 1 DAY",
+        "reports_submitted": 132,
+        "submission_method": "YesWeHack platform",
+        "notes": "German state development bank (Thuringia)."
+      },
+      {
+        "name": "Digital Flanders VDP",
+        "url": "https://yeswehack.com/programs/digital-flanders-vulnerability-disclosure-program",
+        "open_submissions": true,
+        "scope_types": [
+          "url"
+        ],
+        "scopes_count": "N/A",
+        "country": "Belgium",
+        "bounty_range": "VDP (unpaid)",
+        "first_response": "N/A",
+        "reports_submitted": "N/A",
+        "submission_method": "YesWeHack platform",
+        "notes": "Added Dec 2025. Flemish government digital services."
+      }
+    ]
+  },
+  "top_recommendations": {
+    "criteria": "Programs with clear scope, paid bounties, no strict Signal requirements, and good payout potential",
+    "bugcrowd": [
+      {
+        "name": "Okta",
+        "max_payout": "$75,000",
+        "reason": "Best max payout, identity/access management - broad attack surface"
+      },
+      {
+        "name": "Zendesk",
+        "max_payout": "$50,000",
+        "reason": "Excellent max payout, well-known SaaS platform"
+      },
+      {
+        "name": "T-Mobile",
+        "max_payout": "$133,700",
+        "reason": "Highest potential payout, massive scope including web/API/mobile"
+      },
+      {
+        "name": "Chime",
+        "max_payout": "$20,000",
+        "reason": "Fintech - good payout, growing company"
+      },
+      {
+        "name": "Pinterest",
+        "max_payout": "$25,000",
+        "reason": "Clear scope, multiple attack surfaces, high payouts"
+      }
+    ],
+    "intigriti": [
+      {
+        "name": "Trusted Firmware (Arm)",
+        "max_payout": "$20,000",
+        "reason": "Highest payout on Intigriti, clear scope"
+      },
+      {
+        "name": "AS Watson Group (6 programs)",
+        "max_payout": "\u20ac8,500",
+        "reason": "Multiple related programs, same codebase - efficient testing"
+      },
+      {
+        "name": "Coveo",
+        "max_payout": "$5,500",
+        "reason": "Interesting AI attack surface, unique scope"
+      }
+    ],
+    "yeswehack": [
+      {
+        "name": "Swiss Post - E-Voting",
+        "max_payout": "\u20ac230,000",
+        "reason": "Highest bounty on any platform, critical infrastructure"
+      },
+      {
+        "name": "Doctolib",
+        "max_payout": "\u20ac50,000",
+        "reason": "European healthtech, high max payout"
+      },
+      {
+        "name": "YesWeHack (own)",
+        "max_payout": "\u20ac15,000",
+        "reason": "Platform's own program - likely fast triage"
+      },
+      {
+        "name": "OVHcloud",
+        "max_payout": "\u20ac12,500",
+        "reason": "Major cloud provider, good payout"
+      },
+      {
+        "name": "TeamViewer",
+        "max_payout": "\u20ac10,000",
+        "reason": "Widely used remote desktop software"
+      },
+      {
+        "name": "Ant Group SRC",
+        "max_payout": "$2,500",
+        "reason": "New program with 0 reports - first-mover advantage"
+      }
+    ]
+  }
+}

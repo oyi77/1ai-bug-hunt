@@ -1,0 +1,12 @@
+# Nmap 7.98 scan initiated Wed May 20 04:12:23 2026 as: /usr/lib/nmap/nmap --privileged -sV -sC --top-ports 1000 -T4 --open -oN ports/binance_com_nmap.txt binance.com
+Nmap scan report for binance.com (54.95.99.215)
+Host is up (0.18s latency).
+Other addresses for binance.com (not scanned): 35.75.143.229 3.113.40.92
+rDNS record for 54.95.99.215: ec2-54-95-99-215.ap-northeast-1.compute.amazonaws.com
+Not shown: 999 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE    VERSION
+443/tcp open  tcpwrapped
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed May 20 04:21:15 2026 -- 1 IP address (1 host up) scanned in 531.98 seconds

@@ -1,0 +1,7 @@
+=== Reports Portal Deep Test ===
+/ -> 200 (1113b)
+  <!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href
+/js/app.7968de09.js.map -> 200 (20127b)
+  {"version":3,"sources":["webpack:///webpack/bootstrap","webpack:///./src/assets/image with frame and text/Global l1.png","webpack:///./src/assets/image with frame and text/Tableau dashboard.png","webp
+/js/chunk-vendors.a766c409.js.map -> 200 (1257412b)
+  {"version":3,"sources":["webpack:///./node_modules/core-js/internals/to-string-tag-support.js","webpack:///./node_modules/core-js/internals/function-bind-context.js","webpack:///./node_modules/core-js

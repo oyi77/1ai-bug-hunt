@@ -1,0 +1,7 @@
+docs.wallet.tg
+help.uz.ru.wallet.tg
+help.wallet.tg
+help.ru.wallet.tg
+help.uz.wallet.tg
+pay.wallet.tg
+www.wallet.tg

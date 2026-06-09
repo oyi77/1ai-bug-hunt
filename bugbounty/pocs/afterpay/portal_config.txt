@@ -1,0 +1,175 @@
+=== portal.afterpay.com/au/ Environment Config ===
+id="BRAND_NAME" = Afterpay
+id="BROCHURE_BASE_URL" = https://www.afterpay.com
+id="HELP_BASE_URL" = https://help.afterpay.com
+id="PORTAL_API_BASE_URL" = https://portalapi.afterpay.com
+id="TOPAZ_BASE_URL" = https://card-api.au.payments.afterpay.com
+id="GOOGLEMAPS_API_KEY" = AIzaSyAal00vvQU1rw9s5kRtqi9KUBpXZuoNO0I
+id="WWW_BASE_URL" = https://portal.afterpay.com
+id="WWW_EU_BASE_URL" = 
+id="BUSINESS_HUB_BASE_URL" = https://hub.afterpay.com
+id="TM_ORGANISATION_ID" = 9eb199og
+id="LAUNCH_DARKLY_CLIENT_SIDE_ID" = 5b1513721ec3de318c3e2df8
+id="AMPLITUDE_CLIENT_SIDE_ID" = 365902604116212ecb4d662502db6da8
+id="ADWORDS_ID" = AW-759612104
+id="APPLE_PAY_MERCHANT_ID" = merchant.com.afterpay.afterpay-payments-production
+id="PAYMENT_SOURCE_BASE_URL" = https://api.au.payments.afterpay.com
+id="FRIENDBUY_MERCHANT_ID" = 53b97f41-e407-4e7b-9d5e-1e9a72c1ea10
+id="SHOP_API_BASE_URL" = https://shop-service.consumer.us.platform.afterpay.com
+id="THREE_DS_REDIRECT_URL" = https://prod-payments-threeds.afterpay.com
+id="STRIP_BOUNCER_PUBLISHABLE_KEY" = pk_live_LrEyJmZxQ5rrmZQe6LpSTucy
+id="friendbuy-button" = 
+id="order-payment-schedule" = 
+id="order-payment-schedule" = 
+id="order-payment-schedule" = 
+id="afterpaid-highlight-1" = 
+id="afterpaid-highlight-2" = 
+id="afterpaid-highlight-3" = 
+id="afterpaid-highlight-4" = 
+id="afterpaid-highlight-5" = 
+id="friendbuylandingpage" = 
+id="ppa-div" = 
+id="link-my-account" = 
+id="input-termsAgreed" = 
+id="subscriptionCheckbox" = 
+id="text" = 
+id="threeDsFrame" = 
+
+=== Script Sources ===
+src="https://portalapi.afterpay.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/p.js"
+src="seon-js-agent-4.1.2-op.js"
+src="https://js.stripe.com/v3/cardverify_public.bundle.js"
+src="fingerprint2.d680b82e3ed9e698f46f4d8f34170509.min.js"
+src="vendor.201eba9cf3db67692aa85a49c8e086f9.js"
+src="ldclient.01f4f49bf7eb921902282d7b82e1016a.min.js"
+src="main.7935582f7306b08890887d157f6ef646.js"
+src="image/afterpay-promo-info-image.png"
+src="image/clearpay-promo-info-image.png"
+src="{{ getLogoSrc() }}"
+src="image/hero-2020.svg"
+src="image/hero-2020.svg"
+src="{{ getPaymentPercentagePieSrc() }}"
+src="image/right-arrow-white.svg"
+src="image/right-arrow-white.svg"
+src="image/right-arrow-white.svg"
+src="image/right-arrow-white.svg"
+src="image/merchant-generic.png"
+src="image/merchant-generic.png"
+src="{{ annualReport.details.favoriteMerchantInfo.mainImageUrl }}"
+src="{{ annualReport.details.favoriteMerchantInfo.logoUrl }}"
+src="image/right-arrow.svg"
+src="image/right-arrow.svg"
+src="image/right-arrow.svg"
+src="image/right-arrow.svg"
+src="image/merchant-generic.png"
+src="image/merchant-generic.png"
+src="{{ merchantRecommendation.mainImageUrl }}"
+src="{{ merchantRecommendation.logoUrl }}"
+src="image/right-arrow.svg"
+src="image/right-arrow.svg"
+src="image/right-arrow.svg"
+src="image/right-arrow.svg"
+src="image/right-arrow.svg"
+src="image/right-arrow.svg"
+src="image/merchant-generic.png"
+src="image/merchant-generic.png"
+src="{{ csrMerchant.mainImageUrl }}"
+src="{{ csrMerchant.logoUrl }}"
+src="image/right-arrow.svg"
+src="image/right-arrow.svg"
+src="image/referral-hero@2x.png"
+src="image/referral-hero@2x.png"
+src="image/right-arrow-white.svg"
+src="image/right-arrow-white.svg"
+src="{{ getLogoSrc() }}"
+src="image/user.svg"
+src="image/user.svg"
+src="image/right-arrow.svg"
+src="image/right-arrow.svg"
+src="image/right-arrow.svg"
+src="image/right-arrow.svg"
+src="image/logo-icon.svg"
+src="image/logo-icon.svg"
+src="image/logo-icon-white.svg"
+src="image/logo-icon-white.svg"
+src="image/logo-icon.svg"
+src="image/logo-icon.svg"
+src="image/logo-icon.svg"
+src="image/logo-icon.svg"
+src="image/logo-icon-white.svg"
+src="image/logo-icon-white.svg"
+src="{{ getLogoSrc() }}"
+src="image/close.svg"
+src="image/pulse-logo.png"
+src="image/pulse-logo.png"
+src="image/pulse-icon-check.svg"
+src="image/pulse-icon-check.svg"
+src="image/pulse-icon-check.svg"
+src="image/pulse-icon-check.svg"
+src="image/pulse-icon-check.svg"
+src="image/pulse-icon-check.svg"
+src="image/pulse-icon-dollar.svg"
+src="image/pulse-icon-dollar.svg"
+src="image/pulse-icon-calendar.svg"
+src="image/pulse-icon-calendar.svg"
+src="image/pulse-icon-shopping-bag.svg"
+src="image/pulse-icon-shopping-bag.svg"
+src="image/pulse-icon-diamond.svg"
+src="image/pulse-icon-diamond.svg"
+src="image/logo-icon.svg"
+src="image/logo-icon.svg"
+src="image/pulse-icon-dollar.svg"
+src="image/pulse-icon-dollar.svg"
+src="image/pulse-icon-calendar.svg"
+src="image/pulse-icon-calendar.svg"
+src="image/pulse-icon-shopping-bag.svg"
+src="image/pulse-icon-shopping-bag.svg"
+src="image/pulse-icon-diamond.svg"
+src="image/pulse-icon-diamond.svg"
+src="image/right-arrow.svg"
+src="image/right-arrow.svg"
+src="{{ getLogoSrc(true) }}"
+src="image/close.svg"
+src="image/merchant-generic.png"
+src="image/merchant-generic.png"
+src="{{ annualReport.details.firstMerchantInfo.mainImageUrl }}"
+src="{{ annualReport.details.firstMerchantInfo.logoUrl }}"
+src="image/right-arrow.svg"
+src="image/right-arrow.svg"
+src="image/user-white.svg"
+src="image/user-white.svg"
+src="image/csr-hero.png"
+src="image/csr-hero.png"
+src="image/right-arrow.svg"
+src="image/right-arrow.svg"
+src="image/close.svg"
+src="{{ model.logoUrl }}"
+src="image/hero-2020.svg"
+src="image/hero-2020.svg"
+src="data:image/png;base64,{{model.selectBankAccount.bank.logo}}"
+src="data:image/png;base64,{{model.selectBankAccount.bank.logo}}"
+src="{{model.appBannerSrc}}"
+src="{{logoSrc}}"
+src="{{logoSrc}}"
+src="image/menu.svg"
+src="{{logoSrc}}"
+src="image/newPortal.png"
+src="{{model.card.attributes.main_image_url}}"
+src="{{model.card.attributes.logo_url}}"
+src="asset/badge-apple.svg"
+src="asset/badge-google.svg"
+src="image/medicare.png"
+src="image/medicare.png"
+src="image/{{model.licence.data.state}}.png"
+src="image/{{model.licence.data.state}}-back.png"
+src="image/{{model.licence.data.state}}.png"
+src="image/nz-driver-licence.png"
+src="{{model.iframeThreeDsUrl}}"
+src="{{logoSrc}}"
+src="module"
+
+=== Preloaded APIs ===
+href='/au/'
+href='https://portalapi.afterpay.com'
+href='https://card-api.au.payments.afterpay.com'
+href='/au/favicon.ico'

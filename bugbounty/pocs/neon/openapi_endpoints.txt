@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "<string>", line 12, in <module>
+    summary = paths[path][method].get('summary', '')
+              ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'get'
+Title: Neon API
+Version: v2
+
+=== ALL ENDPOINTS ===
+GET    /api_keys  -- List API keys
+POST   /api_keys  -- Create API key
+DELETE /api_keys/{key_id}  -- Revoke API key
+GET    /auth  -- Get request authentication details
+GET    /consumption_history/account  -- Retrieve account consumption metrics (legacy plans)
+GET    /consumption_history/projects  -- Retrieve project consumption metrics (legacy plans)
+GET    /consumption_history/v2/projects  -- Retrieve project consumption metrics

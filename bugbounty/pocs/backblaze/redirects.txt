@@ -1,0 +1,8 @@
+--- backblaze.com ---
+Final URL: https://www.backblaze.com/
+Final Status: 200
+Redirects: 1
+--- api.backblaze.com ---
+Final URL: https://www.backblaze.com/cloud-storage
+Final Status: 200
+Redirects: 2

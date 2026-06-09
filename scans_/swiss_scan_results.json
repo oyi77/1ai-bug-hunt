@@ -1,0 +1,13 @@
+{
+  "time": "2026-06-09T12:36:38Z",
+  "total": 1,
+  "results": [
+    {
+      "name": "Ringier",
+      "url": "https://www.ringier.ch",
+      "findings": [
+        "WP API Root exposed"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+  / -> 403
+  /api -> 403
+  /v1 -> 403
+  /health -> 403
+  /ping -> 403
+  /swagger.json -> 403
+  /graphql -> 403

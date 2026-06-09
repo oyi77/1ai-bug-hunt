@@ -1,0 +1,11 @@
+b2_delete_bucket -> 400
+b2_update_bucket -> 400
+b2_get_download_authorization -> 400
+b2_get_file_info -> 400
+b2_hide_file -> 400
+b2_copy_file -> 400
+b2_start_large_file -> 400
+b2_list_parts -> 400
+b2_list_unfinished_large_files -> 400
+b2_cancel_large_file -> 400
+b2_finish_large_file -> 400

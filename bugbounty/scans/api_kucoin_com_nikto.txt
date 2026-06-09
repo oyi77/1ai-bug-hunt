@@ -1,0 +1,9 @@
+- Nikto v2.5.0/
++ Target Host: api.kucoin.com
++ Target Port: 443
++ GET /:  IP address found in the '__cf_bm' cookie. The IP is "1.0.1.1".
++ GET /:  IP address found in the '_cfuvid' cookie. The IP is "1.0.1.1".
++ GET /: The anti-clickjacking X-Frame-Options header is not present. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options: 
++ GET /: Uncommon header 'x-result-biz-code' found, with contents: 404.
++ GET /: Uncommon header 'x-out-time' found, with contents: 5-1779223164399633.
++ GET /: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type. See: https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/: 

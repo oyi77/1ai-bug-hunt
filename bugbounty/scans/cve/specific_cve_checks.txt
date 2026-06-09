@@ -1,0 +1,43 @@
+--- XZ Backdoor CVE-2024-3094 Check ---
+Checking axis.com...
+
+Checking blockchain.com...
+notBefore=Mar 24 11:09:00 2026 GMT
+notAfter=Jun 22 12:08:55 2026 GMT
+issuer=C=US, O=Google Trust Services, CN=WE1
+
+Checking rapyd.net...
+
+Checking etoro.com...
+notBefore=Oct 30 00:00:00 2025 GMT
+notAfter=Oct 31 23:59:59 2026 GMT
+issuer=C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1
+
+Checking kucoin.com...
+
+Checking binance.com...
+
+Checking canva.com...
+notBefore=Nov 18 00:00:00 2025 GMT
+notAfter=Dec 17 23:59:59 2026 GMT
+issuer=C=US, O=Amazon, CN=Amazon RSA 2048 M04
+
+Checking trello.com...
+notBefore=Apr 30 00:00:00 2026 GMT
+notAfter=Nov 13 23:59:59 2026 GMT
+issuer=C=US, O=Amazon, CN=Amazon RSA 2048 M01
+
+Checking bitpanda.com...
+notBefore=May 13 07:57:45 2026 GMT
+notAfter=Aug 11 08:57:41 2026 GMT
+issuer=C=US, O=Google Trust Services, CN=WE1
+
+Checking fireblocks.io...
+notBefore=May  7 06:03:21 2025 GMT
+notAfter=Jun  8 06:03:21 2026 GMT
+issuer=C=US, ST=Arizona, L=Scottsdale, O=GoDaddy.com, Inc., OU=http://certs.godaddy.com/repository/, CN=Go Daddy Secure Certificate Authority - G2
+
+Checking verisign.com...
+
+Checking cisco.com...
+

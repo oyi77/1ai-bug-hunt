@@ -1,0 +1,6 @@
+*** play.clickhouse.com standard port ClickHouse response: Code: 194. DB::Exception: default: Authentication failed: password is incorrect, or there is no user with such name
+
+If you use ClickHouse Cloud, the password can be reset at https://clickhouse.cloud/
+*** trace-visualizer.clickhouse.com standard port ClickHouse response: <!-- Saved from local source at 2026-04-27T14:36:53Z using monolith v2.10.1 -->
+<!DOCTYPE html><html lang="en"><head><meta http-equiv="Content-Security-Policy" content="font-src 'none';"></meta>
+    <meta charset="UTF-8">

@@ -1,0 +1,6 @@
+- Nikto v2.5.0/
++ Target Host: api.kucoin.com
++ Target Port: 80
++ GET /:  IP address found in the '__cf_bm' cookie. The IP is "1.0.1.1".
++ GET /: IP address found in the 'set-cookie' header. The IP is "1.0.1.1". See: https://portswigger.net/kb/issues/00600300_private-ip-addresses-disclosed: 
++ GET /: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type. See: https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/: 

@@ -1,0 +1,18 @@
+HTTP/2 401 
+date: Wed, 20 May 2026 20:39:26 GMT
+set-cookie: JSESSIONID=420BEC736D40434531D96E1E7AC5C6F6; Path=/; Secure; HttpOnly
+set-cookie: __cf_bm=G92APZwrR48vPNjMqV9XlR5zKomC9XI_POiBKDi6q3c-1779309566.4507046-1.0.1.1-arxWVXgjWGLSlMatBFMTI_fZe6IcLsTljFo537ouXjTZjMtSTRVbEckdHWLQ0PyBKaAjM98kpwCvJD5hKgS7N4b_r8cA5YW_CEEN9MajaUpUOrorQOkehfez9Y2N9TnoSIOaPeiRpt6rze.ojDpF5A; HttpOnly; SameSite=None; Secure; Path=/; Domain=afterpay.com; Expires=Wed, 20 May 2026 21:09:26 GMT
+set-cookie: _cfuvid=rrz8QZQoMqnjn7TsffrulJ7WdCrYArhNk6gGTJhw2t8-1779309566.4507046-1.0.1.1-a1kuLRlWlWyOO5m7DLqnHs0AaiNcGSo03CGoyQWo2qA; HttpOnly; SameSite=None; Secure; Path=/; Domain=afterpay.com
+www-authenticate: Basic realm="Realm"
+x-content-type-options: nosniff
+x-xss-protection: 0
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+pragma: no-cache
+expires: 0
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-frame-options: DENY
+x-envoy-upstream-service-time: 4
+server: cloudflare
+cf-cache-status: MISS
+cf-ray: 9fee26965e2714a6-CGK
+

@@ -1,0 +1,37 @@
+
+--- clickhouse.com:8123 (HTTP) ---
+
+--- clickhouse.com:8123 (HTTPS) ---
+
+--- clickhouse.com standard port ---
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'">
+
+--- clickhouse.com with /ping ---
+
+
+--- play.clickhouse.com:8123 (HTTP) ---
+
+--- play.clickhouse.com:8123 (HTTPS) ---
+
+--- play.clickhouse.com standard port ---
+Code: 194. DB::Exception: default: Authentication failed: password is incorrect, or there is no user with such name
+
+If you use ClickHouse Cloud, the password can be reset at https://clickhouse.cloud/
+on the settings page for the corresponding service.
+
+
+--- play.clickhouse.com with /ping ---
+
+
+--- api.clickhouse.com:8123 (HTTP) ---
+
+--- api.clickhouse.com:8123 (HTTPS) ---
+
+--- api.clickhouse.com standard port ---
+
+--- api.clickhouse.com with /ping ---
+

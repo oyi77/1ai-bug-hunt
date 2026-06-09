@@ -1,0 +1,9 @@
+- Nikto v2.5.0/
++ Target Host: bitpanda.com
++ Target Port: 80
++ GET /:  IP address found in the '__cf_bm' cookie. The IP is "1.0.1.1".
++ GET /: IP address found in the 'set-cookie' header. The IP is "1.0.1.1". See: https://portswigger.net/kb/issues/00600300_private-ip-addresses-disclosed: 
++ GET /: The anti-clickjacking X-Frame-Options header is not present. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options: 
++ GET /bitpanda_com.cer: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type. See: https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/: 
++ GET /cdn-cgi/trace: Retrieved access-control-allow-origin header: *.
++ GET /cdn-cgi/trace: Cloudflare trace CGI found, which may leak some system information.

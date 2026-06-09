@@ -1,0 +1,93 @@
+{
+  "platforms": {
+    "hackerone": {
+      "enabled": true,
+      "api_base": "https://api.hackerone.com/v1",
+      "max_programs_per_run": 5,
+      "min_bounty": 100,
+      "preferred_severity": ["critical", "high", "medium"],
+      "skip_vdp": false
+    },
+    "bugcrowd": {
+      "enabled": true,
+      "api_base": "https://api.bugcrowd.com",
+      "max_programs_per_run": 5,
+      "min_bounty": 100,
+      "preferred_severity": ["critical", "high", "medium"]
+    }
+  },
+  "scheduler": {
+    "run_interval_hours": 6,
+    "max_hunt_time_minutes": 120,
+    "max_targets_per_run": 3,
+    "cooldown_between_targets_minutes": 10,
+    "auto_submit": false,
+    "dry_run": true
+  },
+  "recon": {
+    "subfinder": true,
+    "amass": false,
+    "assetfinder": true,
+    "fierce": true,
+    "dnsrecon": true,
+    "dnsenum": true,
+    "theHarvester": true,
+    "httpx": true,
+    "whatweb": true,
+    "wafw00f": true,
+    "nmap": true,
+    "masscan": true,
+    "sslscan": true,
+    "sslyze": true,
+    "katana": true,
+    "gau": true,
+    "ffuf": true,
+    "gobuster": true,
+    "nuclei": true,
+    "nikto": true,
+    "wpscan": true,
+    "searchsploit": true,
+    "katana_depth": 3,
+    "ffuf_threads": 40,
+    "nuclei_severity": ["critical", "high", "medium"],
+    "timeout_minutes": 30
+  },
+  "hunting": {
+    "vuln_classes": [
+      "xss",
+      "sqli",
+      "ssrf",
+      "idor",
+      "csrf",
+      "auth_bypass",
+      "info_disclosure",
+      "cors",
+      "open_redirect",
+      "file_upload",
+      "race_condition",
+      "business_logic",
+      "command_injection",
+      "path_traversal",
+      "ssti",
+      "xxe",
+      "http_smuggling",
+      "subdomain_takeover"
+    ],
+    "max_per_class_minutes": 15,
+    "skip_if_no_interesting_surface": true
+  },
+  "reporting": {
+    "auto_validate": true,
+    "min_cvss": 4.0,
+    "template": "default",
+    "include_remediation": true
+  },
+  "paths": {
+    "output_base": "/home/openclaw/.openclaw/workspace/bugbounty/scans",
+    "reports": "/home/openclaw/.openclaw/workspace/bugbounty/reports",
+    "pocs": "/home/openclaw/.openclaw/workspace/bugbounty/pocs",
+    "logs": "/home/openclaw/.openclaw/workspace/bugbounty/logs",
+    "memory": "/home/openclaw/.openclaw/workspace/bugbounty/scheduler/memory.json",
+    "state": "/home/openclaw/.openclaw/workspace/bugbounty/scheduler/state.json"
+  }
+}

@@ -1,0 +1,12 @@
+=== portalapi.afterpay.com ===
+/ping -> 200: pong 
+
+=== card-api.au.payments.afterpay.com ===
+/ -> 403: <html><body><h1>403 Forbidden</h1>Request forbidden by administrative rules.</body></html>
+/api -> 403: <html><body><h1>403 Forbidden</h1>Request forbidden by administrative rules.</body></html>
+/health -> 403: <html><body><h1>403 Forbidden</h1>Request forbidden by administrative rules.</body></html>
+/ping -> 403: <html><body><h1>403 Forbidden</h1>Request forbidden by administrative rules.</body></html>
+/config -> 403: <html><body><h1>403 Forbidden</h1>Request forbidden by administrative rules.</body></html>
+/env.js -> 403: <html><body><h1>403 Forbidden</h1>Request forbidden by administrative rules.</body></html>
+/swagger.json -> 403: <html><body><h1>403 Forbidden</h1>Request forbidden by administrative rules.</body></html>
+/openapi.json -> 403: <html><body><h1>403 Forbidden</h1>Request forbidden by administrative rules.</body></html>

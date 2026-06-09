@@ -1,0 +1,13 @@
+=== Source Map Internal URLs ===
+Traceback (most recent call last):
+  File "<string>", line 3, in <module>
+    with open('/home/openclaw/.openclaw/workspace/bugbounty/pocs/afterpay/js/app.7968de09.js.map') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/openclaw/.openclaw/workspace/bugbounty/pocs/afterpay/js/app.7968de09.js.map'
+
+=== Extracted source content snippets ===
+Traceback (most recent call last):
+  File "<string>", line 3, in <module>
+    with open('/home/openclaw/.openclaw/workspace/bugbounty/pocs/afterpay/js/app.7968de09.js.map') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/openclaw/.openclaw/workspace/bugbounty/pocs/afterpay/js/app.7968de09.js.map'

@@ -1,0 +1,10 @@
+api.clearpay.com/v1/gdpr -> 530
+portalapi.eu.clearpay.co.uk/v1/gdpr -> 403
+api.clearpay.com/v1/data-export -> 530
+portalapi.eu.clearpay.co.uk/v1/data-export -> 403
+api.clearpay.com/v1/data-deletion -> 530
+portalapi.eu.clearpay.co.uk/v1/data-deletion -> 403
+api.clearpay.com/v1/consent -> 530
+portalapi.eu.clearpay.co.uk/v1/consent -> 403
+api.clearpay.com/v1/privacy -> 530
+portalapi.eu.clearpay.co.uk/v1/privacy -> 403

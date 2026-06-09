@@ -1,0 +1,20 @@
+# Nmap 7.98 scan initiated Thu May 21 01:08:04 2026 as: /usr/lib/nmap/nmap --privileged -sV -sC -T4 --top-ports 100 -oN /home/openclaw/.openclaw/workspace/bugbounty/scans/coupang_tw/recon/nmap.txt checkout.tw.coupang.com
+Nmap scan report for checkout.tw.coupang.com (23.214.169.13)
+Host is up (0.016s latency).
+Other addresses for checkout.tw.coupang.com (not scanned): 23.214.169.15
+rDNS record for 23.214.169.13: a23-214-169-13.deploy.static.akamaitechnologies.com
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     AkamaiGHost (Akamai's HTTP Acceleration/Mirror service)
+|_http-title: Sorry! Access denied
+|_http-server-header: AkamaiNetStorage
+443/tcp open  ssl/http AkamaiGHost (Akamai's HTTP Acceleration/Mirror service)
+| ssl-cert: Subject: commonName=*.tw.coupang.com/organizationName=Coupang Corporation/stateOrProvinceName=Seoul/countryName=KR
+| Subject Alternative Name: DNS:*.tw.coupang.com, DNS:tw.coupang.com
+| Not valid before: 2025-08-02T00:00:00
+|_Not valid after:  2026-08-04T23:59:59
+|_http-server-header: AkamaiNetStorage
+|_http-title: Sorry! Access denied
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu May 21 01:08:31 2026 -- 1 IP address (1 host up) scanned in 27.08 seconds

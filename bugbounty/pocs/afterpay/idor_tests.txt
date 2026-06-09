@@ -1,0 +1,76 @@
+=== IDOR Pattern Tests ===
+/api/v1/merchants/1  -> : 
+/api/v1/merchants/1 -H 'X-Forwarded-For: 127.0.0.1' -> : 
+/api/v1/merchants/1 -H 'X-Real-IP: 127.0.0.1' -> : 
+/api/v1/merchants/1 -H 'X-Original-URL: /api/v1/merchants/1' -> : 
+/api/v1/merchants/1 -H 'X-Rewrite-URL: /api/v1/merchants/1' -> : 
+/api/v1/merchants/2  -> : 
+/api/v1/merchants/2 -H 'X-Forwarded-For: 127.0.0.1' -> : 
+/api/v1/merchants/2 -H 'X-Real-IP: 127.0.0.1' -> : 
+/api/v1/merchants/2 -H 'X-Original-URL: /api/v1/merchants/2' -> : 
+/api/v1/merchants/2 -H 'X-Rewrite-URL: /api/v1/merchants/2' -> : 
+/api/v1/merchants/100  -> : 
+/api/v1/merchants/100 -H 'X-Forwarded-For: 127.0.0.1' -> : 
+/api/v1/merchants/100 -H 'X-Real-IP: 127.0.0.1' -> : 
+/api/v1/merchants/100 -H 'X-Original-URL: /api/v1/merchants/100' -> : 
+/api/v1/merchants/100 -H 'X-Rewrite-URL: /api/v1/merchants/100' -> : 
+/api/v1/users/1  -> : 
+/api/v1/users/1 -H 'X-Forwarded-For: 127.0.0.1' -> : 
+/api/v1/users/1 -H 'X-Real-IP: 127.0.0.1' -> : 
+/api/v1/users/1 -H 'X-Original-URL: /api/v1/users/1' -> : 
+/api/v1/users/1 -H 'X-Rewrite-URL: /api/v1/users/1' -> : 
+/api/v1/users/2  -> : 
+/api/v1/users/2 -H 'X-Forwarded-For: 127.0.0.1' -> : 
+/api/v1/users/2 -H 'X-Real-IP: 127.0.0.1' -> : 
+/api/v1/users/2 -H 'X-Original-URL: /api/v1/users/2' -> : 
+/api/v1/users/2 -H 'X-Rewrite-URL: /api/v1/users/2' -> : 
+/api/v1/orders/1  -> : 
+/api/v1/orders/1 -H 'X-Forwarded-For: 127.0.0.1' -> : 
+/api/v1/orders/1 -H 'X-Real-IP: 127.0.0.1' -> : 
+/api/v1/orders/1 -H 'X-Original-URL: /api/v1/orders/1' -> : 
+/api/v1/orders/1 -H 'X-Rewrite-URL: /api/v1/orders/1' -> : 
+/api/v1/orders/2  -> : 
+/api/v1/orders/2 -H 'X-Forwarded-For: 127.0.0.1' -> : 
+/api/v1/orders/2 -H 'X-Real-IP: 127.0.0.1' -> : 
+/api/v1/orders/2 -H 'X-Original-URL: /api/v1/orders/2' -> : 
+/api/v1/orders/2 -H 'X-Rewrite-URL: /api/v1/orders/2' -> : 
+/api/v1/accounts/1  -> : 
+/api/v1/accounts/1 -H 'X-Forwarded-For: 127.0.0.1' -> : 
+/api/v1/accounts/1 -H 'X-Real-IP: 127.0.0.1' -> : 
+/api/v1/accounts/1 -H 'X-Original-URL: /api/v1/accounts/1' -> : 
+/api/v1/accounts/1 -H 'X-Rewrite-URL: /api/v1/accounts/1' -> : 
+/api/v1/accounts/2  -> : 
+/api/v1/accounts/2 -H 'X-Forwarded-For: 127.0.0.1' -> : 
+/api/v1/accounts/2 -H 'X-Real-IP: 127.0.0.1' -> : 
+/api/v1/accounts/2 -H 'X-Original-URL: /api/v1/accounts/2' -> : 
+/api/v1/accounts/2 -H 'X-Rewrite-URL: /api/v1/accounts/2' -> : 
+/api/v1/transactions/1  -> : 
+/api/v1/transactions/1 -H 'X-Forwarded-For: 127.0.0.1' -> : 
+/api/v1/transactions/1 -H 'X-Real-IP: 127.0.0.1' -> : 
+/api/v1/transactions/1 -H 'X-Original-URL: /api/v1/transactions/1' -> : 
+/api/v1/transactions/1 -H 'X-Rewrite-URL: /api/v1/transactions/1' -> : 
+/api/v1/transactions/2  -> : 
+/api/v1/transactions/2 -H 'X-Forwarded-For: 127.0.0.1' -> : 
+/api/v1/transactions/2 -H 'X-Real-IP: 127.0.0.1' -> : 
+/api/v1/transactions/2 -H 'X-Original-URL: /api/v1/transactions/2' -> : 
+/api/v1/transactions/2 -H 'X-Rewrite-URL: /api/v1/transactions/2' -> : 
+/merchants/1  -> : 
+/merchants/1 -H 'X-Forwarded-For: 127.0.0.1' -> : 
+/merchants/1 -H 'X-Real-IP: 127.0.0.1' -> : 
+/merchants/1 -H 'X-Original-URL: /merchants/1' -> : 
+/merchants/1 -H 'X-Rewrite-URL: /merchants/1' -> : 
+/users/1  -> : 
+/users/1 -H 'X-Forwarded-For: 127.0.0.1' -> : 
+/users/1 -H 'X-Real-IP: 127.0.0.1' -> : 
+/users/1 -H 'X-Original-URL: /users/1' -> : 
+/users/1 -H 'X-Rewrite-URL: /users/1' -> : 
+/orders/1  -> : 
+/orders/1 -H 'X-Forwarded-For: 127.0.0.1' -> : 
+/orders/1 -H 'X-Real-IP: 127.0.0.1' -> : 
+/orders/1 -H 'X-Original-URL: /orders/1' -> : 
+/orders/1 -H 'X-Rewrite-URL: /orders/1' -> : 
+/accounts/1  -> : 
+/accounts/1 -H 'X-Forwarded-For: 127.0.0.1' -> : 
+/accounts/1 -H 'X-Real-IP: 127.0.0.1' -> : 
+/accounts/1 -H 'X-Original-URL: /accounts/1' -> : 
+/accounts/1 -H 'X-Rewrite-URL: /accounts/1' -> : 

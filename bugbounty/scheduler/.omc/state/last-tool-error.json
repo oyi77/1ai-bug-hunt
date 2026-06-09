@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"# Test Data API endpoints\\necho \\\"=== Data API ===\\\"\\nfor p in \\\"/api/v2/data-api\\\" \\\"/data-api\\\" \\\"/api/data\\\" \\\"/rest\\\" \\\"/api/v2/rest\\\" \\\"/postgrest\\\"; do\\n  code=$(curl -s -o /dev/null...",
+  "error": "Exit code 1",
+  "timestamp": "2026-05-20T21:28:11.428Z",
+  "retry_count": 2
+}

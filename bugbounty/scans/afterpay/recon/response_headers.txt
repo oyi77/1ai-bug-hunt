@@ -1,0 +1,9 @@
+HTTP/2 301 
+date: Wed, 20 May 2026 20:32:53 GMT
+content-type: text/html; charset=UTF-8
+location: https://www.afterpay.com/
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+set-cookie: __cf_bm=AU5btKiZdlNh0tRPjwTrbihnFV9gcuR_OVPwZoCmHXs-1779309173.2364025-1.0.1.1-mPfl6mBMmAjH_pv6vCDY6mrtbos5SEMi2KsU8U51DBXakakdtSlY1KUk9xI9G6lnnxG1BhCQ.sYmrPlPUrGoXPGs.kOH3J2qPi3F3F_wgTTBZKzNOIiqhmBpkZ6J9xroeuDHdE35bvJF.4PvEwu47w; HttpOnly; SameSite=None; Secure; Path=/; Domain=afterpay.com; Expires=Wed, 20 May 2026 21:02:53 GMT
+server: cloudflare
+cf-ray: 9fee1cfcbe6b457a-CGK
+

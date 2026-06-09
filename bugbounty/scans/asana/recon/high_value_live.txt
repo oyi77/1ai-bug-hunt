@@ -1,0 +1,7 @@
+api.asana.com -> 307
+share-beta.asana.com -> 307
+cdp-api.asana.com -> 404
+apps.asana.com -> 307
+beta.asana.com -> 307
+cloud.asana.com -> 307
+azure.asana.com -> 307

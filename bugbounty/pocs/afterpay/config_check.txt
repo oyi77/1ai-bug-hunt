@@ -1,0 +1,210 @@
+=== Runtime Config Check ===
+--- hub.sandbox config.json ---
+{
+  "WEB_APP_SHELL": "https://hub.sandbox.afterpay.com/web-app-shell",
+  "WEB_AUTHENTICATION": "https://hub.sandbox.afterpay.com/web-authentication",
+  "WEB_INSIGHTS": "https://hub.sandbox.afterpay.com/web-insights",
+  "WEB_ONBOARDING": "https://hub.sandbox.afterpay.com/web-onboarding",
+  "WEB_MERCHANT": "https://hub.sandbox.afterpay.com/web-merchant",
+  "WEB_AUDIT_LOG": "https://hub.sandbox.afterpay.com/web-audit-log",
+  "WEB_ONSITE_MESSAGING": "https://hub.sandbox.afterpay.com/web-onsite-messaging",
+  "WEB_ROOT": "https://hub.sandbox.afterpay.com",
+  "US_WEB_ROOT": "https://hub.us-sandbox.afterpay.com",
+  "AU_WEB_ROOT": "https://hub.sandbox.afterpay.com",
+  "EU_WEB_ROOT": "https://hub.sandbox.clearpay.co.uk",
+  "WEB_TEST_EXTERNAL": "https://hub.sandbox.afterpay.com/web-test-external",
+  "WEB_MERCHANT_SHOP": "https://hub.sandbox.afterpay.com/web-merchant-shop",
+  "WEB_ORDERS": "https://hub.sandbox.afterpay.com/web-orders",
+  "WEB_MERCHANT_RECONCILIATIONS": "https://hub.sandbox.afterpay.com/web-merchant-reconciliations",
+  "WEB_MERCHANT_BALANCE": "https://hub.sandbox.afterpay.com/web-merchant-balance",
+  "WEB_MERCHANT_INTEGRATION": "https://hub.sandbox.afterpay.com/web-merchant-integration",
+  "WEB_INSTORE": "https://hub.sandbox.afterpay.com/web-instore",
+  "WEB_DISPUTES": "https://hub.sandbox.afterpay.com/web-disputes",
+  "CORE_MERCHANT_PORTAL": "https://portal.sandbox.afterpay.com/au/merchant/",
+  "UK_CORE_MERCHANT_PORTAL": "https://portal.sandbox.clearpay.co.uk/uk/merchant/",
+  "FR_CORE_MERCHANT_PORTAL": "https://portal.sandbox.clearpay.co.uk/fr/merchant/",
+  "IT_CORE_MERCHANT_PORTAL": "https://portal.sandbox.clearpay.co.uk/it/merchant/",
+  "ES_CORE_MERCHANT_PORTAL": "https://portal.sandbox.clearpay.co.uk/es/merchant/",
+  "DE_CORE_MERCHANT_PORTAL": "https://portal.sandbox.clearpay.co.uk/de/merchant/",
+  "CA_CORE_MERCHANT_PORTAL": "https://portal.sandbox.afterpay.com/ca/merchant/",
+  "US_CORE_MERCHANT_PORTAL": "https://portal.sandbox.afterpay.com/us/merchant/",
+  "AU_CORE_MERCHANT_PORTAL": "https://portal.sandbox.afterpay.com/au/merchant/",
+  "NZ_CORE_MERCHANT_PORTAL": "https://portal.sandbox.afterpay.com/nz/merchant/",
+  "ENVIRONMENT": "sandbox",
+  "LAUNCH_DARKLY_CLIENT_SIDE_ID": "61a46efb7386bf104965194c",
+  "MERCHANT_BASE_URL": "https://merchantportalapi-sandbox.afterpay.com",
+  "AUTH_SESSION_PATH": "portal/merchants/auth/session",
+  "LOGIN_PATH": "portal/merchants/auth/login?source=hub",
+  "AMPLITUDE_CLIENT_SIDE_ID": "339eb92886e7a28c3355608dd804ada1",
+  "MERCHANT_PORTAL_OKTA_CLIENT_ID": "0oas65cfxEdhhmToY4x6",
+  "MERCHANT_PORTAL_OKTA_ISSUER": "https://afterpayb2b-us-sbox.okta.com/oauth2/default",
+  "DD_APPLICATION_ID": "ccb882cb-3841-4893-925d-569b1ad78b18",
+  "DD_CLIENT_TOKEN": "pub6df119a04320609b1b0c8b0ab59ef4e5",
+  "DD_SAMPLE_RATE": "100",
+  "DD_SESSION_REPLAY_SAMPLE_RATE": "100",
+  "DD_RELEASE_VERSION": "v.1.1.8090",
+  "SERVICE_NAME": "afterpay-merchant-hub-sandbox",
+  "GOOGLE_MAPS_API_KEY": "AIzaSyBnnbGJB6MMtYMGXzC6altA_l11MuBmub8",
+  "ANZ_MERCHANT_BASE_URL": "https://merchantportalapi-sandbox.afterpay.com",
+  "US_MERCHANT_BASE_URL": "https://merchantportalapi.us-sandbox.afterpay.com",
+  "EU_MERCHANT_BASE_URL": "https://merchantportalapi.eu-sandbox.clearpay.co.uk",
+  "MOP_BASE_URL": "https://getstaging.afterpay.com",
+  "SQUARE_MARKETPLACE_SCRIPT_URL": "https://js-sandbox.squarecdn.com/square-marketplace.js",
+
+--- hub.us-sandbox config.json ---
+{
+  "WEB_APP_SHELL": "https://hub.us-sandbox.afterpay.com/web-app-shell",
+  "WEB_AUTHENTICATION": "https://hub.us-sandbox.afterpay.com/web-authentication",
+  "WEB_INSIGHTS": "https://hub.us-sandbox.afterpay.com/web-insights",
+  "WEB_ONBOARDING": "https://hub.us-sandbox.afterpay.com/web-onboarding",
+  "WEB_MERCHANT": "https://hub.us-sandbox.afterpay.com/web-merchant",
+  "WEB_AUDIT_LOG": "https://hub.us-sandbox.afterpay.com/web-audit-log",
+  "WEB_ONSITE_MESSAGING": "https://hub.us-sandbox.afterpay.com/web-onsite-messaging",
+  "WEB_ROOT": "https://hub.us-sandbox.afterpay.com",
+  "US_WEB_ROOT": "https://hub.us-sandbox.afterpay.com",
+  "AU_WEB_ROOT": "https://hub.sandbox.afterpay.com",
+  "EU_WEB_ROOT": "https://hub.sandbox.clearpay.co.uk",
+  "WEB_TEST_EXTERNAL": "https://hub.us-sandbox.afterpay.com/web-test-external",
+  "WEB_MERCHANT_SHOP": "https://hub.us-sandbox.afterpay.com/web-merchant-shop",
+  "WEB_ORDERS": "https://hub.us-sandbox.afterpay.com/web-orders",
+  "WEB_MERCHANT_RECONCILIATIONS": "https://hub.us-sandbox.afterpay.com/web-merchant-reconciliations",
+  "WEB_MERCHANT_BALANCE": "https://hub.us-sandbox.afterpay.com/web-merchant-balance",
+  "WEB_MERCHANT_INTEGRATION": "https://hub.us-sandbox.afterpay.com/web-merchant-integration",
+  "WEB_INSTORE": "https://hub.us-sandbox.afterpay.com/web-instore",
+  "WEB_DISPUTES": "https://hub.us-sandbox.afterpay.com/web-disputes",
+  "CORE_MERCHANT_PORTAL": "https://portal.sandbox.afterpay.com/us/merchant/",
+  "UK_CORE_MERCHANT_PORTAL": "https://portal.sandbox.clearpay.co.uk/uk/merchant/",
+  "FR_CORE_MERCHANT_PORTAL": "https://portal.sandbox.clearpay.co.uk/fr/merchant/",
+  "IT_CORE_MERCHANT_PORTAL": "https://portal.sandbox.clearpay.co.uk/it/merchant/",
+  "ES_CORE_MERCHANT_PORTAL": "https://portal.sandbox.clearpay.co.uk/es/merchant/",
+  "DE_CORE_MERCHANT_PORTAL": "https://portal.sandbox.clearpay.co.uk/de/merchant/",
+  "CA_CORE_MERCHANT_PORTAL": "https://portal.sandbox.afterpay.com/ca/merchant/",
+  "US_CORE_MERCHANT_PORTAL": "https://portal.sandbox.afterpay.com/us/merchant/",
+  "AU_CORE_MERCHANT_PORTAL": "https://portal.sandbox.afterpay.com/au/merchant/",
+  "NZ_CORE_MERCHANT_PORTAL": "https://portal.sandbox.afterpay.com/nz/merchant/",
+  "ENVIRONMENT": "us-sandbox",
+  "LAUNCH_DARKLY_CLIENT_SIDE_ID": "61a46eb32b64630f230ac7f8",
+  "MERCHANT_BASE_URL": "https://merchantportalapi.us-sandbox.afterpay.com",
+  "AUTH_SESSION_PATH": "portal/merchants/auth/session",
+  "LOGIN_PATH": "portal/merchants/auth/login?source=hub",
+  "AMPLITUDE_CLIENT_SIDE_ID": "339eb92886e7a28c3355608dd804ada1",
+  "MERCHANT_PORTAL_OKTA_CLIENT_ID": "0oas65cfxEdhhmToY4x6",
+  "MERCHANT_PORTAL_OKTA_ISSUER": "https://afterpayb2b-us-sbox.okta.com/oauth2/default",
+  "DD_APPLICATION_ID": "ccb882cb-3841-4893-925d-569b1ad78b18",
+  "DD_CLIENT_TOKEN": "pub6df119a04320609b1b0c8b0ab59ef4e5",
+  "DD_SAMPLE_RATE": "100",
+  "DD_SESSION_REPLAY_SAMPLE_RATE": "100",
+  "DD_RELEASE_VERSION": "v.1.1.8090",
+  "SERVICE_NAME": "afterpay-merchant-hub-sandbox",
+  "GOOGLE_MAPS_API_KEY": "AIzaSyBnnbGJB6MMtYMGXzC6altA_l11MuBmub8",
+  "ANZ_MERCHANT_BASE_URL": "https://merchantportalapi-sandbox.afterpay.com",
+  "US_MERCHANT_BASE_URL": "https://merchantportalapi.us-sandbox.afterpay.com",
+  "EU_MERCHANT_BASE_URL": "https://merchantportalapi.eu-sandbox.clearpay.co.uk",
+  "MOP_BASE_URL": "https://getstaging.afterpay.com",
+  "SQUARE_MARKETPLACE_SCRIPT_URL": "https://js-sandbox.squarecdn.com/square-marketplace.js",
+
+--- .env response headers ---
+HTTP/2 403 
+date: Wed, 20 May 2026 20:41:35 GMT
+content-type: text/html; charset=UTF-8
+cache-control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+expires: Thu, 01 Jan 1970 00:00:01 GMT
+referrer-policy: same-origin
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+set-cookie: __cf_bm=KDQfqVRKhgwuzLlG57.sZRXPSzC.JZKSbc9PeyOfhqI-1779309695.0853968-1.0.1.1-ikPPl.y56G_zlfZ4zfe_YsR01jHbVGFbaEWM6yw38r7a_aCvF1Gxl7yIX8wkH.i1hvkjolElSClfWzFrv.k_DxEK0mHYP.MkyOqjeru7Jq9obKdEVhZRYQ1VgDeNGNz24ow05fD8XtL0u3Hts2iuVw; HttpOnly; SameSite=None; Secure; Path=/; Domain=afterpay.com; Expires=Wed, 20 May 2026 21:11:35 GMT
+server: cloudflare
+cf-ray: 9fee29ba49c4c098-CGK
+
+
+--- .env body ---
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+<title>Attention Required! | Cloudflare</title>
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/cf.errors.css" />
+<!--[if lt IE 9]><link rel="stylesheet" id='cf_styles-ie-css' href="/cdn-cgi/styles/cf.errors.ie.css" /><![endif]-->
+<style>body{margin:0;padding:0}</style>
+
+
+<!--[if gte IE 10]><!-->
+<script>
+  if (!navigator.cookieEnabled) {
+    window.addEventListener('DOMContentLoaded', function () {
+      var cookieEl = document.getElementById('cookie-alert');
+      cookieEl.style.display = 'block';
+    })
+  }
+</script>
+<!--<![endif]-->
+
+</head>
+<body>
+  <div id="cf-wrapper">
+    <div class="cf-alert cf-alert-error cf-cookie-error" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
+    <div id="cf-error-details" class="cf-error-details-wrapper">
+      <div class="cf-wrapper cf-header cf-error-overview">
+        <h1 data-translate="block_headline">Sorry, you have been blocked</h1>
+        <h2 class="cf-subheadline"><span data-translate="unable_to_access">You are unable to access</span> afterpay.com</h2>
+      </div><!-- /.header -->
+
+      <div class="cf-section cf-highlight">
+        <div class="cf-wrapper">
+          <div class="cf-screenshot-container cf-screenshot-full">
+            
+              <span class="cf-no-screenshot error"></span>
+            
+          </div>
+        </div>
+      </div><!-- /.captcha-container -->
+
+      <div class="cf-section cf-wrapper">
+        <div class="cf-columns two">
+          <div class="cf-column">
+            <h2 data-translate="blocked_why_headline">Why have I been blocked?</h2>
+
+            <p data-translate="blocked_why_detail">This website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data.</p>
+          </div>
+
+          <div class="cf-column">
+            <h2 data-translate="blocked_resolve_headline">What can I do to resolve this?</h2>
+
+            <p data-translate="blocked_resolve_detail">You can email the site owner to let them know you were blocked. Please include what you were doing when this page came up and the Cloudflare Ray ID found at the bottom of this page.</p>
+          </div>
+        </div>
+      </div><!-- /.section -->
+
+      <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
+    <p class="text-13">
+      <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">9fee29baad4da5b0</strong></span>
+      <span class="cf-footer-separator sm:hidden">&bull;</span>
+      <span id="cf-footer-item-ip" class="cf-footer-item hidden sm:block sm:mb-1">
+        Your IP:
+        <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>
+        <span class="hidden" id="cf-footer-ip">192.88.101.14</span>
+        <span class="cf-footer-separator sm:hidden">&bull;</span>
+      </span>
+      <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
+      
+    </p>
+    <script>(function(){function d(){var b=a.getElementById("cf-footer-item-ip"),c=a.getElementById("cf-footer-ip-reveal");b&&"classList"in b&&(b.classList.remove("hidden"),c.addEventListener("click",function(){c.classList.add("hidden");a.getElementById("cf-footer-ip").classList.remove("hidden")}))}var a=document;document.addEventListener&&a.addEventListener("DOMContentLoaded",d)})();</script>
+  </div><!-- /.error-footer -->
+
+    </div><!-- /#cf-error-details -->
+  </div><!-- /#cf-wrapper -->
+
+  <script>
+    window._cf_translation = {};
+    
+    
+  </script>
+</body>
+</html>

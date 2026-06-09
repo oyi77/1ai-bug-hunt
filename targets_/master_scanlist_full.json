@@ -1,0 +1,6338 @@
+{
+  "count": 715,
+  "generated": "2026-06-09T11:26:36.588848",
+  "targets": [
+    {
+      "domain": "google.com",
+      "name": "Google (Alphabet)",
+      "program": "Google Vulnerability Reward Program (VRP)",
+      "bounty_max": "$151,515 (Android, Chrome, Google Cloud, etc.)",
+      "email": "security@google.com",
+      "source": "direct_email",
+      "submission": "https://g.co/vrp"
+    },
+    {
+      "domain": "chatgpt.com",
+      "name": "OpenAI (ChatGPT)",
+      "program": "OpenAI Bug Bounty Program",
+      "bounty_max": "$100,000",
+      "email": "disclosure@openai.com",
+      "source": "direct_email",
+      "submission": "https://bugcrowd.com/openai"
+    },
+    {
+      "domain": "yahoo.com",
+      "name": "Yahoo (Yahoo Inc.)",
+      "program": "Yahoo Bug Bounty (via Intigriti)",
+      "bounty_max": "Up to $25,000",
+      "email": "security@yahooinc.com",
+      "source": "direct_email",
+      "submission": "https://app.intigriti.com/programs/yahoo/yahoobugbounty/detail"
+    },
+    {
+      "domain": "wikipedia.org",
+      "name": "Wikimedia (Wikipedia)",
+      "program": "Wikimedia VDP (no bounties)",
+      "bounty_max": "No bounties (swag/recognition only)",
+      "email": "security@wikimedia.org",
+      "source": "direct_email",
+      "submission": "https://www.mediawiki.org/wiki/Reporting_security_bugs"
+    },
+    {
+      "domain": "reddit.com",
+      "name": "Reddit",
+      "program": "Reddit Bug Bounty Program",
+      "bounty_max": "$30,000",
+      "email": "whitehats@reddit.com",
+      "source": "direct_email",
+      "submission": "https://www.reddit.com/whitehat"
+    },
+    {
+      "domain": "shopify.com",
+      "name": "Shopify",
+      "program": "Shopify Bug Bounty Program",
+      "bounty_max": "$50,000+",
+      "email": "security@shopify.com",
+      "source": "direct_email",
+      "submission": "https://www.shopify.com/security-response"
+    },
+    {
+      "domain": "discord.com",
+      "name": "Discord",
+      "program": "Discord Bug Bounty",
+      "bounty_max": "$25,000+",
+      "email": "bugbounty@discordapp.com",
+      "source": "direct_email",
+      "submission": "https://discord.com/security"
+    },
+    {
+      "domain": "zoom.us",
+      "name": "Zoom",
+      "program": "Zoom Bug Bounty Program",
+      "bounty_max": "$10,000+",
+      "email": "security-reports@zoom.us",
+      "source": "direct_email",
+      "submission": "https://www.zoom.com/en/trust/vulnerability-disclosure/submit-vulnerability-report"
+    },
+    {
+      "domain": "cisco.com",
+      "name": "Cisco",
+      "program": "Cisco VDP (limited bounties)",
+      "bounty_max": "Up to $100,000",
+      "email": "psirt@cisco.com",
+      "source": "direct_email",
+      "submission": "https://sec.cloudapps.cisco.com/security/center/resources/security_vulnerability_policy.html"
+    },
+    {
+      "domain": "ibm.com",
+      "name": "IBM",
+      "program": "IBM Bug Bounty (via HackerOne)",
+      "bounty_max": "Up to $100,000",
+      "email": "psirt@us.ibm.com",
+      "source": "direct_email",
+      "submission": "https://www.ibm.com/trust/security-psirt"
+    },
+    {
+      "domain": "intel.com",
+      "name": "Intel",
+      "program": "Intel Bounty Program",
+      "bounty_max": "$10,000+",
+      "email": "secure@intel.com",
+      "source": "direct_email",
+      "submission": "https://www.intel.com/content/www/us/en/security-center/default.html"
+    },
+    {
+      "domain": "spotify.com",
+      "name": "Spotify",
+      "program": "Spotify Bug Bounty",
+      "bounty_max": "$30,000+",
+      "email": "security@spotify.com",
+      "source": "direct_email",
+      "submission": "https://www.spotify.com/bounty"
+    },
+    {
+      "domain": "atlassian.com",
+      "name": "Atlassian (Jira, Confluence, etc.)",
+      "program": "Atlassian Bug Bounty",
+      "bounty_max": "Up to $100,000",
+      "email": "security@atlassian.com",
+      "source": "direct_email",
+      "submission": "https://www.atlassian.com/trust/security/report-a-vulnerability"
+    },
+    {
+      "domain": "signal.org",
+      "name": "Signal",
+      "program": "Signal VDP",
+      "bounty_max": "No bounties (VDP only)",
+      "email": "security@signal.org",
+      "source": "direct_email",
+      "submission": "https://signal.org/security/"
+    },
+    {
+      "domain": "proton.me",
+      "name": "Proton (ProtonMail, ProtonVPN, etc.)",
+      "program": "Proton Bug Bounty Program",
+      "bounty_max": "$10,000+",
+      "email": "security@proton.me",
+      "source": "direct_email",
+      "submission": "https://proton.me/security/bug-bounty"
+    },
+    {
+      "domain": "vercel.com",
+      "name": "Vercel",
+      "program": "Vercel Bug Bounty (via HackerOne)",
+      "bounty_max": "$5,000+",
+      "email": "responsible.disclosure@vercel.com",
+      "source": "direct_email",
+      "submission": "https://security.vercel.com/"
+    },
+    {
+      "domain": "adobe.com",
+      "name": "Adobe",
+      "program": "Adobe Bug Bounty Program",
+      "bounty_max": "Up to $50,000",
+      "email": "psirt@adobe.com",
+      "source": "direct_email",
+      "submission": "https://hackerone.com/adobe"
+    },
+    {
+      "domain": "bloomberg.com",
+      "name": "Bloomberg",
+      "program": "Bloomberg VDP",
+      "bounty_max": "Up to $10,000",
+      "email": "reportvuln@bloomberg.net",
+      "source": "direct_email",
+      "submission": "https://www.bloomberg.com/responsible-disclosure"
+    },
+    {
+      "domain": "a16z.com",
+      "name": "A16z (Andreessen Horowitz)",
+      "program": "A16z VDP (Full+CVD)",
+      "bounty_max": "VDP only (Full+CVD maturity, score 113.3/120)",
+      "email": "cirt@a16z.com",
+      "source": "direct_email",
+      "submission": "https://a16z.com/security-policy"
+    },
+    {
+      "domain": "aalberts.com",
+      "name": "Aalberts",
+      "program": "Aalberts VDP (Full - score 93.3/120)",
+      "bounty_max": "VDP only",
+      "email": "security@aalberts.com",
+      "source": "direct_email",
+      "submission": "https://aalberts.com/.well-known/policy.txt"
+    },
+    {
+      "domain": "1password",
+      "name": "1Password - Enterprise Password Manager",
+      "handle": "1password",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/1password"
+    },
+    {
+      "domain": "1password_ctf",
+      "name": "1Password - CTF",
+      "handle": "1password_ctf",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/1password_ctf"
+    },
+    {
+      "domain": "1win_com",
+      "name": "1win",
+      "handle": "1win_com",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/1win_com"
+    },
+    {
+      "domain": "23andme_bbp",
+      "name": "23andMe Bug Bounty",
+      "handle": "23andme_bbp",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/23andme_bbp"
+    },
+    {
+      "domain": "3cx",
+      "name": "3CX",
+      "handle": "3cx",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/3cx"
+    },
+    {
+      "domain": "6sense-vdp",
+      "name": "6sense VDP",
+      "handle": "6sense-vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/6sense-vdp"
+    },
+    {
+      "domain": "8x8-bounty",
+      "name": "8x8",
+      "handle": "8x8-bounty",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/8x8-bounty"
+    },
+    {
+      "domain": "abb",
+      "name": "ABB Information Systems Ltd",
+      "handle": "abb",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/abb"
+    },
+    {
+      "domain": "abercrombie_fitch",
+      "name": "Abercrombie & Fitch Management Co.",
+      "handle": "abercrombie_fitch",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/abercrombie_fitch"
+    },
+    {
+      "domain": "abn_amro_vdp",
+      "name": "ABN AMRO Bank VDP",
+      "handle": "abn_amro_vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/abn_amro_vdp"
+    },
+    {
+      "domain": "aboitizpower_corporation",
+      "name": "AboitizPower",
+      "handle": "aboitizpower_corporation",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/aboitizpower_corporation"
+    },
+    {
+      "domain": "acronis",
+      "name": "Acronis",
+      "handle": "acronis",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/acronis"
+    },
+    {
+      "domain": "adevinta_vdp",
+      "name": "Adevinta",
+      "handle": "adevinta_vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/adevinta_vdp"
+    },
+    {
+      "domain": "adobe",
+      "name": "Adobe",
+      "handle": "adobe",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/adobe"
+    },
+    {
+      "domain": "aeromexico_vdp",
+      "name": "Aeromexico VDP",
+      "handle": "aeromexico_vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/aeromexico_vdp"
+    },
+    {
+      "domain": "affirm",
+      "name": "Affirm",
+      "handle": "affirm",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/affirm"
+    },
+    {
+      "domain": "agoric",
+      "name": "Agoric",
+      "handle": "agoric",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/agoric"
+    },
+    {
+      "domain": "aig",
+      "name": "AIG",
+      "handle": "aig",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/aig"
+    },
+    {
+      "domain": "airbnb",
+      "name": "Airbnb",
+      "handle": "airbnb",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/airbnb"
+    },
+    {
+      "domain": "airtable",
+      "name": "Airtable",
+      "handle": "airtable",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/airtable"
+    },
+    {
+      "domain": "aiven_ltd",
+      "name": "Aiven Ltd",
+      "handle": "aiven_ltd",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/aiven_ltd"
+    },
+    {
+      "domain": "algolia",
+      "name": "Algolia",
+      "handle": "algolia",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/algolia"
+    },
+    {
+      "domain": "alibaba",
+      "name": "Alibaba BBP",
+      "handle": "alibaba",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/alibaba"
+    },
+    {
+      "domain": "alibaba_vdp",
+      "name": "Alibaba VDP",
+      "handle": "alibaba_vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/alibaba_vdp"
+    },
+    {
+      "domain": "allegion",
+      "name": "Allegion",
+      "handle": "allegion",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/allegion"
+    },
+    {
+      "domain": "alohi",
+      "name": "Alohi",
+      "handle": "alohi",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/alohi"
+    },
+    {
+      "domain": "alsco",
+      "name": "ALSCO",
+      "handle": "alsco",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/alsco"
+    },
+    {
+      "domain": "alshaya",
+      "name": "Alshaya",
+      "handle": "alshaya",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/alshaya"
+    },
+    {
+      "domain": "alvosec",
+      "name": "Alvosec",
+      "handle": "alvosec",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/alvosec"
+    },
+    {
+      "domain": "amazonvrp",
+      "name": "Amazon Vulnerability Research Program",
+      "handle": "amazonvrp",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/amazonvrp"
+    },
+    {
+      "domain": "amazonvrp-devices",
+      "name": "Amazon Vulnerability Research Program - Devices",
+      "handle": "amazonvrp-devices",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/amazonvrp-devices"
+    },
+    {
+      "domain": "amitree_inc",
+      "name": "Amitree Inc",
+      "handle": "amitree_inc",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/amitree_inc"
+    },
+    {
+      "domain": "anduril_industries",
+      "name": "Anduril Industries",
+      "handle": "anduril_industries",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/anduril_industries"
+    },
+    {
+      "domain": "anthropic",
+      "name": "Anthropic",
+      "handle": "anthropic",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/anthropic"
+    },
+    {
+      "domain": "anywhererealestate",
+      "name": "Anywhere Real Estate",
+      "handle": "anywhererealestate",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/anywhererealestate"
+    },
+    {
+      "domain": "aodocs",
+      "name": "AODocs",
+      "handle": "aodocs",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/aodocs"
+    },
+    {
+      "domain": "aon",
+      "name": "Aon",
+      "handle": "aon",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/aon"
+    },
+    {
+      "domain": "apache_kafka_h1c",
+      "name": "Apache Kafka (European Commission - DIGIT)",
+      "handle": "apache_kafka_h1c",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/apache_kafka_h1c"
+    },
+    {
+      "domain": "apnic",
+      "name": "APNIC",
+      "handle": "apnic",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/apnic"
+    },
+    {
+      "domain": "arkadiyt-projects",
+      "name": "arkadiyt-projects",
+      "handle": "arkadiyt-projects",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/arkadiyt-projects"
+    },
+    {
+      "domain": "arkose_labs",
+      "name": "Arkose Labs",
+      "handle": "arkose_labs",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/arkose_labs"
+    },
+    {
+      "domain": "aspen",
+      "name": "Aspen",
+      "handle": "aspen",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/aspen"
+    },
+    {
+      "domain": "att",
+      "name": "AT&T",
+      "handle": "att",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/att"
+    },
+    {
+      "domain": "audible",
+      "name": "Audible",
+      "handle": "audible",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/audible"
+    },
+    {
+      "domain": "autodesk",
+      "name": "Autodesk",
+      "handle": "autodesk",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/autodesk"
+    },
+    {
+      "domain": "automattic",
+      "name": "Automattic",
+      "handle": "automattic",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/automattic"
+    },
+    {
+      "domain": "avalara",
+      "name": "Avalara",
+      "handle": "avalara",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/avalara"
+    },
+    {
+      "domain": "aven_response",
+      "name": "Aven (Response)",
+      "handle": "aven_response",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/aven_response"
+    },
+    {
+      "domain": "aws_vdp",
+      "name": "AWS VDP",
+      "handle": "aws_vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/aws_vdp"
+    },
+    {
+      "domain": "badoo",
+      "name": "Badoo",
+      "handle": "badoo",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/badoo"
+    },
+    {
+      "domain": "baird_vdp",
+      "name": "Baird",
+      "handle": "baird_vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/baird_vdp"
+    },
+    {
+      "domain": "banco_bmg",
+      "name": "Banco BMG VDP",
+      "handle": "banco_bmg",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/banco_bmg"
+    },
+    {
+      "domain": "banco_plata",
+      "name": "Banco Plata",
+      "handle": "banco_plata",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/banco_plata"
+    },
+    {
+      "domain": "bankunited",
+      "name": "BankUnited",
+      "handle": "bankunited",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/bankunited"
+    },
+    {
+      "domain": "basecamp",
+      "name": "Basecamp",
+      "handle": "basecamp",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/basecamp"
+    },
+    {
+      "domain": "bcny",
+      "name": "The Browser Company of NYC",
+      "handle": "bcny",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/bcny"
+    },
+    {
+      "domain": "beiersdorf",
+      "name": "Beiersdorf",
+      "handle": "beiersdorf",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/beiersdorf"
+    },
+    {
+      "domain": "bestbuy",
+      "name": "Best Buy",
+      "handle": "bestbuy",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/bestbuy"
+    },
+    {
+      "domain": "bill_vdp",
+      "name": "BILL VDP",
+      "handle": "bill_vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/bill_vdp"
+    },
+    {
+      "domain": "bime",
+      "name": "Bime",
+      "handle": "bime",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/bime"
+    },
+    {
+      "domain": "bitaccess",
+      "name": "bitaccess",
+      "handle": "bitaccess",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/bitaccess"
+    },
+    {
+      "domain": "bitmex",
+      "name": "BitMEX",
+      "handle": "bitmex",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/bitmex"
+    },
+    {
+      "domain": "bitwarden",
+      "name": "Bitwarden",
+      "handle": "bitwarden",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/bitwarden"
+    },
+    {
+      "domain": "blackrock",
+      "name": "BlackRock",
+      "handle": "blackrock",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/blackrock"
+    },
+    {
+      "domain": "blend-labs",
+      "name": "Blend Labs",
+      "handle": "blend-labs",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/blend-labs"
+    },
+    {
+      "domain": "bookingcom",
+      "name": "Booking.com",
+      "handle": "bookingcom",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/bookingcom"
+    },
+    {
+      "domain": "boozt",
+      "name": "Boozt Fashion AB",
+      "handle": "boozt",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/boozt"
+    },
+    {
+      "domain": "bose_vdp",
+      "name": "Bose (VDP)",
+      "handle": "bose_vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/bose_vdp"
+    },
+    {
+      "domain": "brave",
+      "name": "Brave Software",
+      "handle": "brave",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/brave"
+    },
+    {
+      "domain": "braze_inc",
+      "name": "Braze, Inc.",
+      "handle": "braze_inc",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/braze_inc"
+    },
+    {
+      "domain": "brightspeed",
+      "name": "Brightspeed",
+      "handle": "brightspeed",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/brightspeed"
+    },
+    {
+      "domain": "british_airways_vdp",
+      "name": "British Airways VDP",
+      "handle": "british_airways_vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/british_airways_vdp"
+    },
+    {
+      "domain": "btfs",
+      "name": "BTFS",
+      "handle": "btfs",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/btfs"
+    },
+    {
+      "domain": "bumba_bbp",
+      "name": "Bumba",
+      "handle": "bumba_bbp",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/bumba_bbp"
+    },
+    {
+      "domain": "bumble",
+      "name": "Bumble",
+      "handle": "bumble",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/bumble"
+    },
+    {
+      "domain": "bybit_fintech",
+      "name": "Bybit Fintech Ltd",
+      "handle": "bybit_fintech",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/bybit_fintech"
+    },
+    {
+      "domain": "bykea",
+      "name": "Bykea",
+      "handle": "bykea",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/bykea"
+    },
+    {
+      "domain": "callsign",
+      "name": "Callsign",
+      "handle": "callsign",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/callsign"
+    },
+    {
+      "domain": "canada_goose_inc",
+      "name": "Canada Goose Inc.",
+      "handle": "canada_goose_inc",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/canada_goose_inc"
+    },
+    {
+      "domain": "capital-one",
+      "name": "Capital One",
+      "handle": "capital-one",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/capital-one"
+    },
+    {
+      "domain": "capital-one-bounty",
+      "name": "Capital One Bug Bounty",
+      "handle": "capital-one-bounty",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/capital-one-bounty"
+    },
+    {
+      "domain": "caterpillar",
+      "name": "Caterpillar",
+      "handle": "caterpillar",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/caterpillar"
+    },
+    {
+      "domain": "cbre",
+      "name": "CBRE",
+      "handle": "cbre",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/cbre"
+    },
+    {
+      "domain": "cedars-sinai",
+      "name": "Cedars-Sinai",
+      "handle": "cedars-sinai",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/cedars-sinai"
+    },
+    {
+      "domain": "central-security-project",
+      "name": "Central Security Project",
+      "handle": "central-security-project",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/central-security-project"
+    },
+    {
+      "domain": "cert",
+      "name": "CERT/CC",
+      "handle": "cert",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/cert"
+    },
+    {
+      "domain": "cfptime",
+      "name": "CFP Time",
+      "handle": "cfptime",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/cfptime"
+    },
+    {
+      "domain": "chainlink",
+      "name": "Chainlink",
+      "handle": "chainlink",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/chainlink"
+    },
+    {
+      "domain": "chaturbate",
+      "name": "Chaturbate",
+      "handle": "chaturbate",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/chaturbate"
+    },
+    {
+      "domain": "chia_network",
+      "name": "Chia Network",
+      "handle": "chia_network",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/chia_network"
+    },
+    {
+      "domain": "chorus_jg4l2",
+      "name": "Chorus",
+      "handle": "chorus_jg4l2",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/chorus_jg4l2"
+    },
+    {
+      "domain": "circle-bbp",
+      "name": "Circle BBP",
+      "handle": "circle-bbp",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/circle-bbp"
+    },
+    {
+      "domain": "cirrusinsight",
+      "name": "Cirrus Insight",
+      "handle": "cirrusinsight",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/cirrusinsight"
+    },
+    {
+      "domain": "citi_group",
+      "name": "Citi Group",
+      "handle": "citi_group",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/citi_group"
+    },
+    {
+      "domain": "city_of_los_angeles_vdp",
+      "name": "City of Los Angeles",
+      "handle": "city_of_los_angeles_vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/city_of_los_angeles_vdp"
+    },
+    {
+      "domain": "clarivate",
+      "name": "Clarivate",
+      "handle": "clarivate",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/clarivate"
+    },
+    {
+      "domain": "clear",
+      "name": "CLEAR",
+      "handle": "clear",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/clear"
+    },
+    {
+      "domain": "clear_street_vdp",
+      "name": "Clear Street Disclosure Program",
+      "handle": "clear_street_vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/clear_street_vdp"
+    },
+    {
+      "domain": "cloudflare",
+      "name": "Cloudflare Public Bug Bounty",
+      "handle": "cloudflare",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/cloudflare"
+    },
+    {
+      "domain": "coalition",
+      "name": "Coalition, Inc.",
+      "handle": "coalition",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/coalition"
+    },
+    {
+      "domain": "codeigniter",
+      "name": "CodeIgniter",
+      "handle": "codeigniter",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/codeigniter"
+    },
+    {
+      "domain": "cognition",
+      "name": "Cognition",
+      "handle": "cognition",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/cognition"
+    },
+    {
+      "domain": "cognizant",
+      "name": "Cognizant",
+      "handle": "cognizant",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/cognizant"
+    },
+    {
+      "domain": "coinbase",
+      "name": "Coinbase",
+      "handle": "coinbase",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/coinbase"
+    },
+    {
+      "domain": "coinhako",
+      "name": "Coinhako",
+      "handle": "coinhako",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/coinhako"
+    },
+    {
+      "domain": "coinmate",
+      "name": "CoinMate.io",
+      "handle": "coinmate",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/coinmate"
+    },
+    {
+      "domain": "coinspot",
+      "name": "CoinSpot",
+      "handle": "coinspot",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/coinspot"
+    },
+    {
+      "domain": "companyhub",
+      "name": "CompanyHub",
+      "handle": "companyhub",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/companyhub"
+    },
+    {
+      "domain": "compass-bbp",
+      "name": "Compass",
+      "handle": "compass-bbp",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/compass-bbp"
+    },
+    {
+      "domain": "concretecms",
+      "name": "Concrete CMS",
+      "handle": "concretecms",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/concretecms"
+    },
+    {
+      "domain": "consensys",
+      "name": "Consensys",
+      "handle": "consensys",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/consensys"
+    },
+    {
+      "domain": "copper",
+      "name": "Copper",
+      "handle": "copper",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/copper"
+    },
+    {
+      "domain": "corebridge_financial",
+      "name": "Corebridge Financial",
+      "handle": "corebridge_financial",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/corebridge_financial"
+    },
+    {
+      "domain": "cornershop",
+      "name": "Cornershop",
+      "handle": "cornershop",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/cornershop"
+    },
+    {
+      "domain": "cosmos",
+      "name": "Cosmos",
+      "handle": "cosmos",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/cosmos"
+    },
+    {
+      "domain": "costco",
+      "name": "Costco",
+      "handle": "costco",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/costco"
+    },
+    {
+      "domain": "coupang_tw",
+      "name": "Coupang Taiwan",
+      "handle": "coupang_tw",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/coupang_tw"
+    },
+    {
+      "domain": "coursera",
+      "name": "Coursera",
+      "handle": "coursera",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/coursera"
+    },
+    {
+      "domain": "creditkarma",
+      "name": "Credit Karma",
+      "handle": "creditkarma",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/creditkarma"
+    },
+    {
+      "domain": "crowdstrike",
+      "name": "Crowdstrike",
+      "handle": "crowdstrike",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/crowdstrike"
+    },
+    {
+      "domain": "crypto",
+      "name": "Crypto.com",
+      "handle": "crypto",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/crypto"
+    },
+    {
+      "domain": "cs_money",
+      "name": "CS Money",
+      "handle": "cs_money",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/cs_money"
+    },
+    {
+      "domain": "csg-public",
+      "name": "Cloud Software Group",
+      "handle": "csg-public",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/csg-public"
+    },
+    {
+      "domain": "curl",
+      "name": "curl",
+      "handle": "curl",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/curl"
+    },
+    {
+      "domain": "dailypay_vdp",
+      "name": "DailyPay VDP",
+      "handle": "dailypay_vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/dailypay_vdp"
+    },
+    {
+      "domain": "daimler_truck",
+      "name": "Daimler Truck",
+      "handle": "daimler_truck",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/daimler_truck"
+    },
+    {
+      "domain": "databricks",
+      "name": "Databricks",
+      "handle": "databricks",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/databricks"
+    },
+    {
+      "domain": "deconf_com",
+      "name": "Deconf",
+      "handle": "deconf_com",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/deconf_com"
+    },
+    {
+      "domain": "defectdojo",
+      "name": "DefectDojo",
+      "handle": "defectdojo",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/defectdojo"
+    },
+    {
+      "domain": "delight_im",
+      "name": "delight.im",
+      "handle": "delight_im",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/delight_im"
+    },
+    {
+      "domain": "deptofdefense",
+      "name": "U.S. Dept Of Defense",
+      "handle": "deptofdefense",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/deptofdefense"
+    },
+    {
+      "domain": "deribit",
+      "name": "Deribit",
+      "handle": "deribit",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/deribit"
+    },
+    {
+      "domain": "deriv",
+      "name": "Deriv.com",
+      "handle": "deriv",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/deriv"
+    },
+    {
+      "domain": "dib-vdp",
+      "name": "DIB-VDP",
+      "handle": "dib-vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/dib-vdp"
+    },
+    {
+      "domain": "digitalsellz",
+      "name": "DigitalSellz",
+      "handle": "digitalsellz",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/digitalsellz"
+    },
+    {
+      "domain": "disclosure-assistance",
+      "name": "Disclosure Assistance",
+      "handle": "disclosure-assistance",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/disclosure-assistance"
+    },
+    {
+      "domain": "discourse",
+      "name": "Discourse",
+      "handle": "discourse",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/discourse"
+    },
+    {
+      "domain": "disney",
+      "name": "The Walt Disney Company",
+      "handle": "disney",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/disney"
+    },
+    {
+      "domain": "divvy-homes",
+      "name": "Divvy Homes",
+      "handle": "divvy-homes",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/divvy-homes"
+    },
+    {
+      "domain": "django",
+      "name": "Django",
+      "handle": "django",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/django"
+    },
+    {
+      "domain": "docusign",
+      "name": "DocuSign",
+      "handle": "docusign",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/docusign"
+    },
+    {
+      "domain": "doordash",
+      "name": "DoorDash",
+      "handle": "doordash",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/doordash"
+    },
+    {
+      "domain": "doppler",
+      "name": "Doppler",
+      "handle": "doppler",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/doppler"
+    },
+    {
+      "domain": "dropcontact",
+      "name": "Dropcontact",
+      "handle": "dropcontact",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/dropcontact"
+    },
+    {
+      "domain": "drugs_com",
+      "name": "Drugs.com",
+      "handle": "drugs_com",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/drugs_com"
+    },
+    {
+      "domain": "duckduckgo",
+      "name": "DuckDuckGo",
+      "handle": "duckduckgo",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/duckduckgo"
+    },
+    {
+      "domain": "dust",
+      "name": "Dust",
+      "handle": "dust",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/dust"
+    },
+    {
+      "domain": "dynamic_labs",
+      "name": "Dynamic Labs",
+      "handle": "dynamic_labs",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/dynamic_labs"
+    },
+    {
+      "domain": "dynatrace",
+      "name": "Dynatrace",
+      "handle": "dynatrace",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/dynatrace"
+    },
+    {
+      "domain": "dyson",
+      "name": "Dyson",
+      "handle": "dyson",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/dyson"
+    },
+    {
+      "domain": "early_warning",
+      "name": "Early Warning",
+      "handle": "early_warning",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/early_warning"
+    },
+    {
+      "domain": "earny",
+      "name": "Earny",
+      "handle": "earny",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/earny"
+    },
+    {
+      "domain": "ed",
+      "name": "Ed",
+      "handle": "ed",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/ed"
+    },
+    {
+      "domain": "eero",
+      "name": "eero",
+      "handle": "eero",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/eero"
+    },
+    {
+      "domain": "elastic",
+      "name": "Elastic",
+      "handle": "elastic",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/elastic"
+    },
+    {
+      "domain": "emoney-advisor",
+      "name": "eMoney Advisor",
+      "handle": "emoney-advisor",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/emoney-advisor"
+    },
+    {
+      "domain": "endless_group",
+      "name": "Endless Group",
+      "handle": "endless_group",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/endless_group"
+    },
+    {
+      "domain": "enjin",
+      "name": "Enjin",
+      "handle": "enjin",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/enjin"
+    },
+    {
+      "domain": "epicgames",
+      "name": "Epic Games",
+      "handle": "epicgames",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/epicgames"
+    },
+    {
+      "domain": "equifax",
+      "name": "Equifax-vdp",
+      "handle": "equifax",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/equifax"
+    },
+    {
+      "domain": "eslint",
+      "name": "ESLint",
+      "handle": "eslint",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/eslint"
+    },
+    {
+      "domain": "estee-lauder",
+      "name": " Este\u00e9  Lauder",
+      "handle": "estee-lauder",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/estee-lauder"
+    },
+    {
+      "domain": "eternal",
+      "name": "Eternal",
+      "handle": "eternal",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/eternal"
+    },
+    {
+      "domain": "etoro_bbp",
+      "name": "eToro BBP",
+      "handle": "etoro_bbp",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/etoro_bbp"
+    },
+    {
+      "domain": "eufy_security",
+      "name": "eufy Security",
+      "handle": "eufy_security",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/eufy_security"
+    },
+    {
+      "domain": "evernote",
+      "name": "Evernote",
+      "handle": "evernote",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/evernote"
+    },
+    {
+      "domain": "exness",
+      "name": "EXNESS",
+      "handle": "exness",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/exness"
+    },
+    {
+      "domain": "exodus",
+      "name": "Exodus",
+      "handle": "exodus",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/exodus"
+    },
+    {
+      "domain": "expediagroup",
+      "name": "Expedia Group VDP",
+      "handle": "expediagroup",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/expediagroup"
+    },
+    {
+      "domain": "expediagroup_bbp",
+      "name": "Expedia Group Bug Bounty",
+      "handle": "expediagroup_bbp",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/expediagroup_bbp"
+    },
+    {
+      "domain": "experian",
+      "name": "Experian",
+      "handle": "experian",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/experian"
+    },
+    {
+      "domain": "expressionengine",
+      "name": "ExpressionEngine",
+      "handle": "expressionengine",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/expressionengine"
+    },
+    {
+      "domain": "fanduel",
+      "name": "FanDuel",
+      "handle": "fanduel",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/fanduel"
+    },
+    {
+      "domain": "fanduel-vdp",
+      "name": "FanDuel Response",
+      "handle": "fanduel-vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/fanduel-vdp"
+    },
+    {
+      "domain": "fantasytote",
+      "name": "FantasyTote",
+      "handle": "fantasytote",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/fantasytote"
+    },
+    {
+      "domain": "faraday_inc",
+      "name": "Faraday, Inc.",
+      "handle": "faraday_inc",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/faraday_inc"
+    },
+    {
+      "domain": "fastify",
+      "name": "Fastify",
+      "handle": "fastify",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/fastify"
+    },
+    {
+      "domain": "fastly-vdp",
+      "name": "Fastly VDP",
+      "handle": "fastly-vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/fastly-vdp"
+    },
+    {
+      "domain": "ferrero",
+      "name": "Ferrero",
+      "handle": "ferrero",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/ferrero"
+    },
+    {
+      "domain": "fertitta_entertainment",
+      "name": "Fertitta Entertainment",
+      "handle": "fertitta_entertainment",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/fertitta_entertainment"
+    },
+    {
+      "domain": "fetlife",
+      "name": "FetLife",
+      "handle": "fetlife",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/fetlife"
+    },
+    {
+      "domain": "fidelity",
+      "name": "Fidelity",
+      "handle": "fidelity",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/fidelity"
+    },
+    {
+      "domain": "fifth_third_bank_vdp",
+      "name": "Fifth Third Bank VDP",
+      "handle": "fifth_third_bank_vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/fifth_third_bank_vdp"
+    },
+    {
+      "domain": "fig",
+      "name": "Fig",
+      "handle": "fig",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/fig"
+    },
+    {
+      "domain": "figma",
+      "name": "Figma",
+      "handle": "figma",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/figma"
+    },
+    {
+      "domain": "files",
+      "name": "Files.com",
+      "handle": "files",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/files"
+    },
+    {
+      "domain": "filezilla",
+      "name": "FileZilla",
+      "handle": "filezilla",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/filezilla"
+    },
+    {
+      "domain": "filezilla_h1c",
+      "name": "FileZilla (European Commission - DIGIT)",
+      "handle": "filezilla_h1c",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/filezilla_h1c"
+    },
+    {
+      "domain": "finnair_vdp",
+      "name": "Finnair Vulnerability Disclosure",
+      "handle": "finnair_vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/finnair_vdp"
+    },
+    {
+      "domain": "finra",
+      "name": "FINRA Response",
+      "handle": "finra",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/finra"
+    },
+    {
+      "domain": "fireblocks",
+      "name": "Fireblocks",
+      "handle": "fireblocks",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/fireblocks"
+    },
+    {
+      "domain": "fireblocks_mpc",
+      "name": "Fireblocks MPC",
+      "handle": "fireblocks_mpc",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/fireblocks_mpc"
+    },
+    {
+      "domain": "fiserv",
+      "name": "Fiserv",
+      "handle": "fiserv",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/fiserv"
+    },
+    {
+      "domain": "flexport_vdp",
+      "name": "Flexport VDP",
+      "handle": "flexport_vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/flexport_vdp"
+    },
+    {
+      "domain": "flickr",
+      "name": "Flickr",
+      "handle": "flickr",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/flickr"
+    },
+    {
+      "domain": "flipkart",
+      "name": "Flipkart",
+      "handle": "flipkart",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/flipkart"
+    },
+    {
+      "domain": "floqast",
+      "name": "FloQast",
+      "handle": "floqast",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/floqast"
+    },
+    {
+      "domain": "flutteruki",
+      "name": "Flutter UK&I",
+      "handle": "flutteruki",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/flutteruki"
+    },
+    {
+      "domain": "ford",
+      "name": "Ford",
+      "handle": "ford",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/ford"
+    },
+    {
+      "domain": "forescout_technologies",
+      "name": "ForeScout Technologies",
+      "handle": "forescout_technologies",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/forescout_technologies"
+    },
+    {
+      "domain": "formassembly",
+      "name": "FormAssembly",
+      "handle": "formassembly",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/formassembly"
+    },
+    {
+      "domain": "fresenius",
+      "name": "Fresenius",
+      "handle": "fresenius",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/fresenius"
+    },
+    {
+      "domain": "freshworks",
+      "name": "Freshworks ",
+      "handle": "freshworks",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/freshworks"
+    },
+    {
+      "domain": "frontegg",
+      "name": "Frontegg",
+      "handle": "frontegg",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/frontegg"
+    },
+    {
+      "domain": "fronthq",
+      "name": "Front",
+      "handle": "fronthq",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/fronthq"
+    },
+    {
+      "domain": "gener8",
+      "name": "Gener8",
+      "handle": "gener8",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/gener8"
+    },
+    {
+      "domain": "getyourguide_vdp",
+      "name": "GetYourGuide VDP",
+      "handle": "getyourguide_vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/getyourguide_vdp"
+    },
+    {
+      "domain": "github",
+      "name": "GitHub",
+      "handle": "github",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/github"
+    },
+    {
+      "domain": "gitlab",
+      "name": "GitLab",
+      "handle": "gitlab",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/gitlab"
+    },
+    {
+      "domain": "glasswire",
+      "name": "GlassWire",
+      "handle": "glasswire",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/glasswire"
+    },
+    {
+      "domain": "global-payments",
+      "name": "Global Payments",
+      "handle": "global-payments",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/global-payments"
+    },
+    {
+      "domain": "glovo",
+      "name": "Glovo",
+      "handle": "glovo",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/glovo"
+    },
+    {
+      "domain": "gm",
+      "name": "General Motors",
+      "handle": "gm",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/gm"
+    },
+    {
+      "domain": "gmelius",
+      "name": "Gmelius",
+      "handle": "gmelius",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/gmelius"
+    },
+    {
+      "domain": "gocardless_bbp",
+      "name": "GoCardless Bug Bounty Program",
+      "handle": "gocardless_bbp",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/gocardless_bbp"
+    },
+    {
+      "domain": "gocd",
+      "name": "GoCD",
+      "handle": "gocd",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/gocd"
+    },
+    {
+      "domain": "godaddy-vdp",
+      "name": "GoDaddy VDP",
+      "handle": "godaddy-vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/godaddy-vdp"
+    },
+    {
+      "domain": "gogo_vdp",
+      "name": "Gogo VDP",
+      "handle": "gogo_vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/gogo_vdp"
+    },
+    {
+      "domain": "goldmansachs",
+      "name": "Goldman Sachs",
+      "handle": "goldmansachs",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/goldmansachs"
+    },
+    {
+      "domain": "goodrx",
+      "name": "GoodRx",
+      "handle": "goodrx",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/goodrx"
+    },
+    {
+      "domain": "grab",
+      "name": "Grab",
+      "handle": "grab",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/grab"
+    },
+    {
+      "domain": "greenfly",
+      "name": "Greenfly",
+      "handle": "greenfly",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/greenfly"
+    },
+    {
+      "domain": "greenhouse",
+      "name": "Greenhouse.io",
+      "handle": "greenhouse",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/greenhouse"
+    },
+    {
+      "domain": "grindr",
+      "name": "Grindr",
+      "handle": "grindr",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/grindr"
+    },
+    {
+      "domain": "gsa_bbp",
+      "name": "GSA Bounty",
+      "handle": "gsa_bbp",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/gsa_bbp"
+    },
+    {
+      "domain": "gsa_vdp",
+      "name": "U.S. General Services Administration",
+      "handle": "gsa_vdp",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/gsa_vdp"
+    },
+    {
+      "domain": "gymshark",
+      "name": "Gymshark",
+      "handle": "gymshark",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/gymshark"
+    },
+    {
+      "domain": "h1-ctf",
+      "name": "h1-ctf",
+      "handle": "h1-ctf",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/h1-ctf"
+    },
+    {
+      "domain": "hack_the_box",
+      "name": "Hack The Box",
+      "handle": "hack_the_box",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/hack_the_box"
+    },
+    {
+      "domain": "hannob",
+      "name": "Hanno's projects",
+      "handle": "hannob",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/hannob"
+    },
+    {
+      "domain": "hcl_software",
+      "name": "HCL Software Inc.",
+      "handle": "hcl_software",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/hcl_software"
+    },
+    {
+      "domain": "helium",
+      "name": "Helium",
+      "handle": "helium",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/helium"
+    },
+    {
+      "domain": "hemi_labs_vdp",
+      "name": "Hemi VDP",
+      "handle": "hemi_labs_vdp",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/hemi_labs_vdp"
+    },
+    {
+      "domain": "henkel_vdp",
+      "name": "Henkel",
+      "handle": "henkel_vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/henkel_vdp"
+    },
+    {
+      "domain": "hertz",
+      "name": "Hertz VDP",
+      "handle": "hertz",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/hertz"
+    },
+    {
+      "domain": "hex",
+      "name": "Hex",
+      "handle": "hex",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/hex"
+    },
+    {
+      "domain": "hexagon_vdp",
+      "name": "Hexagon-VDP",
+      "handle": "hexagon_vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/hexagon_vdp"
+    },
+    {
+      "domain": "hilton",
+      "name": "Hilton",
+      "handle": "hilton",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/hilton"
+    },
+    {
+      "domain": "hiro",
+      "name": "Hiro",
+      "handle": "hiro",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/hiro"
+    },
+    {
+      "domain": "homebargains",
+      "name": "Home Bargains",
+      "handle": "homebargains",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/homebargains"
+    },
+    {
+      "domain": "homebrew",
+      "name": "Homebrew",
+      "handle": "homebrew",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/homebrew"
+    },
+    {
+      "domain": "hostinger",
+      "name": "hostinger ",
+      "handle": "hostinger",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/hostinger"
+    },
+    {
+      "domain": "hotmartvdp",
+      "name": "Hotmart (VDP)",
+      "handle": "hotmartvdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/hotmartvdp"
+    },
+    {
+      "domain": "hpe_vdp",
+      "name": "HPE VDP",
+      "handle": "hpe_vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/hpe_vdp"
+    },
+    {
+      "domain": "hubspot",
+      "name": "HubSpot",
+      "handle": "hubspot",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/hubspot"
+    },
+    {
+      "domain": "hudapp",
+      "name": "Hud App",
+      "handle": "hudapp",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/hudapp"
+    },
+    {
+      "domain": "hy-vee",
+      "name": "Hy-Vee",
+      "handle": "hy-vee",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/hy-vee"
+    },
+    {
+      "domain": "hyatt",
+      "name": "Hyatt Hotels",
+      "handle": "hyatt",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/hyatt"
+    },
+    {
+      "domain": "hyland_software",
+      "name": "Hyland Software",
+      "handle": "hyland_software",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/hyland_software"
+    },
+    {
+      "domain": "hyperledger",
+      "name": "Linux Foundation Decentralized Trust",
+      "handle": "hyperledger",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/hyperledger"
+    },
+    {
+      "domain": "hypr-corp",
+      "name": "HYPR",
+      "handle": "hypr-corp",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/hypr-corp"
+    },
+    {
+      "domain": "iandunn-projects",
+      "name": "Ian Dunn",
+      "handle": "iandunn-projects",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/iandunn-projects"
+    },
+    {
+      "domain": "ibb",
+      "name": "Internet Bug Bounty",
+      "handle": "ibb",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/ibb"
+    },
+    {
+      "domain": "ibm",
+      "name": "IBM",
+      "handle": "ibm",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/ibm"
+    },
+    {
+      "domain": "imgur",
+      "name": "Imgur",
+      "handle": "imgur",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/imgur"
+    },
+    {
+      "domain": "impresscms",
+      "name": "ImpressCMS",
+      "handle": "impresscms",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/impresscms"
+    },
+    {
+      "domain": "inditex",
+      "name": "Inditex",
+      "handle": "inditex",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/inditex"
+    },
+    {
+      "domain": "indrive",
+      "name": "inDrive",
+      "handle": "indrive",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/indrive"
+    },
+    {
+      "domain": "infogram",
+      "name": "Infogram",
+      "handle": "infogram",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/infogram"
+    },
+    {
+      "domain": "informatica",
+      "name": "Informatica",
+      "handle": "informatica",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/informatica"
+    },
+    {
+      "domain": "insightly",
+      "name": "Insightly",
+      "handle": "insightly",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/insightly"
+    },
+    {
+      "domain": "inspectorio",
+      "name": "Inspectorio",
+      "handle": "inspectorio",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/inspectorio"
+    },
+    {
+      "domain": "instacart",
+      "name": "Instacart",
+      "handle": "instacart",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/instacart"
+    },
+    {
+      "domain": "insulet_corporation",
+      "name": "Insulet Corporation",
+      "handle": "insulet_corporation",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/insulet_corporation"
+    },
+    {
+      "domain": "interco_vdp",
+      "name": "Inter & Co. VDP",
+      "handle": "interco_vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/interco_vdp"
+    },
+    {
+      "domain": "intuit_rdp",
+      "name": "Intuit",
+      "handle": "intuit_rdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/intuit_rdp"
+    },
+    {
+      "domain": "investnext",
+      "name": "InvestNext",
+      "handle": "investnext",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/investnext"
+    },
+    {
+      "domain": "ion",
+      "name": "ION Group",
+      "handle": "ion",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/ion"
+    },
+    {
+      "domain": "ips",
+      "name": "Invision Power Services, Inc.",
+      "handle": "ips",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/ips"
+    },
+    {
+      "domain": "irccloud",
+      "name": "IRCCloud",
+      "handle": "irccloud",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/irccloud"
+    },
+    {
+      "domain": "itau_unibanco",
+      "name": "Ita\u00fa Unibanco",
+      "handle": "itau_unibanco",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/itau_unibanco"
+    },
+    {
+      "domain": "jamieweb",
+      "name": "JamieWeb",
+      "handle": "jamieweb",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/jamieweb"
+    },
+    {
+      "domain": "jetblue",
+      "name": "JetBlue",
+      "handle": "jetblue",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/jetblue"
+    },
+    {
+      "domain": "jnj_mobile",
+      "name": "JNJ Mobile",
+      "handle": "jnj_mobile",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/jnj_mobile"
+    },
+    {
+      "domain": "john-deere",
+      "name": "John Deere",
+      "handle": "john-deere",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/john-deere"
+    },
+    {
+      "domain": "judgeme",
+      "name": "Judge.me ",
+      "handle": "judgeme",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/judgeme"
+    },
+    {
+      "domain": "kartpay",
+      "name": "Kartpay",
+      "handle": "kartpay",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/kartpay"
+    },
+    {
+      "domain": "kaseya",
+      "name": "Kaseya",
+      "handle": "kaseya",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/kaseya"
+    },
+    {
+      "domain": "kayak",
+      "name": "KAYAK",
+      "handle": "kayak",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/kayak"
+    },
+    {
+      "domain": "keurigdrpepper",
+      "name": "Keurig Dr Pepper",
+      "handle": "keurigdrpepper",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/keurigdrpepper"
+    },
+    {
+      "domain": "keybank",
+      "name": "KeyBank",
+      "handle": "keybank",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/keybank"
+    },
+    {
+      "domain": "khanacademy",
+      "name": "Khan Academy",
+      "handle": "khanacademy",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/khanacademy"
+    },
+    {
+      "domain": "khealth",
+      "name": "KHealth",
+      "handle": "khealth",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/khealth"
+    },
+    {
+      "domain": "kiwi-ki",
+      "name": "KIWI.KI GmbH",
+      "handle": "kiwi-ki",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/kiwi-ki"
+    },
+    {
+      "domain": "kiwicom",
+      "name": "Kiwi.com",
+      "handle": "kiwicom",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/kiwicom"
+    },
+    {
+      "domain": "kkr_vdp",
+      "name": "KKR-VDP",
+      "handle": "kkr_vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/kkr_vdp"
+    },
+    {
+      "domain": "klarna",
+      "name": "Klarna",
+      "handle": "klarna",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/klarna"
+    },
+    {
+      "domain": "koho",
+      "name": "KOHO",
+      "handle": "koho",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/koho"
+    },
+    {
+      "domain": "kong",
+      "name": "Kong",
+      "handle": "kong",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/kong"
+    },
+    {
+      "domain": "kraken-tech",
+      "name": "Kraken Tech",
+      "handle": "kraken-tech",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/kraken-tech"
+    },
+    {
+      "domain": "krisp",
+      "name": "Krisp",
+      "handle": "krisp",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/krisp"
+    },
+    {
+      "domain": "kubernetes",
+      "name": "Kubernetes",
+      "handle": "kubernetes",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/kubernetes"
+    },
+    {
+      "domain": "lark_technologies",
+      "name": "Lark Technologies",
+      "handle": "lark_technologies",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/lark_technologies"
+    },
+    {
+      "domain": "latamairlines",
+      "name": "LATAM Airlines",
+      "handle": "latamairlines",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/latamairlines"
+    },
+    {
+      "domain": "launchdarkly",
+      "name": "LaunchDarkly",
+      "handle": "launchdarkly",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/launchdarkly"
+    },
+    {
+      "domain": "leather_wallet",
+      "name": "Leather Wallet",
+      "handle": "leather_wallet",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/leather_wallet"
+    },
+    {
+      "domain": "legalrobot",
+      "name": "Legal Robot",
+      "handle": "legalrobot",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/legalrobot"
+    },
+    {
+      "domain": "lemlist",
+      "name": "lemlist",
+      "handle": "lemlist",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/lemlist"
+    },
+    {
+      "domain": "liberapay",
+      "name": "Liberapay",
+      "handle": "liberapay",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/liberapay"
+    },
+    {
+      "domain": "libsass",
+      "name": "LibSass",
+      "handle": "libsass",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/libsass"
+    },
+    {
+      "domain": "lichess",
+      "name": "Lichess",
+      "handle": "lichess",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/lichess"
+    },
+    {
+      "domain": "lightspark_bbp",
+      "name": "Lightspark BBP",
+      "handle": "lightspark_bbp",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/lightspark_bbp"
+    },
+    {
+      "domain": "line",
+      "name": "LY Corporation",
+      "handle": "line",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/line"
+    },
+    {
+      "domain": "linkedin",
+      "name": "LinkedIn",
+      "handle": "linkedin",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/linkedin"
+    },
+    {
+      "domain": "liverpool_victoria",
+      "name": "Liverpool Victoria",
+      "handle": "liverpool_victoria",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/liverpool_victoria"
+    },
+    {
+      "domain": "localizejs",
+      "name": "Localize",
+      "handle": "localizejs",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/localizejs"
+    },
+    {
+      "domain": "logitech",
+      "name": "Logitech",
+      "handle": "logitech",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/logitech"
+    },
+    {
+      "domain": "logsnitch",
+      "name": "LogSnitch",
+      "handle": "logsnitch",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/logsnitch"
+    },
+    {
+      "domain": "lovable-vdp",
+      "name": "Lovable VDP",
+      "handle": "lovable-vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/lovable-vdp"
+    },
+    {
+      "domain": "lowes",
+      "name": "Lowe's Companies VDP",
+      "handle": "lowes",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/lowes"
+    },
+    {
+      "domain": "lpl_financial-vdp",
+      "name": "LPL Financial VDP",
+      "handle": "lpl_financial-vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/lpl_financial-vdp"
+    },
+    {
+      "domain": "luminor",
+      "name": "Luminor",
+      "handle": "luminor",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/luminor"
+    },
+    {
+      "domain": "lyst",
+      "name": "Lyst",
+      "handle": "lyst",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/lyst"
+    },
+    {
+      "domain": "magic-eden",
+      "name": "Magic Eden",
+      "handle": "magic-eden",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/magic-eden"
+    },
+    {
+      "domain": "mailtime_technology_inc",
+      "name": "Mailtime Technology Inc.",
+      "handle": "mailtime_technology_inc",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/mailtime_technology_inc"
+    },
+    {
+      "domain": "mainwp",
+      "name": "MainWP",
+      "handle": "mainwp",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/mainwp"
+    },
+    {
+      "domain": "malwarebytes",
+      "name": "Malwarebytes",
+      "handle": "malwarebytes",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/malwarebytes"
+    },
+    {
+      "domain": "mapbox",
+      "name": "Mapbox",
+      "handle": "mapbox",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/mapbox"
+    },
+    {
+      "domain": "mapsmarker_com_e_u",
+      "name": "MapsMarker.com e.U.",
+      "handle": "mapsmarker_com_e_u",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/mapsmarker_com_e_u"
+    },
+    {
+      "domain": "mariadb",
+      "name": "MariaDB",
+      "handle": "mariadb",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/mariadb"
+    },
+    {
+      "domain": "marriott",
+      "name": "Marriott Bug Bounty Program",
+      "handle": "marriott",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/marriott"
+    },
+    {
+      "domain": "mars",
+      "name": "Mars",
+      "handle": "mars",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/mars"
+    },
+    {
+      "domain": "matomo",
+      "name": "Matomo",
+      "handle": "matomo",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/matomo"
+    },
+    {
+      "domain": "mavenlink",
+      "name": "Mavenlink",
+      "handle": "mavenlink",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/mavenlink"
+    },
+    {
+      "domain": "mcgrawhill",
+      "name": "McGraw Hill",
+      "handle": "mcgrawhill",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/mcgrawhill"
+    },
+    {
+      "domain": "mcuboot",
+      "name": "MCUboot",
+      "handle": "mcuboot",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/mcuboot"
+    },
+    {
+      "domain": "meesho_bbp",
+      "name": "Meesho",
+      "handle": "meesho_bbp",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/meesho_bbp"
+    },
+    {
+      "domain": "mendix",
+      "name": "Mendix",
+      "handle": "mendix",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/mendix"
+    },
+    {
+      "domain": "mercadolibre",
+      "name": "MercadoLibre",
+      "handle": "mercadolibre",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/mercadolibre"
+    },
+    {
+      "domain": "mergify",
+      "name": "Mergify",
+      "handle": "mergify",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/mergify"
+    },
+    {
+      "domain": "metamask",
+      "name": "MetaMask",
+      "handle": "metamask",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/metamask"
+    },
+    {
+      "domain": "midpoint_h1c",
+      "name": "Midpoint (European Commission - DIGIT)",
+      "handle": "midpoint_h1c",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/midpoint_h1c"
+    },
+    {
+      "domain": "mintel",
+      "name": "Mintel",
+      "handle": "mintel",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/mintel"
+    },
+    {
+      "domain": "mobilevikings",
+      "name": "Mobile Vikings",
+      "handle": "mobilevikings",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/mobilevikings"
+    },
+    {
+      "domain": "mobisystems_ltd",
+      "name": "MobiSystems Ltd.",
+      "handle": "mobisystems_ltd",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/mobisystems_ltd"
+    },
+    {
+      "domain": "mod_supply_chain_vdp",
+      "name": "MOD Supply Chain VDP",
+      "handle": "mod_supply_chain_vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/mod_supply_chain_vdp"
+    },
+    {
+      "domain": "modern_treasury",
+      "name": "Modern Treasury",
+      "handle": "modern_treasury",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/modern_treasury"
+    },
+    {
+      "domain": "monarch_money",
+      "name": "Monarch Money",
+      "handle": "monarch_money",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/monarch_money"
+    },
+    {
+      "domain": "mondelez",
+      "name": "Mondel\u0113z International",
+      "handle": "mondelez",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/mondelez"
+    },
+    {
+      "domain": "monero",
+      "name": "Monero",
+      "handle": "monero",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/monero"
+    },
+    {
+      "domain": "moneybird",
+      "name": "Moneybird",
+      "handle": "moneybird",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/moneybird"
+    },
+    {
+      "domain": "mongodb",
+      "name": "MongoDB",
+      "handle": "mongodb",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/mongodb"
+    },
+    {
+      "domain": "moonpay",
+      "name": "MoonPay ",
+      "handle": "moonpay",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/moonpay"
+    },
+    {
+      "domain": "moov",
+      "name": "Moov",
+      "handle": "moov",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/moov"
+    },
+    {
+      "domain": "mozilla",
+      "name": "Mozilla",
+      "handle": "mozilla",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/mozilla"
+    },
+    {
+      "domain": "mpesa",
+      "name": "M-Pesa Africa Limited",
+      "handle": "mpesa",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/mpesa"
+    },
+    {
+      "domain": "msci",
+      "name": "MSCI",
+      "handle": "msci",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/msci"
+    },
+    {
+      "domain": "msd",
+      "name": "Merck & Co., Inc., Rahway, NJ, USA",
+      "handle": "msd",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/msd"
+    },
+    {
+      "domain": "mtb",
+      "name": "M&T Bank Vulnerability Disclosure",
+      "handle": "mtb",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/mtb"
+    },
+    {
+      "domain": "mtn_group",
+      "name": "MTN Group",
+      "handle": "mtn_group",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/mtn_group"
+    },
+    {
+      "domain": "mueller_water_products_vdp",
+      "name": "Mueller Water Products (VDP)",
+      "handle": "mueller_water_products_vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/mueller_water_products_vdp"
+    },
+    {
+      "domain": "mufg-vdp",
+      "name": "MUFG VDP",
+      "handle": "mufg-vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/mufg-vdp"
+    },
+    {
+      "domain": "myndr",
+      "name": "Myndr",
+      "handle": "myndr",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/myndr"
+    },
+    {
+      "domain": "n45ht",
+      "name": "N45HT",
+      "handle": "n45ht",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/n45ht"
+    },
+    {
+      "domain": "navient_solutions",
+      "name": "Navient Solutions LLC",
+      "handle": "navient_solutions",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/navient_solutions"
+    },
+    {
+      "domain": "nba-public",
+      "name": "NBA Public Bug Bounty",
+      "handle": "nba-public",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/nba-public"
+    },
+    {
+      "domain": "neon_bbp",
+      "name": "Neon",
+      "handle": "neon_bbp",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/neon_bbp"
+    },
+    {
+      "domain": "netflix",
+      "name": "Netflix",
+      "handle": "netflix",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/netflix"
+    },
+    {
+      "domain": "netlify",
+      "name": "Netlify",
+      "handle": "netlify",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/netlify"
+    },
+    {
+      "domain": "netscaler_public_program",
+      "name": "NetScaler Public Program",
+      "handle": "netscaler_public_program",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/netscaler_public_program"
+    },
+    {
+      "domain": "newegg",
+      "name": "Newegg",
+      "handle": "newegg",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/newegg"
+    },
+    {
+      "domain": "nextcloud",
+      "name": "Nextcloud",
+      "handle": "nextcloud",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/nextcloud"
+    },
+    {
+      "domain": "nimiq",
+      "name": "Nimiq",
+      "handle": "nimiq",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/nimiq"
+    },
+    {
+      "domain": "nintendo",
+      "name": "Nintendo",
+      "handle": "nintendo",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/nintendo"
+    },
+    {
+      "domain": "nisc",
+      "name": "NISC-VDP",
+      "handle": "nisc",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/nisc"
+    },
+    {
+      "domain": "nodejs",
+      "name": "Node.js",
+      "handle": "nodejs",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/nodejs"
+    },
+    {
+      "domain": "nokogiri",
+      "name": "Nokogiri",
+      "handle": "nokogiri",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/nokogiri"
+    },
+    {
+      "domain": "nominet",
+      "name": "Nominet",
+      "handle": "nominet",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/nominet"
+    },
+    {
+      "domain": "nordsecurity",
+      "name": "Nord Security",
+      "handle": "nordsecurity",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/nordsecurity"
+    },
+    {
+      "domain": "northerntechhq",
+      "name": "Northern.tech",
+      "handle": "northerntechhq",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/northerntechhq"
+    },
+    {
+      "domain": "notion",
+      "name": "Notion Labs, Inc.",
+      "handle": "notion",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/notion"
+    },
+    {
+      "domain": "nuri",
+      "name": "Nuri",
+      "handle": "nuri",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/nuri"
+    },
+    {
+      "domain": "nutanix",
+      "name": "Nutanix",
+      "handle": "nutanix",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/nutanix"
+    },
+    {
+      "domain": "oaknorth_bank",
+      "name": "OakNorth Bank",
+      "handle": "oaknorth_bank",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/oaknorth_bank"
+    },
+    {
+      "domain": "oanda",
+      "name": "OANDA",
+      "handle": "oanda",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/oanda"
+    },
+    {
+      "domain": "oasisprotocol",
+      "name": "Oasis Protocol Foundation",
+      "handle": "oasisprotocol",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/oasisprotocol"
+    },
+    {
+      "domain": "octopus-energy",
+      "name": "Octopus Energy Group",
+      "handle": "octopus-energy",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/octopus-energy"
+    },
+    {
+      "domain": "ohiosecretaryofstate",
+      "name": "Ohio Secretary of State",
+      "handle": "ohiosecretaryofstate",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/ohiosecretaryofstate"
+    },
+    {
+      "domain": "okg",
+      "name": "OKG",
+      "handle": "okg",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/okg"
+    },
+    {
+      "domain": "omise",
+      "name": "Omise",
+      "handle": "omise",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/omise"
+    },
+    {
+      "domain": "on",
+      "name": "On ",
+      "handle": "on",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/on"
+    },
+    {
+      "domain": "one_zero_vdp",
+      "name": "ONE ZERO VDP",
+      "handle": "one_zero_vdp",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/one_zero_vdp"
+    },
+    {
+      "domain": "openmage",
+      "name": "OpenMage",
+      "handle": "openmage",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/openmage"
+    },
+    {
+      "domain": "oportun_vdp",
+      "name": "Oportun",
+      "handle": "oportun_vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/oportun_vdp"
+    },
+    {
+      "domain": "oppo_bbp",
+      "name": "OPPO",
+      "handle": "oppo_bbp",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/oppo_bbp"
+    },
+    {
+      "domain": "overloop",
+      "name": "Overloop",
+      "handle": "overloop",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/overloop"
+    },
+    {
+      "domain": "owncloud",
+      "name": "ownCloud",
+      "handle": "owncloud",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/owncloud"
+    },
+    {
+      "domain": "owox",
+      "name": "OWOX, Inc.",
+      "handle": "owox",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/owox"
+    },
+    {
+      "domain": "pagerduty",
+      "name": "PagerDuty",
+      "handle": "pagerduty",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/pagerduty"
+    },
+    {
+      "domain": "palantir_public",
+      "name": "Palantir Public",
+      "handle": "palantir_public",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/palantir_public"
+    },
+    {
+      "domain": "palo_alto_software",
+      "name": "Palo Alto Software",
+      "handle": "palo_alto_software",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/palo_alto_software"
+    },
+    {
+      "domain": "panther_labs",
+      "name": "Panther Labs",
+      "handle": "panther_labs",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/panther_labs"
+    },
+    {
+      "domain": "paragonie",
+      "name": "Paragon Initiative Enterprises",
+      "handle": "paragonie",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/paragonie"
+    },
+    {
+      "domain": "parrot_sec",
+      "name": "Parrot Sec",
+      "handle": "parrot_sec",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/parrot_sec"
+    },
+    {
+      "domain": "particle-health-vdp",
+      "name": "Particle Health VDP",
+      "handle": "particle-health-vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/particle-health-vdp"
+    },
+    {
+      "domain": "passhash",
+      "name": "passhash",
+      "handle": "passhash",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/passhash"
+    },
+    {
+      "domain": "payoneer",
+      "name": "Payoneer",
+      "handle": "payoneer",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/payoneer"
+    },
+    {
+      "domain": "paypal",
+      "name": "PayPal",
+      "handle": "paypal",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/paypal"
+    },
+    {
+      "domain": "paystack-vdp",
+      "name": "Paystack Vulnerability Disclosure",
+      "handle": "paystack-vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/paystack-vdp"
+    },
+    {
+      "domain": "peloton",
+      "name": "Peloton",
+      "handle": "peloton",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/peloton"
+    },
+    {
+      "domain": "penn_entertainment",
+      "name": "Penn Entertainment",
+      "handle": "penn_entertainment",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/penn_entertainment"
+    },
+    {
+      "domain": "people_interactive",
+      "name": "People Interactive",
+      "handle": "people_interactive",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/people_interactive"
+    },
+    {
+      "domain": "pepsico_vdp",
+      "name": "PepsiCo VDP",
+      "handle": "pepsico_vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/pepsico_vdp"
+    },
+    {
+      "domain": "pfizer",
+      "name": "Pfizer",
+      "handle": "pfizer",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/pfizer"
+    },
+    {
+      "domain": "phabricator",
+      "name": "Phabricator",
+      "handle": "phabricator",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/phabricator"
+    },
+    {
+      "domain": "phonepe_vdp",
+      "name": "PhonePe",
+      "handle": "phonepe_vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/phonepe_vdp"
+    },
+    {
+      "domain": "phpbb",
+      "name": "phpBB",
+      "handle": "phpbb",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/phpbb"
+    },
+    {
+      "domain": "picsart",
+      "name": "Picsart",
+      "handle": "picsart",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/picsart"
+    },
+    {
+      "domain": "pingidentity",
+      "name": "Ping Identity",
+      "handle": "pingidentity",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/pingidentity"
+    },
+    {
+      "domain": "pixiv",
+      "name": "pixiv",
+      "handle": "pixiv",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/pixiv"
+    },
+    {
+      "domain": "plaid",
+      "name": "Plaid",
+      "handle": "plaid",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/plaid"
+    },
+    {
+      "domain": "planet-labs",
+      "name": "Planet Labs",
+      "handle": "planet-labs",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/planet-labs"
+    },
+    {
+      "domain": "playstation",
+      "name": "PlayStation",
+      "handle": "playstation",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/playstation"
+    },
+    {
+      "domain": "playtika",
+      "name": "Playtika",
+      "handle": "playtika",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/playtika"
+    },
+    {
+      "domain": "polygon-technology",
+      "name": "Polygon Technology",
+      "handle": "polygon-technology",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/polygon-technology"
+    },
+    {
+      "domain": "pornbox",
+      "name": "PornBox",
+      "handle": "pornbox",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/pornbox"
+    },
+    {
+      "domain": "portswigger",
+      "name": "PortSwigger Web Security",
+      "handle": "portswigger",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/portswigger"
+    },
+    {
+      "domain": "priceline",
+      "name": "Priceline",
+      "handle": "priceline",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/priceline"
+    },
+    {
+      "domain": "privy-bbp",
+      "name": "Privy (Bounty)",
+      "handle": "privy-bbp",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/privy-bbp"
+    },
+    {
+      "domain": "productboard",
+      "name": "ProductBoard, Inc.",
+      "handle": "productboard",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/productboard"
+    },
+    {
+      "domain": "prudential-financial",
+      "name": "Prudential Financial",
+      "handle": "prudential-financial",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/prudential-financial"
+    },
+    {
+      "domain": "pubg",
+      "name": "PUBG",
+      "handle": "pubg",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/pubg"
+    },
+    {
+      "domain": "publitas",
+      "name": "Publitas",
+      "handle": "publitas",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/publitas"
+    },
+    {
+      "domain": "pushwoosh",
+      "name": "Pushwoosh",
+      "handle": "pushwoosh",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/pushwoosh"
+    },
+    {
+      "domain": "putty_h1c",
+      "name": "PuTTY (European Commission - DIGIT)",
+      "handle": "putty_h1c",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/putty_h1c"
+    },
+    {
+      "domain": "pyca",
+      "name": "Python Cryptographic Authority",
+      "handle": "pyca",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/pyca"
+    },
+    {
+      "domain": "qinetiq",
+      "name": "QinetiQ Response",
+      "handle": "qinetiq",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/qinetiq"
+    },
+    {
+      "domain": "quora",
+      "name": "Quora",
+      "handle": "quora",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/quora"
+    },
+    {
+      "domain": "r3",
+      "name": "R3",
+      "handle": "r3",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/r3"
+    },
+    {
+      "domain": "rails",
+      "name": "Ruby on Rails",
+      "handle": "rails",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/rails"
+    },
+    {
+      "domain": "raivo",
+      "name": "Raivo",
+      "handle": "raivo",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/raivo"
+    },
+    {
+      "domain": "ratelimited",
+      "name": "RATELIMITED",
+      "handle": "ratelimited",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/ratelimited"
+    },
+    {
+      "domain": "razorpay",
+      "name": "Razorpay",
+      "handle": "razorpay",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/razorpay"
+    },
+    {
+      "domain": "rbkmoney",
+      "name": "RBKmoney",
+      "handle": "rbkmoney",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/rbkmoney"
+    },
+    {
+      "domain": "rebellion-defense",
+      "name": "Rebellion Defense",
+      "handle": "rebellion-defense",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/rebellion-defense"
+    },
+    {
+      "domain": "recreation_gov_vdp",
+      "name": "Recreation.gov",
+      "handle": "recreation_gov_vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/recreation_gov_vdp"
+    },
+    {
+      "domain": "reddit",
+      "name": "Reddit",
+      "handle": "reddit",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/reddit"
+    },
+    {
+      "domain": "redis-vdp",
+      "name": "Redis VDP",
+      "handle": "redis-vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/redis-vdp"
+    },
+    {
+      "domain": "redox_bbp",
+      "name": "Redox",
+      "handle": "redox_bbp",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/redox_bbp"
+    },
+    {
+      "domain": "regions_financial",
+      "name": "Regions Financial",
+      "handle": "regions_financial",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/regions_financial"
+    },
+    {
+      "domain": "rei_bbp",
+      "name": "REI BBP",
+      "handle": "rei_bbp",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/rei_bbp"
+    },
+    {
+      "domain": "rei_vdp",
+      "name": "REI VDP",
+      "handle": "rei_vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/rei_vdp"
+    },
+    {
+      "domain": "remitano",
+      "name": "Remitano",
+      "handle": "remitano",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/remitano"
+    },
+    {
+      "domain": "remitly",
+      "name": "Remitly",
+      "handle": "remitly",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/remitly"
+    },
+    {
+      "domain": "render",
+      "name": "Render",
+      "handle": "render",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/render"
+    },
+    {
+      "domain": "replyify",
+      "name": "Replyify",
+      "handle": "replyify",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/replyify"
+    },
+    {
+      "domain": "resmed",
+      "name": "ResMed",
+      "handle": "resmed",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/resmed"
+    },
+    {
+      "domain": "revive_adserver",
+      "name": "Revive Adserver",
+      "handle": "revive_adserver",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/revive_adserver"
+    },
+    {
+      "domain": "rghost",
+      "name": "RGhost",
+      "handle": "rghost",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/rghost"
+    },
+    {
+      "domain": "ridewithvia",
+      "name": "Via",
+      "handle": "ridewithvia",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/ridewithvia"
+    },
+    {
+      "domain": "ring",
+      "name": "Ring",
+      "handle": "ring",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/ring"
+    },
+    {
+      "domain": "ripio",
+      "name": "Ripio",
+      "handle": "ripio",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/ripio"
+    },
+    {
+      "domain": "ro",
+      "name": "Ro",
+      "handle": "ro",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/ro"
+    },
+    {
+      "domain": "robinhood",
+      "name": "Robinhood Markets Bounty",
+      "handle": "robinhood",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/robinhood"
+    },
+    {
+      "domain": "robinhood_markets",
+      "name": "Robinhood Markets",
+      "handle": "robinhood_markets",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/robinhood_markets"
+    },
+    {
+      "domain": "roblox",
+      "name": "Roblox",
+      "handle": "roblox",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/roblox"
+    },
+    {
+      "domain": "rocket_chat",
+      "name": "Rocket.Chat",
+      "handle": "rocket_chat",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/rocket_chat"
+    },
+    {
+      "domain": "rockstargames",
+      "name": "Rockstar Games",
+      "handle": "rockstargames",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/rockstargames"
+    },
+    {
+      "domain": "ruby",
+      "name": "Ruby",
+      "handle": "ruby",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/ruby"
+    },
+    {
+      "domain": "rubygems",
+      "name": "RubyGems",
+      "handle": "rubygems",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/rubygems"
+    },
+    {
+      "domain": "s-pankki",
+      "name": "S-Pankki",
+      "handle": "s-pankki",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/s-pankki"
+    },
+    {
+      "domain": "scopely",
+      "name": "Scopely",
+      "handle": "scopely",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/scopely"
+    },
+    {
+      "domain": "secnews",
+      "name": "SecNews",
+      "handle": "secnews",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/secnews"
+    },
+    {
+      "domain": "security",
+      "name": "HackerOne",
+      "handle": "security",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/security"
+    },
+    {
+      "domain": "sega",
+      "name": "SEGA",
+      "handle": "sega",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/sega"
+    },
+    {
+      "domain": "semrush",
+      "name": "Semrush",
+      "handle": "semrush",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/semrush"
+    },
+    {
+      "domain": "servicenow-disclosure",
+      "name": "ServiceNow Disclosure",
+      "handle": "servicenow-disclosure",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/servicenow-disclosure"
+    },
+    {
+      "domain": "sheer_bbp",
+      "name": "Sheer",
+      "handle": "sheer_bbp",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/sheer_bbp"
+    },
+    {
+      "domain": "shein",
+      "name": "SHEIN",
+      "handle": "shein",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/shein"
+    },
+    {
+      "domain": "shopify",
+      "name": "Shopify",
+      "handle": "shopify",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/shopify"
+    },
+    {
+      "domain": "shopify-scripts",
+      "name": "shopify-scripts",
+      "handle": "shopify-scripts",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/shopify-scripts"
+    },
+    {
+      "domain": "shutterfly_vdp",
+      "name": "Shutterfly VDP",
+      "handle": "shutterfly_vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/shutterfly_vdp"
+    },
+    {
+      "domain": "sidefx",
+      "name": "SideFX",
+      "handle": "sidefx",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/sidefx"
+    },
+    {
+      "domain": "simple_poll",
+      "name": "Simple Poll",
+      "handle": "simple_poll",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/simple_poll"
+    },
+    {
+      "domain": "singlestore",
+      "name": "SingleStore",
+      "handle": "singlestore",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/singlestore"
+    },
+    {
+      "domain": "six-group",
+      "name": "SIX Group",
+      "handle": "six-group",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/six-group"
+    },
+    {
+      "domain": "skale_network",
+      "name": "SKALE Network",
+      "handle": "skale_network",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/skale_network"
+    },
+    {
+      "domain": "slack",
+      "name": "Slack",
+      "handle": "slack",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/slack"
+    },
+    {
+      "domain": "smtp2go",
+      "name": "SMTP2GO BBP",
+      "handle": "smtp2go",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/smtp2go"
+    },
+    {
+      "domain": "smule",
+      "name": "Smule",
+      "handle": "smule",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/smule"
+    },
+    {
+      "domain": "snapchat",
+      "name": "Snapchat",
+      "handle": "snapchat",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/snapchat"
+    },
+    {
+      "domain": "solidus",
+      "name": "Solidus",
+      "handle": "solidus",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/solidus"
+    },
+    {
+      "domain": "sony",
+      "name": "Sony",
+      "handle": "sony",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/sony"
+    },
+    {
+      "domain": "sorare",
+      "name": "Sorare",
+      "handle": "sorare",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/sorare"
+    },
+    {
+      "domain": "spell",
+      "name": "Spell",
+      "handle": "spell",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/spell"
+    },
+    {
+      "domain": "spotify",
+      "name": "Spotify",
+      "handle": "spotify",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/spotify"
+    },
+    {
+      "domain": "stagingdoteverydotorg",
+      "name": "Staging.every.org",
+      "handle": "stagingdoteverydotorg",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/stagingdoteverydotorg"
+    },
+    {
+      "domain": "standard_notes",
+      "name": "Standard Notes",
+      "handle": "standard_notes",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/standard_notes"
+    },
+    {
+      "domain": "starbucks",
+      "name": "Starbucks",
+      "handle": "starbucks",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/starbucks"
+    },
+    {
+      "domain": "starbucks_china",
+      "name": "Starbucks China",
+      "handle": "starbucks_china",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/starbucks_china"
+    },
+    {
+      "domain": "starbucks_japan",
+      "name": "Starbucks Japan",
+      "handle": "starbucks_japan",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/starbucks_japan"
+    },
+    {
+      "domain": "starling_bank",
+      "name": "Starling Bank VDP",
+      "handle": "starling_bank",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/starling_bank"
+    },
+    {
+      "domain": "stellar",
+      "name": "Stellar.org",
+      "handle": "stellar",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/stellar"
+    },
+    {
+      "domain": "stopthehacker",
+      "name": "StopTheHacker",
+      "handle": "stopthehacker",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/stopthehacker"
+    },
+    {
+      "domain": "streak_com",
+      "name": "Streak",
+      "handle": "streak_com",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/streak_com"
+    },
+    {
+      "domain": "stripchat",
+      "name": "Stripchat",
+      "handle": "stripchat",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/stripchat"
+    },
+    {
+      "domain": "stripe",
+      "name": "Stripe",
+      "handle": "stripe",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/stripe"
+    },
+    {
+      "domain": "stripo",
+      "name": "Stripo Inc",
+      "handle": "stripo",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/stripo"
+    },
+    {
+      "domain": "supabase",
+      "name": "Supabase",
+      "handle": "supabase",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/supabase"
+    },
+    {
+      "domain": "superbet",
+      "name": "Superbet",
+      "handle": "superbet",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/superbet"
+    },
+    {
+      "domain": "superhuman",
+      "name": "Superhuman (formerly Grammarly)",
+      "handle": "superhuman",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/superhuman"
+    },
+    {
+      "domain": "sweatco_ltd",
+      "name": "Sweatco Ltd",
+      "handle": "sweatco_ltd",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/sweatco_ltd"
+    },
+    {
+      "domain": "syfe_bbp",
+      "name": "Syfe",
+      "handle": "syfe_bbp",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/syfe_bbp"
+    },
+    {
+      "domain": "taxwell-vdp",
+      "name": "Taxwell VDP",
+      "handle": "taxwell-vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/taxwell-vdp"
+    },
+    {
+      "domain": "tbs-sct",
+      "name": "Treasury Board of Canada Secretariat/Secr\u00e9tariat du Conseil du Tr\u00e9sor du Canada",
+      "handle": "tbs-sct",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/tbs-sct"
+    },
+    {
+      "domain": "td-bank",
+      "name": "TD Bank Group",
+      "handle": "td-bank",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/td-bank"
+    },
+    {
+      "domain": "temu",
+      "name": "Temu",
+      "handle": "temu",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/temu"
+    },
+    {
+      "domain": "tenable",
+      "name": "Tenable",
+      "handle": "tenable",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/tenable"
+    },
+    {
+      "domain": "teradici",
+      "name": "Teradici",
+      "handle": "teradici",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/teradici"
+    },
+    {
+      "domain": "tesco",
+      "name": "Tesco",
+      "handle": "tesco",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/tesco"
+    },
+    {
+      "domain": "thnks",
+      "name": "Thnks",
+      "handle": "thnks",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/thnks"
+    },
+    {
+      "domain": "thomsonreuters-public",
+      "name": "Thomson Reuters",
+      "handle": "thomsonreuters-public",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/thomsonreuters-public"
+    },
+    {
+      "domain": "tiktok",
+      "name": "TikTok",
+      "handle": "tiktok",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/tiktok"
+    },
+    {
+      "domain": "tinder",
+      "name": "Tinder",
+      "handle": "tinder",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/tinder"
+    },
+    {
+      "domain": "tines_automation_vdp",
+      "name": "Tines (VDP)",
+      "handle": "tines_automation_vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/tines_automation_vdp"
+    },
+    {
+      "domain": "tomtom",
+      "name": "TomTom",
+      "handle": "tomtom",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/tomtom"
+    },
+    {
+      "domain": "toolsforhumanity",
+      "name": "Tools for Humanity",
+      "handle": "toolsforhumanity",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/toolsforhumanity"
+    },
+    {
+      "domain": "top_echelon_software",
+      "name": "Top Echelon Software",
+      "handle": "top_echelon_software",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/top_echelon_software"
+    },
+    {
+      "domain": "torproject",
+      "name": "Tor",
+      "handle": "torproject",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/torproject"
+    },
+    {
+      "domain": "toyota",
+      "name": "Toyota",
+      "handle": "toyota",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/toyota"
+    },
+    {
+      "domain": "trafficfactory",
+      "name": "Traffic Factory",
+      "handle": "trafficfactory",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/trafficfactory"
+    },
+    {
+      "domain": "transunion",
+      "name": "TransUnion LLC",
+      "handle": "transunion",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/transunion"
+    },
+    {
+      "domain": "trellix",
+      "name": "Trellix",
+      "handle": "trellix",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/trellix"
+    },
+    {
+      "domain": "trendyol",
+      "name": "Trendyol",
+      "handle": "trendyol",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/trendyol"
+    },
+    {
+      "domain": "trip_com",
+      "name": "Trip.com",
+      "handle": "trip_com",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/trip_com"
+    },
+    {
+      "domain": "tron_dao",
+      "name": "TRON DAO",
+      "handle": "tron_dao",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/tron_dao"
+    },
+    {
+      "domain": "truecaller",
+      "name": "Truecaller ",
+      "handle": "truecaller",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/truecaller"
+    },
+    {
+      "domain": "truist_financial",
+      "name": "Truist Financial",
+      "handle": "truist_financial",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/truist_financial"
+    },
+    {
+      "domain": "trycourier",
+      "name": "Courier",
+      "handle": "trycourier",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/trycourier"
+    },
+    {
+      "domain": "tucows_vdp",
+      "name": "Tucows (VDP)",
+      "handle": "tucows_vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/tucows_vdp"
+    },
+    {
+      "domain": "twilio",
+      "name": "Twilio",
+      "handle": "twilio",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/twilio"
+    },
+    {
+      "domain": "uber",
+      "name": "Uber",
+      "handle": "uber",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/uber"
+    },
+    {
+      "domain": "udemy",
+      "name": "Udemy",
+      "handle": "udemy",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/udemy"
+    },
+    {
+      "domain": "ui",
+      "name": "Ubiquiti Inc.",
+      "handle": "ui",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/ui"
+    },
+    {
+      "domain": "unico_idtech",
+      "name": "Unico IDtech",
+      "handle": "unico_idtech",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/unico_idtech"
+    },
+    {
+      "domain": "unikrn",
+      "name": "Unikrn",
+      "handle": "unikrn",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/unikrn"
+    },
+    {
+      "domain": "unitigroup",
+      "name": "Uniti",
+      "handle": "unitigroup",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/unitigroup"
+    },
+    {
+      "domain": "upchieve",
+      "name": "UPchieve",
+      "handle": "upchieve",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/upchieve"
+    },
+    {
+      "domain": "uphabit",
+      "name": "UpHabit",
+      "handle": "uphabit",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/uphabit"
+    },
+    {
+      "domain": "ups",
+      "name": "UPS VDP",
+      "handle": "ups",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/ups"
+    },
+    {
+      "domain": "upserve",
+      "name": "Upserve ",
+      "handle": "upserve",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/upserve"
+    },
+    {
+      "domain": "urbancompany",
+      "name": "Urban Company",
+      "handle": "urbancompany",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/urbancompany"
+    },
+    {
+      "domain": "urbandictionary",
+      "name": "Urban Dictionary",
+      "handle": "urbandictionary",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/urbandictionary"
+    },
+    {
+      "domain": "us-department-of-state",
+      "name": "U.S. Department of State",
+      "handle": "us-department-of-state",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/us-department-of-state"
+    },
+    {
+      "domain": "usertesting",
+      "name": "UserTesting",
+      "handle": "usertesting",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/usertesting"
+    },
+    {
+      "domain": "usps",
+      "name": "USPS - United States Postal Service",
+      "handle": "usps",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/usps"
+    },
+    {
+      "domain": "valve",
+      "name": "Valve",
+      "handle": "valve",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/valve"
+    },
+    {
+      "domain": "varonis",
+      "name": "Varonis",
+      "handle": "varonis",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/varonis"
+    },
+    {
+      "domain": "vectra_ai_vdp",
+      "name": "Vectra AI, Inc. (Response)",
+      "handle": "vectra_ai_vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/vectra_ai_vdp"
+    },
+    {
+      "domain": "veeam",
+      "name": "Veeam",
+      "handle": "veeam",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/veeam"
+    },
+    {
+      "domain": "vendasta",
+      "name": "Vendasta",
+      "handle": "vendasta",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/vendasta"
+    },
+    {
+      "domain": "vercel-open-source",
+      "name": "Vercel Open Source",
+      "handle": "vercel-open-source",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/vercel-open-source"
+    },
+    {
+      "domain": "vercel_platform_protection",
+      "name": "Vercel Platform Protection",
+      "handle": "vercel_platform_protection",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/vercel_platform_protection"
+    },
+    {
+      "domain": "verily_life_sciences",
+      "name": "Verily Life Sciences",
+      "handle": "verily_life_sciences",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/verily_life_sciences"
+    },
+    {
+      "domain": "versioncake",
+      "name": "Version Cake",
+      "handle": "versioncake",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/versioncake"
+    },
+    {
+      "domain": "vf-corporation-vdp",
+      "name": "VF Corporation - VDP",
+      "handle": "vf-corporation-vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/vf-corporation-vdp"
+    },
+    {
+      "domain": "vimeo",
+      "name": "Vimeo",
+      "handle": "vimeo",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/vimeo"
+    },
+    {
+      "domain": "visa",
+      "name": "Visa",
+      "handle": "visa",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/visa"
+    },
+    {
+      "domain": "vlc_h1c",
+      "name": "VLC (European Commission - DIGIT)",
+      "handle": "vlc_h1c",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/vlc_h1c"
+    },
+    {
+      "domain": "vodafone",
+      "name": "Vodafone",
+      "handle": "vodafone",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/vodafone"
+    },
+    {
+      "domain": "vodafone_oman",
+      "name": "Vodafone Oman",
+      "handle": "vodafone_oman",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/vodafone_oman"
+    },
+    {
+      "domain": "vueling_vdp",
+      "name": "Vueling",
+      "handle": "vueling_vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/vueling_vdp"
+    },
+    {
+      "domain": "wakatime",
+      "name": "WakaTime",
+      "handle": "wakatime",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/wakatime"
+    },
+    {
+      "domain": "wallet_on_telegram",
+      "name": "Wallet on Telegram",
+      "handle": "wallet_on_telegram",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/wallet_on_telegram"
+    },
+    {
+      "domain": "wealthsimple",
+      "name": "Wealthsimple",
+      "handle": "wealthsimple",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/wealthsimple"
+    },
+    {
+      "domain": "weblate",
+      "name": "Weblate",
+      "handle": "weblate",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/weblate"
+    },
+    {
+      "domain": "websummit",
+      "name": "WebSummit",
+      "handle": "websummit",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/websummit"
+    },
+    {
+      "domain": "wellhive",
+      "name": "WellHive",
+      "handle": "wellhive",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/wellhive"
+    },
+    {
+      "domain": "wellsfargo-bbp",
+      "name": "Wells Fargo Bounty",
+      "handle": "wellsfargo-bbp",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/wellsfargo-bbp"
+    },
+    {
+      "domain": "whatnot",
+      "name": "Whatnot",
+      "handle": "whatnot",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/whatnot"
+    },
+    {
+      "domain": "who-covid-19-mobile-app",
+      "name": "WHO COVID-19 Mobile App",
+      "handle": "who-covid-19-mobile-app",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/who-covid-19-mobile-app"
+    },
+    {
+      "domain": "whoop_bug_bounty",
+      "name": "Whoop Bug Bounty",
+      "handle": "whoop_bug_bounty",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/whoop_bug_bounty"
+    },
+    {
+      "domain": "wickr",
+      "name": "Wickr",
+      "handle": "wickr",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/wickr"
+    },
+    {
+      "domain": "wink_jq3al",
+      "name": "WINK",
+      "handle": "wink_jq3al",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/wink_jq3al"
+    },
+    {
+      "domain": "wisdomtree",
+      "name": "WisdomTree, Inc.",
+      "handle": "wisdomtree",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/wisdomtree"
+    },
+    {
+      "domain": "wonder-vdp",
+      "name": "Blue Apron (Wonder Group) VDP",
+      "handle": "wonder-vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/wonder-vdp"
+    },
+    {
+      "domain": "wordpoints",
+      "name": "WordPoints",
+      "handle": "wordpoints",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/wordpoints"
+    },
+    {
+      "domain": "wordpress",
+      "name": "WordPress",
+      "handle": "wordpress",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/wordpress"
+    },
+    {
+      "domain": "worklytics",
+      "name": "Worklytics",
+      "handle": "worklytics",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/worklytics"
+    },
+    {
+      "domain": "worldpay",
+      "name": "Worldpay",
+      "handle": "worldpay",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/worldpay"
+    },
+    {
+      "domain": "wp-api",
+      "name": "WP API",
+      "handle": "wp-api",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/wp-api"
+    },
+    {
+      "domain": "x",
+      "name": "X / xAI",
+      "handle": "x",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/x"
+    },
+    {
+      "domain": "xiaomi",
+      "name": "Xiaomi",
+      "handle": "xiaomi",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/xiaomi"
+    },
+    {
+      "domain": "xvideos",
+      "name": "XVIDEOS",
+      "handle": "xvideos",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/xvideos"
+    },
+    {
+      "domain": "ycombinator",
+      "name": "Y Combinator",
+      "handle": "ycombinator",
+      "offers_bounties": false,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/ycombinator"
+    },
+    {
+      "domain": "yelp",
+      "name": "Yelp",
+      "handle": "yelp",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/yelp"
+    },
+    {
+      "domain": "yoti",
+      "name": "Yoti",
+      "handle": "yoti",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/yoti"
+    },
+    {
+      "domain": "yuga_labs",
+      "name": "Yuga Labs",
+      "handle": "yuga_labs",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/yuga_labs"
+    },
+    {
+      "domain": "zabbix",
+      "name": "Zabbix",
+      "handle": "zabbix",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/zabbix"
+    },
+    {
+      "domain": "zebra_vdp",
+      "name": "Zebra VDP",
+      "handle": "zebra_vdp",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/zebra_vdp"
+    },
+    {
+      "domain": "zerobounce",
+      "name": "ZeroBounce",
+      "handle": "zerobounce",
+      "offers_bounties": true,
+      "submission_state": "paused",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/zerobounce"
+    },
+    {
+      "domain": "zooplus",
+      "name": "Zooplus",
+      "handle": "zooplus",
+      "offers_bounties": true,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/zooplus"
+    },
+    {
+      "domain": "zurich-insurance",
+      "name": "Zurich Insurance",
+      "handle": "zurich-insurance",
+      "offers_bounties": false,
+      "submission_state": "open",
+      "source": "hackerone",
+      "submission": "https://hackerone.com/zurich-insurance"
+    },
+    {
+      "domain": "bugcrowd.com",
+      "name": "T-Mobile",
+      "program": "",
+      "bounty_max": "Varies",
+      "source": "bugcrowd",
+      "submission": "https://bugcrowd.com/engagements/t-mobile"
+    },
+    {
+      "domain": "app.intigriti.com",
+      "name": "Coveo Public Bug Bounty",
+      "program": "",
+      "bounty_max": "Varies",
+      "source": "intigriti",
+      "submission": "https://app.intigriti.com/programs/coveo/coveopublicbugbounty"
+    },
+    {
+      "domain": "yeswehack.com",
+      "name": "Swiss Post - E-Voting",
+      "program": "",
+      "bounty_max": "Varies",
+      "source": "yeswehack",
+      "submission": "https://yeswehack.com/programs/swiss-post-evoting"
+    },
+    {
+      "domain": "www.homeaffairs.gov.au](https:",
+      "name": "Australian Government VDP",
+      "region": "Australia",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "auditone.io](https:",
+      "name": "AuditOne",
+      "region": "Europe",
+      "public_programs_url": "[https://www.auditone.io/bug-bounty](https://www.auditone.io/bug-bounty)",
+      "source": "all_bb_platforms",
+      "submission": "[https://www.auditone.io/bug-bounty](https://www.auditone.io/bug-bounty)"
+    },
+    {
+      "domain": "bugbounty.bi.zone](https:",
+      "name": "BI.ZONE Bug Bounty",
+      "region": "Russia",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "www.bountyteam.com](https:",
+      "name": "BountyTeam",
+      "region": "China",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "bugbountybox.com](https:",
+      "name": "Bug Bounty Box",
+      "region": "Kenya/Africa",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "bugbounty.ch](https:",
+      "name": "Bug Bounty Switzerland",
+      "region": "Switzerland",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "bughunt.com.br](https:",
+      "name": "Bug Hunt",
+      "region": "Brazil",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "bugbase.ai](https:",
+      "name": "Bugbase",
+      "region": "India",
+      "public_programs_url": "[https://bugbase.ai/programs](https://bugbase.ai/programs)",
+      "source": "all_bb_platforms",
+      "submission": "[https://bugbase.ai/programs](https://bugbase.ai/programs)"
+    },
+    {
+      "domain": "bugbop.com](https:",
+      "name": "Bugbop",
+      "region": "Australia",
+      "public_programs_url": "[https://bugbop.com/public-programs](https://bugbop.com/public-programs)",
+      "source": "all_bb_platforms",
+      "submission": "[https://bugbop.com/public-programs](https://bugbop.com/public-programs)"
+    },
+    {
+      "domain": "bugbounter.com](https:",
+      "name": "BugBounter",
+      "region": "US & Estonia & Turkey",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "bugbounty.am](https:",
+      "name": "BugBounty.am",
+      "region": "Armenia",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "bugbounty.jp](https:",
+      "name": "bugbounty.jp",
+      "region": "Japan",
+      "public_programs_url": "[https://bugbounty.jp/en/](https://bugbounty.jp/en/)",
+      "source": "all_bb_platforms",
+      "submission": "[https://bugbounty.jp/en/](https://bugbounty.jp/en/)"
+    },
+    {
+      "domain": "www.bugbounty.ro](https:",
+      "name": "BugBounty.ro",
+      "region": "Romania",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "bugbounty.ru](https:",
+      "name": "BugBounty.ru",
+      "region": "Russia",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "bugbounty.sa](https:",
+      "name": "bugbounty.sa",
+      "region": "Saudi Arabia",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "bugcrowd.com](https:",
+      "name": "Bugcrowd",
+      "region": "USA",
+      "public_programs_url": "[https://bugcrowd.com/programs](https://bugcrowd.com/programs)",
+      "source": "all_bb_platforms",
+      "submission": "[https://bugcrowd.com/programs](https://bugcrowd.com/programs)"
+    },
+    {
+      "domain": "buglab.io](https:",
+      "name": "Buglab",
+      "region": "Singapore",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "bugloud.com](https:",
+      "name": "Bugloud",
+      "region": "United Arab Emirates",
+      "public_programs_url": "[https://bugloud.com/programs](https://bugloud.com/programs)",
+      "source": "all_bb_platforms",
+      "submission": "[https://bugloud.com/programs](https://bugloud.com/programs)"
+    },
+    {
+      "domain": "bugrap.io](https:",
+      "name": "BugRap",
+      "region": "",
+      "public_programs_url": "[https://bugrap.io/bounties](https://bugrap.io/bounties)",
+      "source": "all_bb_platforms",
+      "submission": "[https://bugrap.io/bounties](https://bugrap.io/bounties)"
+    },
+    {
+      "domain": "bugsbounty.com](https:",
+      "name": "bugsbounty.io",
+      "region": "England",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "bugv.io](https:",
+      "name": "Bugv",
+      "region": "Nepal",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "butian.net](https:",
+      "name": "Butian",
+      "region": "China",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "cantina.xyz](https:",
+      "name": "Cantina",
+      "region": "USA",
+      "public_programs_url": "[https://cantina.xyz/competitions](https://cantina.xyz/competitions)",
+      "source": "all_bb_platforms",
+      "submission": "[https://cantina.xyz/competitions](https://cantina.xyz/competitions)"
+    },
+    {
+      "domain": "capturethebug.xyz](https:",
+      "name": "Capture The Bug",
+      "region": "New Zealand",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "certik.com](https:",
+      "name": "CertiK Bug Bounty",
+      "region": "USA",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "www.cert-in.org.in",
+      "name": "CERT-In RVDCP",
+      "region": "India",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "www.certora.com",
+      "name": "Certora Contests",
+      "region": "Global",
+      "public_programs_url": "[https://www.certora.com/contests](https://www.certora.com/contests)",
+      "source": "all_bb_platforms",
+      "submission": "[https://www.certora.com/contests](https://www.certora.com/contests)"
+    },
+    {
+      "domain": "cert.pl",
+      "name": "CERT Polska CVD",
+      "region": "Poland",
+      "public_programs_url": "[https://cert.pl/en/cve/](https://cert.pl/en/cve/)",
+      "source": "all_bb_platforms",
+      "submission": "[https://cert.pl/en/cve/](https://cert.pl/en/cve/)"
+    },
+    {
+      "domain": "www.cisa.gov",
+      "name": "CISA VDP Platform",
+      "region": "USA",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "cobalt.io](https:",
+      "name": "Cobalt",
+      "region": "USA",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "code4rena.com](https:",
+      "name": "Code4rena",
+      "region": "",
+      "public_programs_url": "[https://code4rena.com/contests](https://code4rena.com/contests)",
+      "source": "all_bb_platforms",
+      "submission": "[https://code4rena.com/contests](https://code4rena.com/contests)"
+    },
+    {
+      "domain": "codehawks.cyfrin.io](https:",
+      "name": "CodeHawks",
+      "region": "USA",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "comolho.com](https:",
+      "name": "Com Olho",
+      "region": "India",
+      "public_programs_url": "[https://cyber.comolho.com/programs/bug-bounty/](https://cyber.comolho.com/programs/bug-bounty/)",
+      "source": "all_bb_platforms",
+      "submission": "[https://cyber.comolho.com/programs/bug-bounty/](https://cyber.comolho.com/programs/bug-bounty/)"
+    },
+    {
+      "domain": "compass-security.com](https:",
+      "name": "Compass Security",
+      "region": "Switzerland",
+      "public_programs_url": "[https://bugbounty.compass-security.com/](https://bugbounty.compass-security.com/)",
+      "source": "all_bb_platforms",
+      "submission": "[https://bugbounty.compass-security.com/](https://bugbounty.compass-security.com/)"
+    },
+    {
+      "domain": "crowdswarm.io](https:",
+      "name": "Crowdswarm",
+      "region": "United Arab Emirates",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "cyberarmy.id](https:",
+      "name": "Cyber Army Indonesia",
+      "region": "Indonesia",
+      "public_programs_url": "[https://cyberarmy.id/programs](https://cyberarmy.id/programs)",
+      "source": "all_bb_platforms",
+      "submission": "[https://cyberarmy.id/programs](https://cyberarmy.id/programs)"
+    },
+    {
+      "domain": "cyber3ra.com](https:",
+      "name": "Cyber3ra",
+      "region": "India",
+      "public_programs_url": "[https://app.cyber3ra.com/](https://app.cyber3ra.com/)",
+      "source": "all_bb_platforms",
+      "submission": "[https://app.cyber3ra.com/](https://app.cyber3ra.com/)"
+    },
+    {
+      "domain": "cybertalents.com](https:",
+      "name": "CyberTalents",
+      "region": "Middle East",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "cyscope.io](https:",
+      "name": "Cyscope",
+      "region": "Switzerland & Latam",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "detectify.com](https:",
+      "name": "Detectify",
+      "region": "Sweden",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "www.divd.nl](https:",
+      "name": "DIVD",
+      "region": "Netherlands",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "dvuln.com](https:",
+      "name": "Dvuln",
+      "region": "Australia",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "federacy.com](https:",
+      "name": "Federacy",
+      "region": "USA",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "findbug.io](https:",
+      "name": "Findbug",
+      "region": "Kosovo",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "gerobug.gerosecurity.com](https:",
+      "name": "Gerobug",
+      "region": "Indonesia",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "gobugfree.com](https:",
+      "name": "GObugfree",
+      "region": "Switzerland",
+      "public_programs_url": "[https://app.gobugfree.com/programs](https://app.gobugfree.com/programs)",
+      "source": "all_bb_platforms",
+      "submission": "[https://app.gobugfree.com/programs](https://app.gobugfree.com/programs)"
+    },
+    {
+      "domain": "app.grayswan.ai",
+      "name": "Gray Swan Arena",
+      "region": "USA",
+      "public_programs_url": "[https://app.grayswan.ai/arena](https://app.grayswan.ai/arena)",
+      "source": "all_bb_platforms",
+      "submission": "[https://app.grayswan.ai/arena](https://app.grayswan.ai/arena)"
+    },
+    {
+      "domain": "hackenproof.com](https:",
+      "name": "HackenProof",
+      "region": "Estonia",
+      "public_programs_url": "[https://hackenproof.com/programs](https://hackenproof.com/programs)",
+      "source": "all_bb_platforms",
+      "submission": "[https://hackenproof.com/programs](https://hackenproof.com/programs)"
+    },
+    {
+      "domain": "hackerone.com](https:",
+      "name": "HackerOne",
+      "region": "USA",
+      "public_programs_url": "[https://hackerone.com/directory/programs](https://hackerone.com/directory/programs)",
+      "source": "all_bb_platforms",
+      "submission": "[https://hackerone.com/directory/programs](https://hackerone.com/directory/programs)"
+    },
+    {
+      "domain": "hckrt.com](https:",
+      "name": "Hackrate",
+      "region": "Hungary",
+      "public_programs_url": "[https://hckrt.com/Catalog](https://hckrt.com/Catalog)",
+      "source": "all_bb_platforms",
+      "submission": "[https://hckrt.com/Catalog](https://hckrt.com/Catalog)"
+    },
+    {
+      "domain": "hacktify.eu](https:",
+      "name": "HACKTIFY",
+      "region": "Central and Eastern Europe",
+      "public_programs_url": "[https://hacktify.eu/en/public-programs/](https://hacktify.eu/en/public-programs/)",
+      "source": "all_bb_platforms",
+      "submission": "[https://hacktify.eu/en/public-programs/](https://hacktify.eu/en/public-programs/)"
+    },
+    {
+      "domain": "hashlock.com](https:",
+      "name": "Hashlock",
+      "region": "Australia",
+      "public_programs_url": "[https://hashlock.com/bug-bounty](https://hashlock.com/bug-bounty)",
+      "source": "all_bb_platforms",
+      "submission": "[https://hashlock.com/bug-bounty](https://hashlock.com/bug-bounty)"
+    },
+    {
+      "domain": "hats.finance](https:",
+      "name": "Hats",
+      "region": "",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "huntbug.com](https:",
+      "name": "HuntBug",
+      "region": "USA",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "huntr.com](https:",
+      "name": "Huntr",
+      "region": "UK",
+      "public_programs_url": "[https://huntr.com/bounties/hacktivity](https://huntr.com/bounties/hacktivity)",
+      "source": "all_bb_platforms",
+      "submission": "[https://huntr.com/bounties/hacktivity](https://huntr.com/bounties/hacktivity)"
+    },
+    {
+      "domain": "immunefi.com](https:",
+      "name": "Immunefi",
+      "region": "",
+      "public_programs_url": "[https://immunefi.com/explore/](https://immunefi.com/explore/)",
+      "source": "all_bb_platforms",
+      "submission": "[https://immunefi.com/explore/](https://immunefi.com/explore/)"
+    },
+    {
+      "domain": "inspectiv.com](https:",
+      "name": "Inspectiv",
+      "region": "USA",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "intigriti.com](https:",
+      "name": "Intigriti",
+      "region": "Belgium",
+      "public_programs_url": "[https://intigriti.com/programs](https://intigriti.com/programs)",
+      "source": "all_bb_platforms",
+      "submission": "[https://intigriti.com/programs](https://intigriti.com/programs)"
+    },
+    {
+      "domain": "issuehunt.io](https:",
+      "name": "IssueHunt",
+      "region": "Japan",
+      "public_programs_url": "[https://issuehunt.io/programs](https://issuehunt.io/programs)",
+      "source": "all_bb_platforms",
+      "submission": "[https://issuehunt.io/programs](https://issuehunt.io/programs)"
+    },
+    {
+      "domain": "jvn.jp",
+      "name": "Japan Vulnerability Notes (JVN)",
+      "region": "Japan",
+      "public_programs_url": "[https://jvn.jp/en/nav/](https://jvn.jp/en/nav/)",
+      "source": "all_bb_platforms",
+      "submission": "[https://jvn.jp/en/nav/](https://jvn.jp/en/nav/)"
+    },
+    {
+      "domain": "bugbounty.nettitude.com](https:",
+      "name": "LRQA Nettitude",
+      "region": "UK",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "nciipc.gov.in",
+      "name": "NCIIPC RVDP",
+      "region": "India",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "nordicdefender.com](https:",
+      "name": "Nordic Defender",
+      "region": "Sweden",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "0din.ai](https:",
+      "name": "\u00f8din",
+      "region": "USA",
+      "public_programs_url": "[https://0din.ai/scope](https://0din.ai/scope)",
+      "source": "all_bb_platforms",
+      "submission": "[https://0din.ai/scope](https://0din.ai/scope)"
+    },
+    {
+      "domain": "openbugbounty.org](https:",
+      "name": "Open Bug Bounty",
+      "region": "Bangladesh",
+      "public_programs_url": "[https://openbugbounty.org/bugbounty-list/](https://openbugbounty.org/bugbounty-list/)",
+      "source": "all_bb_platforms",
+      "submission": "[https://openbugbounty.org/bugbounty-list/](https://openbugbounty.org/bugbounty-list/)"
+    },
+    {
+      "domain": "patchday.io](https:",
+      "name": "PatchDay",
+      "region": "South Korea",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "patchstack.com](https:",
+      "name": "Patchstack",
+      "region": "Estonia",
+      "public_programs_url": "[https://patchstack.com/database/vdp](https://patchstack.com/database/vdp)",
+      "source": "all_bb_platforms",
+      "submission": "[https://patchstack.com/database/vdp](https://patchstack.com/database/vdp)"
+    },
+    {
+      "domain": "pentabug.com](https:",
+      "name": "Pentabug",
+      "region": "India",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "ravro.ir](https:",
+      "name": "Ravro",
+      "region": "Iran",
+      "public_programs_url": "[https://ravro.ir/companies](https://ravro.ir/companies)",
+      "source": "all_bb_platforms",
+      "submission": "[https://ravro.ir/companies](https://ravro.ir/companies)"
+    },
+    {
+      "domain": "redstorm.io](https:",
+      "name": "RedStorm",
+      "region": "Indonesia",
+      "public_programs_url": "[https://redstorm.io/program](https://redstorm.io/program)",
+      "source": "all_bb_platforms",
+      "submission": "[https://redstorm.io/program](https://redstorm.io/program)"
+    },
+    {
+      "domain": "r.xyz](https:",
+      "name": "Remedy",
+      "region": "Global",
+      "public_programs_url": "[https://hunt.r.xyz](https://hunt.r.xyz)",
+      "source": "all_bb_platforms",
+      "submission": "[https://hunt.r.xyz](https://hunt.r.xyz)"
+    },
+    {
+      "domain": "safehats.com](https:",
+      "name": "safehats",
+      "region": "India",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "safevuln.com](https:",
+      "name": "Safevuln",
+      "region": "Vietnam",
+      "public_programs_url": "[https://safevuln.com/programs](https://safevuln.com/programs)",
+      "source": "all_bb_platforms",
+      "submission": "[https://safevuln.com/programs](https://safevuln.com/programs)"
+    },
+    {
+      "domain": "secuna.io](https:",
+      "name": "Secuna",
+      "region": "Philippines",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "secur0.com](https:",
+      "name": "Secur0",
+      "region": "Europe & Latam",
+      "public_programs_url": "[https://app.secur0.com/programs](https://app.secur0.com/programs)",
+      "source": "all_bb_platforms",
+      "submission": "[https://app.secur0.com/programs](https://app.secur0.com/programs)"
+    },
+    {
+      "domain": "secure3.io](https:",
+      "name": "Secure3",
+      "region": "USA",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "sherlock.xyz](https:",
+      "name": "Sherlock",
+      "region": "",
+      "public_programs_url": "[https://app.sherlock.xyz/audits/contests](https://app.sherlock.xyz/audits/contests)",
+      "source": "all_bb_platforms",
+      "submission": "[https://app.sherlock.xyz/audits/contests](https://app.sherlock.xyz/audits/contests)"
+    },
+    {
+      "domain": "www.tech.gov.sg",
+      "name": "Singapore GovTech VDP",
+      "region": "Singapore",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "slowmist.com](https:",
+      "name": "SlowMist",
+      "region": "China",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "bugbounty.standoff365.com](https:",
+      "name": "Standoff 365 Bug Bounty",
+      "region": "Russia",
+      "public_programs_url": "[https://bugbounty.standoff365.com/en-US/](https://bugbounty.standoff365.com/en-US/)",
+      "source": "all_bb_platforms",
+      "submission": "[https://bugbounty.standoff365.com/en-US/](https://bugbounty.standoff365.com/en-US/)"
+    },
+    {
+      "domain": "swarmnetics.com](https:",
+      "name": "Swarmnetics",
+      "region": "Singapore",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "www.ncsc.admin.ch](https:",
+      "name": "Swiss NCSC Bug Bounty",
+      "region": "Switzerland",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "synack.com](https:",
+      "name": "Synack",
+      "region": "USA",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "teklabspace.com](https:",
+      "name": "Teklabspace",
+      "region": "Nigeria",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "testbirds.com](https:",
+      "name": "Testbirds",
+      "region": "Germany",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "thebugbounty.com](https:",
+      "name": "thebugbounty",
+      "region": "Malaysia",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "topcoder.com](https:",
+      "name": "Topcoder",
+      "region": "USA",
+      "public_programs_url": "[https://www.topcoder.com/challenges](https://www.topcoder.com/challenges)",
+      "source": "all_bb_platforms",
+      "submission": "[https://www.topcoder.com/challenges](https://www.topcoder.com/challenges)"
+    },
+    {
+      "domain": "www.trustline.sa](https:",
+      "name": "TrustLine",
+      "region": "Saudi Arabia",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "www.ncsc.gov.uk](https:",
+      "name": "UK NCSC VDP",
+      "region": "UK",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "vulbox.com](https:",
+      "name": "Vulbox",
+      "region": "China",
+      "public_programs_url": "[https://vulbox.com/projects/list](https://vulbox.com/projects/list)",
+      "source": "all_bb_platforms",
+      "submission": "[https://vulbox.com/projects/list](https://vulbox.com/projects/list)"
+    },
+    {
+      "domain": "vulnerability-lab.com](https:",
+      "name": "Vulnerability Lab",
+      "region": "Germany",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "vulnscope.com](https:",
+      "name": "Vulnscope",
+      "region": "Chile",
+      "public_programs_url": "[https://vulnscope.com/programas](https://vulnscope.com/programas)",
+      "source": "all_bb_platforms",
+      "submission": "[https://vulnscope.com/programas](https://vulnscope.com/programas)"
+    },
+    {
+      "domain": "whitehub.net](https:",
+      "name": "WhiteHub",
+      "region": "Vietnam",
+      "public_programs_url": "[https://whitehub.net/programs](https://whitehub.net/programs)",
+      "source": "all_bb_platforms",
+      "submission": "[https://whitehub.net/programs](https://whitehub.net/programs)"
+    },
+    {
+      "domain": "www.wordfence.com",
+      "name": "Wordfence Bug Bounty",
+      "region": "USA",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "yeswehack.com](https:",
+      "name": "YesWeHack",
+      "region": "France",
+      "public_programs_url": "[https://yeswehack.com/programs](https://yeswehack.com/programs)",
+      "source": "all_bb_platforms",
+      "submission": "[https://yeswehack.com/programs](https://yeswehack.com/programs)"
+    },
+    {
+      "domain": "yogosha.com](https:",
+      "name": "Yogosha",
+      "region": "France",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "zerodayinitiative.com](https:",
+      "name": "Zero Day Initiative",
+      "region": "USA",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "zerocopter.com](https:",
+      "name": "Zerocopter",
+      "region": "Netherlands",
+      "public_programs_url": "",
+      "source": "all_bb_platforms",
+      "submission": ""
+    },
+    {
+      "domain": "hackerone.com",
+      "name": "1password",
+      "platform": "hackerone",
+      "source": "picklist",
+      "submission": "https://hackerone.com/1password"
+    }
+  ]
+}

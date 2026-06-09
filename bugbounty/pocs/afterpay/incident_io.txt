@@ -1,0 +1,86 @@
+=== incident.io Status API Full Dump ===
+--- /api/v2/status.json ---
+{
+    "page": {
+        "id": "01KGGD91E52CVMDA7YSQCE6YB4",
+        "name": "Afterpay",
+        "url": "https://status.afterpay.com/",
+        "updated_at": "2026-02-19T02:47:47Z"
+    },
+    "status": {
+        "description": "All Systems Operational",
+        "indicator": "none"
+    }
+}
+
+--- /api/v2/components.json ---
+{
+    "components": []
+}
+
+--- /api/v2/incidents.json ---
+{
+    "page": {
+        "id": "01KGGD91E52CVMDA7YSQCE6YB4",
+        "name": "Afterpay",
+        "url": "https://status.afterpay.com/",
+        "updated_at": "2026-05-08T13:32:10Z"
+    },
+    "incidents": [
+        {
+            "id": "01KR2WVFP3KKMT7QB4Z09RTWBC",
+            "name": "Degraded performance - Afterpay Card",
+            "status": "resolved",
+            "created_at": "2026-05-08T04:17:10Z",
+            "updated_at": "2026-05-08T13:32:11Z",
+            "resolved_at": "2026-05-08T13:32:10Z",
+            "impact": "minor",
+            "page_id": "01KGGD91E52CVMDA7YSQCE6YB4",
+            "incident_updates": [
+                {
+                    "id": "01KR3WKQR9G00109EHQXSTYMF8",
+                    "body": "",
+                    "created_at": "2026-05-08T13:32:10Z",
+                    "display_at": "2026-05-08T13:32:10Z",
+                    "incident_id": "01KR2WVFP3KKMT7QB4Z09RTWBC",
+                    "status": "resolved",
+                    "updated_at": "2026-05-08T13:32:10Z"
+                },
+                {
+                    "id": "01KR34VJ29R0E0CZ2HBQT1678K",
+                    "body": "",
+                    "created_at": "2026-05-08T06:37:01Z",
+                    "display_at": "2026-05-08T06:37:01Z",
+                    "incident_id": "01KR2WVFP3KKMT7QB4Z09RTWBC",
+                    "status": "monitoring",
+                    "updated_at": "2026-05-08T06:37:01Z"
+                },
+                {
+                    "id": "01KR31EMG5FZW78Y818M6W810Z",
+                    "body": "",
+                    "created_at": "2026-05-08T05:37:32Z",
+                    "display_at": "2026-05-08T05:37:32Z",
+                    "incident_id": "01KR2WVFP3KKMT7QB4Z09RTWBC",
+                    "status": "identified",
+                    "updated_at": "2026-05-08T05:37:32Z"
+                },
+                {
+                    "id": "01KR2WVFP3KCYKM2BWBNXEJ7VY",
+                    "body": "",
+                    "created_at": "2026-05-08T04:17:10Z",
+                    "display_at": "2026-05-08T04:17:10Z",
+                    "incident_id": "01KR2WVFP3KKMT7QB4Z09RTWBC",
+                    "status": "identified",
+                    "updated_at": "2026-05-08T04:17:10Z"
+                }
+            ]
+        },
+        {
+            "id": "01KR2SMDCRPF6Z83C7YDNMYXMC",
+            "name": "Degraded Performance - Afterpay Card",
+            "status": "resolved",
+
+--- /api/v2/scheduled-maintenances.json ---
+
+--- /api/v2/all.json ---
+

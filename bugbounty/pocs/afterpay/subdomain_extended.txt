@@ -1,0 +1,4 @@
+=== Extended Subdomain Probe ===
+api.afterpay.com -> 404
+portal.afterpay.com -> 302
+status.afterpay.com -> 200

@@ -1,0 +1,12 @@
+=== reports app.js analysis ===
+4649 /home/openclaw/.openclaw/workspace/bugbounty/pocs/afterpay/reports_app.js
+--- API URLs ---
+https://afterpaytouch.okta.com
+https://defamibxuy2ya.cloudfront.net/
+https://defamibxuy2ya.cloudfront.net/mindmap
+https://tableau.corp.afterpay.com/#/projects/135
+https://tableau.corp.afterpay.com/#/projects/185
+--- Route paths ---
+"/login/callback"
+--- Auth/token refs ---
+--- Axios/fetch config ---

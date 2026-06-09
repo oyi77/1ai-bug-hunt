@@ -1,0 +1,799 @@
+{
+  "metadata": {
+    "source": "Crawled from security.txt files, disclose.io directory, and web research",
+    "generated_at": "2026-06-09",
+    "total_companies_checked": 73,
+    "companies_with_security_txt": 28,
+    "companies_with_direct_email": 19,
+    "notes": "Focus on companies that accept vulnerability reports via email (no Signal requirements)"
+  },
+  "companies": [
+    {
+      "company": "Google (Alphabet)",
+      "domain": "google.com",
+      "security_contact_email": "security@google.com",
+      "program_url": "https://g.co/vrp",
+      "bounty_program": "Google Vulnerability Reward Program (VRP)",
+      "bounty_url": "https://bughunters.google.com/",
+      "offers_bounties": true,
+      "bounty_max": "$151,515 (Android, Chrome, Google Cloud, etc.)",
+      "program_type": "bounty",
+      "email_accepted": true,
+      "requires_platform": false,
+      "source": "security.txt: https://google.com/.well-known/security.txt"
+    },
+    {
+      "company": "Apple",
+      "domain": "apple.com",
+      "security_contact_email": null,
+      "program_url": "https://security.apple.com",
+      "bounty_program": "Apple Security Bounty",
+      "bounty_url": "https://security.apple.com/bounty/",
+      "offers_bounties": true,
+      "bounty_max": "$1,000,000+ (kernel, iCloud, etc.)",
+      "program_type": "bounty",
+      "email_accepted": false,
+      "requires_platform": true,
+      "contact_via": "https://security.apple.com (web form)",
+      "source": "security.txt: https://apple.com/.well-known/security.txt"
+    },
+    {
+      "company": "Microsoft",
+      "domain": "microsoft.com",
+      "security_contact_email": null,
+      "program_url": "https://msrc.microsoft.com/report/vulnerability/new",
+      "bounty_program": "Microsoft Bug Bounty Programs",
+      "bounty_url": "https://www.microsoft.com/en-us/msrc/bounty/",
+      "offers_bounties": true,
+      "bounty_max": "$250,000 (Hyper-V, Azure, etc.)",
+      "program_type": "bounty",
+      "email_accepted": false,
+      "requires_platform": true,
+      "contact_via": "https://msrc.microsoft.com/report/vulnerability/new (web portal)",
+      "source": "security.txt: https://microsoft.com/.well-known/security.txt"
+    },
+    {
+      "company": "Meta (Facebook/Instagram/WhatsApp)",
+      "domain": "facebook.com",
+      "security_contact_email": null,
+      "program_url": "https://www.facebook.com/whitehat/report/",
+      "bounty_program": "Meta Bug Bounty",
+      "bounty_url": "https://bugbounty.meta.com/",
+      "offers_bounties": true,
+      "bounty_max": "$300,000 (WhatsApp Mobile RCE)",
+      "program_type": "bounty",
+      "email_accepted": false,
+      "requires_platform": true,
+      "contact_via": "https://www.facebook.com/whitehat/report/ (web form)",
+      "source": "security.txt: https://facebook.com/.well-known/security.txt"
+    },
+    {
+      "company": "OpenAI (ChatGPT)",
+      "domain": "chatgpt.com",
+      "security_contact_email": "disclosure@openai.com",
+      "program_url": "https://bugcrowd.com/openai",
+      "bounty_program": "OpenAI Bug Bounty Program",
+      "bounty_url": "https://bugcrowd.com/openai",
+      "offers_bounties": true,
+      "bounty_max": "$100,000",
+      "program_type": "bounty",
+      "email_accepted": true,
+      "requires_platform": false,
+      "source": "security.txt: https://chatgpt.com/.well-known/security.txt"
+    },
+    {
+      "company": "Amazon",
+      "domain": "amazon.com",
+      "security_contact_email": null,
+      "program_url": "https://hackerone.com/amazonvrp",
+      "bounty_program": "Amazon Vulnerability Research Program",
+      "bounty_url": "https://hackerone.com/amazonvrp",
+      "offers_bounties": true,
+      "bounty_max": "$200,000+",
+      "program_type": "bounty",
+      "email_accepted": false,
+      "requires_platform": true,
+      "contact_via": "https://hackerone.com/amazonvrp/reports/new (HackerOne)",
+      "source": "security.txt: https://amazon.com/.well-known/security.txt"
+    },
+    {
+      "company": "Yahoo (Yahoo Inc.)",
+      "domain": "yahoo.com",
+      "security_contact_email": "security@yahooinc.com",
+      "program_url": "https://app.intigriti.com/programs/yahoo/yahoobugbounty/detail",
+      "bounty_program": "Yahoo Bug Bounty (via Intigriti)",
+      "bounty_url": "https://app.intigriti.com/programs/yahoo/yahoobugbounty/detail",
+      "offers_bounties": true,
+      "bounty_max": "Up to $25,000",
+      "program_type": "bounty",
+      "email_accepted": true,
+      "requires_platform": false,
+      "source": "security.txt: https://yahoo.com/.well-known/security.txt"
+    },
+    {
+      "company": "Wikimedia (Wikipedia)",
+      "domain": "wikipedia.org",
+      "security_contact_email": "security@wikimedia.org",
+      "program_url": "https://www.mediawiki.org/wiki/Reporting_security_bugs",
+      "bounty_program": "Wikimedia VDP (no bounties)",
+      "bounty_url": "https://www.mediawiki.org/wiki/Reporting_security_bugs",
+      "offers_bounties": false,
+      "bounty_max": "No bounties (swag/recognition only)",
+      "program_type": "vdp",
+      "email_accepted": true,
+      "requires_platform": false,
+      "source": "security.txt: https://wikipedia.org/.well-known/security.txt"
+    },
+    {
+      "company": "Reddit",
+      "domain": "reddit.com",
+      "security_contact_email": "whitehats@reddit.com",
+      "program_url": "https://www.reddit.com/whitehat",
+      "bounty_program": "Reddit Bug Bounty Program",
+      "bounty_url": "https://www.reddit.com/whitehat",
+      "offers_bounties": true,
+      "bounty_max": "$30,000",
+      "program_type": "bounty",
+      "email_accepted": true,
+      "requires_platform": false,
+      "source": "security.txt: https://reddit.com/.well-known/security.txt"
+    },
+    {
+      "company": "Shopify",
+      "domain": "shopify.com",
+      "security_contact_email": "security@shopify.com",
+      "program_url": "https://www.shopify.com/security-response",
+      "bounty_program": "Shopify Bug Bounty Program",
+      "bounty_url": "https://hackerone.com/shopify",
+      "offers_bounties": true,
+      "bounty_max": "$50,000+",
+      "program_type": "bounty",
+      "email_accepted": true,
+      "requires_platform": false,
+      "source": "security.txt: https://shopify.com/.well-known/security.txt"
+    },
+    {
+      "company": "Discord",
+      "domain": "discord.com",
+      "security_contact_email": "bugbounty@discordapp.com",
+      "alt_email": "security@discord.com",
+      "program_url": "https://discord.com/security",
+      "bounty_program": "Discord Bug Bounty",
+      "bounty_url": "https://discord.com/security",
+      "offers_bounties": true,
+      "bounty_max": "$25,000+",
+      "program_type": "bounty",
+      "email_accepted": true,
+      "requires_platform": false,
+      "source": "security.txt: https://discord.com/.well-known/security.txt"
+    },
+    {
+      "company": "Zoom",
+      "domain": "zoom.us",
+      "security_contact_email": "security-reports@zoom.us",
+      "program_url": "https://www.zoom.com/en/trust/vulnerability-disclosure/submit-vulnerability-report",
+      "bounty_program": "Zoom Bug Bounty Program",
+      "bounty_url": "https://www.zoom.com/en/trust/reporting-vulnerability/",
+      "offers_bounties": true,
+      "bounty_max": "$10,000+",
+      "program_type": "bounty",
+      "email_accepted": true,
+      "requires_platform": false,
+      "source": "security.txt: https://zoom.us/.well-known/security.txt"
+    },
+    {
+      "company": "Cisco",
+      "domain": "cisco.com",
+      "security_contact_email": "psirt@cisco.com",
+      "program_url": "https://sec.cloudapps.cisco.com/security/center/resources/security_vulnerability_policy.html",
+      "bounty_program": "Cisco VDP (limited bounties)",
+      "bounty_url": "https://sec.cloudapps.cisco.com/security/center/resources/security_vulnerability_policy.html",
+      "offers_bounties": true,
+      "bounty_max": "Up to $100,000",
+      "program_type": "bounty",
+      "email_accepted": true,
+      "requires_platform": false,
+      "source": "security.txt: https://cisco.com/.well-known/security.txt"
+    },
+    {
+      "company": "IBM",
+      "domain": "ibm.com",
+      "security_contact_email": "psirt@us.ibm.com",
+      "program_url": "https://www.ibm.com/trust/security-psirt",
+      "bounty_program": "IBM Bug Bounty (via HackerOne)",
+      "bounty_url": "https://hackerone.com/ibm",
+      "offers_bounties": true,
+      "bounty_max": "Up to $100,000",
+      "program_type": "bounty",
+      "email_accepted": true,
+      "requires_platform": false,
+      "source": "security.txt: https://ibm.com/.well-known/security.txt"
+    },
+    {
+      "company": "Intel",
+      "domain": "intel.com",
+      "security_contact_email": "secure@intel.com",
+      "alt_email": "external.security.research@intel.com",
+      "program_url": "https://www.intel.com/content/www/us/en/security-center/default.html",
+      "bounty_program": "Intel Bounty Program",
+      "bounty_url": "https://www.intel.com/content/www/us/en/security-center/vulnerability-reward-program.html",
+      "offers_bounties": true,
+      "bounty_max": "$10,000+",
+      "program_type": "bounty",
+      "email_accepted": true,
+      "requires_platform": false,
+      "source": "security.txt: https://intel.com/.well-known/security.txt"
+    },
+    {
+      "company": "Spotify",
+      "domain": "spotify.com",
+      "security_contact_email": "security@spotify.com",
+      "program_url": "https://www.spotify.com/bounty",
+      "bounty_program": "Spotify Bug Bounty",
+      "bounty_url": "https://www.spotify.com/bounty",
+      "offers_bounties": true,
+      "bounty_max": "$30,000+",
+      "program_type": "bounty",
+      "email_accepted": true,
+      "requires_platform": false,
+      "source": "security.txt: https://spotify.com/.well-known/security.txt"
+    },
+    {
+      "company": "Atlassian (Jira, Confluence, etc.)",
+      "domain": "atlassian.com",
+      "security_contact_email": "security@atlassian.com",
+      "program_url": "https://www.atlassian.com/trust/security/report-a-vulnerability",
+      "bounty_program": "Atlassian Bug Bounty",
+      "bounty_url": "https://www.atlassian.com/trust/security/report-a-vulnerability",
+      "offers_bounties": true,
+      "bounty_max": "Up to $100,000",
+      "program_type": "bounty",
+      "email_accepted": true,
+      "requires_platform": false,
+      "source": "security.txt: https://atlassian.com/.well-known/security.txt"
+    },
+    {
+      "company": "Signal",
+      "domain": "signal.org",
+      "security_contact_email": "security@signal.org",
+      "program_url": "https://signal.org/security/",
+      "bounty_program": "Signal VDP",
+      "bounty_url": "https://signal.org/security/",
+      "offers_bounties": false,
+      "bounty_max": "No bounties (VDP only)",
+      "program_type": "vdp",
+      "email_accepted": true,
+      "requires_platform": false,
+      "source": "security.txt: https://signal.org/.well-known/security.txt"
+    },
+    {
+      "company": "Proton (ProtonMail, ProtonVPN, etc.)",
+      "domain": "proton.me",
+      "security_contact_email": "security@proton.me",
+      "program_url": "https://proton.me/security/bug-bounty",
+      "bounty_program": "Proton Bug Bounty Program",
+      "bounty_url": "https://proton.me/security/bug-bounty",
+      "offers_bounties": true,
+      "bounty_max": "$10,000+",
+      "program_type": "bounty",
+      "email_accepted": true,
+      "requires_platform": false,
+      "source": "security.txt: https://proton.me/.well-known/security.txt"
+    },
+    {
+      "company": "Vercel",
+      "domain": "vercel.com",
+      "security_contact_email": "responsible.disclosure@vercel.com",
+      "program_url": "https://security.vercel.com/",
+      "bounty_program": "Vercel Bug Bounty (via HackerOne)",
+      "bounty_url": "https://hackerone.com/vercel-open-source",
+      "offers_bounties": true,
+      "bounty_max": "$5,000+",
+      "program_type": "bounty",
+      "email_accepted": true,
+      "requires_platform": false,
+      "source": "security.txt: https://vercel.com/.well-known/security.txt"
+    },
+    {
+      "company": "Adobe",
+      "domain": "adobe.com",
+      "security_contact_email": "psirt@adobe.com",
+      "program_url": "https://hackerone.com/adobe",
+      "bounty_program": "Adobe Bug Bounty Program",
+      "bounty_url": "https://hackerone.com/adobe",
+      "offers_bounties": true,
+      "bounty_max": "Up to $50,000",
+      "program_type": "bounty",
+      "email_accepted": true,
+      "requires_platform": false,
+      "source": "security.txt: https://adobe.com/.well-known/security.txt"
+    },
+    {
+      "company": "Bloomberg",
+      "domain": "bloomberg.com",
+      "security_contact_email": "reportvuln@bloomberg.net",
+      "program_url": "https://www.bloomberg.com/responsible-disclosure",
+      "bounty_program": "Bloomberg VDP",
+      "bounty_url": "https://www.bloomberg.com/responsible-disclosure",
+      "offers_bounties": true,
+      "bounty_max": "Up to $10,000",
+      "program_type": "bounty",
+      "email_accepted": true,
+      "requires_platform": false,
+      "source": "security.txt: https://bloomberg.com/.well-known/security.txt"
+    },
+    {
+      "company": "Walmart",
+      "domain": "walmart.com",
+      "security_contact_email": null,
+      "program_url": "https://corporate.walmart.com/article/responsible-disclosure-policy",
+      "bounty_program": "Walmart VDP",
+      "bounty_url": "https://corporate.walmart.com/privacy-security",
+      "offers_bounties": false,
+      "bounty_max": "No bounties (VDP only)",
+      "program_type": "vdp",
+      "email_accepted": false,
+      "requires_platform": true,
+      "contact_via": "https://corporate.walmart.com/article/responsible-disclosure-policy (web form)",
+      "source": "security.txt: https://walmart.com/.well-known/security.txt"
+    },
+    {
+      "company": "GitHub",
+      "domain": "github.com",
+      "security_contact_email": null,
+      "program_url": "https://hackerone.com/github",
+      "bounty_program": "GitHub Bug Bounty",
+      "bounty_url": "https://bounty.github.com/",
+      "offers_bounties": true,
+      "bounty_max": "$30,000+",
+      "program_type": "bounty",
+      "email_accepted": false,
+      "requires_platform": true,
+      "contact_via": "https://hackerone.com/github (HackerOne)",
+      "source": "security.txt: https://github.com/.well-known/security.txt"
+    },
+    {
+      "company": "Cloudflare",
+      "domain": "cloudflare.com",
+      "security_contact_email": null,
+      "program_url": "https://hackerone.com/cloudflare",
+      "bounty_program": "Cloudflare Bug Bounty",
+      "bounty_url": "https://www.cloudflare.com/disclosure/",
+      "offers_bounties": true,
+      "bounty_max": "$20,000+",
+      "program_type": "bounty",
+      "email_accepted": false,
+      "requires_platform": true,
+      "contact_via": "https://hackerone.com/cloudflare (HackerOne)",
+      "source": "security.txt: https://cloudflare.com/.well-known/security.txt"
+    },
+    {
+      "company": "LinkedIn (Microsoft)",
+      "domain": "linkedin.com",
+      "security_contact_email": null,
+      "program_url": "https://hackerone.com/linkedin",
+      "bounty_program": "LinkedIn Bug Bounty",
+      "bounty_url": "https://www.linkedin.com/help/linkedin/answer/62924",
+      "offers_bounties": true,
+      "bounty_max": "$20,000+",
+      "program_type": "bounty",
+      "email_accepted": false,
+      "requires_platform": true,
+      "contact_via": "https://hackerone.com/linkedin (HackerOne)",
+      "source": "security.txt: https://linkedin.com/.well-known/security.txt"
+    },
+    {
+      "company": "PayPal",
+      "domain": "paypal.com",
+      "security_contact_email": null,
+      "program_url": "https://hackerone.com/paypal",
+      "bounty_program": "PayPal Bug Bounty",
+      "bounty_url": "https://hackerone.com/paypal",
+      "offers_bounties": true,
+      "bounty_max": "$30,000+",
+      "program_type": "bounty",
+      "email_accepted": false,
+      "requires_platform": true,
+      "contact_via": "https://hackerone.com/paypal (HackerOne)",
+      "source": "security.txt: https://paypal.com/.well-known/security.txt"
+    },
+    {
+      "company": "Netflix",
+      "domain": "netflix.com",
+      "security_contact_email": null,
+      "program_url": "https://hackerone.com/netflix",
+      "bounty_program": "Netflix Bug Bounty",
+      "bounty_url": "https://hackerone.com/netflix",
+      "offers_bounties": true,
+      "bounty_max": "$25,000+",
+      "program_type": "bounty",
+      "email_accepted": false,
+      "requires_platform": true,
+      "contact_via": "https://hackerone.com/netflix (HackerOne)",
+      "source": "security.txt: https://netflix.com/.well-known/security.txt"
+    },
+    {
+      "company": "Stripe",
+      "domain": "stripe.com",
+      "security_contact_email": null,
+      "program_url": "https://hackerone.com/stripe",
+      "bounty_program": "Stripe Bug Bounty",
+      "bounty_url": "https://hackerone.com/stripe",
+      "offers_bounties": true,
+      "bounty_max": "$100,000+",
+      "program_type": "bounty",
+      "email_accepted": false,
+      "requires_platform": true,
+      "contact_via": "https://hackerone.com/stripe (HackerOne)",
+      "source": "security.txt: https://stripe.com/.well-known/security.txt"
+    },
+    {
+      "company": "Slack (Salesforce)",
+      "domain": "slack.com",
+      "security_contact_email": null,
+      "program_url": "https://hackerone.com/slack/",
+      "bounty_program": "Slack Bug Bounty",
+      "bounty_url": "https://hackerone.com/slack/",
+      "offers_bounties": true,
+      "bounty_max": "$20,000+",
+      "program_type": "bounty",
+      "email_accepted": false,
+      "requires_platform": true,
+      "contact_via": "https://hackerone.com/slack/ (HackerOne)",
+      "source": "security.txt: https://slack.com/.well-known/security.txt"
+    },
+    {
+      "company": "X (formerly Twitter)",
+      "domain": "x.com",
+      "security_contact_email": null,
+      "program_url": "https://hackerone.com/twitter",
+      "bounty_program": "X/Twitter Bug Bounty",
+      "bounty_url": "https://hackerone.com/twitter",
+      "offers_bounties": true,
+      "bounty_max": "$22,000+",
+      "program_type": "bounty",
+      "email_accepted": false,
+      "requires_platform": true,
+      "contact_via": "https://hackerone.com/twitter (HackerOne)",
+      "source": "security.txt: https://x.com/.well-known/security.txt"
+    },
+    {
+      "company": "Canva",
+      "domain": "canva.com",
+      "security_contact_email": null,
+      "program_url": "https://canva.com/security/bug-bounty",
+      "bounty_program": "Canva Bug Bounty (via Bugcrowd)",
+      "bounty_url": "https://bugcrowd.com/engagements/canva",
+      "offers_bounties": true,
+      "bounty_max": "Up to $10,000",
+      "program_type": "bounty",
+      "email_accepted": false,
+      "requires_platform": true,
+      "contact_via": "https://canva.com/security/bug-bounty (web form)",
+      "source": "security.txt: https://canva.com/.well-known/security.txt"
+    },
+    {
+      "company": "New York Times",
+      "domain": "nytimes.com",
+      "security_contact_email": null,
+      "program_url": "https://nytimes.responsibledisclosure.com/",
+      "bounty_program": "NYT VDP",
+      "bounty_url": "https://nytimes.responsibledisclosure.com/",
+      "offers_bounties": false,
+      "bounty_max": "No bounties (VDP only)",
+      "program_type": "vdp",
+      "email_accepted": false,
+      "requires_platform": true,
+      "contact_via": "https://nytimes.responsibledisclosure.com/ (web form)",
+      "source": "security.txt: https://nytimes.com/.well-known/security.txt"
+    },
+    {
+      "company": "TikTok (ByteDance)",
+      "domain": "tiktok.com",
+      "security_contact_email": null,
+      "program_url": "https://www.tiktok.com/security/report",
+      "bounty_program": "TikTok Bug Bounty",
+      "bounty_url": "https://www.tiktok.com/security",
+      "offers_bounties": true,
+      "bounty_max": "$100,000+",
+      "program_type": "bounty",
+      "email_accepted": false,
+      "requires_platform": true,
+      "contact_via": "https://www.tiktok.com/security/report (web form - HackerOne)",
+      "source": "security.txt found at tiktok.com/.well-known/security.txt (no email contact listed)"
+    },
+    {
+      "company": "A16z (Andreessen Horowitz)",
+      "domain": "a16z.com",
+      "security_contact_email": "cirt@a16z.com",
+      "program_url": "https://a16z.com/security-policy",
+      "bounty_program": "A16z VDP (Full+CVD)",
+      "bounty_url": "https://a16z.com/security-policy",
+      "offers_bounties": false,
+      "bounty_max": "VDP only (Full+CVD maturity, score 113.3/120)",
+      "program_type": "vdp",
+      "email_accepted": true,
+      "requires_platform": false,
+      "source": "disclose.io directory"
+    },
+    {
+      "company": "23andMe",
+      "domain": "23andme.com",
+      "security_contact_email": null,
+      "program_url": "https://www.23andme.com/security-report",
+      "bounty_program": "23andMe VDP (Basic)",
+      "bounty_url": "https://www.23andme.com/security-report",
+      "offers_bounties": false,
+      "bounty_max": "VDP only",
+      "program_type": "vdp",
+      "email_accepted": false,
+      "requires_platform": true,
+      "source": "disclose.io directory"
+    },
+    {
+      "company": "Aalberts",
+      "domain": "aalberts.com",
+      "security_contact_email": "security@aalberts.com",
+      "program_url": "https://aalberts.com/.well-known/policy.txt",
+      "bounty_program": "Aalberts VDP (Full - score 93.3/120)",
+      "bounty_url": "https://aalberts.com/.well-known/policy.txt",
+      "offers_bounties": false,
+      "bounty_max": "VDP only",
+      "program_type": "vdp",
+      "email_accepted": true,
+      "requires_platform": false,
+      "source": "disclose.io directory"
+    },
+    {
+      "company": "NVIDIA",
+      "domain": "nvidia.com",
+      "security_contact_email": null,
+      "program_url": "https://www.nvidia.com/en-us/security/",
+      "bounty_program": "NVIDIA Bug Bounty",
+      "bounty_url": "https://www.nvidia.com/en-us/security/",
+      "offers_bounties": true,
+      "bounty_max": "$50,000+",
+      "program_type": "bounty",
+      "email_accepted": false,
+      "requires_platform": true,
+      "contact_via": "https://www.nvidia.com/en-us/security/ (web form)",
+      "source": "Security page (security.txt returns 403)"
+    },
+    {
+      "company": "Tesla",
+      "domain": "tesla.com",
+      "security_contact_email": null,
+      "program_url": "https://www.tesla.com/responsible-disclosure",
+      "bounty_program": "Tesla Bug Bounty",
+      "bounty_url": "https://www.tesla.com/responsible-disclosure",
+      "offers_bounties": true,
+      "bounty_max": "$15,000+ (up to $250,000 for vehicle RCE)",
+      "program_type": "bounty",
+      "email_accepted": false,
+      "requires_platform": true,
+      "contact_via": "https://www.tesla.com/responsible-disclosure (web form)",
+      "source": "Security page (security.txt returns 403)"
+    },
+    {
+      "company": "Oracle",
+      "domain": "oracle.com",
+      "security_contact_email": null,
+      "program_url": "https://www.oracle.com/security/",
+      "bounty_program": "Oracle VDP",
+      "bounty_url": "https://www.oracle.com/security/",
+      "offers_bounties": false,
+      "bounty_max": "VDP only (no bounties)",
+      "program_type": "vdp",
+      "email_accepted": false,
+      "requires_platform": true,
+      "contact_via": "https://www.oracle.com/security/ (web form)",
+      "source": "Security page (security.txt returns 403)"
+    },
+    {
+      "company": "Samsung",
+      "domain": "samsung.com",
+      "security_contact_email": null,
+      "program_url": "https://security.samsung.com/",
+      "bounty_program": "Samsung Bug Bounty",
+      "bounty_url": "https://security.samsung.com/",
+      "offers_bounties": true,
+      "bounty_max": "$200,000+",
+      "program_type": "bounty",
+      "email_accepted": false,
+      "requires_platform": true,
+      "contact_via": "https://security.samsung.com/ (web form)",
+      "source": "Security page (no security.txt at /.well-known/)"
+    }
+  ],
+  "disclose_io_directory": {
+    "url": "https://directory.disclose.io/",
+    "total_programs_listed": 27583,
+    "maturity_levels": [
+      "security.txt - Intake method exists",
+      "Basic - Public policy + channel",
+      "Partial - Won't pursue legal action",
+      "Full - Explicitly authorises testing + law exemptions",
+      "Full+CVD - Full + proactive disclosure timeline"
+    ],
+    "notable_high_score_programs": [
+      {"organization": "A16z", "maturity": "Full+CVD", "score": 113.3, "contact": "cirt@a16z.com"},
+      {"organization": "Aalberts", "maturity": "Full", "score": 93.3, "contact": "security@aalberts.com"},
+      {"organization": "2brightsparks", "maturity": "Basic", "score": 45.0, "contact": "security@2brightsparks.com"}
+    ]
+  },
+  "high_paying_email_accessible_companies": [
+    {
+      "company": "Google",
+      "email": "security@google.com",
+      "bounty_max": "$151,515",
+      "notes": "One of the most generous programs. Email accepted alongside web form."
+    },
+    {
+      "company": "OpenAI",
+      "email": "disclosure@openai.com",
+      "bounty_max": "$100,000",
+      "notes": "Accepts email directly. Also uses Bugcrowd platform."
+    },
+    {
+      "company": "Cisco",
+      "email": "psirt@cisco.com",
+      "bounty_max": "$100,000",
+      "notes": "Accepts email directly via PSIRT."
+    },
+    {
+      "company": "IBM",
+      "email": "psirt@us.ibm.com",
+      "bounty_max": "$100,000",
+      "notes": "Accepts email directly. Also has HackerOne program."
+    },
+    {
+      "company": "Atlassian",
+      "email": "security@atlassian.com",
+      "bounty_max": "$100,000",
+      "notes": "Direct email accepted. Full+CVD program."
+    },
+    {
+      "company": "Yahoo",
+      "email": "security@yahooinc.com",
+      "bounty_max": "$25,000",
+      "notes": "Direct email + Intigriti program."
+    },
+    {
+      "company": "Spotify",
+      "email": "security@spotify.com",
+      "bounty_max": "$30,000",
+      "notes": "Direct email, bug bounty program."
+    },
+    {
+      "company": "Shopify",
+      "email": "security@shopify.com",
+      "bounty_max": "$50,000",
+      "notes": "Direct email accepted."
+    },
+    {
+      "company": "Discord",
+      "email": "bugbounty@discordapp.com",
+      "bounty_max": "$25,000",
+      "notes": "Two email contacts available."
+    },
+    {
+      "company": "Adobe",
+      "email": "psirt@adobe.com",
+      "bounty_max": "$50,000",
+      "notes": "PSIRT email + HackerOne program."
+    },
+    {
+      "company": "Zoom",
+      "email": "security-reports@zoom.us",
+      "bounty_max": "$10,000+",
+      "notes": "Direct email accepted."
+    },
+    {
+      "company": "Bloomberg",
+      "email": "reportvuln@bloomberg.net",
+      "bounty_max": "$10,000",
+      "notes": "Direct email accepted."
+    },
+    {
+      "company": "Intel",
+      "email": "secure@intel.com",
+      "bounty_max": "$10,000+",
+      "notes": "Two email contacts: product and web security."
+    },
+    {
+      "company": "Reddit",
+      "email": "whitehats@reddit.com",
+      "bounty_max": "$30,000",
+      "notes": "Direct email accepted."
+    },
+    {
+      "company": "Proton",
+      "email": "security@proton.me",
+      "bounty_max": "$10,000+",
+      "notes": "Direct email, bug bounty program."
+    }
+  ],
+  "no_email_high_value_platform_only": [
+    {
+      "company": "Microsoft",
+      "reason": "Only via MSRC web portal (requires portal login)",
+      "bounty_max": "$250,000"
+    },
+    {
+      "company": "Apple",
+      "reason": "Only via security.apple.com web form",
+      "bounty_max": "$1,000,000"
+    },
+    {
+      "company": "Meta",
+      "reason": "Only via facebook.com/whitehat web form",
+      "bounty_max": "$300,000"
+    },
+    {
+      "company": "Amazon",
+      "reason": "Only via HackerOne platform",
+      "bounty_max": "$200,000"
+    },
+    {
+      "company": "Stripe",
+      "reason": "Only via HackerOne platform",
+      "bounty_max": "$100,000"
+    },
+    {
+      "company": "PayPal",
+      "reason": "Only via HackerOne platform",
+      "bounty_max": "$30,000"
+    },
+    {
+      "company": "Netflix",
+      "reason": "Only via HackerOne platform",
+      "bounty_max": "$25,000"
+    },
+    {
+      "company": "LinkedIn",
+      "reason": "Only via HackerOne platform",
+      "bounty_max": "$20,000"
+    },
+    {
+      "company": "GitHub",
+      "reason": "Only via HackerOne platform",
+      "bounty_max": "$30,000"
+    },
+    {
+      "company": "Cloudflare",
+      "reason": "Only via HackerOne platform",
+      "bounty_max": "$20,000"
+    },
+    {
+      "company": "X (Twitter)",
+      "reason": "Only via HackerOne platform",
+      "bounty_max": "$22,000"
+    },
+    {
+      "company": "Slack",
+      "reason": "Only via HackerOne platform",
+      "bounty_max": "$20,000"
+    },
+    {
+      "company": "Tesla",
+      "reason": "Only via tesla.com web form (403 on security.txt)",
+      "bounty_max": "$250,000"
+    },
+    {
+      "company": "NVIDIA",
+      "reason": "Only via nvidia.com web form (403 on security.txt)",
+      "bounty_max": "$50,000"
+    },
+    {
+      "company": "Samsung",
+      "reason": "Only via security.samsung.com (no security.txt at /.well-known/)",
+      "bounty_max": "$200,000"
+    }
+  ],
+  "crawling_results": {
+    "security_txt_found_with_email": ["google.com", "chatgpt.com", "yahoo.com", "wikipedia.org", "reddit.com", "shopify.com", "discord.com", "zoom.us", "cisco.com", "ibm.com", "intel.com", "spotify.com", "atlassian.com", "signal.org", "proton.me", "vercel.com", "adobe.com", "bloomberg.net"],
+    "security_txt_found_no_email_platform_only": ["facebook.com", "x.com", "github.com", "cloudflare.com", "linkedin.com", "amazon.com", "paypal.com", "netflix.com", "stripe.com", "slack.com", "whatsapp.com"],
+    "no_security_txt_found_or_blocked": ["youtube.com", "instagram.com", "bing.com", "tiktok.com", "live.com", "pinterest.com", "ebay.com", "twitch.tv", "nytimes.com", "samsung.com", "oracle.com", "tesla.com", "nvidia.com"],
+    "security_txt_found_form_only": ["apple.com", "microsoft.com", "walmart.com", "canva.com"]
+  }
+}

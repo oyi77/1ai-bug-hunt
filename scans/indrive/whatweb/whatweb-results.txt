@@ -1,0 +1,1824 @@
+WhatWeb report for https://couriers.indrive.com
+Status    : 403 Forbidden
+Title     : ERROR: The request could not be satisfied
+IP        : 3.171.198.102
+Country   : UNITED STATES, US
+
+Summary   : Amazon-CloudFront, HTTPServer[CloudFront], UncommonHeaders[x-amz-cf-pop,x-amz-cf-id], Via-Proxy[1.1 31d95956d8774bfe5fde28be839d1990.cloudfront.net (CloudFront)]
+
+Detected Plugins:
+[ Amazon-CloudFront ]
+	Amazon CloudFront is a content delivery network (CDN) that 
+	delivers static and dynamic web content, including live and 
+	on-demand video. 
+
+	Website     : https://aws.amazon.com/cloudfront/
+
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	String       : CloudFront (from server string)
+
+[ UncommonHeaders ]
+	Uncommon HTTP server headers. The blacklist includes all 
+	the standard headers and many non standard but common ones. 
+	Interesting but fairly common headers should have their own 
+	plugins, eg. x-powered-by, server and x-aspnet-version. 
+	Info about headers can be found at www.http-stats.com 
+
+	String       : x-amz-cf-pop,x-amz-cf-id (from headers)
+
+[ Via-Proxy ]
+	This plugin extracts the proxy server details from the Via 
+	param of the HTTP header. 
+
+	String       : 1.1 31d95956d8774bfe5fde28be839d1990.cloudfront.net (CloudFront)
+
+HTTP Headers:
+	HTTP/1.1 403 Forbidden
+	Server: CloudFront
+	Date: Sun, 07 Jun 2026 19:19:35 GMT
+	Content-Type: text/html
+	Content-Length: 919
+	Connection: close
+	X-Cache: Error from cloudfront
+	Via: 1.1 31d95956d8774bfe5fde28be839d1990.cloudfront.net (CloudFront)
+	X-Amz-Cf-Pop: SIN2-P9
+	X-Amz-Cf-Id: Dtd1z8F9No2rHxNzwLwzaoVADrF7OvyMSb0oFZDTdcUwmZ7qn1lXOg==
+	
+WhatWeb report for https://ventures.indrive.com
+Status    : 403 Forbidden
+Title     : ERROR: The request could not be satisfied
+IP        : 99.86.20.128
+Country   : UNITED STATES, US
+
+Summary   : Amazon-CloudFront, HTTPServer[CloudFront], UncommonHeaders[x-amz-cf-pop,x-amz-cf-id], Via-Proxy[1.1 71cef8719ec0e44876d9678149fd8472.cloudfront.net (CloudFront)]
+
+Detected Plugins:
+[ Amazon-CloudFront ]
+	Amazon CloudFront is a content delivery network (CDN) that 
+	delivers static and dynamic web content, including live and 
+	on-demand video. 
+
+	Website     : https://aws.amazon.com/cloudfront/
+
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	String       : CloudFront (from server string)
+
+[ UncommonHeaders ]
+	Uncommon HTTP server headers. The blacklist includes all 
+	the standard headers and many non standard but common ones. 
+	Interesting but fairly common headers should have their own 
+	plugins, eg. x-powered-by, server and x-aspnet-version. 
+	Info about headers can be found at www.http-stats.com 
+
+	String       : x-amz-cf-pop,x-amz-cf-id (from headers)
+
+[ Via-Proxy ]
+	This plugin extracts the proxy server details from the Via 
+	param of the HTTP header. 
+
+	String       : 1.1 71cef8719ec0e44876d9678149fd8472.cloudfront.net (CloudFront)
+
+HTTP Headers:
+	HTTP/1.1 403 Forbidden
+	Server: CloudFront
+	Date: Sun, 07 Jun 2026 19:19:35 GMT
+	Content-Type: text/html
+	Content-Length: 919
+	Connection: close
+	X-Cache: Error from cloudfront
+	Via: 1.1 71cef8719ec0e44876d9678149fd8472.cloudfront.net (CloudFront)
+	X-Amz-Cf-Pop: SIN3-P2
+	X-Amz-Cf-Id: 47i5GgcqUQyYTyQcgqUeUFHzZLtwgQq7in-PK5hb-XtTKgkq_rjUjQ==
+	
+WhatWeb report for https://bus.br.indrive.com
+Status    : 200 OK
+Title     : Tickets
+IP        : 34.160.19.16
+Country   : UNITED STATES, US
+
+Summary   : HTML5, Script, Strict-Transport-Security[max-age=15724800; includeSubDomains], UncommonHeaders[supports-loading-mode,content-security-policy,alt-svc], Via-Proxy[1.1 google]
+
+Detected Plugins:
+[ HTML5 ]
+	HTML version 5, detected by the doctype declaration 
+
+
+[ Script ]
+	This plugin detects instances of script HTML elements and 
+	returns the script language/type. 
+
+
+[ Strict-Transport-Security ]
+	Strict-Transport-Security is an HTTP header that restricts 
+	a web browser from accessing a website without the security 
+	of the HTTPS protocol. 
+
+	String       : max-age=15724800; includeSubDomains
+
+[ UncommonHeaders ]
+	Uncommon HTTP server headers. The blacklist includes all 
+	the standard headers and many non standard but common ones. 
+	Interesting but fairly common headers should have their own 
+	plugins, eg. x-powered-by, server and x-aspnet-version. 
+	Info about headers can be found at www.http-stats.com 
+
+	String       : supports-loading-mode,content-security-policy,alt-svc (from headers)
+
+[ Via-Proxy ]
+	This plugin extracts the proxy server details from the Via 
+	param of the HTTP header. 
+
+	String       : 1.1 google
+
+HTTP Headers:
+	HTTP/1.1 200 OK
+	date: Sun, 07 Jun 2026 19:19:36 GMT
+	content-type: text/html
+	vary: Accept-Encoding
+	last-modified: Thu, 04 Jun 2026 10:28:30 GMT
+	etag: W/"6a21534e-6de"
+	supports-loading-mode: credentialed-prerender
+	content-security-policy: frame-ancestors 'self' *.distribusion.com *.railagent.com *.prorailplatform.com  prorailplatform.com *.berlin-airport.de viaggiaurora.it www.viaggiaurora.it www.moovitapp.com *.moovitapp.com moovitapp.com *.amadeus.com *.sncf.fr;;
+	strict-transport-security: max-age=15724800; includeSubDomains
+	content-encoding: gzip
+	via: 1.1 google
+	Alt-Svc: h3=":443"; ma=2592000
+	Connection: close
+	Transfer-Encoding: chunked
+	
+WhatWeb report for https://sharetrip.indrive.com
+Status    : 200 OK
+Title     : inDrive.SharedTrips
+IP        : 108.156.144.21
+Country   : UNITED STATES, US
+
+Summary   : HTML5, HTTPServer[istio-envoy], Script[module], UncommonHeaders[x-envoy-upstream-service-time,x-amz-cf-pop,alt-svc,x-amz-cf-id], Via-Proxy[1.1 96284f61084e7118716cb8c5c34dd7a0.cloudfront.net (CloudFront)]
+
+Detected Plugins:
+[ HTML5 ]
+	HTML version 5, detected by the doctype declaration 
+
+
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	String       : istio-envoy (from server string)
+
+[ Script ]
+	This plugin detects instances of script HTML elements and 
+	returns the script language/type. 
+
+	String       : module
+
+[ UncommonHeaders ]
+	Uncommon HTTP server headers. The blacklist includes all 
+	the standard headers and many non standard but common ones. 
+	Interesting but fairly common headers should have their own 
+	plugins, eg. x-powered-by, server and x-aspnet-version. 
+	Info about headers can be found at www.http-stats.com 
+
+	String       : x-envoy-upstream-service-time,x-amz-cf-pop,alt-svc,x-amz-cf-id (from headers)
+
+[ Via-Proxy ]
+	This plugin extracts the proxy server details from the Via 
+	param of the HTTP header. 
+
+	String       : 1.1 96284f61084e7118716cb8c5c34dd7a0.cloudfront.net (CloudFront)
+
+HTTP Headers:
+	HTTP/1.1 200 OK
+	Content-Type: text/html
+	Content-Length: 794
+	Connection: close
+	server: istio-envoy
+	date: Sun, 07 Jun 2026 19:19:35 GMT
+	last-modified: Tue, 07 Apr 2026 12:00:15 GMT
+	etag: "69d4f1cf-31a"
+	accept-ranges: bytes
+	x-envoy-upstream-service-time: 0
+	X-Cache: Miss from cloudfront
+	Via: 1.1 96284f61084e7118716cb8c5c34dd7a0.cloudfront.net (CloudFront)
+	X-Amz-Cf-Pop: SIN2-P4
+	Alt-Svc: h3=":443"; ma=86400
+	X-Amz-Cf-Id: 5-7J9QLEaxFSa7V5FMZJFFubXUaGhlmIKX4i7Tpn_wj4gN63AxDS5g==
+	
+WhatWeb report for https://url-checker.indriver.com/
+Status    : 200 OK
+Title     : Url Checker
+IP        : <Unknown>
+Country   : <Unknown>
+
+Summary   : HTML5, HTTPServer[GitHub.com], Script, Strict-Transport-Security[max-age=31556952], UncommonHeaders[x-origin-cache,access-control-allow-origin,x-proxy-cache,x-github-request-id,x-served-by,x-cache-hits,x-timer,x-fastly-request-id], Via-Proxy[1.1 varnish]
+
+Detected Plugins:
+[ HTML5 ]
+	HTML version 5, detected by the doctype declaration 
+
+
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	String       : GitHub.com (from server string)
+
+[ Script ]
+	This plugin detects instances of script HTML elements and 
+	returns the script language/type. 
+
+
+[ Strict-Transport-Security ]
+	Strict-Transport-Security is an HTTP header that restricts 
+	a web browser from accessing a website without the security 
+	of the HTTPS protocol. 
+
+	String       : max-age=31556952
+
+[ UncommonHeaders ]
+	Uncommon HTTP server headers. The blacklist includes all 
+	the standard headers and many non standard but common ones. 
+	Interesting but fairly common headers should have their own 
+	plugins, eg. x-powered-by, server and x-aspnet-version. 
+	Info about headers can be found at www.http-stats.com 
+
+	String       : x-origin-cache,access-control-allow-origin,x-proxy-cache,x-github-request-id,x-served-by,x-cache-hits,x-timer,x-fastly-request-id (from headers)
+
+[ Via-Proxy ]
+	This plugin extracts the proxy server details from the Via 
+	param of the HTTP header. 
+
+	String       : 1.1 varnish
+
+HTTP Headers:
+	HTTP/1.1 200 OK
+	Connection: close
+	Content-Length: 241
+	Server: GitHub.com
+	Content-Type: text/html; charset=utf-8
+	x-origin-cache: HIT
+	Last-Modified: Thu, 28 May 2026 11:03:19 GMT
+	Access-Control-Allow-Origin: *
+	Strict-Transport-Security: max-age=31556952
+	ETag: W/"6a1820f7-15d"
+	expires: Sun, 07 Jun 2026 16:27:00 GMT
+	Cache-Control: max-age=600
+	Content-Encoding: gzip
+	x-proxy-cache: MISS
+	X-GitHub-Request-Id: E7B0:1D61C9:23DD5C6:246E14F:6A25997A
+	Accept-Ranges: bytes
+	Date: Sun, 07 Jun 2026 19:19:35 GMT
+	Via: 1.1 varnish
+	Age: 48
+	X-Served-By: cache-sin-wsat1880094-SIN
+	X-Cache: HIT
+	X-Cache-Hits: 1
+	X-Timer: S1780859976.751319,VS0,VE1
+	Vary: Accept-Encoding
+	X-Fastly-Request-ID: fd190c96133c1e76f1306b07bfe27bbd77b62ebc
+	
+WhatWeb report for https://supernovas.indrive.com
+Status    : 200 OK
+Title     : Supernovas | About us
+IP        : 198.202.211.1
+Country   : UNITED STATES, US
+
+Summary   : Cookies[_cfuvid], Frame, Google-Analytics[Universal], Google-Tag-Manager, HTML5, HTTPServer[cloudflare], HttpOnly[_cfuvid], JQuery, MetaGenerator[Webflow], Open-Graph-Protocol[website], Script[text/javascript], UncommonHeaders[cf-ray,cf-cache-status,surrogate-control,surrogate-key,x-lambda-id,x-wf-region,alt-svc]
+
+Detected Plugins:
+[ Cookies ]
+	Display the names of cookies in the HTTP headers. The 
+	values are not returned to save on space. 
+
+	String       : _cfuvid
+
+[ Frame ]
+	This plugin detects instances of frame and iframe HTML 
+	elements. 
+
+
+[ Google-Analytics ]
+	This plugin identifies the Google Analytics account. 
+
+	Version      : Universal
+	Website     : http://www.google.com/analytics/
+
+[ Google-Tag-Manager ]
+	This plugin identifies Google Tag Manager. 
+
+	Website     : http://www.google.com/tagmanager/
+
+[ HTML5 ]
+	HTML version 5, detected by the doctype declaration 
+
+
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	String       : cloudflare (from server string)
+
+[ HttpOnly ]
+	If the HttpOnly flag is included in the HTTP set-cookie 
+	response header and the browser supports it then the cookie 
+	cannot be accessed through client side script - More Info: 
+	http://en.wikipedia.org/wiki/HTTP_cookie 
+
+	String       : _cfuvid
+
+[ JQuery ]
+	A fast, concise, JavaScript that simplifies how to traverse 
+	HTML documents, handle events, perform animations, and add 
+	AJAX. 
+
+	Website     : http://jquery.com/
+
+[ MetaGenerator ]
+	This plugin identifies meta generator tags and extracts its 
+	value. 
+
+	String       : Webflow
+
+[ Open-Graph-Protocol ]
+	The Open Graph protocol enables you to integrate your Web 
+	pages into the social graph. It is currently designed for 
+	Web pages representing profiles of real-world things . 
+	things like movies, sports teams, celebrities, and 
+	restaurants. Including Open Graph tags on your Web page, 
+	makes your page equivalent to a Facebook Page. 
+
+	Version      : website
+
+[ Script ]
+	This plugin detects instances of script HTML elements and 
+	returns the script language/type. 
+
+	String       : text/javascript
+
+[ UncommonHeaders ]
+	Uncommon HTTP server headers. The blacklist includes all 
+	the standard headers and many non standard but common ones. 
+	Interesting but fairly common headers should have their own 
+	plugins, eg. x-powered-by, server and x-aspnet-version. 
+	Info about headers can be found at www.http-stats.com 
+
+	String       : cf-ray,cf-cache-status,surrogate-control,surrogate-key,x-lambda-id,x-wf-region,alt-svc (from headers)
+
+HTTP Headers:
+	HTTP/1.1 200 OK
+	Date: Sun, 07 Jun 2026 19:19:35 GMT
+	Content-Type: text/html; charset=utf-8
+	Transfer-Encoding: chunked
+	Connection: close
+	set-cookie: _cfuvid=QRoh7Z.vFx14qxqXpqrnEqMBbLBqFkT9X97HuuYn5J4-1780859975.5362604-1.0.1.1-UFfvVgD7k4fEw1hP5WFCsYwkUTOPRf2M4KgC8p4RYJc; HttpOnly; SameSite=None; Secure; Path=/; Domain=supernovas.indrive.com
+	CF-Ray: a082025f1f48b5b8-CGK
+	CF-Cache-Status: HIT
+	Age: 2966339
+	Content-Encoding: gzip
+	Last-Modified: Tue, 19 May 2026 21:52:20 GMT
+	Server: cloudflare
+	Vary: accept-encoding
+	surrogate-control: max-age=2147483647
+	surrogate-key: supernovas.indrive.com 63c689973e158b0abde138f2 pageId:65cb46d2b5550d1a5c889939
+	x-lambda-id: a6f81aaf-6c7b-425c-ae99-d3d3d78c2fc8
+	x-wf-region: us-east-1
+	alt-svc: h3=":443"; ma=86400
+	
+WhatWeb report for https://analytics.indrive.com
+Status    : 200 OK
+Title     : <None>
+IP        : 34.149.86.174
+Country   : UNITED STATES, US
+
+Summary   : HTTPServer[nginx], nginx, Strict-Transport-Security[max-age=31536000; includeSubDomains], UncommonHeaders[alt-svc], Via-Proxy[1.1 google]
+
+Detected Plugins:
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	String       : nginx (from server string)
+
+[ Strict-Transport-Security ]
+	Strict-Transport-Security is an HTTP header that restricts 
+	a web browser from accessing a website without the security 
+	of the HTTPS protocol. 
+
+	String       : max-age=31536000; includeSubDomains
+
+[ UncommonHeaders ]
+	Uncommon HTTP server headers. The blacklist includes all 
+	the standard headers and many non standard but common ones. 
+	Interesting but fairly common headers should have their own 
+	plugins, eg. x-powered-by, server and x-aspnet-version. 
+	Info about headers can be found at www.http-stats.com 
+
+	String       : alt-svc (from headers)
+
+[ Via-Proxy ]
+	This plugin extracts the proxy server details from the Via 
+	param of the HTTP header. 
+
+	String       : 1.1 google
+
+[ nginx ]
+	Nginx (Engine-X) is a free, open-source, high-performance 
+	HTTP server and reverse proxy, as well as an IMAP/POP3 
+	proxy server. 
+
+	Website     : http://nginx.net/
+
+HTTP Headers:
+	HTTP/1.1 200 OK
+	server: nginx
+	date: Sun, 07 Jun 2026 19:19:36 GMT
+	content-type: text/html; charset=utf-8
+	Content-Length: 2
+	strict-transport-security: max-age=31536000; includeSubDomains
+	via: 1.1 google
+	Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+	Connection: close
+	
+WhatWeb report for https://fairchoice.indrive.com
+Status    : 200 OK
+Title     : Impact Digest
+IP        : 198.202.211.1
+Country   : UNITED STATES, US
+
+Summary   : Cookies[_cfuvid], Frame, Google-Tag-Manager, HTML5, HTTPServer[cloudflare], HttpOnly[_cfuvid], JQuery, MetaGenerator[Webflow], Script[text/javascript], UncommonHeaders[cf-ray,cf-cache-status,surrogate-control,surrogate-key,x-lambda-id,x-wf-region,alt-svc]
+
+Detected Plugins:
+[ Cookies ]
+	Display the names of cookies in the HTTP headers. The 
+	values are not returned to save on space. 
+
+	String       : _cfuvid
+
+[ Frame ]
+	This plugin detects instances of frame and iframe HTML 
+	elements. 
+
+
+[ Google-Tag-Manager ]
+	This plugin identifies Google Tag Manager. 
+
+	Website     : http://www.google.com/tagmanager/
+
+[ HTML5 ]
+	HTML version 5, detected by the doctype declaration 
+
+
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	String       : cloudflare (from server string)
+
+[ HttpOnly ]
+	If the HttpOnly flag is included in the HTTP set-cookie 
+	response header and the browser supports it then the cookie 
+	cannot be accessed through client side script - More Info: 
+	http://en.wikipedia.org/wiki/HTTP_cookie 
+
+	String       : _cfuvid
+
+[ JQuery ]
+	A fast, concise, JavaScript that simplifies how to traverse 
+	HTML documents, handle events, perform animations, and add 
+	AJAX. 
+
+	Website     : http://jquery.com/
+
+[ MetaGenerator ]
+	This plugin identifies meta generator tags and extracts its 
+	value. 
+
+	String       : Webflow
+
+[ Script ]
+	This plugin detects instances of script HTML elements and 
+	returns the script language/type. 
+
+	String       : text/javascript
+
+[ UncommonHeaders ]
+	Uncommon HTTP server headers. The blacklist includes all 
+	the standard headers and many non standard but common ones. 
+	Interesting but fairly common headers should have their own 
+	plugins, eg. x-powered-by, server and x-aspnet-version. 
+	Info about headers can be found at www.http-stats.com 
+
+	String       : cf-ray,cf-cache-status,surrogate-control,surrogate-key,x-lambda-id,x-wf-region,alt-svc (from headers)
+
+HTTP Headers:
+	HTTP/1.1 200 OK
+	Date: Sun, 07 Jun 2026 19:19:34 GMT
+	Content-Type: text/html; charset=utf-8
+	Transfer-Encoding: chunked
+	Connection: close
+	set-cookie: _cfuvid=iHC2TEDfg4uzM5cRTojKal7Dk6SCo0IVWsqUzAdPiJY-1780859974.915766-1.0.1.1-HNg1LFSOWLA.Zo3xuznCrUV6yCI.xDJm.13I5AO8nFI; HttpOnly; SameSite=None; Secure; Path=/; Domain=fairchoice.indrive.com
+	CF-Ray: a082025b3bec1a69-CGK
+	CF-Cache-Status: HIT
+	Age: 2618378
+	Content-Encoding: gzip
+	Last-Modified: Wed, 13 May 2026 09:57:27 GMT
+	Server: cloudflare
+	Vary: accept-encoding
+	surrogate-control: max-age=2147483647
+	surrogate-key: fairchoice.indrive.com 68792dbd99dd2e37ea00934c pageId:68792dbd99dd2e37ea009354
+	x-lambda-id: bb645741-e2db-4512-90b5-554d788c8ce1
+	x-wf-region: us-east-1
+	alt-svc: h3=":443"; ma=86400
+	
+WhatWeb report for https://pagerduty.indriver.com
+Status    : 200 OK
+Title     : PagerDuty Live Incidents
+IP        : <Unknown>
+Country   : <Unknown>
+
+Summary   : HTML5, HTTPServer[GitHub.com], Script[module], UncommonHeaders[access-control-allow-origin,x-proxy-cache,x-github-request-id,x-served-by,x-cache-hits,x-timer,x-fastly-request-id], Via-Proxy[1.1 varnish]
+
+Detected Plugins:
+[ HTML5 ]
+	HTML version 5, detected by the doctype declaration 
+
+
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	String       : GitHub.com (from server string)
+
+[ Script ]
+	This plugin detects instances of script HTML elements and 
+	returns the script language/type. 
+
+	String       : module
+
+[ UncommonHeaders ]
+	Uncommon HTTP server headers. The blacklist includes all 
+	the standard headers and many non standard but common ones. 
+	Interesting but fairly common headers should have their own 
+	plugins, eg. x-powered-by, server and x-aspnet-version. 
+	Info about headers can be found at www.http-stats.com 
+
+	String       : access-control-allow-origin,x-proxy-cache,x-github-request-id,x-served-by,x-cache-hits,x-timer,x-fastly-request-id (from headers)
+
+[ Via-Proxy ]
+	This plugin extracts the proxy server details from the Via 
+	param of the HTTP header. 
+
+	String       : 1.1 varnish
+
+HTTP Headers:
+	HTTP/1.1 200 OK
+	Connection: close
+	Content-Length: 741
+	Server: GitHub.com
+	Content-Type: text/html; charset=utf-8
+	Last-Modified: Wed, 31 Dec 2025 11:13:49 GMT
+	Access-Control-Allow-Origin: *
+	ETag: W/"6955056d-565"
+	expires: Sun, 07 Jun 2026 19:26:02 GMT
+	Cache-Control: max-age=600
+	Content-Encoding: gzip
+	x-proxy-cache: MISS
+	X-GitHub-Request-Id: C2D2:2BA19C:4818B2:4DD7D2:6A25C36E
+	Accept-Ranges: bytes
+	Date: Sun, 07 Jun 2026 19:19:35 GMT
+	Via: 1.1 varnish
+	Age: 52
+	X-Served-By: cache-sin-wsat1880041-SIN
+	X-Cache: HIT
+	X-Cache-Hits: 1
+	X-Timer: S1780859975.343159,VS0,VE1
+	Vary: Accept-Encoding
+	X-Fastly-Request-ID: 502e3e46453261583186472a47fb7d775458b28b
+	
+WhatWeb report for https://jlml-wf.indrive.com/
+Status    : 200 OK
+Title     : JLML
+IP        : 198.202.211.1
+Country   : UNITED STATES, US
+
+Summary   : Cookies[_cfuvid], Email[JuntasLlegamos@indriver.com], Frame, Google-Tag-Manager, HTML5, HTTPServer[cloudflare], HttpOnly[_cfuvid], JQuery, Script[text/javascript], UncommonHeaders[cf-ray,cf-cache-status,surrogate-control,surrogate-key,x-lambda-id,x-wf-region,alt-svc]
+
+Detected Plugins:
+[ Cookies ]
+	Display the names of cookies in the HTTP headers. The 
+	values are not returned to save on space. 
+
+	String       : _cfuvid
+
+[ Email ]
+	Extract email addresses. Find valid email address and 
+	syntactically invalid email addresses from mailto: link 
+	tags. We match syntactically invalid links containing 
+	mailto: to catch anti-spam email addresses, eg. bob at 
+	gmail.com. This uses the simplified email regular 
+	expression from 
+	http://www.regular-expressions.info/email.html for valid 
+	email address matching. 
+
+	String       : JuntasLlegamos@indriver.com
+	String       : JuntasLlegamos@indriver.com
+
+[ Frame ]
+	This plugin detects instances of frame and iframe HTML 
+	elements. 
+
+
+[ Google-Tag-Manager ]
+	This plugin identifies Google Tag Manager. 
+
+	Website     : http://www.google.com/tagmanager/
+
+[ HTML5 ]
+	HTML version 5, detected by the doctype declaration 
+
+
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	String       : cloudflare (from server string)
+
+[ HttpOnly ]
+	If the HttpOnly flag is included in the HTTP set-cookie 
+	response header and the browser supports it then the cookie 
+	cannot be accessed through client side script - More Info: 
+	http://en.wikipedia.org/wiki/HTTP_cookie 
+
+	String       : _cfuvid
+
+[ JQuery ]
+	A fast, concise, JavaScript that simplifies how to traverse 
+	HTML documents, handle events, perform animations, and add 
+	AJAX. 
+
+	Website     : http://jquery.com/
+
+[ Script ]
+	This plugin detects instances of script HTML elements and 
+	returns the script language/type. 
+
+	String       : text/javascript
+
+[ UncommonHeaders ]
+	Uncommon HTTP server headers. The blacklist includes all 
+	the standard headers and many non standard but common ones. 
+	Interesting but fairly common headers should have their own 
+	plugins, eg. x-powered-by, server and x-aspnet-version. 
+	Info about headers can be found at www.http-stats.com 
+
+	String       : cf-ray,cf-cache-status,surrogate-control,surrogate-key,x-lambda-id,x-wf-region,alt-svc (from headers)
+
+HTTP Headers:
+	HTTP/1.1 200 OK
+	Date: Sun, 07 Jun 2026 19:19:35 GMT
+	Content-Type: text/html; charset=utf-8
+	Transfer-Encoding: chunked
+	Connection: close
+	set-cookie: _cfuvid=Y0NZrClz8tXJ72pn2Nu1vsIOkAv4Ng6ifUHjDuhVFT0-1780859975.417989-1.0.1.1-NmDKreW_9yYSr5oSCFWBnhhspthpe4vRxhSAsffeVXY; HttpOnly; SameSite=None; Secure; Path=/; Domain=jlml-wf.indrive.com
+	CF-Ray: a082025e5d2fa136-CGK
+	CF-Cache-Status: HIT
+	Age: 201059
+	Content-Encoding: gzip
+	Last-Modified: Fri, 05 Jun 2026 14:16:27 GMT
+	Server: cloudflare
+	Vary: accept-encoding
+	surrogate-control: max-age=432000
+	surrogate-key: jlml-wf.indrive.com 6968b2d5909bb8506713451b pageId:6968b2de909bb85067134806 696a3a2cc869e6976ed51acc 6968ea375d5b1f84645dfd7d
+	x-lambda-id: e339499f-f619-4746-806f-ed22fd1e0ea5
+	x-wf-region: us-east-1
+	alt-svc: h3=":443"; ma=86400
+	
+WhatWeb report for https://infaces.indrive.com
+Status    : 200 OK
+Title     : inFaces
+IP        : 198.202.211.1
+Country   : UNITED STATES, US
+
+Summary   : Cookies[_cfuvid], Email[679896706c2f3bcae98e0616_017@2x.webp,67989670d96844138386fabc_001@2x.webp,679896713be16bb5fab69fd4_014@2x.webp,67989671963d449e88a38096_016@2x.webp,679b400b5ca847391797a1de_013@2x.webp,679b400bc6e3cd33b6c28e58_005@2x.webp,679b400c3aa6b0739b463b93_016@2x.webp,679b400cc44a76dd6f00e0c9_015@2x.webp,679b400dda0bd987510a7139_018@2x.webp,679b400df35807cc52ac8ffb_001@2x.webp], Frame, Google-Tag-Manager, HTML5, HTTPServer[cloudflare], HttpOnly[_cfuvid], JQuery, Script[speculationrules>,text/javascript], UncommonHeaders[cf-ray,cf-cache-status,surrogate-control,surrogate-key,x-lambda-id,x-wf-region,alt-svc]
+
+Detected Plugins:
+[ Cookies ]
+	Display the names of cookies in the HTTP headers. The 
+	values are not returned to save on space. 
+
+	String       : _cfuvid
+
+[ Email ]
+	Extract email addresses. Find valid email address and 
+	syntactically invalid email addresses from mailto: link 
+	tags. We match syntactically invalid links containing 
+	mailto: to catch anti-spam email addresses, eg. bob at 
+	gmail.com. This uses the simplified email regular 
+	expression from 
+	http://www.regular-expressions.info/email.html for valid 
+	email address matching. 
+
+	String       : 679896706c2f3bcae98e0616_017@2x.webp,67989670d96844138386fabc_001@2x.webp,679896713be16bb5fab69fd4_014@2x.webp,67989671963d449e88a38096_016@2x.webp,679b400b5ca847391797a1de_013@2x.webp,679b400bc6e3cd33b6c28e58_005@2x.webp,679b400c3aa6b0739b463b93_016@2x.webp,679b400cc44a76dd6f00e0c9_015@2x.webp,679b400dda0bd987510a7139_018@2x.webp,679b400df35807cc52ac8ffb_001@2x.webp
+
+[ Frame ]
+	This plugin detects instances of frame and iframe HTML 
+	elements. 
+
+
+[ Google-Tag-Manager ]
+	This plugin identifies Google Tag Manager. 
+
+	Website     : http://www.google.com/tagmanager/
+
+[ HTML5 ]
+	HTML version 5, detected by the doctype declaration 
+
+
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	String       : cloudflare (from server string)
+
+[ HttpOnly ]
+	If the HttpOnly flag is included in the HTTP set-cookie 
+	response header and the browser supports it then the cookie 
+	cannot be accessed through client side script - More Info: 
+	http://en.wikipedia.org/wiki/HTTP_cookie 
+
+	String       : _cfuvid
+
+[ JQuery ]
+	A fast, concise, JavaScript that simplifies how to traverse 
+	HTML documents, handle events, perform animations, and add 
+	AJAX. 
+
+	Website     : http://jquery.com/
+
+[ Script ]
+	This plugin detects instances of script HTML elements and 
+	returns the script language/type. 
+
+	String       : speculationrules>,text/javascript
+
+[ UncommonHeaders ]
+	Uncommon HTTP server headers. The blacklist includes all 
+	the standard headers and many non standard but common ones. 
+	Interesting but fairly common headers should have their own 
+	plugins, eg. x-powered-by, server and x-aspnet-version. 
+	Info about headers can be found at www.http-stats.com 
+
+	String       : cf-ray,cf-cache-status,surrogate-control,surrogate-key,x-lambda-id,x-wf-region,alt-svc (from headers)
+
+HTTP Headers:
+	HTTP/1.1 200 OK
+	Date: Sun, 07 Jun 2026 19:19:34 GMT
+	Content-Type: text/html; charset=utf-8
+	Transfer-Encoding: chunked
+	Connection: close
+	set-cookie: _cfuvid=TOfCQCY24VJ_RQdTfDbxb2hIVog5ZvtGyHekVoxyAMY-1780859974.824205-1.0.1.1-DZnuCfLOYnf5pcPbf9D9KojhVsjn5rUWVk9f2yIU.h4; HttpOnly; SameSite=None; Secure; Path=/; Domain=infaces.indrive.com
+	CF-Ray: a082025aab244ad7-CGK
+	CF-Cache-Status: HIT
+	Age: 1993403
+	Content-Encoding: gzip
+	Last-Modified: Thu, 04 Jun 2026 15:53:04 GMT
+	Server: cloudflare
+	Vary: accept-encoding
+	surrogate-control: max-age=2147483647
+	surrogate-key: infaces.indrive.com 6788dcb0f87255120eb9b221 pageId:6788dcb0f87255120eb9b227
+	x-lambda-id: 854e5c9a-ffd7-4081-9769-180b7135e2c6
+	x-wf-region: us-east-1
+	alt-svc: h3=":443"; ma=86400
+	
+WhatWeb report for https://movie.indrive.com
+Status    : 200 OK
+Title     : Inner Drive - A Film About Challenging Injustice and Uniting People | inDrive
+IP        : 167.172.86.54
+Country   : UNITED KINGDOM, GB
+
+Summary   : Frame, Google-Tag-Manager, HTML5, HTTPServer[Ubuntu Linux][nginx/1.18.0 (Ubuntu)], nginx[1.18.0], Open-Graph-Protocol[website], Script
+
+Detected Plugins:
+[ Frame ]
+	This plugin detects instances of frame and iframe HTML 
+	elements. 
+
+
+[ Google-Tag-Manager ]
+	This plugin identifies Google Tag Manager. 
+
+	Website     : http://www.google.com/tagmanager/
+
+[ HTML5 ]
+	HTML version 5, detected by the doctype declaration 
+
+
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	OS           : Ubuntu Linux
+	String       : nginx/1.18.0 (Ubuntu) (from server string)
+
+[ Open-Graph-Protocol ]
+	The Open Graph protocol enables you to integrate your Web 
+	pages into the social graph. It is currently designed for 
+	Web pages representing profiles of real-world things . 
+	things like movies, sports teams, celebrities, and 
+	restaurants. Including Open Graph tags on your Web page, 
+	makes your page equivalent to a Facebook Page. 
+
+	Version      : website
+
+[ Script ]
+	This plugin detects instances of script HTML elements and 
+	returns the script language/type. 
+
+
+[ nginx ]
+	Nginx (Engine-X) is a free, open-source, high-performance 
+	HTTP server and reverse proxy, as well as an IMAP/POP3 
+	proxy server. 
+
+	Version      : 1.18.0
+	Website     : http://nginx.net/
+
+HTTP Headers:
+	HTTP/1.1 200 OK
+	Server: nginx/1.18.0 (Ubuntu)
+	Date: Sun, 07 Jun 2026 19:19:35 GMT
+	Content-Type: text/html; charset=UTF-8
+	Transfer-Encoding: chunked
+	Connection: close
+	Content-Encoding: gzip
+	
+WhatWeb report for https://greenseat.indrive.com
+Status    : 200 OK
+Title     : Cancel the school ride
+IP        : 198.202.211.1
+Country   : UNITED STATES, US
+
+Summary   : Cookies[_cfuvid], Frame, Google-Tag-Manager, HTML5, HTTPServer[cloudflare], HttpOnly[_cfuvid], JQuery, MetaGenerator[Webflow], Open-Graph-Protocol[website], Script[text/javascript], UncommonHeaders[cf-ray,cf-cache-status,surrogate-control,surrogate-key,x-lambda-id,x-wf-region,alt-svc]
+
+Detected Plugins:
+[ Cookies ]
+	Display the names of cookies in the HTTP headers. The 
+	values are not returned to save on space. 
+
+	String       : _cfuvid
+
+[ Frame ]
+	This plugin detects instances of frame and iframe HTML 
+	elements. 
+
+
+[ Google-Tag-Manager ]
+	This plugin identifies Google Tag Manager. 
+
+	Website     : http://www.google.com/tagmanager/
+
+[ HTML5 ]
+	HTML version 5, detected by the doctype declaration 
+
+
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	String       : cloudflare (from server string)
+
+[ HttpOnly ]
+	If the HttpOnly flag is included in the HTTP set-cookie 
+	response header and the browser supports it then the cookie 
+	cannot be accessed through client side script - More Info: 
+	http://en.wikipedia.org/wiki/HTTP_cookie 
+
+	String       : _cfuvid
+
+[ JQuery ]
+	A fast, concise, JavaScript that simplifies how to traverse 
+	HTML documents, handle events, perform animations, and add 
+	AJAX. 
+
+	Website     : http://jquery.com/
+
+[ MetaGenerator ]
+	This plugin identifies meta generator tags and extracts its 
+	value. 
+
+	String       : Webflow
+
+[ Open-Graph-Protocol ]
+	The Open Graph protocol enables you to integrate your Web 
+	pages into the social graph. It is currently designed for 
+	Web pages representing profiles of real-world things . 
+	things like movies, sports teams, celebrities, and 
+	restaurants. Including Open Graph tags on your Web page, 
+	makes your page equivalent to a Facebook Page. 
+
+	Version      : website
+
+[ Script ]
+	This plugin detects instances of script HTML elements and 
+	returns the script language/type. 
+
+	String       : text/javascript
+
+[ UncommonHeaders ]
+	Uncommon HTTP server headers. The blacklist includes all 
+	the standard headers and many non standard but common ones. 
+	Interesting but fairly common headers should have their own 
+	plugins, eg. x-powered-by, server and x-aspnet-version. 
+	Info about headers can be found at www.http-stats.com 
+
+	String       : cf-ray,cf-cache-status,surrogate-control,surrogate-key,x-lambda-id,x-wf-region,alt-svc (from headers)
+
+HTTP Headers:
+	HTTP/1.1 200 OK
+	Date: Sun, 07 Jun 2026 19:19:35 GMT
+	Content-Type: text/html; charset=utf-8
+	Transfer-Encoding: chunked
+	Connection: close
+	set-cookie: _cfuvid=HrD8Imn9cs.qbawQEkI3RXpueUV5a_QTibbLSpNKeyk-1780859975.4282424-1.0.1.1-eLmUs5T1K6WabOJKYzo.wSuWkN24Dn.6V590S95VaQ0; HttpOnly; SameSite=None; Secure; Path=/; Domain=greenseat.indrive.com
+	CF-Ray: a082025e6a2ab5be-CGK
+	CF-Cache-Status: HIT
+	Age: 271201
+	Content-Encoding: gzip
+	Last-Modified: Sat, 06 Jun 2026 18:24:35 GMT
+	Server: cloudflare
+	Vary: accept-encoding
+	surrogate-control: max-age=432000
+	surrogate-key: greenseat.indrive.com 69aede11dc604ddb5afa2368 pageId:69aede1bdc604ddb5afa2531 69c415ab3cd010e90ce3fd9e
+	x-lambda-id: 9f23a3cb-474c-4700-a1f2-9b893d2a48c4
+	x-wf-region: us-east-1
+	alt-svc: h3=":443"; ma=86400
+	
+WhatWeb report for https://trustgame.indrive.com
+Status    : 200 OK
+Title     : Ближе шаг за шагом
+IP        : 198.202.211.1
+Country   : UNITED STATES, US
+
+Summary   : Cookies[_cfuvid], Frame, Google-Tag-Manager, HTML5, HTTPServer[cloudflare], HttpOnly[_cfuvid], JQuery, MetaGenerator[Webflow], Open-Graph-Protocol[website], Script[text/javascript], UncommonHeaders[cf-ray,cf-cache-status,surrogate-control,surrogate-key,x-lambda-id,x-wf-region,alt-svc]
+
+Detected Plugins:
+[ Cookies ]
+	Display the names of cookies in the HTTP headers. The 
+	values are not returned to save on space. 
+
+	String       : _cfuvid
+
+[ Frame ]
+	This plugin detects instances of frame and iframe HTML 
+	elements. 
+
+
+[ Google-Tag-Manager ]
+	This plugin identifies Google Tag Manager. 
+
+	Website     : http://www.google.com/tagmanager/
+
+[ HTML5 ]
+	HTML version 5, detected by the doctype declaration 
+
+
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	String       : cloudflare (from server string)
+
+[ HttpOnly ]
+	If the HttpOnly flag is included in the HTTP set-cookie 
+	response header and the browser supports it then the cookie 
+	cannot be accessed through client side script - More Info: 
+	http://en.wikipedia.org/wiki/HTTP_cookie 
+
+	String       : _cfuvid
+
+[ JQuery ]
+	A fast, concise, JavaScript that simplifies how to traverse 
+	HTML documents, handle events, perform animations, and add 
+	AJAX. 
+
+	Website     : http://jquery.com/
+
+[ MetaGenerator ]
+	This plugin identifies meta generator tags and extracts its 
+	value. 
+
+	String       : Webflow
+
+[ Open-Graph-Protocol ]
+	The Open Graph protocol enables you to integrate your Web 
+	pages into the social graph. It is currently designed for 
+	Web pages representing profiles of real-world things . 
+	things like movies, sports teams, celebrities, and 
+	restaurants. Including Open Graph tags on your Web page, 
+	makes your page equivalent to a Facebook Page. 
+
+	Version      : website
+
+[ Script ]
+	This plugin detects instances of script HTML elements and 
+	returns the script language/type. 
+
+	String       : text/javascript
+
+[ UncommonHeaders ]
+	Uncommon HTTP server headers. The blacklist includes all 
+	the standard headers and many non standard but common ones. 
+	Interesting but fairly common headers should have their own 
+	plugins, eg. x-powered-by, server and x-aspnet-version. 
+	Info about headers can be found at www.http-stats.com 
+
+	String       : cf-ray,cf-cache-status,surrogate-control,surrogate-key,x-lambda-id,x-wf-region,alt-svc (from headers)
+
+HTTP Headers:
+	HTTP/1.1 200 OK
+	Date: Sun, 07 Jun 2026 19:19:35 GMT
+	Content-Type: text/html; charset=utf-8
+	Transfer-Encoding: chunked
+	Connection: close
+	set-cookie: _cfuvid=Q5_6TPohH577bvw0H2CSHLeV8bMwu0.K7No_tBgMb0U-1780859975.7312877-1.0.1.1-O4ta7ZUkdZDRzgm2k49nPozZogsSnp48QlqEMTcenPY; HttpOnly; SameSite=None; Secure; Path=/; Domain=trustgame.indrive.com
+	CF-Ray: a08202605fa3df0c-CGK
+	CF-Cache-Status: HIT
+	Age: 2146921
+	Content-Encoding: gzip
+	Last-Modified: Thu, 28 May 2026 08:55:25 GMT
+	Server: cloudflare
+	Vary: accept-encoding
+	surrogate-control: max-age=2147483647
+	surrogate-key: trustgame.indrive.com 68cbf131f1799c45113a1279 pageId:68cbf132f1799c45113a12a1
+	x-lambda-id: b5efd743-8287-4223-8b51-813d520e0d55
+	x-wf-region: us-east-1
+	alt-svc: h3=":443"; ma=86400
+	
+WhatWeb report for https://cargo.indrive.com
+Status    : 200 OK
+Title     : Online Cargo Transportation Service - cargo.inDrive
+IP        : 65.9.168.93
+Country   : UNITED STATES, US
+
+Summary   : Email[49deb8620704452ba4ea9af5d204dce9@sentry.buglytics.com,6ea99485333f4518b0e62717068954ca@sentry.buglytics.com,7342d342866640148c1370d0ff3169e8@sentry.test.idmp.tech,78d9db93b3a74ac89235d05b755f77d9@sentry.buglytics.com,9abeb2e047f6477898195340386cba41@sentry.buglytics.com,b1f57d7f3e604b289aef5f887e4102a5@sentry.buglytics.com,c352fbb493e3420d83cae2d283963682@sentry.buglytics.com,u003esupport@indrive.com], Frame, Google-Tag-Manager, HTML5, HTTPServer[istio-envoy], Open-Graph-Protocol, Script[application/json], UncommonHeaders[x-nextjs-cache,x-envoy-upstream-service-time,x-amz-cf-pop,alt-svc,x-amz-cf-id], Via-Proxy[1.1 d592a724fe594b85e0a027b2882012dc.cloudfront.net (CloudFront)], X-Powered-By[Next.js], X-UA-Compatible[IE=edge]
+
+Detected Plugins:
+[ Email ]
+	Extract email addresses. Find valid email address and 
+	syntactically invalid email addresses from mailto: link 
+	tags. We match syntactically invalid links containing 
+	mailto: to catch anti-spam email addresses, eg. bob at 
+	gmail.com. This uses the simplified email regular 
+	expression from 
+	http://www.regular-expressions.info/email.html for valid 
+	email address matching. 
+
+	String       : 49deb8620704452ba4ea9af5d204dce9@sentry.buglytics.com,6ea99485333f4518b0e62717068954ca@sentry.buglytics.com,7342d342866640148c1370d0ff3169e8@sentry.test.idmp.tech,78d9db93b3a74ac89235d05b755f77d9@sentry.buglytics.com,9abeb2e047f6477898195340386cba41@sentry.buglytics.com,b1f57d7f3e604b289aef5f887e4102a5@sentry.buglytics.com,c352fbb493e3420d83cae2d283963682@sentry.buglytics.com,u003esupport@indrive.com
+
+[ Frame ]
+	This plugin detects instances of frame and iframe HTML 
+	elements. 
+
+
+[ Google-Tag-Manager ]
+	This plugin identifies Google Tag Manager. 
+
+	Website     : http://www.google.com/tagmanager/
+
+[ HTML5 ]
+	HTML version 5, detected by the doctype declaration 
+
+
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	String       : istio-envoy (from server string)
+
+[ Open-Graph-Protocol ]
+	The Open Graph protocol enables you to integrate your Web 
+	pages into the social graph. It is currently designed for 
+	Web pages representing profiles of real-world things . 
+	things like movies, sports teams, celebrities, and 
+	restaurants. Including Open Graph tags on your Web page, 
+	makes your page equivalent to a Facebook Page. 
+
+
+[ Script ]
+	This plugin detects instances of script HTML elements and 
+	returns the script language/type. 
+
+	String       : application/json
+
+[ UncommonHeaders ]
+	Uncommon HTTP server headers. The blacklist includes all 
+	the standard headers and many non standard but common ones. 
+	Interesting but fairly common headers should have their own 
+	plugins, eg. x-powered-by, server and x-aspnet-version. 
+	Info about headers can be found at www.http-stats.com 
+
+	String       : x-nextjs-cache,x-envoy-upstream-service-time,x-amz-cf-pop,alt-svc,x-amz-cf-id (from headers)
+
+[ Via-Proxy ]
+	This plugin extracts the proxy server details from the Via 
+	param of the HTTP header. 
+
+	String       : 1.1 d592a724fe594b85e0a027b2882012dc.cloudfront.net (CloudFront)
+
+[ X-Powered-By ]
+	X-Powered-By HTTP header 
+
+	String       : Next.js (from x-powered-by string)
+
+[ X-UA-Compatible ]
+	This plugin retrieves the X-UA-Compatible value from the 
+	HTTP header and meta http-equiv tag. - More Info: 
+	http://msdn.microsoft.com/en-us/library/cc817574.aspx 
+
+	String       : IE=edge
+
+HTTP Headers:
+	HTTP/1.1 200 OK
+	Content-Type: text/html; charset=utf-8
+	Transfer-Encoding: chunked
+	Connection: close
+	x-nextjs-cache: HIT
+	x-powered-by: Next.js
+	etag: "8r9vpuyr2221kz"
+	cache-control: s-maxage=31536000, stale-while-revalidate
+	vary: Accept-Encoding
+	content-encoding: gzip
+	date: Sun, 07 Jun 2026 19:19:35 GMT
+	x-envoy-upstream-service-time: 4
+	server: istio-envoy
+	X-Cache: Miss from cloudfront
+	Via: 1.1 d592a724fe594b85e0a027b2882012dc.cloudfront.net (CloudFront)
+	X-Amz-Cf-Pop: SIN3-P4
+	Alt-Svc: h3=":443"; ma=86400
+	X-Amz-Cf-Id: icZ1vNKLdO_AvEcFIfZ2ahhrnXwtwW9I9YiqqWBF2D84zLNhSD5-IA==
+	
+WhatWeb report for https://bus.mx.indrive.com
+Status    : 200 OK
+Title     : Tickets
+IP        : 34.160.19.16
+Country   : UNITED STATES, US
+
+Summary   : HTML5, Script, Strict-Transport-Security[max-age=15724800; includeSubDomains], UncommonHeaders[supports-loading-mode,content-security-policy,alt-svc], Via-Proxy[1.1 google]
+
+Detected Plugins:
+[ HTML5 ]
+	HTML version 5, detected by the doctype declaration 
+
+
+[ Script ]
+	This plugin detects instances of script HTML elements and 
+	returns the script language/type. 
+
+
+[ Strict-Transport-Security ]
+	Strict-Transport-Security is an HTTP header that restricts 
+	a web browser from accessing a website without the security 
+	of the HTTPS protocol. 
+
+	String       : max-age=15724800; includeSubDomains
+
+[ UncommonHeaders ]
+	Uncommon HTTP server headers. The blacklist includes all 
+	the standard headers and many non standard but common ones. 
+	Interesting but fairly common headers should have their own 
+	plugins, eg. x-powered-by, server and x-aspnet-version. 
+	Info about headers can be found at www.http-stats.com 
+
+	String       : supports-loading-mode,content-security-policy,alt-svc (from headers)
+
+[ Via-Proxy ]
+	This plugin extracts the proxy server details from the Via 
+	param of the HTTP header. 
+
+	String       : 1.1 google
+
+HTTP Headers:
+	HTTP/1.1 200 OK
+	date: Sun, 07 Jun 2026 19:19:35 GMT
+	content-type: text/html
+	vary: Accept-Encoding
+	last-modified: Thu, 04 Jun 2026 10:28:30 GMT
+	etag: W/"6a21534e-6de"
+	supports-loading-mode: credentialed-prerender
+	content-security-policy: frame-ancestors 'self' *.distribusion.com *.railagent.com *.prorailplatform.com  prorailplatform.com *.berlin-airport.de viaggiaurora.it www.viaggiaurora.it www.moovitapp.com *.moovitapp.com moovitapp.com *.amadeus.com *.sncf.fr;;
+	strict-transport-security: max-age=15724800; includeSubDomains
+	content-encoding: gzip
+	via: 1.1 google
+	Alt-Svc: h3=":443"; ma=2592000
+	Connection: close
+	Transfer-Encoding: chunked
+	
+WhatWeb report for https://beginit.indrive.com
+Status    : 200 OK
+Title     : Beginit
+IP        : 198.202.211.1
+Country   : UNITED STATES, US
+
+Summary   : Cookies[_cfuvid], Frame, Google-Tag-Manager, HTML5, HTTPServer[cloudflare], HttpOnly[_cfuvid], JQuery, MetaGenerator[Webflow], Open-Graph-Protocol[website], Script[text/javascript], UncommonHeaders[cf-ray,cf-cache-status,surrogate-control,surrogate-key,x-lambda-id,x-wf-region,alt-svc]
+
+Detected Plugins:
+[ Cookies ]
+	Display the names of cookies in the HTTP headers. The 
+	values are not returned to save on space. 
+
+	String       : _cfuvid
+
+[ Frame ]
+	This plugin detects instances of frame and iframe HTML 
+	elements. 
+
+
+[ Google-Tag-Manager ]
+	This plugin identifies Google Tag Manager. 
+
+	Website     : http://www.google.com/tagmanager/
+
+[ HTML5 ]
+	HTML version 5, detected by the doctype declaration 
+
+
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	String       : cloudflare (from server string)
+
+[ HttpOnly ]
+	If the HttpOnly flag is included in the HTTP set-cookie 
+	response header and the browser supports it then the cookie 
+	cannot be accessed through client side script - More Info: 
+	http://en.wikipedia.org/wiki/HTTP_cookie 
+
+	String       : _cfuvid
+
+[ JQuery ]
+	A fast, concise, JavaScript that simplifies how to traverse 
+	HTML documents, handle events, perform animations, and add 
+	AJAX. 
+
+	Website     : http://jquery.com/
+
+[ MetaGenerator ]
+	This plugin identifies meta generator tags and extracts its 
+	value. 
+
+	String       : Webflow
+
+[ Open-Graph-Protocol ]
+	The Open Graph protocol enables you to integrate your Web 
+	pages into the social graph. It is currently designed for 
+	Web pages representing profiles of real-world things . 
+	things like movies, sports teams, celebrities, and 
+	restaurants. Including Open Graph tags on your Web page, 
+	makes your page equivalent to a Facebook Page. 
+
+	Version      : website
+
+[ Script ]
+	This plugin detects instances of script HTML elements and 
+	returns the script language/type. 
+
+	String       : text/javascript
+
+[ UncommonHeaders ]
+	Uncommon HTTP server headers. The blacklist includes all 
+	the standard headers and many non standard but common ones. 
+	Interesting but fairly common headers should have their own 
+	plugins, eg. x-powered-by, server and x-aspnet-version. 
+	Info about headers can be found at www.http-stats.com 
+
+	String       : cf-ray,cf-cache-status,surrogate-control,surrogate-key,x-lambda-id,x-wf-region,alt-svc (from headers)
+
+HTTP Headers:
+	HTTP/1.1 200 OK
+	Date: Sun, 07 Jun 2026 19:19:36 GMT
+	Content-Type: text/html; charset=utf-8
+	Transfer-Encoding: chunked
+	Connection: close
+	set-cookie: _cfuvid=X8v0Y8FDo9_5.b9QqJfEyhBTisd0wXkmwloqzkpWzU8-1780859976.4606826-1.0.1.1-9Xo7TPtCT8aw66ZS30SRdv4Ewt5aBsOBpFnODNd.krY; HttpOnly; SameSite=None; Secure; Path=/; Domain=beginit.indrive.com
+	CF-Ray: a0820264dfe0aa09-CGK
+	CF-Cache-Status: HIT
+	Age: 2865827
+	Content-Encoding: gzip
+	Last-Modified: Thu, 28 May 2026 15:18:56 GMT
+	Server: cloudflare
+	Vary: accept-encoding
+	surrogate-control: max-age=2147483647
+	surrogate-key: beginit.indrive.com 652390f6aeeb16df64879658 pageId:66cee30e4ddc4838c2c27a65
+	x-lambda-id: 2a8d86e9-2011-43c6-bbee-b227080e99db
+	x-wf-region: us-east-1
+	alt-svc: h3=":443"; ma=86400
+	
+WhatWeb report for https://cr.indrive.com
+Status    : 200 OK
+Title     : Feel the freedom
+IP        : 198.202.211.1
+Country   : UNITED STATES, US
+
+Summary   : Cookies[_cfuvid], Frame, Google-Tag-Manager, HTML5, HTTPServer[cloudflare], HttpOnly[_cfuvid], JQuery, Script[text/javascript], UncommonHeaders[cf-ray,cf-cache-status,surrogate-control,surrogate-key,x-lambda-id,x-wf-region,alt-svc]
+
+Detected Plugins:
+[ Cookies ]
+	Display the names of cookies in the HTTP headers. The 
+	values are not returned to save on space. 
+
+	String       : _cfuvid
+
+[ Frame ]
+	This plugin detects instances of frame and iframe HTML 
+	elements. 
+
+
+[ Google-Tag-Manager ]
+	This plugin identifies Google Tag Manager. 
+
+	Website     : http://www.google.com/tagmanager/
+
+[ HTML5 ]
+	HTML version 5, detected by the doctype declaration 
+
+
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	String       : cloudflare (from server string)
+
+[ HttpOnly ]
+	If the HttpOnly flag is included in the HTTP set-cookie 
+	response header and the browser supports it then the cookie 
+	cannot be accessed through client side script - More Info: 
+	http://en.wikipedia.org/wiki/HTTP_cookie 
+
+	String       : _cfuvid
+
+[ JQuery ]
+	A fast, concise, JavaScript that simplifies how to traverse 
+	HTML documents, handle events, perform animations, and add 
+	AJAX. 
+
+	Website     : http://jquery.com/
+
+[ Script ]
+	This plugin detects instances of script HTML elements and 
+	returns the script language/type. 
+
+	String       : text/javascript
+
+[ UncommonHeaders ]
+	Uncommon HTTP server headers. The blacklist includes all 
+	the standard headers and many non standard but common ones. 
+	Interesting but fairly common headers should have their own 
+	plugins, eg. x-powered-by, server and x-aspnet-version. 
+	Info about headers can be found at www.http-stats.com 
+
+	String       : cf-ray,cf-cache-status,surrogate-control,surrogate-key,x-lambda-id,x-wf-region,alt-svc (from headers)
+
+HTTP Headers:
+	HTTP/1.1 200 OK
+	Date: Sun, 07 Jun 2026 19:19:35 GMT
+	Content-Type: text/html; charset=utf-8
+	Transfer-Encoding: chunked
+	Connection: close
+	set-cookie: _cfuvid=Jk8u_uB_qMhgfYgsVYsHFyMG7F6w.7jq8FcVmTH6.XU-1780859975.4261873-1.0.1.1-XzywMOXmx1ue7czbbvFiwpZB9aABF4TZ_I.aguujZn8; HttpOnly; SameSite=None; Secure; Path=/; Domain=cr.indrive.com
+	CF-Ray: a082025e6821b5a2-CGK
+	CF-Cache-Status: HIT
+	Age: 4133087
+	Content-Encoding: gzip
+	Last-Modified: Mon, 20 Apr 2026 23:14:47 GMT
+	Server: cloudflare
+	Vary: accept-encoding
+	surrogate-control: max-age=2147483647
+	surrogate-key: cr.indrive.com 6745dfa86202831380a1f744 pageId:6745dfa86202831380a1f742
+	x-lambda-id: 98d24eb3-80d7-4060-9a2c-9d75d8c74111
+	x-wf-region: us-east-1
+	alt-svc: h3=":443"; ma=86400
+	
+WhatWeb report for https://jlml.indrive.com
+Status    : 200 OK
+Title     : JLML
+IP        : 52.74.6.109
+Country   : UNITED STATES, US
+
+Summary   : Cookies[_cfuvid], Email[JuntasLlegamos@indriver.com], Frame, Google-Tag-Manager, HTML5, HTTPServer[Netlify], HttpOnly[_cfuvid], JQuery, Script[text/javascript], Strict-Transport-Security[max-age=31536000], UncommonHeaders[alt-svc,cache-status,cf-cache-status,cf-ray,netlify-vary,surrogate-control,surrogate-key,x-lambda-id,x-nf-request-id,x-wf-region]
+
+Detected Plugins:
+[ Cookies ]
+	Display the names of cookies in the HTTP headers. The 
+	values are not returned to save on space. 
+
+	String       : _cfuvid
+
+[ Email ]
+	Extract email addresses. Find valid email address and 
+	syntactically invalid email addresses from mailto: link 
+	tags. We match syntactically invalid links containing 
+	mailto: to catch anti-spam email addresses, eg. bob at 
+	gmail.com. This uses the simplified email regular 
+	expression from 
+	http://www.regular-expressions.info/email.html for valid 
+	email address matching. 
+
+	String       : JuntasLlegamos@indriver.com
+	String       : JuntasLlegamos@indriver.com
+
+[ Frame ]
+	This plugin detects instances of frame and iframe HTML 
+	elements. 
+
+
+[ Google-Tag-Manager ]
+	This plugin identifies Google Tag Manager. 
+
+	Website     : http://www.google.com/tagmanager/
+
+[ HTML5 ]
+	HTML version 5, detected by the doctype declaration 
+
+
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	String       : Netlify (from server string)
+
+[ HttpOnly ]
+	If the HttpOnly flag is included in the HTTP set-cookie 
+	response header and the browser supports it then the cookie 
+	cannot be accessed through client side script - More Info: 
+	http://en.wikipedia.org/wiki/HTTP_cookie 
+
+	String       : _cfuvid
+
+[ JQuery ]
+	A fast, concise, JavaScript that simplifies how to traverse 
+	HTML documents, handle events, perform animations, and add 
+	AJAX. 
+
+	Website     : http://jquery.com/
+
+[ Script ]
+	This plugin detects instances of script HTML elements and 
+	returns the script language/type. 
+
+	String       : text/javascript
+
+[ Strict-Transport-Security ]
+	Strict-Transport-Security is an HTTP header that restricts 
+	a web browser from accessing a website without the security 
+	of the HTTPS protocol. 
+
+	String       : max-age=31536000
+
+[ UncommonHeaders ]
+	Uncommon HTTP server headers. The blacklist includes all 
+	the standard headers and many non standard but common ones. 
+	Interesting but fairly common headers should have their own 
+	plugins, eg. x-powered-by, server and x-aspnet-version. 
+	Info about headers can be found at www.http-stats.com 
+
+	String       : alt-svc,cache-status,cf-cache-status,cf-ray,netlify-vary,surrogate-control,surrogate-key,x-lambda-id,x-nf-request-id,x-wf-region (from headers)
+
+HTTP Headers:
+	HTTP/1.1 200 OK
+	Age: 201062
+	Alt-Svc: h3=":443"; ma=86400
+	Cache-Status: "Netlify Edge"; fwd=miss
+	Cf-Cache-Status: HIT
+	Cf-Ray: a082026768e6a06b-SIN
+	Content-Encoding: gzip
+	Content-Type: text/html; charset=utf-8
+	Date: Sun, 07 Jun 2026 19:19:36 GMT
+	Last-Modified: Fri, 05 Jun 2026 11:34:00 GMT
+	Netlify-Vary: query
+	Server: Netlify
+	Set-Cookie: _cfuvid=KdnG1spHyNuljbpkP2JYIYsescXBqXAWTaaNtEhrkWA-1780859976.8666294-1.0.1.1-K3.ZjwIs1kT7m.qt25PaaJJ8pNAO805cPLs44nP3T88; HttpOnly; SameSite=None; Secure; Path=/; Domain=jlml-wf.indrive.com
+	Strict-Transport-Security: max-age=31536000
+	Surrogate-Control: max-age=432000
+	Surrogate-Key: jlml-wf.indrive.com 6968b2d5909bb8506713451b pageId:6968b2de909bb85067134806 696a3a2cc869e6976ed51acc 6968ea375d5b1f84645dfd7d
+	Vary: accept-encoding
+	X-Lambda-Id: 584a5745-fccb-4a12-befd-ae581e265620
+	X-Nf-Request-Id: 01KTHRDDRPNKQH64JE074P15BM
+	X-Wf-Region: us-east-1
+	Connection: close
+	Transfer-Encoding: chunked
+	
+WhatWeb report for https://av.indrive.com
+Status    : 200 OK
+Title     : inDrive — Autonomous Mobility for the Next Billion
+IP        : 13.35.202.115
+Country   : UNITED STATES, US
+
+Summary   : Frame, Google-Tag-Manager, HTML5, HTTPServer[AmazonS3], Open-Graph-Protocol[website], Script, UncommonHeaders[x-amz-server-side-encryption,x-amz-version-id,x-amz-cf-pop,x-amz-cf-id], Via-Proxy[1.1 2a2608b09cfd44dc2e2694246d1d9cee.cloudfront.net (CloudFront)]
+
+Detected Plugins:
+[ Frame ]
+	This plugin detects instances of frame and iframe HTML 
+	elements. 
+
+
+[ Google-Tag-Manager ]
+	This plugin identifies Google Tag Manager. 
+
+	Website     : http://www.google.com/tagmanager/
+
+[ HTML5 ]
+	HTML version 5, detected by the doctype declaration 
+
+
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	String       : AmazonS3 (from server string)
+
+[ Open-Graph-Protocol ]
+	The Open Graph protocol enables you to integrate your Web 
+	pages into the social graph. It is currently designed for 
+	Web pages representing profiles of real-world things . 
+	things like movies, sports teams, celebrities, and 
+	restaurants. Including Open Graph tags on your Web page, 
+	makes your page equivalent to a Facebook Page. 
+
+	Version      : website
+
+[ Script ]
+	This plugin detects instances of script HTML elements and 
+	returns the script language/type. 
+
+
+[ UncommonHeaders ]
+	Uncommon HTTP server headers. The blacklist includes all 
+	the standard headers and many non standard but common ones. 
+	Interesting but fairly common headers should have their own 
+	plugins, eg. x-powered-by, server and x-aspnet-version. 
+	Info about headers can be found at www.http-stats.com 
+
+	String       : x-amz-server-side-encryption,x-amz-version-id,x-amz-cf-pop,x-amz-cf-id (from headers)
+
+[ Via-Proxy ]
+	This plugin extracts the proxy server details from the Via 
+	param of the HTTP header. 
+
+	String       : 1.1 2a2608b09cfd44dc2e2694246d1d9cee.cloudfront.net (CloudFront)
+
+HTTP Headers:
+	HTTP/1.1 200 OK
+	Content-Type: text/html
+	Transfer-Encoding: chunked
+	Connection: close
+	Date: Sun, 07 Jun 2026 19:06:58 GMT
+	Last-Modified: Fri, 29 May 2026 07:19:09 GMT
+	Server: AmazonS3
+	x-amz-server-side-encryption: AES256
+	x-amz-version-id: l3YKK3HMUp3SAQ5pV39SKat.uWn3Z3jN
+	Content-Encoding: gzip
+	ETag: W/"9d5b499143023d75fe93553021e0e6ee"
+	Vary: Accept-Encoding
+	X-Cache: Hit from cloudfront
+	Via: 1.1 2a2608b09cfd44dc2e2694246d1d9cee.cloudfront.net (CloudFront)
+	X-Amz-Cf-Pop: SIN2-P7
+	X-Amz-Cf-Id: ZPsj2fkDb5dAg67A25tqX4sZ_qb__zWOZViDb92xYqpoS-up4IXXrA==
+	Age: 758
+	Vary: Origin
+	
+WhatWeb report for https://coaching.supernovas.indrive.com
+Status    : 200 OK
+Title     : Supernovas &#8212; Образование, которое меняет игру
+IP        : 3.70.227.243
+Country   : UNITED STATES, US
+
+Summary   : Apache[2.4.67], Email[supernovas@indrive.com], Frame, Google-Tag-Manager, HTML5, HTTPServer[Debian Linux][Apache/2.4.67 (Debian)], JQuery[3.7.1], MetaGenerator[Elementor 3.29.1; features: e_font_icon_svg, additional_custom_breakpoints, e_local_google_fonts, e_element_cache; settings: css_print_method-external, google_font-enabled, font_display-swap,TutorLMS 3.6.0,WordPress 7.0], Open-Graph-Protocol[website], PHP[8.2.31], Script[application/json,module,speculationrules], UncommonHeaders[link], WordPress[7.0], X-Powered-By[PHP/8.2.31]
+
+Detected Plugins:
+[ Apache ]
+	The Apache HTTP Server Project is an effort to develop and 
+	maintain an open-source HTTP server for modern operating 
+	systems including UNIX and Windows NT. The goal of this 
+	project is to provide a secure, efficient and extensible 
+	server that provides HTTP services in sync with the current 
+	HTTP standards. 
+
+	Version      : 2.4.67 (from HTTP Server Header)
+	Google Dorks: (3)
+	Website     : http://httpd.apache.org/
+
+[ Email ]
+	Extract email addresses. Find valid email address and 
+	syntactically invalid email addresses from mailto: link 
+	tags. We match syntactically invalid links containing 
+	mailto: to catch anti-spam email addresses, eg. bob at 
+	gmail.com. This uses the simplified email regular 
+	expression from 
+	http://www.regular-expressions.info/email.html for valid 
+	email address matching. 
+
+	String       : supernovas@indrive.com
+	String       : supernovas@indrive.com
+
+[ Frame ]
+	This plugin detects instances of frame and iframe HTML 
+	elements. 
+
+
+[ Google-Tag-Manager ]
+	This plugin identifies Google Tag Manager. 
+
+	Website     : http://www.google.com/tagmanager/
+
+[ HTML5 ]
+	HTML version 5, detected by the doctype declaration 
+
+
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	OS           : Debian Linux
+	String       : Apache/2.4.67 (Debian) (from server string)
+
+[ JQuery ]
+	A fast, concise, JavaScript that simplifies how to traverse 
+	HTML documents, handle events, perform animations, and add 
+	AJAX. 
+
+	Version      : 3.7.1
+	Website     : http://jquery.com/
+
+[ MetaGenerator ]
+	This plugin identifies meta generator tags and extracts its 
+	value. 
+
+	String       : Elementor 3.29.1; features: e_font_icon_svg, additional_custom_breakpoints, e_local_google_fonts, e_element_cache; settings: css_print_method-external, google_font-enabled, font_display-swap,TutorLMS 3.6.0,WordPress 7.0
+
+[ Open-Graph-Protocol ]
+	The Open Graph protocol enables you to integrate your Web 
+	pages into the social graph. It is currently designed for 
+	Web pages representing profiles of real-world things . 
+	things like movies, sports teams, celebrities, and 
+	restaurants. Including Open Graph tags on your Web page, 
+	makes your page equivalent to a Facebook Page. 
+
+	Version      : website
+
+[ PHP ]
+	PHP is a widely-used general-purpose scripting language 
+	that is especially suited for Web development and can be 
+	embedded into HTML. This plugin identifies PHP errors, 
+	modules and versions and extracts the local file path and 
+	username if present. 
+
+	Version      : 8.2.31
+	Google Dorks: (3)
+	Website     : http://www.php.net/
+
+[ Script ]
+	This plugin detects instances of script HTML elements and 
+	returns the script language/type. 
+
+	String       : application/json,module,speculationrules
+
+[ UncommonHeaders ]
+	Uncommon HTTP server headers. The blacklist includes all 
+	the standard headers and many non standard but common ones. 
+	Interesting but fairly common headers should have their own 
+	plugins, eg. x-powered-by, server and x-aspnet-version. 
+	Info about headers can be found at www.http-stats.com 
+
+	String       : link (from headers)
+
+[ WordPress ]
+	WordPress is an opensource blogging system commonly used as 
+	a CMS. 
+
+	Version      : 7.0
+	Aggressive function available (check plugin file or details).
+	Google Dorks: (1)
+	Website     : http://www.wordpress.org/
+
+[ X-Powered-By ]
+	X-Powered-By HTTP header 
+
+	String       : PHP/8.2.31 (from x-powered-by string)
+
+HTTP Headers:
+	HTTP/1.1 200 OK
+	Date: Sun, 07 Jun 2026 19:19:35 GMT
+	Server: Apache/2.4.67 (Debian)
+	X-Powered-By: PHP/8.2.31
+	Link: <https://coaching.supernovas.indrive.com/wp-json/>; rel="https://api.w.org/"
+	Link: <https://coaching.supernovas.indrive.com/wp-json/wp/v2/pages/312>; rel="alternate"; title="JSON"; type="application/json"
+	Link: <https://coaching.supernovas.indrive.com/>; rel=shortlink
+	Vary: Accept-Encoding
+	Content-Encoding: gzip
+	Content-Length: 26173
+	Connection: close
+	Content-Type: text/html; charset=UTF-8
+	
+WhatWeb report for https://blog.indrive.com
+Status    : 200 OK
+Title     : <None>
+IP        : 72.60.39.39
+Country   : UNITED STATES, US
+
+Summary   : Frame, HTML5, HTTPServer[nginx], nginx, Open-Graph-Protocol[website], Script[application/json], UncommonHeaders[access-control-allow-origin], WordPress, X-Powered-By[Next.js]
+
+Detected Plugins:
+[ Frame ]
+	This plugin detects instances of frame and iframe HTML 
+	elements. 
+
+
+[ HTML5 ]
+	HTML version 5, detected by the doctype declaration 
+
+
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	String       : nginx (from server string)
+
+[ Open-Graph-Protocol ]
+	The Open Graph protocol enables you to integrate your Web 
+	pages into the social graph. It is currently designed for 
+	Web pages representing profiles of real-world things . 
+	things like movies, sports teams, celebrities, and 
+	restaurants. Including Open Graph tags on your Web page, 
+	makes your page equivalent to a Facebook Page. 
+
+	Version      : website
+
+[ Script ]
+	This plugin detects instances of script HTML elements and 
+	returns the script language/type. 
+
+	String       : application/json
+
+[ UncommonHeaders ]
+	Uncommon HTTP server headers. The blacklist includes all 
+	the standard headers and many non standard but common ones. 
+	Interesting but fairly common headers should have their own 
+	plugins, eg. x-powered-by, server and x-aspnet-version. 
+	Info about headers can be found at www.http-stats.com 
+
+	String       : access-control-allow-origin (from headers)
+
+[ WordPress ]
+	WordPress is an opensource blogging system commonly used as 
+	a CMS. 
+
+	Aggressive function available (check plugin file or details).
+	Google Dorks: (1)
+	Website     : http://www.wordpress.org/
+
+[ X-Powered-By ]
+	X-Powered-By HTTP header 
+
+	String       : Next.js (from x-powered-by string)
+
+[ nginx ]
+	Nginx (Engine-X) is a free, open-source, high-performance 
+	HTTP server and reverse proxy, as well as an IMAP/POP3 
+	proxy server. 
+
+	Website     : http://nginx.net/
+
+HTTP Headers:
+	HTTP/1.1 200 OK
+	Server: nginx
+	Date: Sun, 07 Jun 2026 19:19:35 GMT
+	Content-Type: text/html; charset=utf-8
+	Transfer-Encoding: chunked
+	Connection: close
+	Cache-Control: private, no-cache, no-store, max-age=0, must-revalidate
+	X-Powered-By: Next.js
+	ETag: "77430srl851vhg"
+	Vary: Accept-Encoding
+	Content-Encoding: gzip
+	Access-Control-Allow-Origin: https://indrive.com
+	
+WhatWeb report for https://handbook.indrive.com
+Status    : 200 OK
+Title     : InDrive Handbook
+IP        : 198.202.211.1
+Country   : UNITED STATES, US
+
+Summary   : Cookies[_cfuvid], HTML5, HTTPServer[cloudflare], HttpOnly[_cfuvid], JQuery, MetaGenerator[Webflow], Script[text/javascript], UncommonHeaders[cf-ray,cf-cache-status,surrogate-control,surrogate-key,x-lambda-id,x-wf-region,alt-svc]
+
+Detected Plugins:
+[ Cookies ]
+	Display the names of cookies in the HTTP headers. The 
+	values are not returned to save on space. 
+
+	String       : 

@@ -1,0 +1,4 @@
+[redoc-api-docs] [http] [info] https://support-bot-wp.walletbot.me/redoc
+[redoc-api-docs] [http] [info] https://support-bot-wp.wallettg.net/redoc
+[redoc-api-docs] [http] [info] https://support-bot.walletbot.me/redoc
+[redoc-api-docs] [http] [info] https://support-bot.wallettg.net/redoc

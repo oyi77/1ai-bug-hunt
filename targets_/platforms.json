@@ -1,0 +1,40 @@
+{
+  "platforms": {
+    "hackerone": {
+      "type": "api",
+      "base_url": "https://api.hackerone.com/v1/hackers",
+      "auth": "basic",
+      "api_user": "oyi77",
+      "programs_endpoint": "/programs",
+      "submit_endpoint": "/reports"
+    },
+    "bugcrowd": {
+      "type": "web",
+      "base_url": "https://bugcrowd.com",
+      "programs_url": "https://bugcrowd.com/programs",
+      "needs_auth": true
+    },
+    "intigriti": {
+      "type": "api",
+      "base_url": "https://api.intigriti.com",
+      "needs_auth": true
+    },
+    "yeswehack": {
+      "type": "api",
+      "base_url": "https://api.yeswehack.com",
+      "needs_auth": true
+    }
+  },
+  "scan_tools": {
+    "subdomain_enum": ["subfinder", "crt.sh", "amass"],
+    "tech_detect": ["httpx", "wappalyzer"],
+    "vuln_scan": ["nuclei", "custom"],
+    "screenshot": ["gowitness", "chromium"]
+  },
+  "discovery_schedule": {
+    "hackerone_discover": "0 */6 * * *",
+    "bugcrowd_discover": "0 */6 * * *",
+    "recon_daily": "0 3 * * *",
+    "triage_weekly": "0 9 * * 1"
+  }
+}

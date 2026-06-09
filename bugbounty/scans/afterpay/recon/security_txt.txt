@@ -1,0 +1,37 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Contact: https://bugcrowd.com/afterpay
+
+# If you'd like to encrypt your message, please do so within the the body of the message.
+# Our email system doesn't handle PGP-MIME well.
+Contact: mailto:security@afterpay.com
+
+Preferred-Languages: en
+ 
+Encryption: https://afterpay.com/gpg/security-afterpay-public.txt
+
+Canonical: https://afterpay.com/.well-known/security.txt
+Canonical: https://www.afterpay.com/.well-known/security.txt
+
+# Search for Security
+Hiring: https://block.xyz/careers
+
+Expires: 2026-03-19T03:23:47.040Z
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEE9NnbT16sf/T048cEy1Dj5F7WreIFAmfaOjYACgkQy1Dj5F7W
+reK81BAAjielT8M0h4EBmt3aMTvDttz3VZBqtkjylZCMqeFVgd6QiBVdIfce1CWj
+OehsmkhbhBga2LMpWmy92WUvSgaYU1lh5B+TQkWPJigDCSgGGOaly301VtDPueum
+IWlCeu2dH/HusSmtlkDGHmzEIa8KeUj3cSYp7X93o4nuDd4uwfjVEsF92+y0M1cE
+HWxnMPHdSUCLDqYroxkPAFgykL0JpQYmY30zjEQrg06zoKqtb9hamaeQRLoFBRab
+cfaoYb2gMHrQ+QuPWDJMcR2NVi6obsae8/keM1gzQ2Khkxw8fUzdbac6jM2gLN9T
+ffOX0TsKg8JgCV0Wo3UcaNuP3cTYFmCm7VyuNZQjnf2YzPcpuyk/41dEj/Vg0maj
+923Ywy6+2yx0N+SWPrXbNfLU9MKPBL5btFhHChwTyqw2NJC1YI35g8SBKn0XsKOz
+HZdHVl2/9LJrIvnRZX7xpp7mvNduwHNQa5uu8PSVxtO2VjCiTZL0+6IGU/JjxjvI
+hln8UfIlZuj3ZlGYtS9JBOeBwPUPItXdp+wOk3CNktt2bBdNJhXYh3f1Anvqsxwh
+pCxhsfPBB/HGmZpXU1pOVlmnvXoIKnXw19k2SGi6lti0lcFMNoF68VWtnLZfBS7F
+VnQICcoFl8eAdG6nRxH/SrYgNG1rtkhKgiFGzitqaQmReTAH8P4=
+=Uouh
+-----END PGP SIGNATURE-----

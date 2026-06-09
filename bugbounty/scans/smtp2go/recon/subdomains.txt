@@ -1,0 +1,15 @@
+smtp2go.com
+app-us.smtp2go.com
+mail.smtp2go.com
+get.smtp2go.com
+track.smtp2go.com
+app.smtp2go.com
+team-blue-nl.smtp2go.com
+www.smtp2go.com
+mail1.smtp2go.com
+a3i341.smtp2go.com
+a2i635.smtp2go.com
+e3i217.smtp2go.com
+api.smtp2go.com
+135-207-6-5.groupmail.smtp2go.com
+0366-gpu-ion-remove7.4.0.1.0.0-00e878572e06f.smtp2go.com

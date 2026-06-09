@@ -1,0 +1,31 @@
+# Nmap 7.98 scan initiated Thu May 21 03:32:29 2026 as: /usr/lib/nmap/nmap --privileged -sV -sC -T4 --top-ports 100 -oN /home/openclaw/.openclaw/workspace/bugbounty/scans/afterpay/recon/nmap.txt afterpay.com
+Nmap scan report for afterpay.com (104.19.176.211)
+Host is up (0.015s latency).
+Other addresses for afterpay.com (not scanned): 104.16.223.179 2606:4700::6810:dfb3 2606:4700::6813:b0d3
+Not shown: 96 filtered tcp ports (no-response)
+PORT     STATE SERVICE  VERSION
+80/tcp   open  http     Cloudflare http proxy
+|_http-title: Did not follow redirect to https://www.afterpay.com/
+|_http-server-header: cloudflare
+443/tcp  open  ssl/http Cloudflare http proxy
+|_ssl-date: TLS randomness does not represent time
+|_http-server-header: cloudflare
+|_http-title: Did not follow redirect to https://www.afterpay.com/
+| ssl-cert: Subject: commonName=afterpay.com
+| Subject Alternative Name: DNS:afterpay.com, DNS:*.marketing.au.platform.afterpay.com, DNS:*.us.afterpay.com, DNS:*.risk.au.platform.afterpay.com, DNS:*.srch.au.platform.afterpay.com, DNS:*.eu.afterpay.com, DNS:*.pe.au.platform.afterpay.com, DNS:*.afterpay.com, DNS:*.payments.au.platform.afterpay.com, DNS:*.sandbox.afterpay.com, DNS:*.platform.afterpay.com, DNS:*.au.afterpay.com, DNS:*.au.platform.afterpay.com, DNS:*.security.au.platform.afterpay.com, DNS:*.ix.au.platform.afterpay.com, DNS:*.merchant.au.platform.afterpay.com, DNS:*.eu-sandbox.afterpay.com, DNS:*.consumer.au.platform.afterpay.com, DNS:*.mxi.au.platform.afterpay.com, DNS:*.pi.au.platform.afterpay.com, DNS:*.money.au.platform.afterpay.com, DNS:*.core.au.platform.afterpay.com, DNS:*.us-sandbox.afterpay.com, DNS:*.data.au.platform.afterpay.com
+| Not valid before: 2026-05-12T03:33:12
+|_Not valid after:  2026-08-10T04:32:59
+8080/tcp open  http     Cloudflare http proxy
+|_http-server-header: cloudflare
+|_http-title: Attention Required! | Cloudflare
+8443/tcp open  ssl/http Cloudflare http proxy
+| ssl-cert: Subject: commonName=afterpay.com
+| Subject Alternative Name: DNS:afterpay.com, DNS:*.marketing.au.platform.afterpay.com, DNS:*.us.afterpay.com, DNS:*.risk.au.platform.afterpay.com, DNS:*.srch.au.platform.afterpay.com, DNS:*.eu.afterpay.com, DNS:*.pe.au.platform.afterpay.com, DNS:*.afterpay.com, DNS:*.payments.au.platform.afterpay.com, DNS:*.sandbox.afterpay.com, DNS:*.platform.afterpay.com, DNS:*.au.afterpay.com, DNS:*.au.platform.afterpay.com, DNS:*.security.au.platform.afterpay.com, DNS:*.ix.au.platform.afterpay.com, DNS:*.merchant.au.platform.afterpay.com, DNS:*.eu-sandbox.afterpay.com, DNS:*.consumer.au.platform.afterpay.com, DNS:*.mxi.au.platform.afterpay.com, DNS:*.pi.au.platform.afterpay.com, DNS:*.money.au.platform.afterpay.com, DNS:*.core.au.platform.afterpay.com, DNS:*.us-sandbox.afterpay.com, DNS:*.data.au.platform.afterpay.com
+| Not valid before: 2026-05-12T03:33:12
+|_Not valid after:  2026-08-10T04:32:59
+|_ssl-date: TLS randomness does not represent time
+|_http-title: Attention Required! | Cloudflare
+|_http-server-header: cloudflare
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu May 21 03:32:51 2026 -- 1 IP address (1 host up) scanned in 21.44 seconds

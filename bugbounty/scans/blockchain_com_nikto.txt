@@ -1,0 +1,14 @@
+- Nikto v2.5.0/
++ Target Host: blockchain.com
++ Target Port: 443
++ GET /: Uncommon header 'accept-ch' found, with contents: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA.
++ GET /: Uncommon header 'origin-agent-cluster' found, with contents: ?1.
++ GET /: Uncommon header 'cross-origin-embedder-policy' found, with contents: require-corp.
++ GET /: Uncommon header 'critical-ch' found, with contents: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA.
++ GET /: Uncommon header 'cf-mitigated' found, with contents: challenge.
++ GET /: Uncommon header 'server-timing' found, with contents: chlray;desc="9fe5e927ae809b07".
++ GET /1RZQvDvm.rdf+destype=cache+desformat=PDF:  IP address found in the '_cfuvid' cookie. The IP is "1.0.1.1".
++ GET /1RZQvDvm.rdf+destype=cache+desformat=PDF: IP address found in the 'set-cookie' header. The IP is "1.0.1.1". See: https://portswigger.net/kb/issues/00600300_private-ip-addresses-disclosed: 
++ GET /1RZQvDvm.dat: IP address found in the 'content-security-policy-report-only' header. The IP is "1.0.1.1". See: https://portswigger.net/kb/issues/00600300_private-ip-addresses-disclosed: 
++ GET /1RZQvDvm.dat: IP address found in the 'report-to' header. The IP is "1.0.1.1". See: https://portswigger.net/kb/issues/00600300_private-ip-addresses-disclosed: 
++ GET /database.tar.gz: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type. See: https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/: 

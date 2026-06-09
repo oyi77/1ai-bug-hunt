@@ -1,0 +1,45 @@
+{
+  "target": "coindesk-data---data-api-",
+  "started_at": "2026-05-20T22:37:07.217836",
+  "subdomains": [
+    "coindesk-data---data-api-"
+  ],
+  "live_hosts": [],
+  "tech_stack": [],
+  "ports": [],
+  "directories": [],
+  "nuclei_findings": [],
+  "nikto_findings": [
+    "- Nikto v2.5.0",
+    "---------------------------------------------------------------------------",
+    "+ 0 host(s) tested"
+  ],
+  "interesting_urls": [],
+  "dns_records": [],
+  "ssl_info": [
+    {
+      "tool": "sslscan",
+      "output": "                   _\n           ___ ___| |___  ___ __ _ _ __\n          / __/ __| / __|/ __/ _` | '_ \\\n          \\__ \\__ \\ \\__ \\ (_| (_| | | | |\n          |___/___/_|___/\\___\\__,_|_| |_|\n\n\n\t\t2.1.5\n\t\tOpenSSL 3.5.4 30 Sep 2025\n\n\nCommand:\n  sslscan [options] [host:port | host]\n\nOptions:\n  --targets=<file>     A file containing a list of hosts to check.\n                       Hosts can  be supplied  with ports (host:port)\n  --sni-name=<name>    Hostname for SNI\n  --ipv4, -4           Only use IPv4\n  --ipv6, -6           Only use IPv6\n\n  --show-certificate   Show full certificate information\n  --show-certificates  Show chain full certificates information\n  --show-client-cas    Show trusted CAs for TLS client auth\n  --no-check-certificate  Don't warn about weak certificate algorithm or keys\n  --ocsp               Request OCSP response from server\n  --pk=<file>          A file containing the private key or a PKCS#12 file\n                       containing a private key/certificate pair\n  --pkpass=<password>  The password for the private  key or PKCS#12 file\n  --certs=<file>       A file containing PEM/ASN1 formatted client certificates\n\n  --ssl2               Only check if SSLv2 is enabled\n  --ssl3               Only check if SSLv3 is enabled\n  --tls10              Only check TLSv1.0 ciphers\n  --tls11              Only check TLSv1.1 ciphers\n  --tls12              Only check TLSv1.2 ciphers\n  --tls13              Only check TLSv1.3 ciphers\n  --tlsall             Only check TLS ciphers (all versions)\n  --show-ciphers       Show supported client ciphers\n  --show-cipher-ids    Show cipher ids\n  --iana-names         Use IANA/RFC cipher names rather than OpenSSL ones\n  --show-times         Show handhake times in milliseconds\n\n  --no-cipher-details  Disable EC curve names and EDH/RSA key lengths output\n  --no-ciphersuites    Do not check for supported ciphersuites\n  --no-compression     Do not check for TLS compression (CRIME)\n  --no-fallback        Do not check for TLS Fallback SC"
+    }
+  ],
+  "waf_info": [
+    "\u001b[1;97m______",
+    "                  \u001b[1;97m/      \\",
+    "                 \u001b[1;97m(  Woof! )",
+    "                  \u001b[1;97m\\  ____/                      \u001b[1;91m)",
+    "                  \u001b[1;97m,,                           \u001b[1;91m) (\u001b[1;93m_",
+    "             \u001b[1;93m.-. \u001b[1;97m-    \u001b[1;92m_______                 \u001b[1;91m( \u001b[1;93m|__|",
+    "            \u001b[1;93m()``; \u001b[1;92m|==|_______)                \u001b[1;91m.)\u001b[1;93m|__|",
+    "            \u001b[1;93m/ ('        \u001b[1;92m/|\\                  \u001b[1;91m(  \u001b[1;93m|__|",
+    "        \u001b[1;93m(  /  )       \u001b[1;92m / | \\                  \u001b[1;91m. \u001b[1;93m|__|",
+    "         \u001b[1;93m\\(_)_))      \u001b[1;92m/  |  \\                   \u001b[1;93m|__|\u001b[0m",
+    "",
+    "                    \u001b[1;96m~ WAFW00F : \u001b[1;94mv2.3.2 ~\u001b[1;97m",
+    "    The Web Application Firewall Fingerprinting Toolkit",
+    "    \u001b[0m",
+    "[*] Checking https://coindesk-data---data-api-"
+  ],
+  "cms_info": [],
+  "url_history": [],
+  "finished_at": "2026-05-20T22:40:19.023145"
+}

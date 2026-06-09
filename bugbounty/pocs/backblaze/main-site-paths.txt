@@ -1,0 +1,7 @@
+www.backblaze.com/debug -> 301
+www.backblaze.com/wp-login.php -> 403
+www.backblaze.com/.git/config -> 403
+www.backblaze.com/.env -> 403
+www.backblaze.com/robots.txt -> 200
+www.backblaze.com/sitemap.xml -> 200
+www.backblaze.com/cdn-cgi/trace -> 200

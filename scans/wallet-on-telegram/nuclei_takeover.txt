@@ -1,0 +1,311 @@
+[cookies-without-secure] [javascript] [info] support-bot.wallettg.net ["__cflb"]
+[cookies-without-secure] [javascript] [info] alectryon.wallettg.net ["__cflb"]
+[cookies-without-secure] [javascript] [info] events-gateway.wallettg.net ["__cflb"]
+[cookies-without-secure] [javascript] [info] toncenter.wallettg.net ["__cflb"]
+[cookies-without-secure] [javascript] [info] p2p.wallettg.net ["__cflb"]
+[cookies-without-secure] [javascript] [info] support-bot-wp.wallettg.net ["__cflb"]
+[cors-misconfig:arbitrary-origin] [http] [info] https://support-bot-wp.walletbot.me [cors_origin="https://dzpk1.com"]
+[cors-misconfig:arbitrary-origin] [http] [info] https://support-bot-wp.wallettg.net [cors_origin="https://support-bot-wp.wallettg.net.*.m18xx.com"]
+[cors-misconfig:arbitrary-origin] [http] [info] https://support-bot.walletbot.me [cors_origin="https://localhost.sndyv.com"]
+[cors-misconfig:arbitrary-origin] [http] [info] https://support-bot.wallettg.net [cors_origin="https://support-bot.wallettg.net_.mrnz7.com"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] events-gateway.wallettg.net:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] alectryon.wallettg.net:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] support-bot.wallettg.net:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] p2p.wallettg.net:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] support-bot-wp.wallettg.net:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] toncenter.wallettg.net:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] events-gateway.wallettg.net:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] alectryon.wallettg.net:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] support-bot.wallettg.net:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] support-bot-wp.wallettg.net:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] toncenter.wallettg.net:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] p2p.wallettg.net:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-csp-detect:missing-object-src] [http] [info] https://learn.walletbot.me ["frame-ancestors 'self' https://web.telegram.org"]
+[weak-csp-detect:missing-script-src] [http] [info] https://learn.walletbot.me ["frame-ancestors 'self' https://web.telegram.org"]
+[xss-deprecated-header] [http] [info] https://learn.walletbot.me ["1; mode=block"]
+[missing-sri] [http] [info] https://help.wallet.tg/ ["//d3eto7onm69fcz.cloudfront.net/assets/javascripts/app4.min.js","//d3eto7onm69fcz.cloudfront.net/assets/stylesheets/launch-1780847885187.css","//nc-l1-support-public.s3.me-central-1.amazonaws.com/helpscout.net/main.css"]
+[missing-sri] [http] [info] https://help.ru.wallet.tg/ ["//d3eto7onm69fcz.cloudfront.net/assets/javascripts/app4.min.js","//d3eto7onm69fcz.cloudfront.net/assets/stylesheets/launch-1780851341146.css","//nc-l1-support-public.s3.me-central-1.amazonaws.com/helpscout.net/main.css"]
+[missing-sri] [http] [info] https://help.uz.wallet.tg/ ["//d3eto7onm69fcz.cloudfront.net/assets/javascripts/app4.min.js","//nc-l1-support-public.s3.me-central-1.amazonaws.com/helpscout.net/main.css","//d3eto7onm69fcz.cloudfront.net/assets/stylesheets/launch-1780510807824.css"]
+[missing-sri] [http] [info] https://help.uz.ru.wallet.tg/ ["//d3eto7onm69fcz.cloudfront.net/assets/javascripts/app4.min.js","//d3eto7onm69fcz.cloudfront.net/assets/stylesheets/launch-1780847885187.css","//nc-l1-support-public.s3.me-central-1.amazonaws.com/helpscout.net/main.css"]
+[missing-sri] [http] [info] https://pay.wallet.tg/ ["https://www.googletagmanager.com/gtag/js?id=G-0HB45G1V78","https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Roboto:wght@400;500;700&display=swap"]
+[http-missing-security-headers:strict-transport-security] [http] [info] https://alectryon.walletbot.me
+[http-missing-security-headers:content-security-policy] [http] [info] https://alectryon.walletbot.me
+[http-missing-security-headers:permissions-policy] [http] [info] https://alectryon.walletbot.me
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://alectryon.walletbot.me
+[http-missing-security-headers:referrer-policy] [http] [info] https://alectryon.walletbot.me
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://alectryon.walletbot.me
+[http-missing-security-headers:x-frame-options] [http] [info] https://alectryon.walletbot.me
+[http-missing-security-headers:x-content-type-options] [http] [info] https://alectryon.walletbot.me
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://alectryon.walletbot.me
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://alectryon.walletbot.me
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://events-gateway.walletbot.me
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://events-gateway.walletbot.me
+[http-missing-security-headers:strict-transport-security] [http] [info] https://events-gateway.walletbot.me
+[http-missing-security-headers:content-security-policy] [http] [info] https://events-gateway.walletbot.me
+[http-missing-security-headers:permissions-policy] [http] [info] https://events-gateway.walletbot.me
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://events-gateway.walletbot.me
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://events-gateway.walletbot.me
+[http-missing-security-headers:x-frame-options] [http] [info] https://events-gateway.walletbot.me
+[http-missing-security-headers:referrer-policy] [http] [info] https://events-gateway.walletbot.me
+[http-missing-security-headers:x-content-type-options] [http] [info] https://alectryon.wallettg.net
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://alectryon.wallettg.net
+[http-missing-security-headers:referrer-policy] [http] [info] https://alectryon.wallettg.net
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://alectryon.wallettg.net
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://alectryon.wallettg.net
+[http-missing-security-headers:strict-transport-security] [http] [info] https://alectryon.wallettg.net
+[http-missing-security-headers:x-frame-options] [http] [info] https://alectryon.wallettg.net
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://alectryon.wallettg.net
+[http-missing-security-headers:content-security-policy] [http] [info] https://alectryon.wallettg.net
+[http-missing-security-headers:permissions-policy] [http] [info] https://alectryon.wallettg.net
+[http-missing-security-headers:strict-transport-security] [http] [info] https://events-gateway.wallettg.net
+[http-missing-security-headers:content-security-policy] [http] [info] https://events-gateway.wallettg.net
+[http-missing-security-headers:permissions-policy] [http] [info] https://events-gateway.wallettg.net
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://events-gateway.wallettg.net
+[http-missing-security-headers:referrer-policy] [http] [info] https://events-gateway.wallettg.net
+[http-missing-security-headers:x-frame-options] [http] [info] https://events-gateway.wallettg.net
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://events-gateway.wallettg.net
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://events-gateway.wallettg.net
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://events-gateway.wallettg.net
+[http-missing-security-headers:x-frame-options] [http] [info] https://docs.wallet.tg
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://docs.wallet.tg
+[http-missing-security-headers:referrer-policy] [http] [info] https://docs.wallet.tg
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://docs.wallet.tg
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://docs.wallet.tg
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://docs.wallet.tg
+[http-missing-security-headers:content-security-policy] [http] [info] https://docs.wallet.tg
+[http-missing-security-headers:permissions-policy] [http] [info] https://docs.wallet.tg
+[weak-hsts-detect:hsts-header] [http] [info] https://docs.wallet.tg ["max-age=2592000; includeSubDomains; preload"]
+[http-missing-security-headers:x-frame-options] [http] [info] https://daos.wallettg.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://daos.wallettg.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://daos.wallettg.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://daos.wallettg.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://daos.wallettg.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://daos.wallettg.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://daos.wallettg.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://daos.wallettg.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://daos.wallettg.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://daos.wallettg.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://daos.wallettg.net
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://daos.wallettg.net
+[http-missing-security-headers:referrer-policy] [http] [info] https://daos.wallettg.net
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://daos.wallettg.net
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://daos.wallettg.net
+[http-missing-security-headers:permissions-policy] [http] [info] https://daos.wallettg.net
+[http-missing-security-headers:x-content-type-options] [http] [info] https://daos.wallettg.net
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://daos.wallettg.net
+[http-missing-security-headers:strict-transport-security] [http] [info] https://daos.wallettg.net
+[http-missing-security-headers:content-security-policy] [http] [info] https://daos.wallettg.net
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://daos.walletbot.me
+[http-missing-security-headers:referrer-policy] [http] [info] https://daos.walletbot.me
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://daos.walletbot.me
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://daos.walletbot.me
+[http-missing-security-headers:strict-transport-security] [http] [info] https://daos.walletbot.me
+[http-missing-security-headers:permissions-policy] [http] [info] https://daos.walletbot.me
+[http-missing-security-headers:x-frame-options] [http] [info] https://daos.walletbot.me
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://daos.walletbot.me
+[http-missing-security-headers:content-security-policy] [http] [info] https://daos.walletbot.me
+[http-missing-security-headers:x-content-type-options] [http] [info] https://daos.walletbot.me
+[http-missing-security-headers:content-security-policy] [http] [info] https://help.ru.wallet.tg
+[http-missing-security-headers:x-frame-options] [http] [info] https://help.ru.wallet.tg
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://help.ru.wallet.tg
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://help.ru.wallet.tg
+[http-missing-security-headers:permissions-policy] [http] [info] https://help.ru.wallet.tg
+[http-missing-security-headers:x-content-type-options] [http] [info] https://help.ru.wallet.tg
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://help.ru.wallet.tg
+[http-missing-security-headers:referrer-policy] [http] [info] https://help.ru.wallet.tg
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://help.ru.wallet.tg
+[http-missing-security-headers:permissions-policy] [http] [info] https://help.uz.ru.wallet.tg
+[http-missing-security-headers:x-frame-options] [http] [info] https://help.uz.ru.wallet.tg
+[http-missing-security-headers:x-content-type-options] [http] [info] https://help.uz.ru.wallet.tg
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://help.uz.ru.wallet.tg
+[http-missing-security-headers:referrer-policy] [http] [info] https://help.uz.ru.wallet.tg
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://help.uz.ru.wallet.tg
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://help.uz.ru.wallet.tg
+[http-missing-security-headers:content-security-policy] [http] [info] https://help.uz.ru.wallet.tg
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://help.uz.ru.wallet.tg
+[http-missing-security-headers:content-security-policy] [http] [info] https://help.wallet.tg
+[http-missing-security-headers:permissions-policy] [http] [info] https://help.wallet.tg
+[http-missing-security-headers:x-frame-options] [http] [info] https://help.wallet.tg
+[http-missing-security-headers:x-content-type-options] [http] [info] https://help.wallet.tg
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://help.wallet.tg
+[http-missing-security-headers:referrer-policy] [http] [info] https://help.wallet.tg
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://help.wallet.tg
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://help.wallet.tg
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://help.wallet.tg
+[http-missing-security-headers:referrer-policy] [http] [info] https://toncenter.wallettg.net
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://toncenter.wallettg.net
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://toncenter.wallettg.net
+[http-missing-security-headers:strict-transport-security] [http] [info] https://toncenter.wallettg.net
+[http-missing-security-headers:permissions-policy] [http] [info] https://toncenter.wallettg.net
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://toncenter.wallettg.net
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://toncenter.wallettg.net
+[http-missing-security-headers:content-security-policy] [http] [info] https://toncenter.wallettg.net
+[http-missing-security-headers:x-frame-options] [http] [info] https://toncenter.wallettg.net
+[http-missing-security-headers:x-content-type-options] [http] [info] https://toncenter.wallettg.net
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://p2p.wallettg.net
+[http-missing-security-headers:content-security-policy] [http] [info] https://p2p.wallettg.net
+[http-missing-security-headers:permissions-policy] [http] [info] https://p2p.wallettg.net
+[http-missing-security-headers:x-frame-options] [http] [info] https://p2p.wallettg.net
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://p2p.wallettg.net
+[http-missing-security-headers:referrer-policy] [http] [info] https://p2p.wallettg.net
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://p2p.wallettg.net
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://p2p.wallettg.net
+[http-missing-security-headers:strict-transport-security] [http] [info] https://p2p.wallettg.net
+[http-missing-security-headers:x-content-type-options] [http] [info] https://p2p.wallettg.net
+[http-missing-security-headers:strict-transport-security] [http] [info] https://wapi.walletbot.me
+[http-missing-security-headers:content-security-policy] [http] [info] https://wapi.walletbot.me
+[http-missing-security-headers:permissions-policy] [http] [info] https://wapi.walletbot.me
+[http-missing-security-headers:x-content-type-options] [http] [info] https://wapi.walletbot.me
+[http-missing-security-headers:referrer-policy] [http] [info] https://wapi.walletbot.me
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://wapi.walletbot.me
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://wapi.walletbot.me
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://wapi.walletbot.me
+[http-missing-security-headers:x-frame-options] [http] [info] https://wapi.walletbot.me
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://wapi.walletbot.me
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://toncenter.walletbot.me
+[http-missing-security-headers:referrer-policy] [http] [info] https://toncenter.walletbot.me
+[http-missing-security-headers:content-security-policy] [http] [info] https://toncenter.walletbot.me
+[http-missing-security-headers:x-content-type-options] [http] [info] https://toncenter.walletbot.me
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://toncenter.walletbot.me
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://toncenter.walletbot.me
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://toncenter.walletbot.me
+[http-missing-security-headers:strict-transport-security] [http] [info] https://toncenter.walletbot.me
+[http-missing-security-headers:permissions-policy] [http] [info] https://toncenter.walletbot.me
+[http-missing-security-headers:x-frame-options] [http] [info] https://toncenter.walletbot.me
+[http-missing-security-headers:content-security-policy] [http] [info] https://support-bot-wp.walletbot.me
+[http-missing-security-headers:permissions-policy] [http] [info] https://support-bot-wp.walletbot.me
+[http-missing-security-headers:x-content-type-options] [http] [info] https://support-bot-wp.walletbot.me
+[http-missing-security-headers:referrer-policy] [http] [info] https://support-bot-wp.walletbot.me
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://support-bot-wp.walletbot.me
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://support-bot-wp.walletbot.me
+[http-missing-security-headers:strict-transport-security] [http] [info] https://support-bot-wp.walletbot.me
+[http-missing-security-headers:x-frame-options] [http] [info] https://support-bot-wp.walletbot.me
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://support-bot-wp.walletbot.me
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://support-bot-wp.walletbot.me
+[http-missing-security-headers:strict-transport-security] [http] [info] https://p2p.walletbot.me
+[http-missing-security-headers:x-frame-options] [http] [info] https://p2p.walletbot.me
+[http-missing-security-headers:x-content-type-options] [http] [info] https://p2p.walletbot.me
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://p2p.walletbot.me
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://p2p.walletbot.me
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://p2p.walletbot.me
+[http-missing-security-headers:content-security-policy] [http] [info] https://p2p.walletbot.me
+[http-missing-security-headers:permissions-policy] [http] [info] https://p2p.walletbot.me
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://p2p.walletbot.me
+[http-missing-security-headers:referrer-policy] [http] [info] https://p2p.walletbot.me
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://support-bot.wallettg.net
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://support-bot.wallettg.net
+[http-missing-security-headers:content-security-policy] [http] [info] https://support-bot.wallettg.net
+[http-missing-security-headers:permissions-policy] [http] [info] https://support-bot.wallettg.net
+[http-missing-security-headers:x-content-type-options] [http] [info] https://support-bot.wallettg.net
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://support-bot.wallettg.net
+[http-missing-security-headers:strict-transport-security] [http] [info] https://support-bot.wallettg.net
+[http-missing-security-headers:x-frame-options] [http] [info] https://support-bot.wallettg.net
+[http-missing-security-headers:referrer-policy] [http] [info] https://support-bot.wallettg.net
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://support-bot.wallettg.net
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://pay.wallet.tg
+[http-missing-security-headers:referrer-policy] [http] [info] https://pay.wallet.tg
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://pay.wallet.tg
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://pay.wallet.tg
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://pay.wallet.tg
+[http-missing-security-headers:content-security-policy] [http] [info] https://pay.wallet.tg
+[http-missing-security-headers:permissions-policy] [http] [info] https://pay.wallet.tg
+[http-missing-security-headers:x-frame-options] [http] [info] https://pay.wallet.tg
+[weak-hsts-detect:hsts-header] [http] [info] https://pay.wallet.tg ["max-age=2592000; includeSubDomains; preload"]
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://support-bot.walletbot.me
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://support-bot.walletbot.me
+[http-missing-security-headers:strict-transport-security] [http] [info] https://support-bot.walletbot.me
+[http-missing-security-headers:x-frame-options] [http] [info] https://support-bot.walletbot.me
+[http-missing-security-headers:x-content-type-options] [http] [info] https://support-bot.walletbot.me
+[http-missing-security-headers:referrer-policy] [http] [info] https://support-bot.walletbot.me
+[http-missing-security-headers:content-security-policy] [http] [info] https://support-bot.walletbot.me
+[http-missing-security-headers:permissions-policy] [http] [info] https://support-bot.walletbot.me
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://support-bot.walletbot.me
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://support-bot.walletbot.me
+[http-missing-security-headers:strict-transport-security] [http] [info] https://support-bot-wp.wallettg.net
+[http-missing-security-headers:content-security-policy] [http] [info] https://support-bot-wp.wallettg.net
+[http-missing-security-headers:permissions-policy] [http] [info] https://support-bot-wp.wallettg.net
+[http-missing-security-headers:x-frame-options] [http] [info] https://support-bot-wp.wallettg.net
+[http-missing-security-headers:x-content-type-options] [http] [info] https://support-bot-wp.wallettg.net
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://support-bot-wp.wallettg.net
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://support-bot-wp.wallettg.net
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://support-bot-wp.wallettg.net
+[http-missing-security-headers:referrer-policy] [http] [info] https://support-bot-wp.wallettg.net
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://support-bot-wp.wallettg.net
+[http-missing-security-headers:permissions-policy] [http] [info] https://sentry.walletbot.me
+[http-missing-security-headers:x-frame-options] [http] [info] https://sentry.walletbot.me
+[http-missing-security-headers:x-content-type-options] [http] [info] https://sentry.walletbot.me
+[http-missing-security-headers:referrer-policy] [http] [info] https://sentry.walletbot.me
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://sentry.walletbot.me
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://sentry.walletbot.me
+[http-missing-security-headers:content-security-policy] [http] [info] https://sentry.walletbot.me
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://sentry.walletbot.me
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://sentry.walletbot.me
+[http-missing-security-headers:strict-transport-security] [http] [info] https://sentry.walletbot.me
+[http-missing-security-headers:referrer-policy] [http] [info] https://learn.walletbot.me/en
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://learn.walletbot.me/en
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://learn.walletbot.me/en
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://learn.walletbot.me/en
+[http-missing-security-headers:strict-transport-security] [http] [info] https://learn.walletbot.me/en
+[http-missing-security-headers:permissions-policy] [http] [info] https://learn.walletbot.me/en
+[http-missing-security-headers:x-frame-options] [http] [info] https://learn.walletbot.me/en
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://learn.walletbot.me/en
+[http-missing-security-headers:strict-transport-security] [http] [info] https://learn.walletbot.me/en/
+[http-missing-security-headers:x-frame-options] [http] [info] https://learn.walletbot.me/en/
+[http-missing-security-headers:x-content-type-options] [http] [info] https://learn.walletbot.me/en/
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://learn.walletbot.me/en/
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://learn.walletbot.me/en/
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://learn.walletbot.me/en/
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://learn.walletbot.me/en/
+[http-missing-security-headers:content-security-policy] [http] [info] https://learn.walletbot.me/en/
+[http-missing-security-headers:permissions-policy] [http] [info] https://learn.walletbot.me/en/
+[http-missing-security-headers:referrer-policy] [http] [info] https://learn.walletbot.me/en/
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://learn.walletbot.me
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://learn.walletbot.me
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://learn.walletbot.me
+[http-missing-security-headers:strict-transport-security] [http] [info] https://learn.walletbot.me
+[http-missing-security-headers:permissions-policy] [http] [info] https://learn.walletbot.me
+[http-missing-security-headers:x-frame-options] [http] [info] https://learn.walletbot.me
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://learn.walletbot.me
+[http-missing-security-headers:referrer-policy] [http] [info] https://learn.walletbot.me
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://wbapi.walletbot.me
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://wbapi.walletbot.me
+[http-missing-security-headers:strict-transport-security] [http] [info] https://wbapi.walletbot.me
+[http-missing-security-headers:x-frame-options] [http] [info] https://wbapi.walletbot.me
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://wbapi.walletbot.me
+[http-missing-security-headers:content-security-policy] [http] [info] https://wbapi.walletbot.me
+[http-missing-security-headers:permissions-policy] [http] [info] https://wbapi.walletbot.me
+[http-missing-security-headers:x-content-type-options] [http] [info] https://wbapi.walletbot.me
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://wbapi.walletbot.me
+[http-missing-security-headers:referrer-policy] [http] [info] https://wbapi.walletbot.me
+[http-missing-security-headers:x-content-type-options] [http] [info] https://help.uz.wallet.tg
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://help.uz.wallet.tg
+[http-missing-security-headers:referrer-policy] [http] [info] https://help.uz.wallet.tg
+[http-missing-security-headers:permissions-policy] [http] [info] https://help.uz.wallet.tg
+[http-missing-security-headers:x-frame-options] [http] [info] https://help.uz.wallet.tg
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://help.uz.wallet.tg
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://help.uz.wallet.tg
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://help.uz.wallet.tg
+[http-missing-security-headers:content-security-policy] [http] [info] https://help.uz.wallet.tg
+[weak-hsts-detect:hsts-header] [http] [info] https://www.wallet.tg ["max-age=2592000; includeSubDomains; preload"]
+[missing-cookie-samesite-strict] [http] [info] https://p2p.wallettg.net ["__cf_bm=gTuMLmrBz72eORt3dtPV77eJVaXmL411mdVpcGsLtRk-1780865256.442987-1.0.1.1-PWkaqD7tCj3F4Lx.NiJN1LjStC4oSbmbHFg82xRugEGKxIAKarloCezjR4l_wxWJK.RsPM9MFZGzaU28DQ1NUB4YF0GSxeziJEckfiSVU5eodomFYuD.FSrE_5B7IGtj; HttpOnly; SameSite=None; Secure; Path=/; Domain=wallettg.net; Expires=Sun, 07 Jun 2026 21:17:36 GMT __cflb=0H28vtNysrcatozR2ynGQuurzh6JeocmevF9JhrYBVf; HttpOnly; SameSite=Lax; Path=/; Expires=Sun, 07 Jun 2026 21:17:36 GMT"]
+[missing-cookie-samesite-strict] [http] [info] https://events-gateway.walletbot.me ["__cf_bm=H8oGUXbDbOz9_2CYg4QXuz0PTDV1w3lSSZ4MS9I5Fm4-1780865256.441358-1.0.1.1-6mp2X3tOQnUJVZO2WaAZCW_hd7fbfBuAC8_xKvSl5SmCiCv5JosAHul8VdROrzKZ.rSlA_1tR5X_6O83HHAAx__a0hVdgD7j5bKLWplvdW_WL3TEY0ZPzE6H3mMtVSoC; HttpOnly; SameSite=None; Secure; Path=/; Domain=walletbot.me; Expires=Sun, 07 Jun 2026 21:17:36 GMT __cflb=0H28v5FLGgV4nN729C7BvMkbBmZTEBMfwT7Rp14DSpM; HttpOnly; SameSite=None; Secure; Path=/; Expires=Sun, 07 Jun 2026 21:17:36 GMT"]
+[missing-cookie-samesite-strict] [http] [info] https://events-gateway.wallettg.net ["__cf_bm=DNzDzOIeZm85exLSADUjrFWUOKjGhZUzWi5L8E6RgAA-1780865256.4404535-1.0.1.1-gEUnQgqEV10cE1jcbDVOExleOtuWMPQubTo1Hu.lUTCMl20ayihy6cVpFsYh1fCCao2qsa9TxWcod3M15EFvSJWigntZ_fRI_ebbZFgo_.Nu7PulAn.ZuTQZbZzqhEPr; HttpOnly; SameSite=None; Secure; Path=/; Domain=wallettg.net; Expires=Sun, 07 Jun 2026 21:17:36 GMT __cflb=0H28vCr7tD4MkQZCJtY6syinB6Ahw3go9YZq9rTASys; HttpOnly; SameSite=Lax; Path=/; Expires=Sun, 07 Jun 2026 21:17:36 GMT"]
+[missing-cookie-samesite-strict] [http] [info] https://wbapi.walletbot.me ["__cf_bm=1wS3bdDICMGxNS_rEmaxPDJyuplD8ZebPB1PEL1eUow-1780865256.453323-1.0.1.1-KRCCwhD1s2Y0x5u0C6LFw2S4A2q94wexTTDISYgyYrFRC6XDdVgOpijcV25v11pId_etukBePxW8zSV7JK34xkgH8RhANJ0rmP3BhrvII0nFBdduiAW8_xKRZp.tEwgK; HttpOnly; SameSite=None; Secure; Path=/; Domain=walletbot.me; Expires=Sun, 07 Jun 2026 21:17:36 GMT __cflb=0H28vbfRQ7WHKFXbG55HBgixwxdoMwbpJdjgbrBbBh7; HttpOnly; SameSite=None; Secure; Path=/; Expires=Sun, 07 Jun 2026 21:17:36 GMT"]
+[missing-cookie-samesite-strict] [http] [info] https://alectryon.walletbot.me ["__cf_bm=n.K1SzIjFemgreh1hnyz9yIl5Aoq8UH296nRpBbT..4-1780865256.4419866-1.0.1.1-pM3BQnT4vy041GlijMarFwuiaqwOSuLAGIkSUw_jWoGA2k_xf0Qhf6biSCPrjxvl2gEYZt.UCW_nUXUJQOCmQ2.0qIAirAfdynPvRthdjOE5qYm3rNREdlMiZi83jvuS; HttpOnly; SameSite=None; Secure; Path=/; Domain=walletbot.me; Expires=Sun, 07 Jun 2026 21:17:36 GMT __cflb=0H28uytMPhtapuG27tfjtf1LtUMokdxtHTMommLSf5w; HttpOnly; SameSite=None; Secure; Path=/; Expires=Sun, 07 Jun 2026 21:17:36 GMT"]
+[missing-cookie-samesite-strict] [http] [info] https://alectryon.wallettg.net ["__cf_bm=ZSw5XTqbkz_qKzj.ITXr30R_244eU_eRHGQ4P8zAvQs-1780865256.4520907-1.0.1.1-ayuwLB0FkGDVmVWqoA1J6FrXEymKOgLDmU7kPtA3yk5hli.dR8gTg6p4Tiehy.nPqSot3SmcZZaln_Q0SPbjsZrYcG3qvL2UILdp_.CJFHs768BqiBozoqZ2P272Yjfx; HttpOnly; SameSite=None; Secure; Path=/; Domain=wallettg.net; Expires=Sun, 07 Jun 2026 21:17:36 GMT __cflb=0H28vzxvyh5CjWr7jmKTwzGeV3RYBm8Ns5ojSEHfMkq; HttpOnly; SameSite=Lax; Path=/; Expires=Sun, 07 Jun 2026 21:17:36 GMT"]
+[missing-cookie-samesite-strict] [http] [info] https://toncenter.wallettg.net ["__cf_bm=EwFsxtrlKllujY02i7JdoQz5fa5vmvA9vzuCiWxuHqE-1780865256.4482703-1.0.1.1-lMPYvF.NPii97Di6z.7PsV5YkGN8UwrFU2p1blQozZH9QUs7.1lJVbaRgA7gEvyICqV2BMZc4fMJL2U1DFo3QbcOMnW.zZGMYNauHA8aJ3L46vWMqMns9cuiMn6gqEvI; HttpOnly; SameSite=None; Secure; Path=/; Domain=wallettg.net; Expires=Sun, 07 Jun 2026 21:17:36 GMT __cflb=0H28vcuifG2cboud4XFbdr4egENkX5JDtPZJ2sREKJd; HttpOnly; SameSite=Lax; Path=/; Expires=Sun, 07 Jun 2026 21:17:36 GMT"]
+[missing-cookie-samesite-strict] [http] [info] https://p2p.walletbot.me ["__cf_bm=4dSbu.gcXb.YnaC0JzVdUjWonXiUiXSDBPf2.IopdLw-1780865256.4475455-1.0.1.1-4NQUf5jnGltiEg4rVcVWA3ON61Dx6op5jExPzSczZJeV4gNDbRRY4FtuZat8MK0vVTJ8wwVwRB7UUu9wRv.a529P7_MKl9r4xeS0NWodqcCM9wuq_p44GMMW_3FiGIuR; HttpOnly; SameSite=None; Secure; Path=/; Domain=walletbot.me; Expires=Sun, 07 Jun 2026 21:17:36 GMT __cflb=04dTofCSA38o4MQsPMvXHkYMgvYmZMKQWSMtxcqZSM; HttpOnly; SameSite=None; Secure; Path=/; Expires=Sun, 07 Jun 2026 21:17:36 GMT"]
+[missing-cookie-samesite-strict] [http] [info] https://support-bot.walletbot.me ["__cf_bm=cAM2HSAwNTtfz3sYFTVdjrethMlnC8dFrn2e2qTXNeU-1780865256.4347627-1.0.1.1-cuK1sB0GAPCZU0SPT.IANlNFtiGpUQLECIj9u3JAxhsZU8w24Q.22oNnvWeGQlr_BpveLz1uzjlmQqy7HxdrO4ORYXgnxfYPU2MatEPAbB05xD7ShGryVWDYjndoi655; HttpOnly; SameSite=None; Secure; Path=/; Domain=walletbot.me; Expires=Sun, 07 Jun 2026 21:17:36 GMT __cflb=0H28vmJFzkfLcxXoJuMkvj4FMy2E4Ke9HdBwtVUeyoB; HttpOnly; SameSite=None; Secure; Path=/; Expires=Sun, 07 Jun 2026 21:17:36 GMT"]
+[missing-cookie-samesite-strict] [http] [info] https://support-bot-wp.wallettg.net ["__cf_bm=EeVwrNAHxYJpSC9lcKmkqCBeUTYS1L8JHUVhsmcaaIo-1780865256.4477363-1.0.1.1-b_NjKXRTv7Z9ow5tMnm7SzmXysGYO.BkkUQNygSuhZKQy_kOwgKGPaTNzD9gwL2D8sHw_ZrpDsyRk.NANms42efXmA42o72mylYIPysu3yazez.SO08wgKaA1g7Ah7sN; HttpOnly; SameSite=None; Secure; Path=/; Domain=wallettg.net; Expires=Sun, 07 Jun 2026 21:17:36 GMT __cflb=0H28vJGkj7AQjYdFUMBbNMNosBoqZZSdQqE4QFTP3HP; HttpOnly; SameSite=Lax; Path=/; Expires=Sun, 07 Jun 2026 21:17:36 GMT"]
+[missing-cookie-samesite-strict] [http] [info] https://docs.wallet.tg ["__cf_bm=2xq0CdUKh_asrMDRxYaqDlTE7az.0i1CJ2LEakOY6Wc-1780865256.4722655-1.0.1.1-Jujq8QpxcXmEIRxE0axQBF5PdZvzcLBRPzE3xwbDveam.9atEaCHoI6SmUpU_7RNX0mNSQRV0gy3bw1_52tqhdhW.5pxrJN8ZFZmmX_RGG.7hui7nWZ7UF2LNmYSsmtO; HttpOnly; SameSite=None; Secure; Path=/; Domain=wallet.tg; Expires=Sun, 07 Jun 2026 21:17:36 GMT __cflb=02DiuFFzexPwef9UYVqiKcggENcNyY5bDsSsB5HWe9iGk; HttpOnly; SameSite=None; Secure; Path=/; Expires=Mon, 08 Jun 2026 19:47:36 GMT"]
+[missing-cookie-samesite-strict] [http] [info] https://learn.walletbot.me ["__cf_bm=ydDRRTKHLOV1gj42081aerh5ZlpG9_jZKPA.xB..5VQ-1780865256.4530182-1.0.1.1-t4c8usx5cNOapYR4UgphOgl2w2HFJBQ7gexiC_q6RbM1WVVxp_BgYvCGUgR3cPBbux6f0hFWkE2JtysQNlQ55qz4o7spCGbb.PdsOvVIPxVTxquiwD95j_k.J2lMGm94; HttpOnly; SameSite=None; Secure; Path=/; Domain=walletbot.me; Expires=Sun, 07 Jun 2026 21:17:36 GMT __cflb=0H28vfj5fZ4vEgyZzsg57rsnbBNnFs8jpQ8Vr2XuWvR; HttpOnly; SameSite=None; Secure; Path=/; Expires=Sun, 07 Jun 2026 21:17:36 GMT"]
+[missing-cookie-samesite-strict] [http] [info] https://help.uz.wallet.tg ["PLAY_SESSION="f3a8be0e6317553a3da57b7e00da822bd3a4a43d-siteId=669796a6d5f6cf2baa1f3c5e&hs.session.id=xkQ6MzOPk2Asi7vfRNGDFY52qKGOjw4i81FMCbP6JEbd5QhKGc6X0ANO5gAVcRyy&hs.session.exp=1780951657043"; Expires=Mon, 07 Jun 2027 20:47:37 GMT; Path=/; Secure; HTTPOnly"]
+[missing-cookie-samesite-strict] [http] [info] https://help.uz.ru.wallet.tg ["PLAY_SESSION="71200808252996d03c417be4ae98775b122cb3fe-siteId=669796878045147820734e44&hs.session.id=HwtPMvABYRepV62UgLLKz05KgY48TSOTYpkMaNOKQK8xO7sB4rF5oMAxvk0nXt3f&hs.session.exp=1780951657052"; Expires=Mon, 07 Jun 2027 20:47:37 GMT; Path=/; Secure; HTTPOnly"]
+[missing-cookie-samesite-strict] [http] [info] https://help.wallet.tg ["PLAY_SESSION="6bea3191d63f2f5b204ceeecc9d862663535471e-siteId=64c41d0666ae8a2d26528ebf&hs.session.id=ZtMeRbY6To64rmsw8naTSE5lVVUyCxW3YyFE8ZgC7L6uSSTptf4CHHhSyz8kkxbb&hs.session.exp=1780951657052"; Expires=Mon, 07 Jun 2027 20:47:37 GMT; Path=/; Secure; HTTPOnly"]
+[missing-cookie-samesite-strict] [http] [info] https://help.ru.wallet.tg ["PLAY_SESSION="cb7f2190e1157059573063a0c629c8697035ecbc-siteId=64e8db208d7aaa2d5258bda8&hs.session.id=VyGeniOKEpWr4gfNS19ZTlwzY50rVFqQ1fvjvRRKLbfn9lcVth5rFNCMnI7j25Vn&hs.session.exp=1780951657057"; Expires=Mon, 07 Jun 2027 20:47:37 GMT; Path=/; Secure; HTTPOnly"]
+[missing-cookie-samesite-strict] [http] [info] https://toncenter.walletbot.me ["__cf_bm=Y5ho_n1efyHOsWSfqGaL_71H7AguGZOLoS5g3JgusUU-1780865257.4344542-1.0.1.1-ajxYeURhbKFZlSQJJAzpM94PfCen9NBVToVPdPmvgOnBKF_kWTo9RopwIiV7yUMogVWliYbX0xJfCthzhkAjLMuEO.ib_gzi9rix6_K_KtpCnRN2pP0kRIlSscnI5sIh; HttpOnly; SameSite=None; Secure; Path=/; Domain=walletbot.me; Expires=Sun, 07 Jun 2026 21:17:37 GMT __cflb=0H28veZFYGFc3c2NYDjz9ECE1hVAumoo7jsLTE2fhnV; HttpOnly; SameSite=None; Secure; Path=/; Expires=Sun, 07 Jun 2026 21:17:37 GMT"]
+[missing-cookie-samesite-strict] [http] [info] https://support-bot.wallettg.net ["__cf_bm=7_9Xzu2Wdtjk4IGLwPIZlcb0Y7izTLbFSK3UFpYCEEI-1780865257.4329834-1.0.1.1-OqiVJycBSmFsl1eL5pinD8xsi_am.i9P1ZU.cljRlCuWK9FTEIBQwgn3s8giALSEMHiVM2uh73SEaLNohdvrNVfBkdpJXQGv0bcxHSzPmxrSZ0zsk6Sr6YArGY_PyP.c; HttpOnly; SameSite=None; Secure; Path=/; Domain=wallettg.net; Expires=Sun, 07 Jun 2026 21:17:37 GMT __cflb=0H28vsj26npHoTx6GJd2v8R3BWsjWhyfmQHUEp5YHt9; HttpOnly; SameSite=Lax; Path=/; Expires=Sun, 07 Jun 2026 21:17:37 GMT"]
+[missing-cookie-samesite-strict] [http] [info] https://wapi.walletbot.me ["__cf_bm=B8NwWo6wPy947GElnMkHCjQpKFEImDffC6BA1Y7zJag-1780865257.43401-1.0.1.1-t4kZ1enzjw84Jb3EjtIG3oLqXraT0m45MeB44I4yl5XrUIcgHVICgpn5luY0fcIEEj6s0x4EcH8QYohcZD1bJnxKUW3.1eOp6RnVY5hU4fc2XhjV3cblWfwuoBiu1Rhw; HttpOnly; SameSite=None; Secure; Path=/; Domain=walletbot.me; Expires=Sun, 07 Jun 2026 21:17:37 GMT __cflb=0H28vVd66htgwbuokZMPxEthcwux7k9Nopi5jUt9SyB; HttpOnly; SameSite=None; Secure; Path=/; Expires=Sun, 07 Jun 2026 21:17:37 GMT"]
+[missing-cookie-samesite-strict] [http] [info] https://support-bot-wp.walletbot.me ["__cf_bm=wVhpntkScY828mWXeXBo_fV5alOLcKx_rAK8XZIvZZk-1780865257.440272-1.0.1.1-Ihe8AaSTE14ho90bDV6zLcjPhmz9CZiotF2AK.tL.Yr.8ajjx90hzM1G0gTMMBHg3d0.YrHzk_uk3NPcSP9mri4XKBR3QKPtuQnTQ5kxGCvTcQfeAyfc68SfDMLXcc46; HttpOnly; SameSite=None; Secure; Path=/; Domain=walletbot.me; Expires=Sun, 07 Jun 2026 21:17:37 GMT __cflb=0H28vgMjmN5oW9R3Ktua7V7kcpmLixVnEE8yzKXibVf; HttpOnly; SameSite=None; Secure; Path=/; Expires=Sun, 07 Jun 2026 21:17:37 GMT"]
+[missing-cookie-samesite-strict] [http] [info] https://pay.wallet.tg ["__cf_bm=7ykB3y6shk45Y6LK2OZKaHh8DZDQAIE1wCJZ.lHhSPE-1780865257.4492579-1.0.1.1-puc1Nu7mC4CExIUaJbvLKS0HYel6elTQvmibXIcUlBB_AKA9ZiCOWmo2oYdNoCDpOedIrfSnu6CIInGuPw6gA3M23vQDJemAkcZ2vLN6nnsCF3xddAYM9UeUS7lH.TOW; HttpOnly; SameSite=None; Secure; Path=/; Domain=wallet.tg; Expires=Sun, 07 Jun 2026 21:17:37 GMT __cflb=02DiuD2aA4zwA5gD5HrpYF2KPvaHbV8GnsXGUkXhi2Qzg; HttpOnly; SameSite=None; Secure; Path=/; Expires=Mon, 08 Jun 2026 19:47:37 GMT"]
+[missing-cookie-samesite-strict] [http] [info] https://www.wallet.tg ["__cf_bm=4yLeva7tG3msmDnhPGdX0Mieze_78rHTvExPMlZL0wE-1780865269.448358-1.0.1.1-1vrtUabXHndAN3XlIXVZINeVtObLifkcUL8fdrxpyK0wCCe0JaY9aR2vIybal2F9wfEGzP0v3yzeUL27dHUO5EFjhigSLf8X92.FDKAJDfB9cN_FPlzBTdDUHR2.LjMD; HttpOnly; SameSite=None; Secure; Path=/; Domain=wallet.tg; Expires=Sun, 07 Jun 2026 21:17:49 GMT"]

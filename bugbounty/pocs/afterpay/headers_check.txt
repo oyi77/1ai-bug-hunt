@@ -1,0 +1,99 @@
+=== Security Headers Check ===
+=== hub.sandbox.afterpay.com ===
+HTTP/2 200 
+date: Wed, 20 May 2026 20:41:14 GMT
+content-type: text/html
+set-cookie: __cf_bm=u3jZflyxsU15PEw1ImnBZ8W2EHN4nb837xtUZr5DwP8-1779309673.746425-1.0.1.1-zhmeGKs07YkqY_yCSjlEnvTg_nT_XYpG6Drrq3_Pa3f4miY5luia8xSkrLwWwbapTWfL1loX4bJQicZXcvCNjMrHJPwKw6xXSwlIZ8jLkNtYrAkFDGFMa9kHpe9phbZ4D6_URfClL_6Wrl7kMmMSQQ; HttpOnly; SameSite=None; Secure; Path=/; Domain=afterpay.com; Expires=Wed, 20 May 2026 21:11:14 GMT
+set-cookie: _cfuvid=l2JzjkZnzH6se12x1L4yGzIq4i0TSR6JMxVoI6zEL_I-1779309673.746425-1.0.1.1-EAfXF9rzi0Zhu5Xx.mkTJdM8QhDwDKZnQch2CS42v20; HttpOnly; SameSite=None; Secure; Path=/; Domain=afterpay.com
+cf-ray: 9fee2934ead18b6e-CGK
+cf-cache-status: DYNAMIC
+accept-ranges: bytes
+last-modified: Wed, 06 May 2026 00:40:51 GMT
+server: cloudflare
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+via: 1.1 8c1a9dfa61284dda7b526c5fbe6c11b6.cloudfront.net (CloudFront)
+content-security-policy: default-src 'self' *.afterpay.com *.clearpay.co.uk *.chmln-cdn.com *.sendsafely.com *.squarecdn.com *.marqeta.com; script-src 'self' 'unsafe-eval' 'nonce-LRBGixWWF+V0LL0PzhhZFQ' *.amplitude.com *.trychameleon.com *.afterpay.com *.clearpay.co.uk *.googleapis.com *.google.com *.google-analytics.com *.sendsafely.com *.jquery.com *.squarecdn.com *.plaid.com *.googletagmanager.com tagmanager.google.com *.marqeta.com cdn.cookielaw.org cdn.bizible.com *.us-sandbox.afterpay.com; img-src 'self' data: *.chmln-cdn.com blob: https: *.sendsafely.com *.googletagmanager.com *.google.com *.google-analytics.com *.googleapis.com *.gstatic.com; connect-src 'self' *.afterpay.com *.clearpay.co.uk *.launchdarkly.com *.trychameleon.com *.amplitude.com wss://*.trychameleon.com *.amazonaws.com *.okta.com *.browser-intake-datadoghq.com *.googleapis.com *.sendsafely.com *.squarecdn.com *.plaid.com *.googletagmanager.com *.google.com *.google-analytics.com *.analytics.google.com stats.g.doubleclick.net *.marqeta.com cdn.cookielaw.org geolocation.onetrust.com cdn.bizible.com *.us-sandbox.afterpay.com *.afterpay-beta.com; frame-src 'self' *.afterpay.com *.clearpay.co.uk *.trychameleon.com *.chmln-cdn.com merchantportalapi.afterpay.com merchantportalapi.us.afterpay.com merchantportalapi.eu.clearpay.co.uk *.sendsafely.com *.plaid.com *.googletagmanager.com *.google.com *.marqeta.com getstaging.afterpay.com; style-src 'self' 'unsafe-inline' tagmanager.google.com fonts.googleapis.com *.afterpay.com *.us-sandbox.afterpay.com *.clearpay.co.uk; font-src 'self' data: *.afterpay.com *.clearpay.co.uk fonts.gstatic.com; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; frame-ancestors 'self'; form-action 'self';
+x-amz-cf-id: zX8F56_Cv-ENvHlLZpj5E1GccVk8YGwxE12vdvdqjUw5Qpa5Nejkzw==
+x-amz-cf-pop: SIN3-P5
+x-amz-server-side-encryption: AES256
+x-amz-version-id: 55wW4iM94MKht4I4XFYooXY2JoHpOnua
+x-cache: Miss from cloudfront
+
+
+=== hub.us-sandbox.afterpay.com ===
+HTTP/2 200 
+date: Wed, 20 May 2026 20:41:15 GMT
+content-type: text/html
+set-cookie: __cf_bm=2cne809NpewrFxjWI0QSMDtKaXOJLDAIClRS80kQ99A-1779309674.5724492-1.0.1.1-0lRLsJ5_jEFx5qOGVqN3gW2qD1w6G75QRR7MqwA5PbEX83SJ8alzb.MNvW_L4R0zQMbJgJE104PoMsunfbh3loSai4h63ONnfY2poH_V4dvH4PbHFC2l2_fsejAv.vZxZeB3VBC6LH9kEHbAALO.uw; HttpOnly; SameSite=None; Secure; Path=/; Domain=afterpay.com; Expires=Wed, 20 May 2026 21:11:15 GMT
+set-cookie: _cfuvid=IxLUqHs0EQ480Yq8unnIK2wL.i7SIWgl2TcfokGURbY-1779309674.5724492-1.0.1.1-c7qI6BiEtP1IekxPwUgZ8ErfIpNcGqdMF9j3fpgGXew; HttpOnly; SameSite=None; Secure; Path=/; Domain=afterpay.com
+cf-ray: 9fee293a1b04a33f-CGK
+cf-cache-status: DYNAMIC
+accept-ranges: bytes
+last-modified: Wed, 06 May 2026 00:40:55 GMT
+server: cloudflare
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+via: 1.1 b2995239ce97c5feabe06aa4055871dc.cloudfront.net (CloudFront)
+content-security-policy: default-src 'self' *.afterpay.com *.clearpay.co.uk *.chmln-cdn.com *.sendsafely.com *.squarecdn.com *.marqeta.com; script-src 'self' 'unsafe-eval' 'nonce-MuPz4SBeRR3cZRSNSyN26Q' *.amplitude.com *.trychameleon.com *.afterpay.com *.clearpay.co.uk *.googleapis.com *.google.com *.google-analytics.com *.sendsafely.com *.jquery.com *.squarecdn.com *.plaid.com *.googletagmanager.com tagmanager.google.com *.marqeta.com cdn.cookielaw.org cdn.bizible.com *.us-sandbox.afterpay.com; img-src 'self' data: *.chmln-cdn.com blob: https: *.sendsafely.com *.googletagmanager.com *.google.com *.google-analytics.com *.googleapis.com *.gstatic.com; connect-src 'self' *.afterpay.com *.clearpay.co.uk *.launchdarkly.com *.trychameleon.com *.amplitude.com wss://*.trychameleon.com *.amazonaws.com *.okta.com *.browser-intake-datadoghq.com *.googleapis.com *.sendsafely.com *.squarecdn.com *.plaid.com *.googletagmanager.com *.google.com *.google-analytics.com *.analytics.google.com stats.g.doubleclick.net *.marqeta.com cdn.cookielaw.org geolocation.onetrust.com cdn.bizible.com *.us-sandbox.afterpay.com *.afterpay-beta.com; frame-src 'self' *.afterpay.com *.clearpay.co.uk *.trychameleon.com *.chmln-cdn.com merchantportalapi.afterpay.com merchantportalapi.us.afterpay.com merchantportalapi.eu.clearpay.co.uk *.sendsafely.com *.plaid.com *.googletagmanager.com *.google.com *.marqeta.com getstaging.afterpay.com; style-src 'self' 'unsafe-inline' tagmanager.google.com fonts.googleapis.com *.afterpay.com *.us-sandbox.afterpay.com *.clearpay.co.uk; font-src 'self' data: *.afterpay.com *.clearpay.co.uk fonts.gstatic.com; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; frame-ancestors 'self'; form-action 'self';
+x-amz-cf-id: ZQieUJKX4fn72HMFH41H06FFA7LF3D1ESxgu5JzzIjwZ_wzMKTErYg==
+x-amz-cf-pop: SIN3-P1
+x-amz-server-side-encryption: AES256
+x-amz-version-id: 1yxbVw8sTG7ofkT6teel2BMhMkM8I8Ra
+x-cache: Miss from cloudfront
+
+
+=== ir-external.sbox.afterpay.com ===
+HTTP/2 200 
+date: Wed, 20 May 2026 20:41:16 GMT
+content-type: text/html
+last-modified: Tue, 03 Dec 2024 21:52:15 GMT
+x-amz-server-side-encryption: AES256
+accept-ranges: bytes
+server: cloudflare
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+vary: Accept-Encoding
+x-cache: RefreshHit from cloudfront
+via: 1.1 eced3d4ca113fcf9520d3899b3e35fcc.cloudfront.net (CloudFront)
+x-amz-cf-pop: CGK51-P3
+x-amz-cf-id: JNAOgJkSTLeGjTOnvzb4ekpgJxfGFt67tec5Cc2vryehnYPMdom4KQ==
+cf-cache-status: DYNAMIC
+set-cookie: __cf_bm=bDyW5tq_MQDb5TVgUwbuwxHnSvXjB5pDL.J6Tp1BqbA-1779309675.5478125-1.0.1.1-ZDr2yNOcV4R7PuqvFWbBCUOWf1jSfQSki6swq.YW5LjsZelwqbWIckLYtipTvox1fTOkWnKjUO1KT.oJk4t.6Rr4bBLDeWjVA_s8l_x49g5J2.fwCqF7fGcpKvHUcJYn.gxLup7TiBOZ4LQFpGphSQ; HttpOnly; SameSite=None; Secure; Path=/; Domain=afterpay.com; Expires=Wed, 20 May 2026 21:11:16 GMT
+set-cookie: _cfuvid=sdfmkcKXz2zr5mA76z8TusN3GcBnjPySaMCQmUPMRGA-1779309675.5478125-1.0.1.1-PsfFRIqEN07oelp8Yno_bUdlQDBq3HmGGFtMOR9PC4w; HttpOnly; SameSite=None; Secure; Path=/; Domain=afterpay.com
+cf-ray: 9fee29402c81394e-CGK
+
+
+=== ir-external.us-sbox.afterpay.com ===
+HTTP/2 200 
+date: Wed, 20 May 2026 20:41:17 GMT
+content-type: text/html
+last-modified: Tue, 03 Dec 2024 21:52:18 GMT
+x-amz-server-side-encryption: AES256
+accept-ranges: bytes
+server: cloudflare
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-cache: RefreshHit from cloudfront
+via: 1.1 97708ee5f6724b0ee9ae9db1d86a26fe.cloudfront.net (CloudFront)
+x-amz-cf-pop: CGK60-P1
+x-amz-cf-id: uFFPf1fsmGU0GrybIRKcdmb-DINpFvxJVjgZI_sXngqRLrZDsbHp7Q==
+cf-cache-status: DYNAMIC
+set-cookie: __cf_bm=lVW7iWS9qKQ2IWY9TOSgrFkDcceW_oqY5XVjX7krAAQ-1779309676.472457-1.0.1.1-2j5ZQQZXMJP217PPEGv9SUMB9k5ckjow8a0ybUMrB.gfbnofKai4PmmRejyaxE5HBqugnRNdkcehKGiEbfC.DiQdZH8zUHFXRrfog.EN6_fmxXE21A9geyuWtoPaXa7k4WRGMz7IHOFaE.nIYpUY4A; HttpOnly; SameSite=None; Secure; Path=/; Domain=afterpay.com; Expires=Wed, 20 May 2026 21:11:17 GMT
+set-cookie: _cfuvid=EXsMmsTnD6XgSxlpKPVAfMCuckZcNP69AutvsH8gGUs-1779309676.472457-1.0.1.1-DJe4bKgv6sl4wOcrrDShY0hkgdWaY3JQfpHZb97qbC8; HttpOnly; SameSite=None; Secure; Path=/; Domain=afterpay.com
+cf-ray: 9fee2945fc4e0566-CGK
+
+
+=== mobile-builder-preview-page-staging.afterpay.com ===
+HTTP/2 200 
+content-type: text/html
+content-length: 1206
+last-modified: Wed, 20 May 2026 15:39:15 GMT
+x-amz-server-side-encryption: AES256
+accept-ranges: bytes
+server: AmazonS3
+date: Wed, 20 May 2026 20:41:19 GMT
+cache-control: max-age=10
+etag: "ed073f6d72253b67607fba421f45ee88"
+x-cache: RefreshHit from cloudfront
+via: 1.1 211fe35abbab9b1bc859d17d3778cc9e.cloudfront.net (CloudFront)
+x-amz-cf-pop: SIN2-P11
+x-amz-cf-id: c9idW9oESdocJWX_blixy2qxM4kTCByyNNB58T4-IrnbYp0DsrSQ4w==
+
+

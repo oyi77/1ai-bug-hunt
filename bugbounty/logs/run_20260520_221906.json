@@ -1,0 +1,23 @@
+{
+  "started_at": "2026-05-20T22:17:18.165012",
+  "targets": [
+    {
+      "handle": "coupang_tw",
+      "platform": "manual",
+      "started_at": "2026-05-20T22:17:18.165563",
+      "recon": {
+        "domain": "coupang_tw",
+        "subdomains": 1,
+        "live_hosts": 0,
+        "nuclei_findings": 0
+      },
+      "findings": [],
+      "reports": [],
+      "finished_at": "2026-05-20T22:19:06.556502"
+    }
+  ],
+  "findings": [],
+  "reports": [],
+  "dry_run": true,
+  "finished_at": "2026-05-20T22:19:06.556545"
+}

@@ -1,0 +1,6 @@
+- Nikto v2.5.0/
++ Target Host: api.blockchain.com
++ Target Port: 80
++ GET /Ia3frgEn.gif: IP address found in the 'report-to' header. The IP is "1.0.1.1". See: https://portswigger.net/kb/issues/00600300_private-ip-addresses-disclosed: 
++ GET /Ia3frgEn.gif: IP address found in the 'content-security-policy-report-only' header. The IP is "1.0.1.1". See: https://portswigger.net/kb/issues/00600300_private-ip-addresses-disclosed: 
++ GET /apiblockchain.egg: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type. See: https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/: 

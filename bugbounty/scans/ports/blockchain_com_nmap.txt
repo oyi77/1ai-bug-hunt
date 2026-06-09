@@ -1,0 +1,11 @@
+# Nmap 7.98 scan initiated Wed May 20 04:12:23 2026 as: /usr/lib/nmap/nmap --privileged -sV -sC --top-ports 1000 -T4 --open -oN ports/blockchain_com_nmap.txt blockchain.com
+Nmap scan report for blockchain.com (104.17.173.30)
+Host is up (0.077s latency).
+Other addresses for blockchain.com (not scanned): 104.17.172.30
+Not shown: 999 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Cloudflare http proxy
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed May 20 04:13:11 2026 -- 1 IP address (1 host up) scanned in 48.42 seconds

@@ -1,0 +1,68 @@
+=== api.rapyd.net API Security ===
+error code: 1015
+
+[+] api.rapyd.net/debug -> HTTP 
+[+] api.rapyd.net/api -> HTTP 
+[+] api.rapyd.net/swagger -> HTTP 
+[+] api.rapyd.net/docs -> HTTP 
+[+] api.rapyd.net/api-docs -> HTTP 
+[+] api.rapyd.net/v1 -> HTTP 
+[+] api.rapyd.net/v2 -> HTTP 
+[+] api.rapyd.net/health -> HTTP 
+[+] api.rapyd.net/status -> HTTP 
+[+] api.rapyd.net/config -> HTTP 
+[+] api.rapyd.net/.env -> HTTP 
+[+] api.rapyd.net/robots.txt -> HTTP 
+[+] api.rapyd.net/sitemap.xml -> HTTP 
+
+=== api.blockchain.com API Security ===
+
+
+[+] api.blockchain.com/debug -> HTTP 
+[+] api.blockchain.com/api -> HTTP 
+[+] api.blockchain.com/swagger -> HTTP 
+[+] api.blockchain.com/docs -> HTTP 
+[+] api.blockchain.com/api-docs -> HTTP 
+[+] api.blockchain.com/v1 -> HTTP 
+[+] api.blockchain.com/v2 -> HTTP 
+[+] api.blockchain.com/health -> HTTP 
+[+] api.blockchain.com/status -> HTTP 
+[+] api.blockchain.com/config -> HTTP 
+[+] api.blockchain.com/.env -> HTTP 
+[+] api.blockchain.com/robots.txt -> HTTP 
+[+] api.blockchain.com/sitemap.xml -> HTTP 
+
+=== api.kucoin.com API Security ===
+
+
+[+] api.kucoin.com/debug -> HTTP 
+[+] api.kucoin.com/api -> HTTP 
+[+] api.kucoin.com/swagger -> HTTP 
+[+] api.kucoin.com/docs -> HTTP 
+[+] api.kucoin.com/api-docs -> HTTP 
+[+] api.kucoin.com/v1 -> HTTP 
+[+] api.kucoin.com/v2 -> HTTP 
+[+] api.kucoin.com/health -> HTTP 
+[+] api.kucoin.com/status -> HTTP 
+[+] api.kucoin.com/config -> HTTP 
+[+] api.kucoin.com/.env -> HTTP 
+[+] api.kucoin.com/robots.txt -> HTTP 
+[+] api.kucoin.com/sitemap.xml -> HTTP 
+
+=== api.binance.com API Security ===
+
+
+[+] api.binance.com/debug -> HTTP 
+[+] api.binance.com/api -> HTTP 
+[+] api.binance.com/swagger -> HTTP 
+[+] api.binance.com/docs -> HTTP 
+[+] api.binance.com/api-docs -> HTTP 
+[+] api.binance.com/v1 -> HTTP 
+[+] api.binance.com/v2 -> HTTP 
+[+] api.binance.com/health -> HTTP 
+[+] api.binance.com/status -> HTTP 
+[+] api.binance.com/config -> HTTP 
+[+] api.binance.com/.env -> HTTP 
+[+] api.binance.com/robots.txt -> HTTP 
+[+] api.binance.com/sitemap.xml -> HTTP 
+

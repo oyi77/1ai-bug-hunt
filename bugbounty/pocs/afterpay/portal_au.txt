@@ -1,0 +1,35 @@
+=== portal.afterpay.com/au/ ===
+<!doctype html><html core.application.main.directive.language ng-app="consumer.application.main" ng-csp><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="Log in to your Afterpay account"><base href='/au/'><title>Afterpay</title><link rel="preconnect" href='https://portalapi.afterpay.com'><link rel="dns-prefetch" href='https://card-api.au.payments.afterpay.com'><link rel="preload" href="asset/open-sans.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="asset/open-sans-bold.woff2" as="font" type="font/woff2" crossorigin><link href="main.5cacdf0f25a8366476fd04b5e81b1a4f.css" rel="stylesheet"><link rel="icon" href='/au/favicon.ico'></head><body ng-controller="consumer.application.main.controller" ng-class="{
+    'screen-overflow-mask': screenOverflowMask
+}"><!--[if lt IE 10]><p>You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> before using Afterpay.</p><![endif]--><div class="application-wrapper" ng-class="{'application-modal is-condensed-layout': isModal(), 'loading': isLoading()}" ng-show="applicationVisible"><section ng-include="'header.html'" ng-hide="hideHeader"></section><section class="view-section" ng-view autoscroll></section><section class="locale-section" ng-include="'locale-preference.html'" ng-show="allowChangeLocale"></section><section class="footer-section" ng-include="'footer.html'"></section></div><section ng-include="'onetrust-banner.html'"></section><div class="environment"><div id="BRAND_NAME">Afterpay</div><div id="BROCHURE_BASE_URL">https://www.afterpay.com</div><div id="HELP_BASE_URL">https://help.afterpay.com</div><div id="PORTAL_API_BASE_URL">https://portalapi.afterpay.com</div><div id="TOPAZ_BASE_URL">https://card-api.au.payments.afterpay.com</div><div id="GOOGLEMAPS_API_KEY">AIzaSyAal00vvQU1rw9s5kRtqi9KUBpXZuoNO0I</div><div id="WWW_BASE_URL">https://portal.afterpay.com</div
+=== CloudFront defamibxuy2ya JS files ===
+src="/js/chunk-vendors.d47e6e68.js"
+src="/js/app.69570c96.js"
+--- Downloading: https://defamibxuy2ya.cloudfront.net/js/chunk-vendors.d47e6e68.js ---
+Auth
+Auth"
+auth:!0
+auth:!0})
+auth2/")[0]}}
+auth2")>0?r:r+"/oauth2"
+AuthApiError"
+AuthApiError"!==n.name)return!1
+AuthApiError"===t.name&&"E0000007"===t.errorCode)return null
+Auth}))?(a=t.fullPath
+Auth constructor to get a token")
+Auth constructor to renew tokens")
+Auth constructor to revoke a token")
+Authenticate"))
+Authenticated
+Authenticated"
+Authenticated))
+Authenticated:!1
+Authenticated()]):[3
+Authenticated?[3
+--- Downloading: https://defamibxuy2ya.cloudfront.net/js/app.69570c96.js ---
+Auth:!0}}
+Auth:!0}}]
+Auth"]({issuer:"https://afterpaytouch.okta.com"
+Auth:U})
+https://script.google.com/a/afterpay.com/macros/s/AKfycbxxe9DD6yXRQbg1IOc0IWVyBW-cb-ZNStpdH-pGZZGX8ahJ_04/exec"
+https://script.google.com/a/afterpay.com/macros/s/AKfycbxxe9DD6yXRQbg1IOc0IWVyBW-cb-ZNStpdH-pGZZGX8ahJ_04/exec"}

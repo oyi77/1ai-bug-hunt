@@ -1,0 +1,65 @@
+2026-05-20 22:17:18,165 [INFO] ============================================================
+2026-05-20 22:17:18,165 [INFO] BUG BOUNTY SCHEDULER - Run at 2026-05-20T22:17:18.165240
+2026-05-20 22:17:18,165 [INFO] Max targets: 3, Dry run: True
+2026-05-20 22:17:18,165 [INFO] ============================================================
+2026-05-20 22:17:18,165 [INFO] Target override: coupang_tw
+2026-05-20 22:17:18,165 [INFO] 
+[1/1] Processing: coupang_tw
+2026-05-20 22:17:18,165 [INFO] 
+  [Recon] coupang_tw
+2026-05-20 22:17:26,555 [INFO] 
+  [Hunt] coupang_tw
+2026-05-20 22:19:06,558 [INFO] 
+============================================================
+2026-05-20 22:19:06,558 [INFO] RUN SUMMARY
+2026-05-20 22:19:06,558 [INFO] ============================================================
+2026-05-20 22:19:06,558 [INFO] Targets processed: 1
+2026-05-20 22:19:06,558 [INFO] Total findings: 0
+2026-05-20 22:19:06,558 [INFO] Reports generated: 0
+2026-05-20 22:19:06,559 [INFO] 
+Run record saved: /home/openclaw/.openclaw/workspace/bugbounty/logs/run_20260520_221906.json
+2026-05-20 22:24:54,679 [INFO] ============================================================
+2026-05-20 22:24:54,679 [INFO] BUG BOUNTY SCHEDULER - Run at 2026-05-20T22:24:54.679870
+2026-05-20 22:24:54,679 [INFO] Max targets: 1, Dry run: True
+2026-05-20 22:24:54,680 [INFO] ============================================================
+2026-05-20 22:24:54,680 [INFO] Target override: acorns.com
+2026-05-20 22:24:54,680 [INFO] 
+[1/1] Processing: acorns.com
+2026-05-20 22:24:54,684 [INFO] 
+  [Recon] acorns.com
+2026-05-20 22:37:06,311 [INFO] AI Brain: deepseek-coder-v2:16b (enabled)
+2026-05-20 22:37:06,312 [INFO] ============================================================
+2026-05-20 22:37:06,312 [INFO] BUG BOUNTY SCHEDULER - Run at 2026-05-20T22:37:06.312214
+2026-05-20 22:37:06,312 [INFO] Max targets: 1, Dry run: True
+2026-05-20 22:37:06,312 [INFO] ============================================================
+2026-05-20 22:37:06,312 [INFO] [Phase 1] Discovering targets...
+2026-05-20 22:37:07,217 [INFO] 
+[1/1] Processing: coindesk-data---data-api-
+2026-05-20 22:37:07,217 [INFO]   Resolving scopes for coindesk-data---data-api-...
+2026-05-20 22:37:07,217 [INFO]   Resolved 1 domains in scope
+2026-05-20 22:37:07,217 [INFO] 
+  [Recon] coindesk-data---data-api-
+2026-05-20 22:40:19,023 [INFO] 
+  [AI] Analyzing recon results...
+2026-05-20 22:41:53,071 [INFO] 
+  [Hunt] coindesk-data---data-api-
+2026-05-20 22:43:33,086 [INFO] 
+============================================================
+2026-05-20 22:43:33,086 [INFO] RUN SUMMARY
+2026-05-20 22:43:33,086 [INFO] ============================================================
+2026-05-20 22:43:33,086 [INFO] Targets processed: 1
+2026-05-20 22:43:33,086 [INFO] Total findings: 0
+2026-05-20 22:43:33,086 [INFO] Reports generated: 0
+2026-05-20 22:43:33,086 [INFO] 
+Run record saved: /home/openclaw/.openclaw/workspace/bugbounty/logs/run_20260520_224333.json
+2026-05-20 22:46:24,541 [INFO] 
+  [Hunt] acorns.com
+2026-05-20 22:48:04,585 [INFO] 
+============================================================
+2026-05-20 22:48:04,585 [INFO] RUN SUMMARY
+2026-05-20 22:48:04,585 [INFO] ============================================================
+2026-05-20 22:48:04,585 [INFO] Targets processed: 1
+2026-05-20 22:48:04,585 [INFO] Total findings: 0
+2026-05-20 22:48:04,585 [INFO] Reports generated: 0
+2026-05-20 22:48:04,585 [INFO] 
+Run record saved: /home/openclaw/.openclaw/workspace/bugbounty/logs/run_20260520_224804.json

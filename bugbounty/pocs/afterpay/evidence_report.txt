@@ -1,0 +1,59 @@
+=== AFTERPAY SHOP-PRODUCT RECON REPORT ===
+Date: 2026-05-20
+Target: shop-product.afterpay.com
+
+=== 1. HEADERS (401 response) ===
+HTTP/2 401 
+date: Wed, 20 May 2026 20:39:26 GMT
+set-cookie: JSESSIONID=420BEC736D40434531D96E1E7AC5C6F6; Path=/; Secure; HttpOnly
+set-cookie: __cf_bm=G92APZwrR48vPNjMqV9XlR5zKomC9XI_POiBKDi6q3c-1779309566.4507046-1.0.1.1-arxWVXgjWGLSlMatBFMTI_fZe6IcLsTljFo537ouXjTZjMtSTRVbEckdHWLQ0PyBKaAjM98kpwCvJD5hKgS7N4b_r8cA5YW_CEEN9MajaUpUOrorQOkehfez9Y2N9TnoSIOaPeiRpt6rze.ojDpF5A; HttpOnly; SameSite=None; Secure; Path=/; Domain=afterpay.com; Expires=Wed, 20 May 2026 21:09:26 GMT
+set-cookie: _cfuvid=rrz8QZQoMqnjn7TsffrulJ7WdCrYArhNk6gGTJhw2t8-1779309566.4507046-1.0.1.1-a1kuLRlWlWyOO5m7DLqnHs0AaiNcGSo03CGoyQWo2qA; HttpOnly; SameSite=None; Secure; Path=/; Domain=afterpay.com
+www-authenticate: Basic realm="Realm"
+x-content-type-options: nosniff
+x-xss-protection: 0
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+pragma: no-cache
+expires: 0
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-frame-options: DENY
+x-envoy-upstream-service-time: 4
+server: cloudflare
+cf-cache-status: MISS
+cf-ray: 9fee26965e2714a6-CGK
+
+
+=== 2. KEY FINDINGS ===
+
+FINDING 1: /actuator/info - 200 OK (no auth required)
+Response: {}
+
+FINDING 2: /actuator/health - 503 (no auth required, INFO DISCLOSURE)
+{"status":"DOWN","groups":["liveness","readiness"],"components":{"AWSCassandraService":{"status":"UP","details":{"keySpaceName":"shop_product_prod"}},"AWSS3Service":{"status":"UP"},"AWSSQSService":{"status":"UP","details":{"queueName":"shop-product-event-queue-prod"}},"cassandra":{"status":"UP","details":{"version":{"major":3,"minor":11,"patch":2,"dsepatch":-1}}},"diskSpace":{"status":"UP","details":{"total":214668652544,"free":151193325568,"threshold":10485760,"path":"/app/.","exists":true}},"elasticsearch":{"status":"DOWN","details":{"error":"java.net.ConnectException: Connection refused"}},"kafkaService":{"status":"UP","details":{"topicStatuses":{"us-prod.event.shop.product.v1":true},"topicsCount":3}},"livenessState":{"status":"UP"},"ping":{"status":"UP"},"readinessState":{"status":"UP"},"refreshScope":{"status":"UP"},"ssl":{"status":"UP","details":{"validChains":[],"invalidChains":[]}}}}
+Exposed infrastructure details:
+- Cassandra keyspace: shop_product_prod (v3.11)
+- AWS SQS queue: shop-product-event-queue-prod
+- Kafka topic: us-prod.event.shop.product.v1 (3 topics)
+- Elasticsearch: DOWN (Connection refused)
+- Disk path: /app/.
+- Spring Boot actuator with liveness/readiness
+
+FINDING 3: JSESSIONID cookie confirmed (Java backend)
+FINDING 4: Envoy proxy confirmed (x-envoy-upstream-service-time)
+FINDING 5: Basic auth on all other endpoints (www-authenticate: Basic realm="Realm")
+FINDING 6: Cloudflare CDN in front
+
+=== 3. PROTECTED ENDPOINTS (all 401) ===
+/actuator, /actuator/env, /actuator/mappings
+/swagger-ui.html, /v2/api-docs, /api-docs
+/h2-console, /debug, /console, /manager, /jmx-console
+/actuator/beans, /actuator/configprops, /actuator/dump
+/actuator/loggers, /actuator/metrics, /actuator/heapdump
+/graphql, /graphiql, /v1, /v2, /api/v1, /api/v2
+
+=== 4. NO CORS HEADERS DETECTED ===
+
+=== 5. SECURITY HEADERS PRESENT ===
+- strict-transport-security: max-age=31536000; includeSubDomains; preload
+- x-frame-options: DENY
+- x-content-type-options: nosniff
+- x-xss-protection: 0

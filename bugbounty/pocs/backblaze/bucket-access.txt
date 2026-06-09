@@ -1,0 +1,48 @@
+--- backblaze-backup ---
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Error>
+    <Code>AccessDenied</Code>
+    <Message>Unauthenticated requests are not allowed for this api</Message>
+</Error>
+--- backblaze-data ---
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Error>
+    <Code>AccessDenied</Code>
+    <Message>Unauthenticated requests are not allowed for this api</Message>
+</Error>
+--- backblaze-public ---
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Error>
+    <Code>AccessDenied</Code>
+    <Message>Unauthenticated requests are not allowed for this api</Message>
+</Error>
+--- backblaze-assets ---
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Error>
+    <Code>AccessDenied</Code>
+    <Message>Unauthenticated requests are not allowed for this api</Message>
+</Error>
+--- backblaze-test ---
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Error>
+    <Code>AccessDenied</Code>
+    <Message>Unauthenticated requests are not allowed for this api</Message>
+</Error>
+--- backblaze-logs ---
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Error>
+    <Code>AccessDenied</Code>
+    <Message>Unauthenticated requests are not allowed for this api</Message>
+</Error>
+--- backblaze-static ---
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Error>
+    <Code>AccessDenied</Code>
+    <Message>Unauthenticated requests are not allowed for this api</Message>
+</Error>
+--- backblaze-images ---
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Error>
+    <Code>AccessDenied</Code>
+    <Message>Unauthenticated requests are not allowed for this api</Message>
+</Error>

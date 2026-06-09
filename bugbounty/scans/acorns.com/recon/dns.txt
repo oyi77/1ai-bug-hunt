@@ -1,0 +1,10 @@
+5 alt2.aspmx.l.google.com.
+10 aspmx3.googlemail.com.
+1 aspmx.l.google.com.
+5 alt1.aspmx.l.google.com.
+10 aspmx2.googlemail.com.
+151.101.130.49
+ns-1671.awsdns-16.co.uk.
+ns-936.awsdns-53.net.
+ns-119.awsdns-14.com.
+ns-1305.awsdns-35.org.

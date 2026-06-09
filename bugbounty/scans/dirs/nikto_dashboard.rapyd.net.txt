@@ -1,0 +1,241 @@
+- Nikto v2.5.0/
++ Target Host: dashboard.rapyd.net
++ Target Port: 80
++ GET /:  IP address found in the '__cf_bm' cookie. The IP is "1.0.1.1".
++ GET /: IP address found in the 'set-cookie' header. The IP is "1.0.1.1". See: https://portswigger.net/kb/issues/00600300_private-ip-addresses-disclosed: 
++ GET /: An alt-svc header was found which is advertising HTTP/3. The endpoint is: ':443'. Nikto cannot test HTTP/3 over QUIC. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/alt-svc: 
++ GET /: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type. See: https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/: 
++ GET /l37RvxKr.fhp:  IP address found in the '_cfuvid' cookie. The IP is "1.0.1.1".
++ GET /webcgi/flexform: Check Phrack 55 for info by RFP; allows to append info to writable files. See: http://phrack.org/issues/55/7.html#article: 
++ GET /cgi-914/flexform: Check Phrack 55 for info by RFP; allows to append info to writable files. See: http://phrack.org/issues/55/7.html#article: 
++ GET /mpcgi/flexform: Check Phrack 55 for info by RFP; allows to append info to writable files. See: http://phrack.org/issues/55/7.html#article: 
++ GET /ows-bin/flexform: Check Phrack 55 for info by RFP; allows to append info to writable files. See: http://phrack.org/issues/55/7.html#article: 
++ GET /cgi-sys/flexform: Check Phrack 55 for info by RFP; allows to append info to writable files. See: http://phrack.org/issues/55/7.html#article: 
++ GET /cgi-local/flexform: Check Phrack 55 for info by RFP; allows to append info to writable files. See: http://phrack.org/issues/55/7.html#article: 
++ GET /cgi-home/flexform: Check Phrack 55 for info by RFP; allows to append info to writable files. See: http://phrack.org/issues/55/7.html#article: 
++ GET /webcgi/lwgate: Check Phrack 55 for info by RFP. See: http://phrack.org/issues/55/7.html#article: 
++ GET /cgi/lwgate: Check Phrack 55 for info by RFP. See: http://phrack.org/issues/55/7.html#article: 
++ GET /ows-bin/lwgate: Check Phrack 55 for info by RFP. See: http://phrack.org/issues/55/7.html#article: 
++ GET /cgi-sys/lwgate: Check Phrack 55 for info by RFP. See: http://phrack.org/issues/55/7.html#article: 
++ GET /cgi-exe/lwgate: Check Phrack 55 for info by RFP. See: http://phrack.org/issues/55/7.html#article: 
++ GET /cgi-home/lwgate: Check Phrack 55 for info by RFP. See: http://phrack.org/issues/55/7.html#article: 
++ GET /webcgi/LWGate: Check Phrack 55 for info by RFP. See: http://phrack.org/issues/55/7.html#article: 
++ GET /cgi-914/LWGate: Check Phrack 55 for info by RFP. See: http://phrack.org/issues/55/7.html#article: 
++ GET /ows-bin/LWGate: Check Phrack 55 for info by RFP. See: http://phrack.org/issues/55/7.html#article: 
++ GET /sshome/: Siteseed pre 1.4.2 has 'major' security problems.
++ GET /scripts/samples/details.idc: NT ODBC Remote Compromise. See: http://attrition.org/security/advisory/individual/rfp/rfp.9901.nt_odbc: 
++ GET /webcgi/finger: finger other users, may be other commands?.
++ GET /mpcgi/finger: finger other users, may be other commands?.
++ GET /cgi-local/finger: finger other users, may be other commands?.
++ GET /webcgi/finger.pl: finger other users, may be other commands?.
++ GET /cgi-914/finger.pl: finger other users, may be other commands?.
++ GET /mpcgi/finger.pl: finger other users, may be other commands?.
++ GET /cgi-sys/finger.pl: finger other users, may be other commands?.
++ GET /cgi-exe/finger.pl: finger other users, may be other commands?.
++ GET /cgi-home/finger.pl: finger other users, may be other commands?.
++ GET /cgi/guestbook/passwd: GuestBook r4 from lasource.r2.ru stores the admin password in a plain text file.
++ GET /mpcgi/guestbook/passwd: GuestBook r4 from lasource.r2.ru stores the admin password in a plain text file.
++ GET /ows-bin/guestbook/passwd: GuestBook r4 from lasource.r2.ru stores the admin password in a plain text file.
++ GET /cgi-sys/guestbook/passwd: GuestBook r4 from lasource.r2.ru stores the admin password in a plain text file.
++ GET /cgi-local/guestbook/passwd: GuestBook r4 from lasource.r2.ru stores the admin password in a plain text file.
++ GET /cgi-bin/wrap: comes with IRIX 6.2; allows to view directories.
++ GET /guestbook/guestbookdat: PHP-Gastebuch 1.60 Beta reveals sensitive information about its configuration.
++ GET /help/: Help directory should not be accessible.
++ GET /global.inc: PHP-Survey's include file should not be available via the web. Configure the web server to ignore .inc files or change this to global.inc.php. See: CVE-2002-0614: 
++ GET /webcgi/echo.bat?&dir+c:\\: This batch file may allow attackers to execute remote commands.
++ GET /cgi-914/echo.bat?&dir+c:\\: This batch file may allow attackers to execute remote commands.
++ GET /cgi/echo.bat?&dir+c:\\: This batch file may allow attackers to execute remote commands.
++ GET /mpcgi/echo.bat?&dir+c:\\: This batch file may allow attackers to execute remote commands.
++ GET /ows-bin/echo.bat?&dir+c:\\: This batch file may allow attackers to execute remote commands.
++ GET /cgi-sys/echo.bat?&dir+c:\\: This batch file may allow attackers to execute remote commands.
++ GET /cgi-local/echo.bat?&dir+c:\\: This batch file may allow attackers to execute remote commands.
++ GET /cgi-exe/echo.bat?&dir+c:\\: This batch file may allow attackers to execute remote commands.
++ GET /cgi-home/echo.bat?&dir+c:\\: This batch file may allow attackers to execute remote commands.
++ GET /webcgi/guestbook.pl: May allow attackers to execute commands as the web daemon.
++ GET /cgi-914/guestbook.pl: May allow attackers to execute commands as the web daemon.
++ GET /cgi/guestbook.pl: May allow attackers to execute commands as the web daemon.
++ GET /ows-bin/guestbook.pl: May allow attackers to execute commands as the web daemon.
++ GET /cgi-914/ss: Mediahouse Statistics Server may allow attackers to execute remote commands. Upgrade to the latest version or remove from the CGI directory.
++ GET /mpcgi/ss: Mediahouse Statistics Server may allow attackers to execute remote commands. Upgrade to the latest version or remove from the CGI directory.
++ GET /ows-bin/ss: Mediahouse Statistics Server may allow attackers to execute remote commands. Upgrade to the latest version or remove from the CGI directory.
++ GET /cgi-local/ss: Mediahouse Statistics Server may allow attackers to execute remote commands. Upgrade to the latest version or remove from the CGI directory.
++ GET /getaccess: This may be an indication that the server is running getAccess for SSO.
++ GET /cgi-914/architext_query.pl: Versions older than 1.1 of Excite for Web Servers allow attackers to execute arbitrary commands.
++ GET /ows-bin/architext_query.pl: Versions older than 1.1 of Excite for Web Servers allow attackers to execute arbitrary commands.
++ GET /cgi-sys/architext_query.pl: Versions older than 1.1 of Excite for Web Servers allow attackers to execute arbitrary commands.
++ GET /cgi-local/architext_query.pl: Versions older than 1.1 of Excite for Web Servers allow attackers to execute arbitrary commands.
++ GET /cgi-exe/architext_query.pl: Versions older than 1.1 of Excite for Web Servers allow attackers to execute arbitrary commands.
++ GET /webcgi/blog/: A blog was found. May contain security problems in CGIs, weak passwords, and more.
++ GET /cgi/blog/: A blog was found. May contain security problems in CGIs, weak passwords, and more.
++ GET /ows-bin/blog/: A blog was found. May contain security problems in CGIs, weak passwords, and more.
++ GET /cgi-sys/blog/: A blog was found. May contain security problems in CGIs, weak passwords, and more.
++ GET /cgi-local/blog/: A blog was found. May contain security problems in CGIs, weak passwords, and more.
++ GET /cgi-exe/blog/: A blog was found. May contain security problems in CGIs, weak passwords, and more.
++ GET /cgi-home/blog/: A blog was found. May contain security problems in CGIs, weak passwords, and more.
++ GET /vgn/performance/TMT: Vignette CMS admin/maintenance script available.
++ GET /vgn/performance/TMT/reset: Vignette CMS admin/maintenance script available.
++ GET /vgn/previewer: Vignette CMS admin/maintenance script available.
++ GET /vgn/stylepreviewer: Vignette CMS admin/maintenance script available.
++ GET /scripts/iisadmin/ism.dll: Allows you to mount a brute force attack on passwords.
++ GET /scripts/tools/dsnform: Allows creation of ODBC Data Source.
++ GET /prd.i/pgen/: Has MS Merchant Server 1.0.
++ GET /scripts/httpodbc.dll: Possible IIS backdoor found.
++ GET /siteseed/: Siteseed pre 1.4.2 have 'major' security problems.
++ GET /pccsmysqladm/incs/dbconnect.inc: This file should not be accessible, as it contains database connectivity information. Upgrade to version 1.2.5 or higher.
++ GET /iisadmin/: Access to /iisadmin should be restricted to localhost or allowed hosts only.
++ GET /view_source.jsp: Resin 2.1.2 view_source.jsp allows any file on the system to be viewed by using \..\ directory traversal. This script may be vulnerable.
++ GET /server/: Possibly Macromedia JRun or CRX WebDAV upload.
++ GET /vgn/ac/data: Vignette CMS admin/maintenance script available.
++ GET /vgn/ac/delete: Vignette CMS admin/maintenance script available.
++ GET /vgn/ac/esave: Vignette CMS admin/maintenance script available.
++ GET /vgn/ac/index: Vignette CMS admin/maintenance script available.
++ GET /vgn/asp/MetaDataUpdate: Vignette CMS admin/maintenance script available.
++ GET /vgn/asp/status: Vignette CMS admin/maintenance script available.
++ GET /vgn/asp/style: Vignette CMS admin/maintenance script available.
++ GET /vgn/errors: Vignette CMS admin/maintenance script available.
++ GET /vgn/jsp/controller: Vignette CMS admin/maintenance script available.
++ GET /vgn/jsp/errorpage: Vignette CMS admin/maintenance script available.
++ GET /vgn/jsp/jspstatus: Vignette CMS admin/maintenance script available.
++ GET /vgn/jsp/jspstatus56: Vignette CMS admin/maintenance script available.
++ GET /vgn/jsp/style: Vignette CMS admin/maintenance script available.
++ GET /vgn/login: Vignette server may allow user enumeration based on the login attempts to this file.
++ GET /webcgi/.cobalt: May allow remote admin of CGI scripts.
++ GET /cgi/.cobalt: May allow remote admin of CGI scripts.
++ GET /ows-bin/.cobalt: May allow remote admin of CGI scripts.
++ GET /cgi-home/.cobalt: May allow remote admin of CGI scripts.
++ GET /webcgi/mailit.pl: Sambar may allow anonymous email to be sent from any host via this CGI. See: https://vulners.com/nessus/SAMBAR_MAILIT.NASL: 
++ GET /mpcgi/mailit.pl: Sambar may allow anonymous email to be sent from any host via this CGI. See: https://vulners.com/nessus/SAMBAR_MAILIT.NASL: 
++ GET /cgi-exe/mailit.pl: Sambar may allow anonymous email to be sent from any host via this CGI. See: https://vulners.com/nessus/SAMBAR_MAILIT.NASL: 
++ GET /cgi-914/.access: Contains authorization information.
++ GET /cgi-sys/.access: Contains authorization information.
++ GET /cgi-home/.access: Contains authorization information.
++ GET /webcgi/%2e%2e/abyss.conf: The Abyss configuration file was successfully retrieved. Upgrade with the latest version/patches for 1.0. See: CVE-2002-0544: 
++ GET /cgi-914/%2e%2e/abyss.conf: The Abyss configuration file was successfully retrieved. Upgrade with the latest version/patches for 1.0. See: CVE-2002-0544: 
++ GET /cgi/%2e%2e/abyss.conf: The Abyss configuration file was successfully retrieved. Upgrade with the latest version/patches for 1.0. See: CVE-2002-0544: 
++ GET /mpcgi/%2e%2e/abyss.conf: The Abyss configuration file was successfully retrieved. Upgrade with the latest version/patches for 1.0. See: CVE-2002-0544: 
++ GET /ows-bin/%2e%2e/abyss.conf: The Abyss configuration file was successfully retrieved. Upgrade with the latest version/patches for 1.0. See: CVE-2002-0544: 
++ GET /cgi-sys/%2e%2e/abyss.conf: The Abyss configuration file was successfully retrieved. Upgrade with the latest version/patches for 1.0. See: CVE-2002-0544: 
++ GET /cgi-local/%2e%2e/abyss.conf: The Abyss configuration file was successfully retrieved. Upgrade with the latest version/patches for 1.0. See: CVE-2002-0544: 
++ GET /cgi-exe/%2e%2e/abyss.conf: The Abyss configuration file was successfully retrieved. Upgrade with the latest version/patches for 1.0. See: CVE-2002-0544: 
++ GET /cgi-home/%2e%2e/abyss.conf: The Abyss configuration file was successfully retrieved. Upgrade with the latest version/patches for 1.0. See: CVE-2002-0544: 
++ GET /servlet/com.livesoftware.jrun.plugins.ssi.SSIFilter: Allaire ColdFusion allows JSP source viewed through a vulnerable SSI call.
++ GET /vgn/license: Vignette server license file found. See: CVE-2003-0403: 
++ GET /ws_ftp.ini: Can contain saved passwords for FTP sites.
++ GET /nsn/fdir.bas:ShowVolume: You can use ShowVolume and ShowDirectory directly on the Novell server (NW5.1) to view the filesystem without having to log in.
++ GET /webcgi/shtml.dll: This may allow attackers to retrieve document source.
++ GET /cgi-914/shtml.dll: This may allow attackers to retrieve document source.
++ GET /cgi/shtml.dll: This may allow attackers to retrieve document source.
++ GET /ows-bin/shtml.dll: This may allow attackers to retrieve document source.
++ GET /cgi-sys/shtml.dll: This may allow attackers to retrieve document source.
++ GET /cgi-exe/shtml.dll: This may allow attackers to retrieve document source.
++ GET /cgi-home/shtml.dll: This may allow attackers to retrieve document source.
++ GET /cgi/aglimpse: This CGI may allow attackers to execute remote commands.
++ GET /ows-bin/aglimpse: This CGI may allow attackers to execute remote commands.
++ GET /cgi-sys/aglimpse: This CGI may allow attackers to execute remote commands.
++ GET /cgi-local/aglimpse: This CGI may allow attackers to execute remote commands.
++ GET /cgi-exe/aglimpse: This CGI may allow attackers to execute remote commands.
++ GET /cgi-home/aglimpse: This CGI may allow attackers to execute remote commands.
++ GET /servlets/SchedulerTransfer: PeopleSoft SchedulerTransfer servlet found, which may allow remote command execution. See: CVE-2003-0104: 
++ GET /webcgi/cmd.exe?/c+dir: cmd.exe can execute arbitrary commands.
++ GET /cgi-sys/cmd.exe?/c+dir: cmd.exe can execute arbitrary commands.
++ GET /webcgi/cmd1.exe?/c+dir: cmd1.exe can execute arbitrary commands.
++ GET /mpcgi/cmd1.exe?/c+dir: cmd1.exe can execute arbitrary commands.
++ GET /cgi-sys/cmd1.exe?/c+dir: cmd1.exe can execute arbitrary commands.
++ GET /cgi-local/cmd1.exe?/c+dir: cmd1.exe can execute arbitrary commands.
++ GET /webcgi/hello.bat?&dir+c:\\: This batch file may allow attackers to execute remote commands.
++ GET /cgi-914/hello.bat?&dir+c:\\: This batch file may allow attackers to execute remote commands.
++ GET /cgi/hello.bat?&dir+c:\\: This batch file may allow attackers to execute remote commands.
++ GET /mpcgi/hello.bat?&dir+c:\\: This batch file may allow attackers to execute remote commands.
++ GET /ows-bin/hello.bat?&dir+c:\\: This batch file may allow attackers to execute remote commands.
++ GET /cgi-sys/hello.bat?&dir+c:\\: This batch file may allow attackers to execute remote commands.
++ GET /cgi-local/hello.bat?&dir+c:\\: This batch file may allow attackers to execute remote commands.
++ GET /cgi-exe/hello.bat?&dir+c:\\: This batch file may allow attackers to execute remote commands.
++ GET /cgi-home/hello.bat?&dir+c:\\: This batch file may allow attackers to execute remote commands.
++ GET /webcgi/post32.exe|dir%20c:\\: post32 can execute arbitrary commands.
++ GET /cgi-914/post32.exe|dir%20c:\\: post32 can execute arbitrary commands.
++ GET /cgi/post32.exe|dir%20c:\\: post32 can execute arbitrary commands.
++ GET /mpcgi/post32.exe|dir%20c:\\: post32 can execute arbitrary commands.
++ GET /ows-bin/post32.exe|dir%20c:\\: post32 can execute arbitrary commands.
++ GET /cgi-sys/post32.exe|dir%20c:\\: post32 can execute arbitrary commands.
++ GET /cgi-local/post32.exe|dir%20c:\\: post32 can execute arbitrary commands.
++ GET /cgi-exe/post32.exe|dir%20c:\\: post32 can execute arbitrary commands.
++ GET /cgi-home/post32.exe|dir%20c:\\: post32 can execute arbitrary commands.
++ GET /IDSWebApp/IDSjsp/Login.jsp: Tivoli Directory Server Web Administration.
++ GET /securecontrolpanel/: Web Server Control Panel.
++ GET /siteminder: This may be an indication that the server is running Siteminder for SSO.
++ GET /webmail/: Web based mail package installed.
++ GET /cgi/archie: Gateway to the unix command, may be able to submit extra commands.
++ GET /mpcgi/archie: Gateway to the unix command, may be able to submit extra commands.
++ GET /cgi-home/archie: Gateway to the unix command, may be able to submit extra commands.
++ GET /webcgi/calendar.pl: Gateway to the unix command, may be able to submit extra commands.
++ GET /ows-bin/calendar.pl: Gateway to the unix command, may be able to submit extra commands.
++ GET /cgi-local/calendar.pl: Gateway to the unix command, may be able to submit extra commands.
++ GET /cgi-exe/calendar.pl: Gateway to the unix command, may be able to submit extra commands.
++ GET /cgi-home/calendar.pl: Gateway to the unix command, may be able to submit extra commands.
++ GET /cgi-914/calendar: Gateway to the unix command, may be able to submit extra commands.
++ GET /ows-bin/calendar: Gateway to the unix command, may be able to submit extra commands.
++ GET /webcgi/date: Gateway to the unix command, may be able to submit extra commands.
++ GET /cgi-914/date: Gateway to the unix command, may be able to submit extra commands.
++ GET /cgi/date: Gateway to the unix command, may be able to submit extra commands.
++ GET /mpcgi/date: Gateway to the unix command, may be able to submit extra commands.
++ GET /ows-bin/date: Gateway to the unix command, may be able to submit extra commands.
++ GET /cgi-sys/date: Gateway to the unix command, may be able to submit extra commands.
++ GET /cgi-local/date: Gateway to the unix command, may be able to submit extra commands.
++ GET /cgi-exe/date: Gateway to the unix command, may be able to submit extra commands.
++ GET /webcgi/fortune: Gateway to the unix command, may be able to submit extra commands.
++ GET /cgi-914/fortune: Gateway to the unix command, may be able to submit extra commands.
++ GET /mpcgi/fortune: Gateway to the unix command, may be able to submit extra commands.
++ GET /ows-bin/fortune: Gateway to the unix command, may be able to submit extra commands.
++ GET /cgi-exe/fortune: Gateway to the unix command, may be able to submit extra commands.
++ GET /webcgi/redirect: Redirects via URL from form.
++ GET /cgi-914/redirect: Redirects via URL from form.
++ GET /cgi/redirect: Redirects via URL from form.
++ GET /mpcgi/redirect: Redirects via URL from form.
++ GET /cgi-exe/redirect: Redirects via URL from form.
++ GET /cgi-914/uptime: Gateway to the unix command, may be able to submit extra commands.
++ GET /cgi/uptime: Gateway to the unix command, may be able to submit extra commands.
++ GET /ows-bin/uptime: Gateway to the unix command, may be able to submit extra commands.
++ GET /cgi-local/uptime: Gateway to the unix command, may be able to submit extra commands.
++ GET /cgi-exe/uptime: Gateway to the unix command, may be able to submit extra commands.
++ GET /webcgi/wais.pl: Gateway to the unix command, may be able to submit extra commands.
++ GET /ows-bin/wais.pl: Gateway to the unix command, may be able to submit extra commands.
++ GET /cgi-sys/wais.pl: Gateway to the unix command, may be able to submit extra commands.
++ GET /cgi-exe/wais.pl: Gateway to the unix command, may be able to submit extra commands.
++ GET /CVS/Entries: CVS Entries file may contain directory listing information.
++ GET /3rdparty/phpMyAdmin/db_details_importdocsql.php?submit_show=true&do=import&docpath=../: phpMyAdmin allows directory listings remotely. Upgrade to version 2.5.3 or higher. See: https://seclists.org/fulldisclosure/2003/Jun/536: 
++ GET /phpMyAdmin/db_details_importdocsql.php?submit_show=true&do=import&docpath=../: phpMyAdmin allows directory listings remotely. Upgrade to version 2.5.3 or higher. See: https://seclists.org/fulldisclosure/2003/Jun/536: 
++ GET /3rdparty/phpmyadmin/db_details_importdocsql.php?submit_show=true&do=import&docpath=../: phpMyAdmin allows directory listings remotely. Upgrade to version 2.5.3 or higher. See: https://seclists.org/fulldisclosure/2003/Jun/536: 
++ GET /phpmyadmin/db_details_importdocsql.php?submit_show=true&do=import&docpath=../: phpMyAdmin allows directory listings remotely. Upgrade to version 2.5.3 or higher. See: https://seclists.org/fulldisclosure/2003/Jun/536: 
++ GET /pma/db_details_importdocsql.php?submit_show=true&do=import&docpath=../: phpMyAdmin allows directory listings remotely. Upgrade to version 2.5.3 or higher. See: https://seclists.org/fulldisclosure/2003/Jun/536: 
++ GET /.tools/phpMyAdmin/current/db_details_importdocsql.php?submit_show=true&do=import&docpath=../: phpMyAdmin allows directory listings remotely. Upgrade to version 2.5.3 or higher. See: https://seclists.org/fulldisclosure/2003/Jun/536: 
++ GET /cgi/mail: Simple Perl mailing script to send form data to a pre-configured email address.
++ GET /mpcgi/mail: Simple Perl mailing script to send form data to a pre-configured email address.
++ GET /cgi-sys/mail: Simple Perl mailing script to send form data to a pre-configured email address.
++ GET /mpcgi/nph-error.pl: Gives more information in error messages.
++ GET /ows-bin/nph-error.pl: Gives more information in error messages.
++ GET /cgi-home/nph-error.pl: Gives more information in error messages.
++ GET /webcgi/query: Echoes back result of your GET.
++ GET /cgi-local/query: Echoes back result of your GET.
++ GET /cgi-exe/query: Echoes back result of your GET.
++ GET /cgi-home/query: Echoes back result of your GET.
++ GET /cgi/test-cgi.tcl: May echo environment variables or give directory listings.
++ GET /mpcgi/test-cgi.tcl: May echo environment variables or give directory listings.
++ GET /cgi-local/test-cgi.tcl: May echo environment variables or give directory listings.
++ GET /webcgi/test-env: May echo environment variables or give directory listings.
++ GET /cgi-914/test-env: May echo environment variables or give directory listings.
++ GET /mpcgi/test-env: May echo environment variables or give directory listings.
++ GET /ows-bin/test-env: May echo environment variables or give directory listings.
++ GET /cgi-exe/test-env: May echo environment variables or give directory listings.
++ GET /admin-serv/config/admpw: This file contains the encrypted Netscape admin password. It should not be accessible via the web.
++ GET /cgi-bin/cgi_process: WASD reveals a lot of system information in this script. It should be removed.
++ GET /ht_root/wwwroot/-/local/httpd$map.conf: WASD reveals the http configuration file. Upgrade to a later version and secure according to the documents on the WASD web site.
++ GET /local/httpd$map.conf: WASD reveals the http configuration file. Upgrade to a later version and secure according to the documents on the WASD web site.
++ GET /WebAdmin.dll?View=Logon: Some versions of WebAdmin are vulnerable to a remote DoS (not tested). See: CVE-2005-1247: 
++ GET /webcgi/snorkerz.bat: Arguments passed to DOS CGI without checking.
++ GET /cgi-914/snorkerz.bat: Arguments passed to DOS CGI without checking.
++ GET /cgi/snorkerz.bat: Arguments passed to DOS CGI without checking.
++ GET /mpcgi/snorkerz.bat: Arguments passed to DOS CGI without checking.
++ GET /cgi-local/snorkerz.bat: Arguments passed to DOS CGI without checking.
++ GET /cgi-exe/snorkerz.bat: Arguments passed to DOS CGI without checking.
++ GET /cgi-home/snorkerz.bat: Arguments passed to DOS CGI without checking.
++ GET /.nsf/../winnt/win.ini: This win.ini file can be downloaded.

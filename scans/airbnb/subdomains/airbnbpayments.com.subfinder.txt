@@ -1,0 +1,15 @@
+chat.airbnbpayments.com
+iframes-dev.airbnbpayments.com
+int.iframes.airbnbpayments.com
+www.iframes.airbnbpayments.com
+iframes.airbnbpayments.com
+monitor.iframes.airbnbpayments.com
+vpn.airbnbpayments.com
+ns3.iframes.airbnbpayments.com
+data.iframes.airbnbpayments.com
+dns.airbnbpayments.com
+dns2.airbnbpayments.com
+imap.airbnbpayments.com
+login.airbnbpayments.com
+gateway.airbnbpayments.com
+smtp.airbnbpayments.com

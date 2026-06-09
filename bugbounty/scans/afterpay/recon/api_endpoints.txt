@@ -1,0 +1,13 @@
+afterpay.com/api -> 301
+afterpay.com/api/v1 -> 301
+afterpay.com/api/v2 -> 301
+afterpay.com/graphql -> 301
+afterpay.com/swagger.json -> 301
+afterpay.com/openapi.json -> 301
+afterpay.com/.env -> 403
+afterpay.com/robots.txt -> 301
+afterpay.com/sitemap.xml -> 301
+afterpay.com/security.txt -> 301
+afterpay.com/.well-known/security.txt -> 200
+afterpay.com/actuator -> 301
+afterpay.com/health -> 301

@@ -1,0 +1,43 @@
+=== clearpay.co.uk ===
+Status: 403
+HTTP/2 403 
+date: Wed, 20 May 2026 20:55:22 GMT
+content-type: text/html; charset=UTF-8
+cache-control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+expires: Thu, 01 Jan 1970 00:00:01 GMT
+
+=== clearpay.com ===
+Status: 301
+HTTP/2 301 
+date: Wed, 20 May 2026 20:55:22 GMT
+content-type: text/html; charset=UTF-8
+location: https://www.clearpay.com/
+strict-transport-security: max-age=2592000; includeSubDomains; preload
+
+=== portal.clearpay.com ===
+Status: 302
+HTTP/2 302 
+date: Wed, 20 May 2026 20:55:22 GMT
+location: https://portal.clearpay.com/uk/
+strict-transport-security: max-age=2592000; includeSubDomains; preload
+x-content-type-options: nosniff
+
+=== mobileapi.clearpay.com ===
+Status: 000
+
+=== api.clearpay.com ===
+Status: 530
+HTTP/2 530 
+date: Wed, 20 May 2026 20:55:23 GMT
+content-type: text/plain; charset=UTF-8
+content-length: 16
+cache-control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+=== portalapi.eu.clearpay.co.uk ===
+Status: 403
+HTTP/2 403 
+date: Wed, 20 May 2026 20:55:23 GMT
+content-type: text/html; charset=UTF-8
+cache-control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+expires: Thu, 01 Jan 1970 00:00:01 GMT
+

@@ -1,0 +1,25 @@
+=== Test 2: API Endpoint Discovery ===
+=== hub.sandbox.afterpay.com ===
+  /api -> 200
+  /api/v1 -> 200
+  /graphql -> 200
+  /swagger.json -> 200
+  /openapi.json -> 200
+  /health -> 200
+  /.env -> 403
+  /debug -> 200
+  /admin -> 200
+  /login -> 200
+  /config -> 200
+=== hub.us-sandbox.afterpay.com ===
+  /api -> 200
+  /api/v1 -> 200
+  /graphql -> 200
+  /swagger.json -> 200
+  /openapi.json -> 200
+  /health -> 200
+  /.env -> 403
+  /debug -> 200
+  /admin -> 200
+  /login -> 200
+  /config -> 200

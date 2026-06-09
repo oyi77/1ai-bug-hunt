@@ -1,0 +1,280 @@
+{
+  "scan_metadata": {
+    "target": "acorns.com",
+    "scan_type": "subdomain_auth_bypass_panel_exposure",
+    "timestamp": "2026-05-20T15:48:00Z",
+    "tool": "curl + dig",
+    "total_subdomains": 11
+  },
+  "summary": {
+    "dead_dns": 3,
+    "resolved_but_unreachable": 1,
+    "cloudfront_s3_403": 7,
+    "exposed_panels": 0,
+    "auth_bypass_found": false,
+    "overall_severity": "info",
+    "note": "All resolved subdomains point to CloudFront distributions serving S3 403 AccessDenied. No S3 buckets exist by direct name. admin.acorns.com resolves to 3 AWS IPs but times out (likely WAF). No admin panels, login pages, or misconfigs accessible."
+  },
+  "findings": [
+    {
+      "subdomain": "admin.acorns.com",
+      "dns_resolves": true,
+      "ips": ["100.28.83.145", "44.219.136.165", "98.87.64.149"],
+      "https_status": "timeout",
+      "http_status": "timeout",
+      "server": "unknown",
+      "cloudfront": false,
+      "accessible": false,
+      "paths_scanned": [],
+      "finding": "Resolves to 3 AWS IPs but all connections time out. Likely behind WAF or firewall with no open ports. Could indicate an internal service that DNS still points to.",
+      "severity": "info",
+      "recommendation": "Monitor DNS changes. If ports open up, retest for admin panel exposure."
+    },
+    {
+      "subdomain": "admin.app.acorns.com",
+      "dns_resolves": true,
+      "ips": ["13.35.163.52", "13.35.163.83", "13.35.163.63", "13.35.163.109"],
+      "https_status": 403,
+      "http_status": null,
+      "server": "AmazonS3",
+      "cloudfront": true,
+      "cloudfront_pop": "SIN3-P3",
+      "headers": {
+        "strict-transport-security": "max-age=31536000; includeSubdomains; preload",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "no-referrer-when-downgrade"
+      },
+      "response_body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>",
+      "s3_direct_bucket_exists": false,
+      "accessible": false,
+      "paths_scanned": ["/", "/login", "/admin", "/dashboard", "/api", "/api/v1", "/.env", "/config", "/robots.txt", "/sitemap.xml", "/health", "/status"],
+      "paths_accessible": [],
+      "finding": "CloudFront distribution exists pointing to S3 origin. Bucket returns AccessDenied and does not exist by direct S3 URL. Placeholder/stale CloudFront config.",
+      "severity": "info",
+      "recommendation": "Low risk. Stale CloudFront distribution could be cleaned up to reduce attack surface."
+    },
+    {
+      "subdomain": "jenkins.links.notifications.acorns.com",
+      "dns_resolves": false,
+      "ips": [],
+      "https_status": null,
+      "accessible": false,
+      "finding": "DNS does not resolve. Subdomain is dead/removed.",
+      "severity": "none",
+      "recommendation": "None needed."
+    },
+    {
+      "subdomain": "jenkins.apih1mb7api.build.acorns.com",
+      "dns_resolves": true,
+      "ips": ["108.157.188.56", "108.157.188.26", "108.157.188.66", "108.157.188.15"],
+      "https_status": 403,
+      "http_status": 301,
+      "http_redirect_to": "https://jenkins.apih1mb7api.build.acorns.com/",
+      "server": "AmazonS3",
+      "cloudfront": true,
+      "cloudfront_pop": "MRS53-P4",
+      "headers": {
+        "x-xss-protection": "1; mode=block",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=31536000"
+      },
+      "s3_direct_bucket_exists": false,
+      "accessible": false,
+      "paths_scanned": ["/", "/login", "/admin", "/dashboard", "/api", "/api/v1", "/api/v2", "/jenkins", "/grafana", "/gitlab", "/console", "/manage", "/setup", "/register", "/signup", "/v1", "/v2", "/swagger", "/docs", "/actuator", "/metrics", "/prometheus", "/health", "/status", "/robots.txt"],
+      "paths_accessible": [],
+      "finding": "Jenkins-themed subdomain behind CloudFront+S3 with 403. No Jenkins instance exposed. Stale DNS record pointing to placeholder S3.",
+      "severity": "info",
+      "recommendation": "Interesting naming (apih1mb7api) suggests leaked internal build system naming. Monitor for changes."
+    },
+    {
+      "subdomain": "gitlab.app.acorns.com",
+      "dns_resolves": true,
+      "ips": ["13.35.163.63", "13.35.163.52", "13.35.163.83", "13.35.163.109"],
+      "https_status": 403,
+      "http_status": null,
+      "server": "AmazonS3",
+      "cloudfront": true,
+      "cloudfront_pop": "SIN3-P3",
+      "headers": {
+        "strict-transport-security": "max-age=31536000; includeSubdomains; preload",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "no-referrer-when-downgrade"
+      },
+      "s3_direct_bucket_exists": false,
+      "accessible": false,
+      "paths_scanned": ["/", "/login", "/admin", "/dashboard", "/api", "/api/v1", "/.env", "/config", "/robots.txt", "/sitemap.xml", "/health", "/status"],
+      "paths_accessible": [],
+      "finding": "GitLab-themed subdomain behind CloudFront+S3 with 403. Same CloudFront IPs as admin.app.acorns.com. No GitLab instance exposed.",
+      "severity": "info",
+      "recommendation": "Same CloudFront distribution as admin.app. Likely wildcard *.app.acorns.com routing."
+    },
+    {
+      "subdomain": "gitlab.deru.build.acorns.com",
+      "dns_resolves": true,
+      "ips": ["143.204.226.74", "143.204.226.88", "143.204.226.84", "143.204.226.41"],
+      "https_status": 403,
+      "http_status": null,
+      "http_redirect_to": null,
+      "server": "AmazonS3",
+      "cloudfront": true,
+      "cloudfront_pop": "MRS53-P4",
+      "headers": {
+        "x-xss-protection": "1; mode=block",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=31536000"
+      },
+      "s3_direct_bucket_exists": false,
+      "accessible": false,
+      "paths_scanned": ["/", "/login", "/admin", "/dashboard", "/api", "/api/v1", "/api/v2", "/jenkins", "/grafana", "/gitlab", "/console", "/manage", "/setup", "/register", "/signup", "/v1", "/v2", "/swagger", "/docs", "/actuator", "/metrics", "/prometheus", "/health", "/status", "/robots.txt"],
+      "paths_accessible": [],
+      "finding": "GitLab-themed build subdomain behind CloudFront+S3 with 403. 'deru' appears to be internal project/build name.",
+      "severity": "info",
+      "recommendation": "Internal naming convention exposed. Monitor for changes."
+    },
+    {
+      "subdomain": "staging.acorns.com",
+      "dns_resolves": false,
+      "ips": [],
+      "https_status": null,
+      "accessible": false,
+      "finding": "DNS does not resolve. Subdomain is dead/removed.",
+      "severity": "none",
+      "recommendation": "None needed."
+    },
+    {
+      "subdomain": "dev.acorns.com",
+      "dns_resolves": false,
+      "ips": [],
+      "https_status": null,
+      "accessible": false,
+      "finding": "DNS does not resolve. Subdomain is dead/removed.",
+      "severity": "none",
+      "recommendation": "None needed."
+    },
+    {
+      "subdomain": "grafana.documents.build.acorns.com",
+      "dns_resolves": true,
+      "ips": ["108.157.188.56", "108.157.188.26", "108.157.188.15", "108.157.188.66"],
+      "https_status": 403,
+      "http_status": 301,
+      "http_redirect_to": "https://grafana.documents.build.acorns.com/",
+      "server": "AmazonS3",
+      "cloudfront": true,
+      "cloudfront_pop": "MXP53-P1",
+      "headers": {
+        "x-xss-protection": "1; mode=block",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=31536000"
+      },
+      "s3_direct_bucket_exists": false,
+      "accessible": false,
+      "paths_scanned": ["/", "/login", "/admin", "/dashboard", "/api", "/api/v1", "/api/v2", "/jenkins", "/grafana", "/gitlab", "/console", "/manage", "/setup", "/register", "/signup", "/v1", "/v2", "/swagger", "/docs", "/actuator", "/metrics", "/prometheus", "/health", "/status", "/robots.txt"],
+      "paths_accessible": [],
+      "finding": "Grafana-themed subdomain behind CloudFront+S3 with 403. Same CloudFront IPs as jenkins.apih1mb7api. No Grafana dashboard exposed.",
+      "severity": "info",
+      "recommendation": "Same CloudFront distribution as jenkins subdomain. Likely same S3 origin."
+    },
+    {
+      "subdomain": "consul.app.acorns.com",
+      "dns_resolves": true,
+      "ips": ["13.35.1.58", "13.35.1.125", "13.35.1.34", "13.35.1.35"],
+      "https_status": 403,
+      "http_status": null,
+      "server": "AmazonS3",
+      "cloudfront": true,
+      "cloudfront_pop": "SIN3-P3",
+      "headers": {
+        "strict-transport-security": "max-age=31536000; includeSubdomains; preload",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "no-referrer-when-downgrade"
+      },
+      "s3_direct_bucket_exists": false,
+      "accessible": false,
+      "paths_scanned": ["/", "/login", "/admin", "/dashboard", "/api", "/api/v1", "/.env", "/config", "/robots.txt", "/sitemap.xml", "/health", "/status"],
+      "paths_accessible": [],
+      "finding": "Consul-themed subdomain behind CloudFront+S3 with 403. No Consul UI exposed. Different CloudFront IP range (13.35.1.x) from other *.app.acorns.com subdomains.",
+      "severity": "info",
+      "recommendation": "Different CloudFront distribution from other app subdomains. Monitor for changes."
+    },
+    {
+      "subdomain": "kubernetes.app.acorns.com",
+      "dns_resolves": true,
+      "ips": ["13.35.163.83", "13.35.163.52", "13.35.163.63", "13.35.163.109"],
+      "https_status": 403,
+      "http_status": null,
+      "server": "AmazonS3",
+      "cloudfront": true,
+      "cloudfront_pop": "SIN3-P3",
+      "headers": {
+        "strict-transport-security": "max-age=31536000; includeSubdomains; preload",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "no-referrer-when-downgrade"
+      },
+      "s3_direct_bucket_exists": false,
+      "accessible": false,
+      "paths_scanned": ["/", "/login", "/admin", "/dashboard", "/api", "/api/v1", "/.env", "/config", "/robots.txt", "/sitemap.xml", "/health", "/status"],
+      "paths_accessible": [],
+      "finding": "Kubernetes-themed subdomain behind CloudFront+S3 with 403. Same CloudFront IPs as gitlab.app and admin.app. No K8s dashboard exposed.",
+      "severity": "info",
+      "recommendation": "Same CloudFront distribution as other *.app.acorns.com subdomains. Likely wildcard routing."
+    }
+  ],
+  "infrastructure_analysis": {
+    "cloudfront_distributions": [
+      {
+        "name": "*.app.acorns.com wildcard",
+        "ip_range": "13.35.163.0/24",
+        "subdomains": ["admin.app.acorns.com", "gitlab.app.acorns.com", "kubernetes.app.acorns.com"],
+        "origin": "S3 (bucket not found)"
+      },
+      {
+        "name": "consul.app.acorns.com",
+        "ip_range": "13.35.1.0/24",
+        "subdomains": ["consul.app.acorns.com"],
+        "origin": "S3 (bucket not found)"
+      },
+      {
+        "name": "*.build.acorns.com",
+        "ip_range": "108.157.188.0/24",
+        "subdomains": ["jenkins.apih1mb7api.build.acorns.com", "grafana.documents.build.acorns.com"],
+        "origin": "S3 (bucket not found)"
+      },
+      {
+        "name": "gitlab.deru.build.acorns.com",
+        "ip_range": "143.204.226.0/24",
+        "subdomains": ["gitlab.deru.build.acorns.com"],
+        "origin": "S3 (bucket not found)"
+      }
+    ],
+    "dead_subdomains": [
+      "jenkins.links.notifications.acorns.com",
+      "staging.acorns.com",
+      "dev.acorns.com"
+    ],
+    "notable_naming_patterns": [
+      "apih1mb7api - obfuscated/random internal build identifier",
+      "deru - internal project or team name",
+      "documents - likely documents service team",
+      "links.notifications - notification service sub-infrastructure"
+    ]
+  },
+  "security_headers_observed": {
+    "common": ["strict-transport-security", "x-frame-options: SAMEORIGIN", "x-content-type-options: nosniff"],
+    "hsts_preload": true,
+    "note": "Security headers are well-configured on all responding subdomains. No CSP header observed but expected for S3 static hosting."
+  },
+  "recommendations": [
+    "Remove stale CloudFront distributions for subdomains that no longer serve content to reduce attack surface",
+    "Audit DNS records for dead subdomains (staging, dev, jenkins.links.notifications) and remove if not needed",
+    "Internal naming conventions (deru, apih1mb7api, documents) are leaked through DNS - consider if this is acceptable",
+    "admin.acorns.com resolves but does not respond - verify this is intentional and not a misconfigured service",
+    "Consider wildcard DNS cleanup if *.app.acorns.com and *.build.acorns.com are not intentionally wildcarded"
+  ]
+}

@@ -1,0 +1,15 @@
+=== status.afterpay.com ===
+incident-io-status-page-logos%2F01H7FVD2PAYX69VNEVRNNE5FKK%2Fafterpay%2F0xh45aaa.png&amp;w=32&amp;q=75 32w, 
+incident-io-status-page-logos%2F01H7FVD2PAYX69VNEVRNNE5FKK%2Fafterpay%2F0xh45aaa.png&amp;w=48&amp;q=75 48w, 
+incident-io-status-page-logos%2F01H7FVD2PAYX69VNEVRNNE5FKK%2Fafterpay%2F0xh45aaa.png&amp;w=64&amp;q=75 64w, 
+incident-io-status-page-logos%2F01H7FVD2PAYX69VNEVRNNE5FKK%2Fafterpay%2F0xh45aaa.png&amp;w=96&amp;q=75 96w, 
+incident-io-status-page-logos%2F01H7FVD2PAYX69VNEVRNNE5FKK%2Fafterpay%2F0xh45aaa.png&amp;w=128&amp;q=75 128w
+incident-io-status-page-logos%2F01H7FVD2PAYX69VNEVRNNE5FKK%2Fafterpay%2F0xh45aaa.png&amp;w=256&amp;q=75 256w
+incident-io-status-page-logos%2F01H7FVD2PAYX69VNEVRNNE5FKK%2Fafterpay%2F0xh45aaa.png&amp;w=384&amp;q=75 384w
+incident-io-status-page-logos%2F01H7FVD2PAYX69VNEVRNNE5FKK%2Fafterpay%2F0xh45aaa.png&amp;w=640&amp;q=75 640w
+incident-io-status-page-logos%2F01H7FVD2PAYX69VNEVRNNE5FKK%2Fafterpay%2F0xh45aaa.png&amp;w=750&amp;q=75 750w
+incident-io-status-page-logos%2F01H7FVD2PAYX69VNEVRNNE5FKK%2Fafterpay%2F0xh45aaa.png&amp;w=828&amp;q=75 828w
+--- API check ---
+  /api/v2/status.json -> 200: {"page":{"id":"01KGGD91E52CVMDA7YSQCE6YB4","name":"Afterpay","url":"https://status.afterpay.com/","updated_at":"2026-02-19T02:47:47Z"},"status":{"description":"All Systems Operational","indicator":"no
+  /api/v2/components.json -> 200: {"components":[]}
+  /api/v2/incidents.json -> 200: {"page":{"id":"01KGGD91E52CVMDA7YSQCE6YB4","name":"Afterpay","url":"https://status.afterpay.com/","updated_at":"2026-05-08T13:32:10Z"},"incidents":[{"id":"01KR2WVFP3KKMT7QB4Z09RTWBC","name":"Degraded 

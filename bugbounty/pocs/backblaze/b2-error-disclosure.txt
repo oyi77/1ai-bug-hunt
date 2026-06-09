@@ -1,0 +1,15 @@
+fileId=test -> {
+  "code": "internal_error",
+  "message": "incident id 3a883e5216ff-9d38aabc16c80231",
+  "status": 500
+}
+fileId=invalid -> {
+  "code": "internal_error",
+  "message": "incident id 3a883e5216ff-35a427e5d06f4f3b",
+  "status": 500
+}
+fileId=0 -> {
+  "code": "internal_error",
+  "message": "incident id 3a883e5216ff-a38b5fcc3f8cff93",
+  "status": 500
+}

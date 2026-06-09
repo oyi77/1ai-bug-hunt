@@ -1,0 +1,2 @@
+# Nmap 7.98 scan initiated Wed May 20 04:12:23 2026 as: /usr/lib/nmap/nmap --privileged -sV -sC --top-ports 1000 -T4 --open -oN ports/kucoin_com_nmap.txt kucoin.com
+# Nmap done at Wed May 20 04:12:28 2026 -- 1 IP address (0 hosts up) scanned in 5.51 seconds

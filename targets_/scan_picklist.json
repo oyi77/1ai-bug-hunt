@@ -1,0 +1,240 @@
+{
+  "hackerone": [
+    {
+      "name": "1password",
+      "handle": "1password",
+      "platform": "hackerone",
+      "url": "https://hackerone.com/1password"
+    },
+    {
+      "name": "1password_ctf",
+      "handle": "1password_ctf",
+      "platform": "hackerone",
+      "url": "https://hackerone.com/1password_ctf"
+    },
+    {
+      "name": "1win_com",
+      "handle": "1win_com",
+      "platform": "hackerone",
+      "url": "https://hackerone.com/1win_com"
+    },
+    {
+      "name": "23andme_bbp",
+      "handle": "23andme_bbp",
+      "platform": "hackerone",
+      "url": "https://hackerone.com/23andme_bbp"
+    },
+    {
+      "name": "3cx",
+      "handle": "3cx",
+      "platform": "hackerone",
+      "url": "https://hackerone.com/3cx"
+    },
+    {
+      "name": "8x8-bounty",
+      "handle": "8x8-bounty",
+      "platform": "hackerone",
+      "url": "https://hackerone.com/8x8-bounty"
+    },
+    {
+      "name": "acronis",
+      "handle": "acronis",
+      "platform": "hackerone",
+      "url": "https://hackerone.com/acronis"
+    },
+    {
+      "name": "adobe",
+      "handle": "adobe",
+      "platform": "hackerone",
+      "url": "https://hackerone.com/adobe"
+    },
+    {
+      "name": "affirm",
+      "handle": "affirm",
+      "platform": "hackerone",
+      "url": "https://hackerone.com/affirm"
+    },
+    {
+      "name": "airbnb",
+      "handle": "airbnb",
+      "platform": "hackerone",
+      "url": "https://hackerone.com/airbnb"
+    },
+    {
+      "name": "airtable",
+      "handle": "airtable",
+      "platform": "hackerone",
+      "url": "https://hackerone.com/airtable"
+    },
+    {
+      "name": "alsco",
+      "handle": "alsco",
+      "platform": "hackerone",
+      "url": "https://hackerone.com/alsco"
+    },
+    {
+      "name": "amazonvrp",
+      "handle": "amazonvrp",
+      "platform": "hackerone",
+      "url": "https://hackerone.com/amazonvrp"
+    },
+    {
+      "name": "amazonvrp-devices",
+      "handle": "amazonvrp-devices",
+      "platform": "hackerone",
+      "url": "https://hackerone.com/amazonvrp-devices"
+    },
+    {
+      "name": "anduril_industries",
+      "handle": "anduril_industries",
+      "platform": "hackerone",
+      "url": "https://hackerone.com/anduril_industries"
+    },
+    {
+      "name": "anthropic",
+      "handle": "anthropic",
+      "platform": "hackerone",
+      "url": "https://hackerone.com/anthropic"
+    },
+    {
+      "name": "arkose_labs",
+      "handle": "arkose_labs",
+      "platform": "hackerone",
+      "url": "https://hackerone.com/arkose_labs"
+    },
+    {
+      "name": "att",
+      "handle": "att",
+      "platform": "hackerone",
+      "url": "https://hackerone.com/att"
+    },
+    {
+      "name": "audible",
+      "handle": "audible",
+      "platform": "hackerone",
+      "url": "https://hackerone.com/audible"
+    },
+    {
+      "name": "automattic",
+      "handle": "automattic",
+      "platform": "hackerone",
+      "url": "https://hackerone.com/automattic"
+    }
+  ],
+  "bugcrowd": [
+    {
+      "name": "T-Mobile",
+      "code": "",
+      "platform": "bugcrowd",
+      "url": "https://bugcrowd.com/"
+    },
+    {
+      "name": "Tesla",
+      "code": "",
+      "platform": "bugcrowd",
+      "url": "https://bugcrowd.com/"
+    },
+    {
+      "name": "Pinterest",
+      "code": "",
+      "platform": "bugcrowd",
+      "url": "https://bugcrowd.com/"
+    },
+    {
+      "name": "Atlassian",
+      "code": "",
+      "platform": "bugcrowd",
+      "url": "https://bugcrowd.com/"
+    },
+    {
+      "name": "Zendesk",
+      "code": "",
+      "platform": "bugcrowd",
+      "url": "https://bugcrowd.com/"
+    },
+    {
+      "name": "Okta",
+      "code": "",
+      "platform": "bugcrowd",
+      "url": "https://bugcrowd.com/"
+    },
+    {
+      "name": "Chime",
+      "code": "",
+      "platform": "bugcrowd",
+      "url": "https://bugcrowd.com/"
+    },
+    {
+      "name": "Blockchain.com",
+      "code": "",
+      "platform": "bugcrowd",
+      "url": "https://bugcrowd.com/"
+    },
+    {
+      "name": "eToro",
+      "code": "",
+      "platform": "bugcrowd",
+      "url": "https://bugcrowd.com/"
+    },
+    {
+      "name": "Fireblocks",
+      "code": "",
+      "platform": "bugcrowd",
+      "url": "https://bugcrowd.com/"
+    }
+  ],
+  "yeswehack": [
+    {
+      "name": "Swiss Post - E-Voting",
+      "platform": "yeswehack",
+      "url": "https://yeswehack.com/programs/swiss-post-evoting"
+    },
+    {
+      "name": "Pine Labs",
+      "platform": "yeswehack",
+      "url": "https://yeswehack.com/programs/pine-labs-bug-bounty-program"
+    },
+    {
+      "name": "GOJEK",
+      "platform": "yeswehack",
+      "url": "https://yeswehack.com/programs/gojek-bug-bounty-program"
+    },
+    {
+      "name": "GoTo Financial",
+      "platform": "yeswehack",
+      "url": "https://yeswehack.com/programs/goto-financial-public-bounty-program"
+    },
+    {
+      "name": "Gouvernement du Qu\u00e9bec",
+      "platform": "yeswehack",
+      "url": "https://yeswehack.com/programs/programmes-de-primes-aux-bogues-du-gouvernement-du-quebec-cgcd"
+    },
+    {
+      "name": "Infomaniak",
+      "platform": "yeswehack",
+      "url": "https://yeswehack.com/programs/infomaniak-bug-bounty-program"
+    },
+    {
+      "name": "OTTO.DE",
+      "platform": "yeswehack",
+      "url": "https://yeswehack.com/programs/otto-de-bug-bounty"
+    },
+    {
+      "name": "Ant Group Security Response Center",
+      "platform": "yeswehack",
+      "url": "https://yeswehack.com/programs/ant-group-security-response-center-bug-bounty-program"
+    },
+    {
+      "name": "Moneybox",
+      "platform": "yeswehack",
+      "url": "https://yeswehack.com/programs/moneybox-bug-bounty"
+    },
+    {
+      "name": "DataDome Bot Bounty",
+      "platform": "yeswehack",
+      "url": "https://yeswehack.com/programs/datadome-bot-bounty"
+    }
+  ],
+  "direct_email": [],
+  "total": 40
+}
