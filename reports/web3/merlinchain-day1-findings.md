@@ -1,0 +1,164 @@
+# MerlinChain Day 1 Audit Findings Memo
+**Audit Target:** MerlinChain  
+**Primary Repo:** https://github.com/MerlinLayer2/merlin-cdk-validium-contracts  
+**Local Mirror:** `/home/openclaw/merlin-cdk-validium-contracts`  
+**Release Tag:** `fork9` (latest release, 4 Nov 2024)  
+**Date:** 2026-06-10  
+**Auditor:** Day 1 Reconnaissance  
+**Report File:** `~/projects/bugbounty/reports/web3/merlinchain-day1-findings.md`
+
+---
+
+## 1. Repository Reconnaissance
+
+| Item | Value |
+|------|-------|
+| GitHub Organization | `MerlinLayer2` |
+| Primary Contract Repo | https://github.com/MerlinLayer2/merlin-cdk-validium-contracts |
+| Other Org Repos | `BTCLayer2BridgeContract`, `merlin-cdk-validium-node`, `merlin-zkevm-prover`, `blockscout`, `merlin-audits` |
+| Local Clone | `/home/openclaw/merlin-cdk-validium-contracts` |
+| Commit Checked Out | `fork9` |
+| Platform | Hardhat + Hardhat Toolbox |
+| Solidity Standard | 0.8.20 (primary), 0.5.12/0.5.16 (legacy verifier files) |
+
+Key repository signals:
+- This repo contains core contracts deployed on Layer 1 (Ethereum-compatible) and Layer 2 (Merlin Chain).
+- The README in `merlinLayer2/merlin-cdk-validium-contracts` lists mainnet/testnet addresses.
+- Development is configured via Hardhat. Original repo docs note Node.js 16.x / npm 7.x in related Polygon CDK lineage, but this Merlin repo is what we audited.
+
+---
+
+## 2. Primary Contract Sources
+
+Fetched source files under review (Day 1):
+
+- `contracts/PolygonZkEVM.sol`
+- `contracts/v2/PolygonRollupManager.sol`
+- `contracts/v2/PolygonZkEVMBridgeV2.sol`
+- `contracts/v2/lib/PolygonTransparentProxy.sol`
+- `contracts/v2/lib/PolygonAccessControlUpgradeable.sol`
+- `contracts/v2/lib/DepositContractV2.sol`
+- `contracts/v2/consensus/validium/PolygonValidiumEtrog.sol`
+- `contracts/cdk/CDKDataCommittee.sol`
+- `contracts/cdk/MerlinZkEVMBridge.sol`
+- `contracts/cdk/CDKValidiumTimelock.sol`
+- `contracts/deployment/PolygonZkEVMDeployer.sol`
+- `contracts/verifiers/FflonkVerifier.sol`
+
+These modules underpin rollup management, cross-chain bridging, deposit handling, and proof verification on MerlinChain.
+
+---
+
+## 3. Deployed Contract Addresses (from docs + repo README)
+
+### Mainnet L1
+| Contract | Address |
+|----------|---------|
+| PolygonZkEVM | `0xBf4B031eb29fc34E2bCb4327F9304BED3600cc46` |
+| PolygonRollupManager | `0x68DdbE6638d7514a9Ed0B9B2980B65970e532cdB` |
+| PolToken | `0x9e2bC6EB2c9396ccbCC66353da011b67A0ff4604` |
+| polygonZkEVMGlobalExitRoot | `0x8b97BF5C42739C375a2db080813E9b4C9A4a2c9A` |
+
+### Mainnet L2
+| Contract | Address |
+|----------|---------|
+| CDKValidiumDeployer | `0x9082c398077031e79E74C0A334cbC139C9c90851` |
+| ProxyAdmin | `0x0f4F82b3E7B27A9f8eC1b21e9bC43fd113fF0cf3` |
+| PolygonZkEVMBridge | `0xD7f0012F4909Ffa7e5DbfE5fbFf15aB734B42ED4` |
+| PolygonZkEVMGlobalExitRootL2 | `0xa40D5f56745a118D0906a34E69aeC8C0Db1cB8fA` |
+| CDKValidiumTimelock | `0x7d72cc8E89B187a93581ee44FB1884b498989A40` |
+
+### Testnet L1
+| Contract | Address |
+|----------|---------|
+| PolygonZkEVM | `0x8173da1A9d41287158E9b6E38Ca9CDabBAE6bb6B` |
+| PolygonRollupManager | `0xAefb2f4db0766F0D76c47d0dbc0A712D653cace6` |
+| PolToken | `0xCC1975Bd1a1A2740ea47f9090f84755817049D94` |
+| polygonZkEVMGlobalExitRoot | `0x07eb659bd996Ac74c154dfe86Ea875570647961C` |
+| CDKValidiumDeployer | `0x67c47bF785A538a96eF513507FbF6692170a9CB2` |
+| FflonkVerifier | `0x636e55e6a34A02ec8383A88Bd4b0796C4F155107` |
+| ProxyAdmin | `0x9ea2b4766D5af554053E7088149d7e5FF3dB5E07` |
+| PolygonZkEVMBridge | `0xCa122881173F773A5d2DF68c2917D906ebb7133A` |
+| CDKDataCommittee | `0xC2B6bE3E2D867F199E056e8741D94949CB864ad2` |
+
+### Testnet L2
+| Contract | Address |
+|----------|---------|
+| CDKValidiumDeployer | `0x357a1B9013Ab0175AE6802508D9Fc16A5b160b36` |
+| ProxyAdmin | `0x3Ee5586DEd0f89b82b90eeDE1aF929f6b45b48E3` |
+| PolygonZkEVMBridge | `0x5f1E2a726d1Fc49fb6B98b9A2041399823D6f3A9` |
+| PolygonZkEVMGlobalExitRootL2 | `0xa40d5f56745a118d0906a34e69aec8c0db1cb8fa` |
+| CDKValidiumTimelock | `0x1434Da5133F8C56D69294Ee2CF4E6E386cfEbABa` |
+
+---
+
+## 4. Tooling and Versions
+
+| Tool | Status | Version |
+|------|--------|---------|
+| Slither | Installed in venv | 0.11.0 |
+| crytic-compile | Installed | 0.3.11 |
+| slither-analyzer (pip) | Installed | 0.11.0 |
+| solc-select | Installed (solc cached by hardhat) | 1.2.0 |
+| Node.js (system) | Incompatible (v22, dev docs expect 16/18) | 22.x |
+| npm | Installed | 10.x |
+| Hardhat (local) | Installed via npm | 2.20.0 |
+
+### Slither Execution Attempt (Day 1)
+Command attempted:
+```bash
+slither .
+```
+Result:
+- CryticCompile attempted to run `hardhat clean`, failed with `HHE22`: Hardhat detected a non-local install and refused to build.
+- Hardhat manual compile also succeeded when invoked directly, but crytic-compile still couldn't locate build artifacts because the path `contracts/hardhat-dependency-compiler/@openzeppelin/contracts/proxy/transparent/ProxyAdmin.sol` is generated by the `hardhat-dependency-compiler` plugin and not present after fresh `npm install` without plugin-generated files.
+- Because crytic-compile couldn't parse, Slither returned exit code 1 without detector output.
+
+### Compilation Status
+- `npx hardhat compile` succeeded after `npm install`. It downloaded solc 0.8.20 and 0.5.x compilers. Warnings about unused low-level call return values and contract size exceedences were emitted.
+- Slither static analysis is blocked for the Hardhat target until the dependency-compiler path issue is resolved (either by generating those files or by compiling without that plugin dependency for static analysis).
+
+---
+
+## 5. First-Pass Observations (Day 1)
+
+### 5.1 Source-Level Patterns Observed
+- **Low-level `.call` without return check**: Used intentionally in `PolygonZkEVMBridge.sol` and `v2/PolygonZkEVMBridgeV2.sol` for ERC20 `permit`. Comments mention intentional unchecked calls to prevent DoS via front-running. Slither/linting flags these but developers appear aware.
+- **Contract size risk**: Both `PolygonZkEVMBridgeV2` and `PolygonRollupManager` exceed the 24576-byte mainnet limit at the compiler version used. Could force deployment of a transparent proxy or require optimizer tuning.
+- **Access control use**: OpenZeppelin `AccessControl` and custom roles are used. Priority attack surface areas: `ADD_ROLLUP_TYPE_ROLE`, `OBSOLETE_ROLLUP_TYPE_ROLE`, and chain management functions in `PolygonRollupManager`.
+- **Upgradeability risk**: `PolygonTransparentProxy` is custom; audit focus should include storage collisions if governance upgrades typed structs.
+- **ZK verifier**: `FflonkVerifier.sol` includes unused `proof` parameter warnings. Potential that testnet/previous verifier variants still deployed in mainnet-adjacent path.
+
+### 5.2 Potential Focus Areas (Manual Review Required)
+- `PolygonRollupManager.sol`: batch sequencing, verification, forced-batch fee boundaries, emergency-state transitions.
+- `PolygonZkEVMBridgeV2.sol`: wrapped token mint/burn, native token bridging, exit root lifecycle, permissioning on `finalizeAssetBridge`.
+- `CDKValidiumTimelock.sol`: scheduled execution security, queue manipulation.
+- `DepositContractV2.sol`: deposit replay and mapping correctness.
+- `PolygonValidiumEtrog.sol`: data-availability parameter validation.
+
+### 5.3 Key TODOs for Day 2
+1. **Fix Slither environment**: Node 20 + local hardhat + dependency-compiler outputs, OR run Foundry-based Slither target pointing at `contracts/` directory.
+2. **Run static analyzers** once parsing succeeds; capture detectors output.
+3. **Run tests**: `npm run test` against mocks.
+4. **Validate addresses** against MerlinScan mainnet/testnet contract verification pages.
+5. **Deeper manual review** concentrating on `PolygonRollupManager.sol`, `PolygonZkEVMBridgeV2.sol`, custom `PolygonTransparentProxy.sol`, and `CDKDataCommittee.sol`.
+
+---
+
+## 6. Assumptions and Limitations
+- Slither/automated analyzer coverage was unavailable today due to Hardhat/crytic-compile path issues.
+- Findings above are preliminary and source-only; detector-verified issues in Hardhat projects typically show up as `low-level-calls`, `unchecked-lowlevel`, `shadowing-local`, `reentrancy`, and `delegatecall` warnings.
+- No forge project exists in this repo, so Slither likely requires Hardhat target or direct file glob input; neither was successful.
+
+---
+
+## 7. Next Actions
+- [ ] Resolve Node.js mismatch (e.g., Node 20 LTS) and clean-reinstall dependencies.
+- [ ] Regenerate `hardhat-dependency-compiler` outputs or compile without plugin for crytic-compile.
+- [ ] Re-run Slither and exporter for full detector output.
+- [ ] Confirm mainnet/testnet contract sources via MerlinScan.
+- [ ] Begin deeper manual review of priority surfaces.
+
+---
+
+*End of Day 1 Initial Findings Memo*
