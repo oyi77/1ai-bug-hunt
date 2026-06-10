@@ -1,0 +1,8 @@
+usage: slither target [flag]
+
+target can be:
+	- file.sol // a Solidity file
+	- project_directory // a project directory. See https://github.com/crytic/crytic-compile/#crytic-compile for the supported platforms
+	- 0x.. // a contract on mainnet
+	- NETWORK:0x.. // a contract on a different network. Supported networks: mainne,sepoli,holesk,hood,bs,testnet.bs,pol,amoy.pol,bas,sepolia.bas,arb,nova.arb,sepolia.arb,line,sepolia.line,blas,sepolia.blas,opti,sepolia.opti,ava,testnet.ava,btt,testnet.btt,cel,sepolia.cel,fra,hoodi.fra,gn,mantl,sepolia.mantl,memecor,moonbea,moonrive,moonbas,opbn,testnet.opbn,scrol,sepolia.scrol,taik,hoodi.taik,era.zksyn,sepoliaera.zksyn,xd,testnet.xd,apechai,curtis.apechai,worl,sepolia.worl,sopho,testnet.sopho,soni,testnet.soni,unichai,sepolia.unichai,abstrac,sepolia.abstrac,berachai,testnet.berachai,swellchai,testnet.swellchai,testnet.mona,hyperev,katan,bokuto.katan,se,testnet.se
+slither: error: unrecognized arguments: -
